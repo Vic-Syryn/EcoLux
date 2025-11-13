@@ -1,11 +1,11 @@
-# Projecttitel
-*Omschrijving van je concept in 1 zin, e.g. Zablurb, een slimme stofzuiger die eenzaamheid tegengaat bij alleenstaande senioren.* 
+# Ecolux
+Ecolux, een slim product dat energieverlies beperkt 
 
-🛠️ Built by ``Naam 1`` & ``Naam 2``   
+🛠️ Built by ``Viktor Caluwaert``, ``Yenthe Bade`` & ``Vic Syryn``   
 🔥 Supervised by ``prof. dr. Bas Baccarne``, ``Yannick Christiaens`` & ``Wouter Devriese``    
 🌱 Grown at ``Ghent University`` 🏛️ ``Industrial Design Engineering`` ([project overview](https://github.com/basbaccarne/human-centered-design))       
 
-*Dag/Maand/Jaar van de laatste update*   
+13/11/2025  
 
 ## Samenvatting
 Max 200 woorden. Beschrijf je project in het kort, waarbij je deze vragen zeker beantwoordt:
