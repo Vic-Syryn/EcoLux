@@ -42,8 +42,7 @@ Maak gebruik van bronverwijzingen ([zie APA stijl](https://www.scribbr.nl/catego
 Max. 500 woorden
 
 ## Noot inzake het gebruik van AI
-Licht toe op welke manier je AI gebruikte in dit project.
-
+Voor het herschrijven en taalcorrectie van delen van dit verslag werd gebruikgemaakt van AI.
 ## Bijlagen
 ### Discovery
 * Literatuuronderzoek (N=x)
