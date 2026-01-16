@@ -56,9 +56,9 @@ Voor het herschrijven en taalcorrectie van delen van dit verslag werd gebruikgem
 * User testing wave 1 (N=x)
   * [Protocol](url)
   * [Rapport](url)
-* User testing wave 2 (N=x)
-  * [Protocol](url)
-  * [Rapport](url)
+* User testing wave 2 (N=3)
+  * [Protocol](https://ugentbe.sharepoint.com/:w:/r/teams/Group.course1292884/_layouts/15/Doc2.aspx?action=edit&sourcedoc=%7B17c42487-40f7-47ed-abb4-8fe42a83e967%7D&wdOrigin=TEAMS-MAGLEV.teamsSdk_ns.rwc&wdExp=TEAMS-TREATMENT&wdhostclicktime=1768572782567&web=1)
+  * [Rapport](https://ugentbe.sharepoint.com/:w:/r/teams/Group.course1292884/_layouts/15/Doc2.aspx?action=edit&sourcedoc=%7B153b8510-c732-41c3-8a62-454cd487ce63%7D&wdOrigin=TEAMS-MAGLEV.teamsSdk_ns.rwc&wdExp=TEAMS-TREATMENT&wdhostclicktime=1768571820525&web=1)
 
 ## Licentie
  
