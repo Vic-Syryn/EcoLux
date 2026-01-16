@@ -14,6 +14,7 @@ Rapporteer over de resultaten (incl. foto's, quotes, analyseframeworks, ...)
 Definieer de belangrijkste designbeslissingen.
 
 In Wave 1 lag de focus vooral op awareness, installatie en basisfunctionaliteit, maar in Wave 2 werd verder ingezoomd op communicatie, automatisatie en het gebruik van de negeerfunctie. Concreet moesten drie deelvragen beantwoord worden: 
+
 Hoe brengen we de informatie van het energieverlies het best over?
 
 Wat verwacht de gebruiker dat de ecolux automatisch doet en wat er manueel moet gebeuren?, moet dit instelbaar zijn? 
