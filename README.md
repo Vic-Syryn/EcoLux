@@ -10,6 +10,12 @@ Ecolux, een slim product dat energieverlies beperkt
 ## Samenvatting
 Max 200 woorden. Beschrijf je project in het kort, waarbij je deze vragen zeker beantwoordt:
 
+Dit project onderzoekt hoe slimme en toegankelijke producten mensen kunnen helpen om thuis energie te besparen. De focus ligt op oplossingen die zowel financiële voordelen bieden voor de gebruiker als een positieve impact hebben op het milieu. Daarbij staat gebruiksgemak centraal: energie besparen moet eenvoudig en haalbaar zijn voor iedereen, zonder ingewikkelde stappen of technische kennis.
+
+Om beter te begrijpen waar mensen tegenaan lopen en wat ze nodig hebben, werd er gewerkt met interviews. Op basis van deze inzichten werd een oplossing ontwikkeld die inspeelt op herkenbare problemen, zoals onduidelijk energieverbruik en verborgen energieverlies in huis.
+
+De uiteindelijke oplossing is de Ecolux: een fysiek product dat energieverlies zichtbaar maakt en duidelijk communiceert. Door informatie op een eenvoudige en begrijpelijke manier te tonen, helpt de Ecolux gebruikers om sneller te zien waar energie verloren gaat en welke acties ze kunnen nemen om dit te verminderen. Hierdoor wordt energie besparen makkelijker én effectiever. 
+
 - Wat is het probleem?
 - Hoe heb je dit onderzocht?
 - Wat is jouw oplossing?
