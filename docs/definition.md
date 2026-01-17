@@ -4,6 +4,8 @@ Max. 1000 woorden.
 ### Doestellingen
 Wat wilde je bereiken in deze fase?    
 Welke deelvragen moesten hiervoor beantwoord worden?
+
+In de eerste wave wordt de customer journey gedetailleerd geanalyseerd, met een focus op de functionaliteit. Hierdoor kan in de tweede wave worden ingezoomd op de conclusies die uit de eerste wave voortkomen. Daarnaast wordt bepaald hoe het energieverlies gecommuniceerd moet worden. Dit gebeurt aan de hand van gebruikerstesten en interviews.
 ### Materiaal & methoden
 Hoe onderzocht je dit? Wees volledig.  
 Leg uit en toon welke prototypes gemaakt werden en hoe deze helpen om de onderzoeksvragen te beantwoorden (benoemen wat je aftoetst & link naar design requirements).   
