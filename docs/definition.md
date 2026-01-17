@@ -31,6 +31,7 @@ De 3 prototypes werden gebruikt om de gebruikers een fysieke voorstelling te gev
 Tijdens de gebruikerstesten konden de gerbuikers in intereactie gaan met de verschillende prototypes. Hierbij werden de prototypes opgesteld in de verschillende modes, namelijk wanneer er zich energie verlies optreed en wanneer niet. Vervolgens konden de gebruikers passeren. Na elke protype werden er een aantal vragen gesteld. Uiteindelijk, na het doorlopen van alle prototypes werd een interview afgenomen over de gehele test.
 
 **Resultaten**  
+
 Rapporteer over de resultaten (incl. foto's, quotes, analyseframeworks, ...)  
 
 Uit het onderzoek blijkt dat de duidelijkheid van signalen een belangrijke rol speelt in het gebruiksgemak. Lichtsiganalen worden consequent als het meest duidelijk ervaren. Emoties worden wel begrepen, maar passen minder goed binnen professionele contexten. De shapeshifter wordt als minder intuïtief gezien, tenzij deze visueel extra wordt ondersteund. Het gebruik van een smiley-prototype en het feit dat de prototypes kunnen praten, activeert bovendien een antropomorfe interpretatie. Gebruikers schrijven het systeem menselijke eigenschappen toe, zoals begrijpen, luisteren en reageren. Dit leidt ertoe dat sommige respondenten de neiging hadden om daadwerkelijk een gesprek aan te gaan met de prototypes.
