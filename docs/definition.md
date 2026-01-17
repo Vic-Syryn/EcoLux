@@ -8,16 +8,20 @@ Wat wilde je bereiken in deze fase?
 Welke deelvragen moesten hiervoor beantwoord worden?
 
 In de eerste wave werd de customer journey gedetailleerd geanalyseerd, met een focus op de functionaliteit. Hierdoor kon in de tweede wave worden ingezoomd op de conclusies die uit de eerste wave voortkwamen. Daarnaast werd bepaald hoe het energieverlies gecommuniceerd moest worden. Dit gebeurde aan de hand van gebruikerstesten en interviews. Hierbij werden de volgende deelvragen beantwoord:  
+
 *Hoe communiceren we het best het energieverlies bij de gebruiker(awareness)?   
 *Hoe zou de gebruiker willen dat het product wordt geinstalleerd?  
 *Wat is voor de gebruiker de belangrijkste feauture waarom de gebruiker het zou kopen?  
 *Is een of meerdere substations noodzakelijk?  
+
 **Materiaal & methoden**  
+
 Hoe onderzocht je dit? Wees volledig.  
 Leg uit en toon welke prototypes gemaakt werden en hoe deze helpen om de onderzoeksvragen te beantwoorden (benoemen wat je aftoetst & link naar design requirements).   
 Leg uit welke testen werden uitgevoerd.
 
 De doelstellingen werden onderzocht aan de hand van gebruikerstests, gevolgd door een interview. Hiervoor werden de volgende materialen gebruikt:  
+
 *smartphone voor video opnamens  
 *notieboekje voor notities  
 *interview protocol en informed consent  
@@ -25,7 +29,9 @@ De doelstellingen werden onderzocht aan de hand van gebruikerstests, gevolgd doo
 
 De 3 prototypes werden gebruikt om af te toetsen welke manier van communiceren dat er een probleem aanwezig is de voorkeur kreeg. De drie protypes hadden elk een eigen manier om te communiceren, namelijk vorm, geluid of emotie.
 Tijdens de gebruikerstesten konden de gerbuikers in intereactie gaan met de verschillende prototypes. Hierbij werden de prototypes opgesteld in de verschillende modes, namelijk wanneer er zich energie verlies optreed en wanneer niet. Vervolgens konden de gebruikers passeren. Na elke protype werden er een aantal vragen gesteld. Uiteindelijk, na het doorlopen van alle prototypes werd een interview afgenomen over de gehele test.
+
 **Resultaten**  
+
 Rapporteer over de resultaten (incl. foto's, quotes, analyseframeworks, ...)
 ### Conclusies & implicaties
 Definieer de belangrijkste designbeslissingen.
