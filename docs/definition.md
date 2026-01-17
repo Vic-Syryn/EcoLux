@@ -2,7 +2,7 @@
 Max. 1000 woorden.    
 [!] Algmeen: Maak voldoende gebruik van schematische/grafische weergaves en tabellen.
 
-## <ins>**Wave 1: Communicatie vorm exploratie**</ins>  
+### <ins>**Wave 1: Communicatie vorm exploratie**</ins>  
 **Doestellingen**  
 Wat wilde je bereiken in deze fase?    
 Welke deelvragen moesten hiervoor beantwoord worden?
