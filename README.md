@@ -28,7 +28,15 @@ De uiteindelijke oplossing is de Ecolux: een fysiek product dat energieverlies z
 ## Introductie
 Max 300 woorden.
 Kader je project. Introduceer het probleem en jouw doelstellingen (inclusief boundary conditions).
-Maak gebruik van bronverwijzingen ([zie APA stijl](https://www.scribbr.nl/category/apa-stijl/)). Zoals bijvoorbeeld (Thomas & Ritter, 2022) [^1] .
+Maak gebruik van bronverwijzingen ([zie APA stijl](https://www.scribbr.nl/category/apa-stijl/)). Zoals bijvoorbeeld (Thomas & Ritter, 2022) [^12] .
+
+De residentiële gebouwensector speelt een cruciale rol in de huidige energie- en klimaatproblematiek. In Europa is ongeveer 40% van het totale energieverbruik toe te schrijven aan gebouwen, waarvan een groot aandeel afkomstig is van huishoudens (European Commission, 2023) [^1]. Ondanks technologische vooruitgang en een toenemend aanbod aan slimme energiesystemen, blijft structurele energiebesparing in de dagelijkse praktijk moeilijk te realiseren. Veel huishoudens beschikken wel over data, maar missen inzicht, motivatie of handelingsperspectief om hun g edrag effectief aan te passen (Thomas & Ritter, 2022) [^2].
+
+De energiecrisis ten gevolge van de oorlog in Oekraïne maakte deze problematiek extra zichtbaar: stijgende energieprijzen dwongen gezinnen om hun verbruik te reduceren, wat resulteerde in een aantoonbare gedragsverandering (IEA, 2023) [^3]. Toch bleek deze besparing vaak tijdelijk en sterk afhankelijk van externe druk, wat wijst op een gebrek aan duurzame gedragsverankering.
+
+Dit project vertrekt vanuit de vaststelling dat bestaande slimme oplossingen voornamelijk inzetten op schermen, apps en numerieke data, wat leidt tot cognitieve belasting en beperkte langetermijnimpact (Norman, 2013) [^4] (Lockton et al., 2010) [^5] . Er is nood aan alternatieve vormen van feedback die energieverbruik op een intuïtieve, laagdrempelige en emotioneel begrijpbare manier zichtbaar maken in het dagelijkse leven.
+
+Het doel van dit project is het verkennen en definiëren van ontwerpprincipes voor een slim, fysiek product dat energieverspilling detecteert en communiceert via eenvoudige visuele en tastbare feedback, zonder afhankelijkheid van continue app-interactie. Boundary conditions binnen dit project zijn onder meer minimale technische achtergrond, minimale gebruikersinspanning en het product dient gebruikt te worden binnen een residentiële omgeving.
 
 ## Inhoudstafel
 
@@ -71,4 +79,18 @@ This repository contains both software and design materials created as part of a
 You are free to reuse and build upon this work, both commercially and non-commercially, as long as proper attribution is given to the original authors.
 
 ## Bronnen
- [^1]: Thomas, T., & Ritter, A. (2022). Wandering & sundowning in dementia. _Practical Neurology, 21_(3), 36–44.
+> [^x]: Thomas, T., & Ritter, A. (2022). Wandering & sundowning in dementia. _Practical Neurology, 21_(3), 36–44.
+
+[^1]: European Commission. (2023). Energy efficiency in buildings.
+https://energy.ec.europa.eu/topics/energy-efficiency/energy-efficient-buildings_en
+
+[^2]: International Energy Agency. (2023). Energy saving behaviour in response to the energy crisis.
+https://www.iea.org/reports/energy-saving-behaviour-in-response-to-the-energy-crisis
+
+[^3]: Lockton, D., Harrison, D., & Stanton, N. A. (2010). The design with intent method: A design tool for influencing user behaviour. Applied Ergonomics, 41(3), 382–392.
+https://doi.org/10.1016/j.apergo.2009.09.001
+
+[^4]: Norman, D. A. (2013). The design of everyday things (Revised and expanded ed.). Basic Books.
+
+[^5]: Thomas, V., & Ritter, S. (2022). Behavioural barriers to household energy efficiency: A systematic review. Energy Research & Social Science, 84, 102387.
+https://doi.org/10.1016/j.erss.2021.102387
