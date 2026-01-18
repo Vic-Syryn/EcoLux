@@ -1,17 +1,50 @@
 ## Definition
 Max. 1000 woorden.    
 [!] Algmeen: Maak voldoende gebruik van schematische/grafische weergaves en tabellen.
-### Doestellingen
+
+### <ins>**Wave 1: Communicatie vorm exploratie**</ins>  
+**Doestellingen**  
 Wat wilde je bereiken in deze fase?    
 Welke deelvragen moesten hiervoor beantwoord worden?
-### Materiaal & methoden
+
+In de eerste wave werd de customer journey gedetailleerd geanalyseerd, met een focus op de functionaliteit. Hierdoor kon in de tweede wave worden ingezoomd op de conclusies die uit de eerste wave voortkwamen. Daarnaast werd bepaald hoe het energieverlies gecommuniceerd moest worden. Dit gebeurde aan de hand van gebruikerstesten en interviews. Hierbij werden de volgende deelvragen beantwoord:  
+
+   * Hoe communiceren we het best het energieverlies bij de gebruiker(awareness)?   
+   * Hoe zou de gebruiker willen dat het product wordt geinstalleerd?  
+   * Wat is voor de gebruiker de belangrijkste feauture waarom de gebruiker het zou kopen?  
+   * Is een of meerdere substations noodzakelijk?  
+
+**Materiaal & methoden**  
+
 Hoe onderzocht je dit? Wees volledig.  
 Leg uit en toon welke prototypes gemaakt werden en hoe deze helpen om de onderzoeksvragen te beantwoorden (benoemen wat je aftoetst & link naar design requirements).   
 Leg uit welke testen werden uitgevoerd.
-### Resultaten
-Rapporteer over de resultaten (incl. foto's, quotes, analyseframeworks, ...)
-### Conclusies & implicaties
-Definieer de belangrijkste designbeslissingen.
+
+De doelstellingen werden onderzocht aan de hand van gebruikerstests, gevolgd door een interview. Hiervoor werden de volgende materialen gebruikt:  
+
+   * smartphone voor video opnamens  
+   * notieboekje voor notities  
+   * interview protocol en informed consent  
+   * 3 quick and dirty prototypes
+
+De 3 prototypes werden gebruikt om de gebruikers een fysieke voorstelling te geven voor de verschillende manieren van communiceren. De drie protypes hadden elk een eigen manier voor het melden van een probleem, namelijk vorm, geluid of emotie.
+Tijdens de gebruikerstesten konden de gerbuikers in intereactie gaan met de verschillende prototypes. Hierbij werden de prototypes opgesteld in de verschillende modes, namelijk wanneer er zich energie verlies optreed en wanneer niet. Vervolgens konden de gebruikers passeren. Na elke protype werden er een aantal vragen gesteld. Uiteindelijk, na het doorlopen van alle prototypes werd een interview afgenomen over de gehele test.
+
+**Resultaten**  
+
+Rapporteer over de resultaten (incl. foto's, quotes, analyseframeworks, ...)  
+
+Uit het onderzoek blijkt dat de duidelijkheid van signalen een belangrijke rol speelt in het gebruiksgemak. Lichtsiganalen worden consequent als het meest duidelijk ervaren. Emoties worden wel begrepen, maar passen minder goed binnen professionele contexten. De shapeshifter wordt als minder intuïtief gezien, tenzij deze visueel extra wordt ondersteund. Het gebruik van een smiley-prototype en het feit dat de prototypes kunnen praten, activeert bovendien een antropomorfe interpretatie. Gebruikers schrijven het systeem menselijke eigenschappen toe, zoals begrijpen, luisteren en reageren. Dit leidt ertoe dat sommige respondenten de neiging hadden om daadwerkelijk een gesprek aan te gaan met de prototypes.
+
+De context van gebruik blijkt bepalend voor de voorkeur in vormgeving. Voor gezinnen werkt een speels en visueel systeem, zoals een smiley, goed. In zakelijke omgevingen en volwassen thuissituaties gaat de voorkeur uit naar een strak en minimalistisch ontwerp, zoals een cube.
+
+Daarnaast verhoogt een persoonlijk aanpasbaar design de betrokkenheid van gebruikers. Respondenten geven aan dat personaliseerbaarheid, bijvoorbeeld door eigen kleuren te kiezen, het gevoel versterkt dat het product echt van henzelf is.
+
+Op het gebied van functionaliteit worden negeerknoppen en duidelijke voorinstellingen vaak genoemd als belangrijke toevoegingen. Substations verhogen de bruikbaarheid wanneer er meerdere kamers of ingangen zijn. Handsfree bediening draagt bij aan het gebruiksgemak, vooral in huishoudens waar regelmatig wordt gemultitaskt. In zulke situaties kan spraakbediening een duidelijke meerwaarde hebben, bijvoorbeeld met suggesties als dat het systeem pas begint te luisteren wanneer er daadwerkelijk iets gebeurt.
+
+Wat betreft installatie geven alle respondenten aan dat plaatsing idealiter door een technieker of installateur gebeurt. Tegelijkertijd vindt één respondent het belangrijk dat er ook een optie blijft bestaan om het systeem zelfstandig te installeren.
+
+
 
 In Wave 1 lag de focus vooral op awareness, installatie en basisfunctionaliteit, maar in Wave 2 werd verder ingezoomd op communicatie, automatisatie en het gebruik van de negeerfunctie. Concreet moesten drie deelvragen beantwoord worden: 
 
@@ -35,3 +68,6 @@ Materialen:
 
 
 De resultaten tonen dat communicatie via spraak duidelijk kan zijn, maar minder geschikt wordt wanneer er veel informatie tegelijk is: respondenten gaven aan dat het dan moeilijk is om alles te onthouden en achteraf correct te herhalen. Daarnaast vonden sommigen het te traag, zeker wanneer ze liever meteen handelen of verwachten dat EcoLux automatisch ingrijpt. Tekst werd gezien als handig om snel te scannen en meteen actie te ondernemen, maar bleek soms te weinig context te geven: met beperkte tekst was het niet altijd duidelijk waar het probleem zich exact bevond. Bovendien kon de tekstweergave druk ogen wanneer er weinig witruimte was. De grondplanweergave scoorde het best: respondenten konden onmiddellijk zien waar het energieverlies zich bevond, wat snelle acties mogelijk maakte. Alle testers verkozen deze visuele methode boven tekst en spraak. Wat automatisatie betreft was er een duidelijke voorkeur: gebruikers wilden dat EcoLux zoveel mogelijk automatisch oplost, en voor hen hoeft dit zelfs niet uitgebreid instelbaar te zijn. De belangrijkste inzichten zijn dus dat visuele communicatie het sterkst werkt, snelheid essentieel is en maximale automatisatie aansluit bij gebruikersverwachtingen.
+
+### Conclusies & implicaties
+Definieer de belangrijkste designbeslissingen.

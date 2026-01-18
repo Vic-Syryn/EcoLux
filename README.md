@@ -1,7 +1,7 @@
 # Ecolux
 Ecolux, een slim product dat energieverlies beperkt 
 
-🛠️ Built by ``Viktor Caluwaert``, ``Yenthe Bade`` & ``Vic Syryn``   
+🛠️ Built by ``Viktor Caluwaert``, ``Yenthe Bode`` & ``Vic Syryn``   
 🔥 Supervised by ``prof. dr. Bas Baccarne``, ``Yannick Christiaens`` & ``Wouter Devriese``    
 🌱 Grown at ``Ghent University`` 🏛️ ``Industrial Design Engineering`` ([project overview](https://github.com/basbaccarne/human-centered-design))       
 
