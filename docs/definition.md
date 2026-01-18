@@ -25,15 +25,17 @@ De doelstellingen werden onderzocht aan de hand van gebruikerstests, gevolgd doo
    * smartphone voor video opnamens  
    * notieboekje voor notities  
    * interview protocol en informed consent  
-   * 3 quick and dirty prototypes:
+   * 4 quick and dirty prototypes:
 
 <p align="center">
   <img src="../img/prototype1.jpg" width="32%">
   <img src="../img/prototype2.jpg" width="32%">
   <img src="../img/prototype3.jpg" width="32%">
+  <img src="../img/prototype4.jpg" width="32%">
 </p>
 
-De 3 prototypes werden gebruikt om de gebruikers een fysieke voorstelling te geven voor de verschillende manieren van communiceren. De drie protypes hadden elk een eigen manier voor het melden van een probleem, namelijk vorm, geluid of emotie.
+De 3 prototypes werden gebruikt om de gebruikers een fysieke voorstelling te geven voor de verschillende manieren van communiceren. De drie protypes hadden elk een eigen manier voor het melden van een probleem, namelijk emotie, vorm of licht.  
+Ook was er een prototype voorzien om het concept van substations te testen.  
 Tijdens de gebruikerstesten konden de gerbuikers in intereactie gaan met de verschillende prototypes. Hierbij werden de prototypes opgesteld in de verschillende modes, namelijk wanneer er zich energie verlies optreed en wanneer niet. Vervolgens konden de gebruikers passeren. Na elke protype werden er een aantal vragen gesteld. Uiteindelijk, na het doorlopen van alle prototypes werd een interview afgenomen over de gehele test.
 
 **Resultaten**  
