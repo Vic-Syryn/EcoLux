@@ -7,7 +7,7 @@ Max. 1000 woorden.
 Wat wilde je bereiken in deze fase?    
 Welke deelvragen moesten hiervoor beantwoord worden?
 
-In de eerste wave werd de customer journey gedetailleerd geanalyseerd, met een focus op de functionaliteit. Hierdoor kon in de tweede wave worden ingezoomd op de conclusies die uit de eerste wave voortkwamen. Daarnaast werd bepaald hoe het energieverlies gecommuniceerd moest worden. Dit gebeurde aan de hand van gebruikerstesten en interviews. Hierbij werden de volgende deelvragen beantwoord:  
+In de eerste wave werd onderzocht hoe het probleem initieel kan worden gecommuniceerd, met een focus op de functionaliteit. Daarnaast werd bepaald hoe het energieverlies gecommuniceerd moest worden. Dit gebeurde aan de hand van gebruikerstesten en interviews. Hierbij werden de volgende deelvragen beantwoord:  
 
    * Hoe communiceren we het best het energieverlies bij de gebruiker(awareness)?   
    * Hoe zou de gebruiker willen dat het product wordt geinstalleerd?  
