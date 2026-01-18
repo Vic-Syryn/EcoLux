@@ -7,7 +7,7 @@ Max. 1000 woorden.
 Wat wilde je bereiken in deze fase?    
 Welke deelvragen moesten hiervoor beantwoord worden?
 
-In de eerste wave werd de customer journey gedetailleerd geanalyseerd, met een focus op de functionaliteit. Hierdoor kon in de tweede wave worden ingezoomd op de conclusies die uit de eerste wave voortkwamen. Daarnaast werd bepaald hoe het energieverlies gecommuniceerd moest worden. Dit gebeurde aan de hand van gebruikerstesten en interviews. Hierbij werden de volgende deelvragen beantwoord:  
+In de eerste wave werd onderzocht hoe het probleem initieel kan worden gecommuniceerd, met een focus op de functionaliteit. Daarnaast werd bepaald hoe het energieverlies gecommuniceerd moest worden. Dit gebeurde aan de hand van gebruikerstesten en interviews. Hierbij werden de volgende deelvragen beantwoord:  
 
    * Hoe communiceren we het best het energieverlies bij de gebruiker(awareness)?   
    * Hoe zou de gebruiker willen dat het product wordt geinstalleerd?  
@@ -45,27 +45,28 @@ Op het gebied van functionaliteit worden negeerknoppen en duidelijke voorinstell
 Wat betreft installatie geven alle respondenten aan dat plaatsing idealiter door een technieker of installateur gebeurt. Tegelijkertijd vindt één respondent het belangrijk dat er ook een optie blijft bestaan om het systeem zelfstandig te installeren.
 
 
-
+### <ins>**Wave 2: Communicatie energieprobleem**</ins>  
+**Doestellingen**  
 In Wave 1 lag de focus vooral op awareness, installatie en basisfunctionaliteit, maar in Wave 2 werd verder ingezoomd op communicatie, automatisatie en het gebruik van de negeerfunctie. Concreet moesten drie deelvragen beantwoord worden: 
+* Hoe brengen we de informatie van het energieverlies het best over?
+* Wat verwacht de gebruiker dat de ecolux automatisch doet en wat er manueel moet gebeuren?, moet dit instelbaar zijn? 
+* Hoe zou de negeerfunctie het best gebruikt worden?  
 
-Hoe brengen we de informatie van het energieverlies het best over?
-
-Wat verwacht de gebruiker dat de ecolux automatisch doet en wat er manueel moet gebeuren?, moet dit instelbaar zijn? 
-
-Hoe zou de negeerfunctie het best gebruikt worden?  
+**Materiaal & methoden**
 
 Voor dit onderzoek werd gekozen voor gebruikerstesten volgend het TAP(thinking aloud protocol) en QAP(question asking protocol), omdat we enerzijds gedrag in context wilden observeren en anderzijds ook inzicht wilden krijgen in motivaties en voorkeuren via interviewvragen. De methode liet toe om gerichte feedback te verzamelen op de prototypes en is praktijkgericht, snel uitvoerbaar en geschikt voor conceptevaluatie. De test werd uitgevoerd bij de respondenten thuis en verliep volgens een vaste structuur: introductie en informed consent, presentatie van het EcoLux-concept, testen van prototypes, observatie van gedrag met interviewvragen en een afsluitende wrap-up. 
 
 Materialen:
 
-• 1 prototype (Protopie) met drie interfaces (spraak, tekst en grondplan)
+* 1 prototype (Protopie) met drie interfaces (spraak, tekst en grondplan)
 
-• smartphone voor de interface
+* smartphone voor de interface
 
-• smartphone voor opnames
+* smartphone voor opnames
 
-• protocol + informed consent 
+* protocol + informed consent 
 
+**Resultaten**
 
 De resultaten tonen dat communicatie via spraak duidelijk kan zijn, maar minder geschikt wordt wanneer er veel informatie tegelijk is: respondenten gaven aan dat het dan moeilijk is om alles te onthouden en achteraf correct te herhalen. Daarnaast vonden sommigen het te traag, zeker wanneer ze liever meteen handelen of verwachten dat EcoLux automatisch ingrijpt. Tekst werd gezien als handig om snel te scannen en meteen actie te ondernemen, maar bleek soms te weinig context te geven: met beperkte tekst was het niet altijd duidelijk waar het probleem zich exact bevond. Bovendien kon de tekstweergave druk ogen wanneer er weinig witruimte was. De grondplanweergave scoorde het best: respondenten konden onmiddellijk zien waar het energieverlies zich bevond, wat snelle acties mogelijk maakte. Alle testers verkozen deze visuele methode boven tekst en spraak. Wat automatisatie betreft was er een duidelijke voorkeur: gebruikers wilden dat EcoLux zoveel mogelijk automatisch oplost, en voor hen hoeft dit zelfs niet uitgebreid instelbaar te zijn. De belangrijkste inzichten zijn dus dat visuele communicatie het sterkst werkt, snelheid essentieel is en maximale automatisatie aansluit bij gebruikersverwachtingen.
 
