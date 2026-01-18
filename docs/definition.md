@@ -34,8 +34,8 @@ De doelstellingen werden onderzocht aan de hand van gebruikerstests, gevolgd doo
   <img src="../img/prototype4.jpg" width="23%">
 </p>
 
-De 3 prototypes werden gebruikt om de gebruikers een fysieke voorstelling te geven voor de verschillende manieren van communiceren. De drie protypes hadden elk een eigen manier voor het melden van een probleem, namelijk emotie, vorm of licht.  
-Ook was er een prototype voorzien om het concept van substations te testen.  
+De 4 prototypes werden gebruikt om de gebruikers een fysieke voorstelling te geven voor de verschillende manieren van communiceren. De drie eerste protypes hadden elk een eigen manier voor het melden van een probleem, namelijk: emotie, vorm of licht. Het vierde prototype was voorzien voor het testen van het concept van de substations.
+
 Tijdens de gebruikerstesten konden de gerbuikers in intereactie gaan met de verschillende prototypes. Hierbij werden de prototypes opgesteld in de verschillende modes, namelijk wanneer er zich energie verlies optreed en wanneer niet. Vervolgens konden de gebruikers passeren. Na elke protype werden er een aantal vragen gesteld. Uiteindelijk, na het doorlopen van alle prototypes werd een interview afgenomen over de gehele test.
 
 **Resultaten**  
