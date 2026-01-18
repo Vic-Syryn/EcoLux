@@ -20,7 +20,7 @@ Met ongeveer 650 woorden blijft dit ruim onder de limiet van 1000 woorden, terwi
 
 ## Discovery
 
-De discoveryfase had als doel inzicht te verwerven in waarom huishoudens, ondanks een duidelijke bereidheid om te besparen, in de praktijk moeite hebben om hun energieverbruik effectief te verminderen. De focus lag hierbij niet op technische optimalisatie, maar op gedrag, routines en perceptie: waar ontstaat energieverspilling en waarom blijft deze vaak onopgemerkt?. De inzichten uit deze fase vormden de basis voor het definiëren van onderbouwde designbeslissingen en productvereisten.
+De discoveryfase had als doel inzicht te verwerven in waarom huishoudens, ondanks een duidelijke bereidheid om te besparen, in de praktijk moeite hebben om hun energieverbruik effectief te verminderen. De focus lag hierbij niet op technische optimalisatie, maar op gedrag, routines en perceptie: waar ontstaat energieverspilling en waarom blijft deze vaak onopgemerkt? De inzichten uit deze fase vormden de basis voor het definiëren van onderbouwde designbeslissingen en productvereisten.
 
 ### Doelstellingen
 
@@ -87,7 +87,7 @@ De vergelijking toont aan dat de markt sterk data-gedreven is, met een focus op 
 
 | Product / Systeem | Type feedback | Interface | Installatiedrempel | Focus (data vs. gedrag) | Toegankelijkheid |
 | --- | --- | --- | --- | --- | --- |
-| Google Nest [^2]| Numeriek, grafieken | App + scherm | Middelmatig | Data | Gemiddeld |
+| Google Nest| Numeriek, grafieken | App + scherm | Middelmatig | Data | Gemiddeld |
 | Tado° | Numeriek, meldingen | App | Middelmatig | Data | Gemiddeld |
 | NIKO Home Control | Scenario’s, cijfers | Display + app | Hoog (installateur) | Data | Laag |
 | IKEA Dirigera | Basisinformatie | App | Laag | Data | Hoog |
