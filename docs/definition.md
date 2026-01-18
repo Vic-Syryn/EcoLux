@@ -28,10 +28,10 @@ De doelstellingen werden onderzocht aan de hand van gebruikerstests, gevolgd doo
    * 4 quick and dirty prototypes:
 
 <p align="center">
-  <img src="../img/prototype1.jpg" width="32%">
-  <img src="../img/prototype2.jpg" width="32%">
-  <img src="../img/prototype3.jpg" width="32%">
-  <img src="../img/prototype4.jpg" width="32%">
+  <img src="../img/prototype1.jpg" width="23%">
+  <img src="../img/prototype2.jpg" width="23%">
+  <img src="../img/prototype3.jpg" width="23%">
+  <img src="../img/prototype4.jpg" width="23%">
 </p>
 
 De 3 prototypes werden gebruikt om de gebruikers een fysieke voorstelling te geven voor de verschillende manieren van communiceren. De drie protypes hadden elk een eigen manier voor het melden van een probleem, namelijk emotie, vorm of licht.  
