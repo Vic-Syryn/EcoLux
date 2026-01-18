@@ -53,6 +53,7 @@ In Wave 1 lag de focus vooral op awareness, installatie en basisfunctionaliteit,
 * Hoe zou de negeerfunctie het best gebruikt worden?  
 
 **Materiaal & methoden**
+
 Voor dit onderzoek werd gekozen voor gebruikerstesten volgend het TAP(thinking aloud protocol) en QAP(question asking protocol), omdat we enerzijds gedrag in context wilden observeren en anderzijds ook inzicht wilden krijgen in motivaties en voorkeuren via interviewvragen. De methode liet toe om gerichte feedback te verzamelen op de prototypes en is praktijkgericht, snel uitvoerbaar en geschikt voor conceptevaluatie. De test werd uitgevoerd bij de respondenten thuis en verliep volgens een vaste structuur: introductie en informed consent, presentatie van het EcoLux-concept, testen van prototypes, observatie van gedrag met interviewvragen en een afsluitende wrap-up. 
 
 Materialen:
@@ -66,6 +67,7 @@ Materialen:
 * protocol + informed consent 
 
 **Resultaten**
+
 De resultaten tonen dat communicatie via spraak duidelijk kan zijn, maar minder geschikt wordt wanneer er veel informatie tegelijk is: respondenten gaven aan dat het dan moeilijk is om alles te onthouden en achteraf correct te herhalen. Daarnaast vonden sommigen het te traag, zeker wanneer ze liever meteen handelen of verwachten dat EcoLux automatisch ingrijpt. Tekst werd gezien als handig om snel te scannen en meteen actie te ondernemen, maar bleek soms te weinig context te geven: met beperkte tekst was het niet altijd duidelijk waar het probleem zich exact bevond. Bovendien kon de tekstweergave druk ogen wanneer er weinig witruimte was. De grondplanweergave scoorde het best: respondenten konden onmiddellijk zien waar het energieverlies zich bevond, wat snelle acties mogelijk maakte. Alle testers verkozen deze visuele methode boven tekst en spraak. Wat automatisatie betreft was er een duidelijke voorkeur: gebruikers wilden dat EcoLux zoveel mogelijk automatisch oplost, en voor hen hoeft dit zelfs niet uitgebreid instelbaar te zijn. De belangrijkste inzichten zijn dus dat visuele communicatie het sterkst werkt, snelheid essentieel is en maximale automatisatie aansluit bij gebruikersverwachtingen.
 
 ### Conclusies & implicaties
