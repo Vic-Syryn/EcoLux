@@ -1,30 +1,9 @@
 ## Discovery
-Max. 1000 woorden.   
-[!] Algmeen: Maak voldoende gebruik van schematische/grafische weergaves en tabellen.
-### Doestellingen
-Wat wilde je bereiken?   
-Welke deelvragen moesten hiervoor beantwoord worden?
-### Materiaal & methoden
-Hoe onderzocht je dit? Wees volledig.    
-Leg uit welke onderzoeksmethoden werden uitgevoerd en hoe dit werd aangepakt (link door naar het protocol).
-### Resultaten
-Rapporteer over de resultaten (incl. foto's, quotes, analyseframeworks, ...)
-### Conclusies & implicaties
-Definieer de belangrijkste designbeslissingen
-
-Hier is de volledige tekst uit je brondocument, omgezet naar Markdown-formaat voor je `.md` bestand in VS Code. Ik heb de structuur van je opdracht gevolgd, de nieuwe tabel geïntegreerd en zoveel mogelijk van de originele tekst behouden.
-
-Met ongeveer 650 woorden blijft dit ruim onder de limiet van 1000 woorden, terwijl alle details behouden zijn.
-
----
-
-## Discovery
 
 De discoveryfase had als doel inzicht te verwerven in waarom huishoudens, ondanks een duidelijke bereidheid om te besparen, in de praktijk moeite hebben om hun energieverbruik effectief te verminderen. De focus lag hierbij niet op technische optimalisatie, maar op gedrag, routines en perceptie: waar ontstaat energieverspilling en waarom blijft deze vaak onopgemerkt? De inzichten uit deze fase vormden de basis voor het definiëren van onderbouwde designbeslissingen en productvereisten.
 
 ### Doelstellingen
 
-Wat wilde je bereiken?
 De hoofddoelstelling was het doorgronden van de kloof tussen de intentie om te besparen en het daadwerkelijke dagelijkse gedrag.
 
 Welke deelvragen moesten hiervoor beantwoord worden?
@@ -48,18 +27,19 @@ De volgende deelvragen stonden centraal:
 
 ### Materiaal & methoden
 
-Hoe onderzocht je dit?
 Om zowel de probleemruimte als de oplossingsruimte te verkennen, werden twee complementaire onderzoeksmethoden toegepast: contextual inquiries en een benchmarkonderzoek.
 
 **Contextual inquiries (gebruikersonderzoek)**
 Er werden drie contextual inquiries uitgevoerd bij uiteenlopende huishoudens: een technologie-enthousiasteling, een gemiddelde gebruiker en een oudere alleenstaande. Deze methode werd gekozen omdat ze toelaat om gebruiksgedrag en context in de natuurlijke thuissituatie te observeren. Naast semigestructureerde interviews werden dagelijkse routines, toestellen en omgevingsfactoren in kaart gebracht. De dataverzameling bestond uit observatienotities, audio-opnames en foto’s. De verzamelde data werd thematisch geanalyseerd op terugkerende patronen in gedrag, motivatie, barrières en attitudes ten opzichte van slimme technologie. (Het volledige protocol en rapport zijn beschikbaar via de repository).
 
+<p align="left">
+  <img src="../img/IMG-20251019-WA0008.jpg" width="50%">
+</p>
+
 **Benchmarkonderzoek (markt & technologie)**
 Aanvullend werd een benchmarkonderzoek uitgevoerd naar bestaande slimme oplossingen voor energiebeheer. Het doel was om te analyseren hoe deze oplossingen feedback geven, welke interactievormen worden gebruikt en in welke mate ze gedrag ondersteunen. De analyse gebeurde aan de hand van een vergelijkende tabel en een thematische synthese.
 
 ### Resultaten
-
-Rapporteer over de resultaten.
 
 **Resultaten uit contextual inquiries**
 Uit de interviews en observaties kwamen de volgende consistente patronen naar voren:
@@ -80,7 +60,7 @@ Uit de interviews en observaties kwamen de volgende consistente patronen naar vo
 
 Deze bevindingen wijzen op een duidelijke kloof tussen beschikbare technologie en het dagelijkse gedrag van gebruikers.
 
-##### Afbakening van de doelgroep
+### Afbakening van de doelgroep
 
 Op basis van de interviews, contextual inquiries en het benchmarkonderzoek werd de doelgroep aangescherpt naar huishoudens die een woning renoveren. Deze gebruikers bevinden zich in een fase waarin bestaande routines worden herbekeken en beslissingen rond energie, comfort en technologie actief worden genomen. Zowel uit de interviews als uit externe bronnen blijkt dat energiebesparing tijdens renovaties voornamelijk wordt gemotiveerd door financiële redenen [^6], aangevuld met regelgeving en duurzaamheidsdoelstellingen [^7].
 
@@ -116,7 +96,12 @@ Op basis van de synthese van beide onderzoeksmethoden werden de volgende kerninz
 | Sluipverbruik en ventilatie blijven vaak onopgemerkt   | Verspilling gebeurt onbewust               | Automatische detectie is noodzakelijk          |
 | Comfort primeert bij alle gebruikers                   | Besparen mag geen extra moeite kosten      | Oplossing moet comfort behouden of verhogen    |
 
-Deze inzichten leidden tot de conclusie dat een effectief energiebesparend product energieverspilling automatisch dient te detecteren en dit op een eenvoudige, visuele en niet-invasieve manier moet communiceren. Daarbij moet het dagelijkse wooncomfort behouden of zelfs verhoogd worden. De discoveryfase vormt zo een onderbouwde basis voor verdere conceptontwikkeling en validatie.
+Deze inzichten leidden tot de conclusie dat een effectief energiebesparend product energieverspilling automatisch dient te detecteren en dit op een eenvoudige, visuele en niet-invasieve manier moet communiceren. Daarbij moet het dagelijkse wooncomfort behouden of zelfs verhoogd worden. Op basis van deze inizichten werd een eerste mockup gemaakt.
+
+
+<p align="center">
+  <img src="../img/concept_discovery.png" width="35%">
+</p>
 
 ## Bronnen
 
