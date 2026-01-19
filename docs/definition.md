@@ -65,8 +65,8 @@ Materialen:
 
 * protocol + informed consent 
 <p align="center">
-  <img src="../img/prototype5.png" width="35%">
-  <img src="../img/prototype6.png" width="38.5%">
+  <img src="../img/prototype5.png" width="45%">
+  <img src="../img/prototype6.png" width="49.5%">
 </p>
 
 <p align="center">
