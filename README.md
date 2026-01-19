@@ -8,35 +8,24 @@ Ecolux, een slim product dat energieverlies beperkt
 13/11/2025  
 
 ## Samenvatting
-Max 200 woorden. Beschrijf je project in het kort, waarbij je deze vragen zeker beantwoordt:
-
-Dit project onderzoekt hoe slimme en toegankelijke producten mensen kunnen helpen om thuis energie te besparen. De focus ligt op oplossingen die zowel financiële voordelen bieden voor de gebruiker als een positieve impact hebben op het milieu. Daarbij staat gebruiksgemak centraal: energie besparen moet eenvoudig en haalbaar zijn voor iedereen, zonder ingewikkelde stappen of technische kennis. De mensen die we daarbij willen helpen zijn mensen die renoveren omdat zij hun huis al aan het aanpassen zijn en energiebesparing een belangrijke rol hierin speelt.
+Dit project onderzoekt hoe we een slimme en toegankelijke productmaken dat mensen kunnen helpen om thuis energie te besparen. De focus ligt op oplossingen die zowel financiële voordelen bieden voor de gebruiker als een positieve impact hebben op het milieu. Daarbij staat gebruiksgemak centraal: energie besparen moet eenvoudig en haalbaar zijn voor iedereen, zonder ingewikkelde stappen of technische kennis. De mensen die we daarbij willen helpen zijn mensen die renoveren omdat zij hun huis al aan het aanpassen zijn en energiebesparing een belangrijke rol hierin speelt.
 
 Om beter te begrijpen waar mensen tegenaan lopen en wat ze nodig hebben, werd er gewerkt met interviews. Op basis van deze inzichten werd een oplossing ontwikkeld die inspeelt op herkenbare problemen, zoals onduidelijk energieverbruik en verborgen energieverlies in huis.
 
 De uiteindelijke oplossing is de Ecolux: een fysiek product dat energieverlies zichtbaar maakt en duidelijk communiceert. Door informatie op een eenvoudige en begrijpelijke manier te tonen, helpt de Ecolux gebruikers om sneller te zien waar energie verloren gaat en welke acties ze kunnen nemen om dit te verminderen. Hierdoor wordt energie besparen makkelijker én effectiever. 
-
-- Wat is het probleem?
-- Hoe heb je dit onderzocht?
-- Wat is jouw oplossing?
-- Hoe lost jouw oplossing het probleem op?
-- Hero sketch/render/image, vb.
 <p align="center">
   <img src="img/hero_example.png" width="100%">
 </p>
 
 ## Introductie
-Max 300 woorden.
-Kader je project. Introduceer het probleem en jouw doelstellingen (inclusief boundary conditions).
-Maak gebruik van bronverwijzingen ([zie APA stijl](https://www.scribbr.nl/category/apa-stijl/)). Zoals bijvoorbeeld (Thomas & Ritter, 2022) [^12] .
 
-De residentiële gebouwensector speelt een cruciale rol in de huidige energie- en klimaatproblematiek. In Europa is ongeveer 40% van het totale energieverbruik toe te schrijven aan gebouwen, waarvan een groot aandeel afkomstig is van huishoudens (European Commission, 2023) [^1]. Ondanks technologische vooruitgang en een toenemend aanbod aan slimme energiesystemen, blijft structurele energiebesparing in de dagelijkse praktijk moeilijk te realiseren. Veel huishoudens beschikken wel over data, maar missen inzicht, motivatie of handelingsperspectief om hun g edrag effectief aan te passen (Thomas & Ritter, 2022) [^2].
+De woningsector speelt een cruciale rol in de huidige energie- en klimaatproblematiek. In Europa is ongeveer 40% van het totale energieverbruik toe te schrijven aan gebouwen, waarvan een groot aandeel afkomstig is van woningen (European Commission, 2023) [^1]. Ondanks technologische vooruitgang en een toenemend aanbod aan slimme energiesystemen, blijft energiebesparing in het dagelijkse leven moeilijk te realiseren. Veel huishoudens beschikken wel over data, maar missen inzicht of motivatie om hun gedrag effectief aan te passen (Thomas & Ritter, 2022) [^2].
 
-De energiecrisis ten gevolge van de oorlog in Oekraïne maakte deze problematiek extra zichtbaar: stijgende energieprijzen dwongen gezinnen om hun verbruik te reduceren, wat resulteerde in een aantoonbare gedragsverandering (IEA, 2023) [^3]. Toch bleek deze besparing vaak tijdelijk en sterk afhankelijk van externe druk, wat wijst op een gebrek aan duurzame gedragsverankering.
+De energiecrisis ten gevolge van de oorlog in Oekraïne maakte deze problematiek extra zichtbaar: stijgende energieprijzen dwongen gezinnen om hun verbruik te verminderen, wat resulteerde in een duidelijke gedragsverandering (IEA, 2023) [^3]. Toch bleek deze besparing vaak tijdelijk en sterk afhankelijk van externe druk, wat wijst op een gebrek aan motivatie om te besparen.
 
-Dit project vertrekt vanuit de vaststelling dat bestaande slimme oplossingen voornamelijk inzetten op schermen, apps en numerieke data, wat leidt tot cognitieve belasting en beperkte langetermijnimpact (Norman, 2013) [^4] (Lockton et al., 2010) [^5] . Er is nood aan alternatieve vormen van feedback die energieverbruik op een intuïtieve, laagdrempelige en emotioneel begrijpbare manier zichtbaar maken in het dagelijkse leven.
+Dit project vertrekt vanuit de vaststelling dat bestaande slimme oplossingen voornamelijk inzetten op schermen, apps en numerieke data, wat leidt tot cognitieve belasting en beperkte langetermijnimpact (Norman, 2013) [^4] (Lockton et al., 2010) [^5]. Er is nood aan alternatieve vormen van feedback die energieverbruik op een intuïtieve, laagdrempelige en emotioneel begrijpbare manier zichtbaar maken in het dagelijkse leven.
 
-Het doel van dit project is het verkennen en definiëren van ontwerpprincipes voor een slim, fysiek product dat energieverspilling detecteert en communiceert via eenvoudige visuele en tastbare feedback, zonder afhankelijkheid van continue app-interactie. Boundary conditions binnen dit project zijn onder meer minimale technische achtergrond, minimale gebruikersinspanning en het product dient gebruikt te worden binnen een residentiële omgeving.
+Het doel van dit project is het verkennen en definiëren van ontwerpprincipes voor een slim, fysiek product dat energieverspilling detecteert en communiceert via eenvoudige visuele en tastbare feedback, zonder voortdurend afhankelijk te zijn van een app. Boundary conditions binnen dit project zijn onder meer minimale technische achtergrond, minimale gebruikersinspanning en het product dient gebruikt te worden binnen een residentiële omgeving.
 
 ## Inhoudstafel
 
