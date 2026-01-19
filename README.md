@@ -14,7 +14,7 @@ Om beter te begrijpen waar mensen tegenaan lopen en wat ze nodig hebben, werd er
 
 De uiteindelijke oplossing is de Ecolux: een fysiek product dat energieverlies zichtbaar maakt en duidelijk communiceert. Door informatie op een eenvoudige en begrijpelijke manier te tonen, helpt de Ecolux gebruikers om sneller te zien waar energie verloren gaat en welke acties ze kunnen nemen om dit te verminderen. Hierdoor wordt energie besparen makkelijker én effectiever. 
 <p align="center">
-  <img src="img/hero_example.png" width="100%">
+  <img src="img/render3.png" width="100%">
 </p>
 
 ## Introductie
@@ -36,8 +36,13 @@ Het doel van dit project is het verkennen en definiëren van ontwerpprincipes vo
 5. [Bill of materials](./docs/bom.md)
 
 ## Kritische reflectie
-Max. 500 woorden
+De discoveryfase gaf een goed beeld van waarom mensen wel willen besparen, maar dit in de praktijk vaak niet lukt. Door bij mensen thuis te observeren en te praten over hun gewoontes, werd duidelijk waar energieverlies ontstaat en waarom dit vaak niet opvalt. Toch waren er maar drie huishoudens onderzocht, waardoor niet alle soorten gebruikers meegenomen zijn (bv. grotere gezinnen, huurders of mensen met andere levensstijlen). Ook kan het zijn dat deelnemers zich anders gedroegen omdat er iemand aanwezig was tijdens het onderzoek, waardoor ze bewuster met energie omgingen dan normaal.
 
+Het benchmarkonderzoek maakte duidelijk dat de meeste bestaande oplossingen vooral werken met cijfers, grafieken en apps. Dit was nuttig om te zien wat al bestaat en wat ontbreekt. Maar het resultaat hangt ook af van welke producten gekozen werden, waardoor sommige alternatieven mogelijk niet in de vergelijking zijn terechtgekomen. Bovendien werd vooral gekeken naar communicatie en feedback, en minder naar zaken zoals installatiegemak, onderhoud of langdurig gebruik.
+
+Hoewel beide waves waardevolle inzichten opleverden over communicatie, functionaliteit en gebruikersverwachtingen, zijn er enkele beperkingen die de interpretatie van de resultaten beïnvloeden. Ten eerste werd gewerkt met quick-and-dirty prototypes, wat geschikt is voor snelle exploratie, maar waardoor bepaalde interacties en reacties mogelijk anders zouden zijn in een realistisch, afgewerkt product. Vooral bij emotie- en vormcommunicatie kan de mate van afwerking de intuïtiviteit sterk beïnvloeden.
+
+In Wave 2 werd vooral gefocust op drie interfaces, maar de vergelijking tussen spraak, tekst en grondplan blijft afhankelijk van hoe goed elke interface uitgewerkt was. Verder was de steekproef beperkt en mogelijk niet representatief voor alle doelgroepen (bv. professioneel vs gezin). Toekomstig onderzoek kan dit opvangen met meer diverse deelnemers en langere veldtesten.
 ## Noot inzake het gebruik van AI
 Voor het herschrijven en taalcorrectie van delen van dit verslag werd gebruikgemaakt van AI.
 ## Bijlagen
