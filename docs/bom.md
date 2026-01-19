@@ -13,4 +13,6 @@ eind define fase:
 * PLA
 * Rasberry Pi
 * maagneettape
+* smartplug
+* smartswitch
 
