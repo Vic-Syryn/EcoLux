@@ -59,7 +59,7 @@ Voor het herschrijven en taalcorrectie van delen van dit verslag werd gebruikgem
   * [Protocol](https://github.com/Vic-Syryn/EcoLux/blob/94d3a5f92b4216017caaa046f698b3564b813192/reports%20and%20protocols/Ecolux_Protocol_Gebruikerstesten_Wave_1.pdf)
   * [Rapport](https://github.com/Vic-Syryn/EcoLux/blob/94d3a5f92b4216017caaa046f698b3564b813192/reports%20and%20protocols/Ecolux_Report_Gebruikerstesten_Wave_1.pdf)
 * User testing wave 2 (N=3)
-  * [Protocol]("C:\Users\vikto\OneDrive - UGent\Documenten\2IO\PGO\sustainability at home\github visual studio code\EcoLux\reports and protocols\Ecolux_Protocol_Gebruikerstesten_Wave_2 (1).pdf")
+  * [Protocol](https://github.com/Vic-Syryn/EcoLux/blob/main/reports%20and%20protocols/Ecolux_Protocol_Gebruikerstesten_Wave_1.pdf)
   * [Rapport]("C:\Users\vikto\OneDrive - UGent\Documenten\2IO\PGO\sustainability at home\github visual studio code\EcoLux\reports and protocols\Ecolux_Report_Gebruikerstesten_Wave_2 (2).pdf")
 
 ## Licentie
