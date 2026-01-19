@@ -1,7 +1,7 @@
 ## Definition
 ### <ins>**Wave 1: Communicatie vorm exploratie**</ins>  
 **Doestellingen**  
-In de eerste wave werd onderzocht hoe het probleem initieel kan worden gecommuniceerd, met een focus op de functionaliteit. Daarnaast werd bepaald hoe het energieverlies gecommuniceerd moest worden. Dit gebeurde aan de hand van gebruikerstesten en interviews. Hierbij werden de volgende deelvragen beantwoord:  
+In de eerste Wave werd onderzocht hoe het probleem initieel kan worden gecommuniceerd, met een focus op de functionaliteit. Daarnaast werd bepaald hoe het energieverlies gecommuniceerd moest worden. Dit gebeurde aan de hand van gebruikerstesten en interviews. Hierbij werden de volgende deelvragen beantwoord:  
 
    * Hoe communiceren we het best het energieverlies bij de gebruiker(awareness)?   
    * Hoe zou de gebruiker willen dat het product wordt geinstalleerd?  
@@ -44,12 +44,12 @@ Wat betreft installatie geven alle respondenten aan dat plaatsing idealiter door
 **Doestellingen**  
 In Wave 1 lag de focus vooral op awareness, installatie en basisfunctionaliteit, maar in Wave 2 werd verder ingezoomd op communicatie, automatisatie en het gebruik van de negeerfunctie. Concreet moesten drie deelvragen beantwoord worden: 
 * Hoe brengen we de informatie van het energieverlies het best over?
-* Wat verwacht de gebruiker dat de ecolux automatisch doet en wat er manueel moet gebeuren?, moet dit instelbaar zijn? 
+* Wat verwacht de gebruiker dat de Ecolux automatisch doet en wat er manueel moet gebeuren, moet dit instelbaar zijn? 
 * Hoe zou de negeerfunctie het best gebruikt worden?  
 
 **Materiaal & methoden**
 
-Voor dit onderzoek werd gekozen voor gebruikerstesten volgend het TAP(thinking aloud protocol) en QAP(question asking protocol), omdat we enerzijds gedrag in context wilden observeren en anderzijds ook inzicht wilden krijgen in motivaties en voorkeuren via interviewvragen. De methode liet toe om gerichte feedback te verzamelen op de prototypes en is praktijkgericht, snel uitvoerbaar en geschikt voor conceptevaluatie. De test werd uitgevoerd bij de respondenten thuis en verliep volgens een vaste structuur: introductie en informed consent, presentatie van het EcoLux-concept, testen van prototypes, observatie van gedrag met interviewvragen en een afsluitende wrap-up. 
+Voor dit onderzoek werd gekozen voor gebruikerstesten volgend het TAP (thinking aloud protocol) en QAP (question asking protocol), omdat we enerzijds gedrag in context wilden observeren en anderzijds ook inzicht wilden krijgen in motivaties en voorkeuren via interviewvragen. De methode liet toe om gerichte feedback te verzamelen op de prototypes en is praktijkgericht, snel uitvoerbaar en geschikt voor conceptevaluatie. De test werd uitgevoerd bij de respondenten thuis en verliep volgens een vaste structuur: introductie en informed consent, presentatie van het EcoLux-concept, testen van prototypes, observatie van gedrag met interviewvragen en een afsluitende wrap-up. 
 
 Materialen:
 
@@ -62,7 +62,7 @@ Materialen:
 * protocol + informed consent 
 <p align="center">
   <img src="../img/prototype5.png" width="35%">
-  <img src="../img/prototype6.png" width="35%">
+  <img src="../img/prototype6.png" width="38.5%">
 </p>
 
 **Resultaten**
