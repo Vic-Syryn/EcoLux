@@ -1,12 +1,6 @@
 ## Definition
-Max. 1000 woorden.    
-[!] Algmeen: Maak voldoende gebruik van schematische/grafische weergaves en tabellen.
-
 ### <ins>**Wave 1: Communicatie vorm exploratie**</ins>  
 **Doestellingen**  
-Wat wilde je bereiken in deze fase?    
-Welke deelvragen moesten hiervoor beantwoord worden?
-
 In de eerste wave werd onderzocht hoe het probleem initieel kan worden gecommuniceerd, met een focus op de functionaliteit. Daarnaast werd bepaald hoe het energieverlies gecommuniceerd moest worden. Dit gebeurde aan de hand van gebruikerstesten en interviews. Hierbij werden de volgende deelvragen beantwoord:  
 
    * Hoe communiceren we het best het energieverlies bij de gebruiker(awareness)?   
@@ -15,10 +9,6 @@ In de eerste wave werd onderzocht hoe het probleem initieel kan worden gecommuni
    * Is een of meerdere substations noodzakelijk?  
 
 **Materiaal & methoden**  
-
-Hoe onderzocht je dit? Wees volledig.  
-Leg uit en toon welke prototypes gemaakt werden en hoe deze helpen om de onderzoeksvragen te beantwoorden (benoemen wat je aftoetst & link naar design requirements).   
-Leg uit welke testen werden uitgevoerd.
 
 De doelstellingen werden onderzocht aan de hand van gebruikerstests, gevolgd door een interview. Hiervoor werden de volgende materialen gebruikt:  
 
@@ -39,9 +29,6 @@ De 4 prototypes werden gebruikt om de gebruikers een fysieke voorstelling te gev
 Tijdens de gebruikerstesten konden de gerbuikers in intereactie gaan met de verschillende prototypes. Hierbij werden de prototypes opgesteld in de verschillende modes, namelijk wanneer er zich energie verlies optreed en wanneer niet. Vervolgens konden de gebruikers passeren. Na elke protype werden er een aantal vragen gesteld. Uiteindelijk, na het doorlopen van alle prototypes werd een interview afgenomen over de gehele test.
 
 **Resultaten**  
-
-Rapporteer over de resultaten (incl. foto's, quotes, analyseframeworks, ...)  
-
 Uit het onderzoek blijkt dat de duidelijkheid van signalen een belangrijke rol speelt in het gebruiksgemak. Lichtsiganalen worden consequent als het meest duidelijk ervaren. Emoties worden wel begrepen, maar passen minder goed binnen professionele contexten. De shapeshifter wordt als minder intuïtief gezien, tenzij deze visueel extra wordt ondersteund. Het gebruik van een smiley-prototype en het feit dat de prototypes kunnen praten, activeert bovendien een antropomorfe interpretatie. Gebruikers schrijven het systeem menselijke eigenschappen toe, zoals begrijpen, luisteren en reageren. Dit leidt ertoe dat sommige respondenten de neiging hadden om daadwerkelijk een gesprek aan te gaan met de prototypes.
 
 De context van gebruik blijkt bepalend voor de voorkeur in vormgeving. Voor gezinnen werkt een speels en visueel systeem, zoals een smiley, goed. In zakelijke omgevingen en volwassen thuissituaties gaat de voorkeur uit naar een strak en minimalistisch ontwerp, zoals een cube.
@@ -73,10 +60,14 @@ Materialen:
 * smartphone voor opnames
 
 * protocol + informed consent 
+<p align="center">
+  <img src="../img/prototype5.png" width="35%">
+  <img src="../img/prototype6.png" width="35%">
+</p>
 
 **Resultaten**
 
 De resultaten tonen dat communicatie via spraak duidelijk kan zijn, maar minder geschikt wordt wanneer er veel informatie tegelijk is: respondenten gaven aan dat het dan moeilijk is om alles te onthouden en achteraf correct te herhalen. Daarnaast vonden sommigen het te traag, zeker wanneer ze liever meteen handelen of verwachten dat EcoLux automatisch ingrijpt. Tekst werd gezien als handig om snel te scannen en meteen actie te ondernemen, maar bleek soms te weinig context te geven: met beperkte tekst was het niet altijd duidelijk waar het probleem zich exact bevond. Bovendien kon de tekstweergave druk ogen wanneer er weinig witruimte was. De grondplanweergave scoorde het best: respondenten konden onmiddellijk zien waar het energieverlies zich bevond, wat snelle acties mogelijk maakte. Alle testers verkozen deze visuele methode boven tekst en spraak. Wat automatisatie betreft was er een duidelijke voorkeur: gebruikers wilden dat EcoLux zoveel mogelijk automatisch oplost, en voor hen hoeft dit zelfs niet uitgebreid instelbaar te zijn. De belangrijkste inzichten zijn dus dat visuele communicatie het sterkst werkt, snelheid essentieel is en maximale automatisatie aansluit bij gebruikersverwachtingen.
 
 ### Conclusies & implicaties
-Definieer de belangrijkste designbeslissingen.
+Uit Wave 1 en 2 blijkt dat duidelijke en snelle communicatie cruciaal is voor het gebruiksgemak van EcoLux. Visuele signalen worden het meest betrouwbaar en intuïtief ervaren, waarbij vooral een grondplanweergave gebruikers helpt om energieverlies onmiddellijk te lokaliseren en snel te handelen. Spraak kan ondersteunend zijn, maar wordt minder geschikt bij veel informatie; tekst is bruikbaar, maar vraagt voldoende context en rust in de interface. Vormgeving moet contextgericht zijn: speels voor gezinnen, strak voor professionele omgevingen. Daarnaast verwachten gebruikers maximale automatisatie, met eenvoudige negeeropties, duidelijke presets en eventuele substations voor grotere woningen. Installatie gebeurt bij voorkeur door een technieker, met optionele zelfinstallatie.
