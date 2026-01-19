@@ -18,11 +18,8 @@ De uiteindelijke oplossing is de Ecolux: een fysiek product dat energieverlies z
 </p>
 
 ## Introductie
-Max 300 woorden.
-Kader je project. Introduceer het probleem en jouw doelstellingen (inclusief boundary conditions).
-Maak gebruik van bronverwijzingen ([zie APA stijl](https://www.scribbr.nl/category/apa-stijl/)). Zoals bijvoorbeeld (Thomas & Ritter, 2022) [^12] .
 
-De woningsector speelt een cruciale rol in de huidige energie- en klimaatproblematiek. In Europa is ongeveer 40% van het totale energieverbruik toe te schrijven aan gebouwen, waarvan een groot aandeel afkomstig is van woningen (European Commission, 2023) [^1]. Ondanks technologische vooruitgang en een toenemend aanbod aan slimme energiesystemen, blijft energiebesparing in de het dagelijkse leven moeilijk te realiseren. Veel huishoudens beschikken wel over data, maar missen inzicht of motivatie om hun gedrag effectief aan te passen (Thomas & Ritter, 2022) [^2].
+De woningsector speelt een cruciale rol in de huidige energie- en klimaatproblematiek. In Europa is ongeveer 40% van het totale energieverbruik toe te schrijven aan gebouwen, waarvan een groot aandeel afkomstig is van woningen (European Commission, 2023) [^1]. Ondanks technologische vooruitgang en een toenemend aanbod aan slimme energiesystemen, blijft energiebesparing in het dagelijkse leven moeilijk te realiseren. Veel huishoudens beschikken wel over data, maar missen inzicht of motivatie om hun gedrag effectief aan te passen (Thomas & Ritter, 2022) [^2].
 
 De energiecrisis ten gevolge van de oorlog in Oekraïne maakte deze problematiek extra zichtbaar: stijgende energieprijzen dwongen gezinnen om hun verbruik te verminderen, wat resulteerde in een duidelijke gedragsverandering (IEA, 2023) [^3]. Toch bleek deze besparing vaak tijdelijk en sterk afhankelijk van externe druk, wat wijst op een gebrek aan motivatie om te besparen.
 
