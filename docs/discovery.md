@@ -1,24 +1,4 @@
 ## Discovery
-Max. 1000 woorden.   
-[!] Algmeen: Maak voldoende gebruik van schematische/grafische weergaves en tabellen.
-### Doestellingen
-Wat wilde je bereiken?   
-Welke deelvragen moesten hiervoor beantwoord worden?
-### Materiaal & methoden
-Hoe onderzocht je dit? Wees volledig.    
-Leg uit welke onderzoeksmethoden werden uitgevoerd en hoe dit werd aangepakt (link door naar het protocol).
-### Resultaten
-Rapporteer over de resultaten (incl. foto's, quotes, analyseframeworks, ...)
-### Conclusies & implicaties
-Definieer de belangrijkste designbeslissingen
-
-Hier is de volledige tekst uit je brondocument, omgezet naar Markdown-formaat voor je `.md` bestand in VS Code. Ik heb de structuur van je opdracht gevolgd, de nieuwe tabel geïntegreerd en zoveel mogelijk van de originele tekst behouden.
-
-Met ongeveer 650 woorden blijft dit ruim onder de limiet van 1000 woorden, terwijl alle details behouden zijn.
-
----
-
-## Discovery
 
 De discoveryfase had als doel inzicht te verwerven in waarom huishoudens, ondanks een duidelijke bereidheid om te besparen, in de praktijk moeite hebben om hun energieverbruik effectief te verminderen. De focus lag hierbij niet op technische optimalisatie, maar op gedrag, routines en perceptie: waar ontstaat energieverspilling en waarom blijft deze vaak onopgemerkt? De inzichten uit deze fase vormden de basis voor het definiëren van onderbouwde designbeslissingen en productvereisten.
 
