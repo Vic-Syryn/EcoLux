@@ -53,12 +53,12 @@ Max. 500 woorden
 Voor het herschrijven en taalcorrectie van delen van dit verslag werd gebruikgemaakt van AI.
 ## Bijlagen
 ### Discovery
-* Literatuuronderzoek (N=x)
-  * [Protocol](url)
-  * [Rapport](url)
-* Interviews (N=x)
-  * [Protocol](url)
-  * [Rapport](url)
+* Interviews (N=3)
+  * [Protocol](https://ugentbe.sharepoint.com/:w:/r/teams/Group.course1292884/Gedeelde%20documenten/General/Discovery/Contextual_Inquiry_Testing_Protocol.docx?d=waee27f6c6408452a8c45d6562736eb49&csf=1&web=1&e=YhPfWN)
+  * [Rapport](https://ugentbe.sharepoint.com/:w:/r/teams/Group.course1292884/Gedeelde%20documenten/General/Discovery/Contextual_Inquiry_Report.docx?d=we93b8b4516374961b0903b6bff5cc7f7&csf=1&web=1&e=7CgqjX)
+* Benchmarkonderzoek (N=10)
+  * [Protocol](https://ugentbe.sharepoint.com/:w:/r/teams/Group.course1292884/Gedeelde%20documenten/General/Discovery/Testing_Protocol_Benchmarkanalyse.docx?d=w4c148eb577ce42e8acfb7c2bd59f5b57&csf=1&web=1&e=9Vl2Wc)
+  * [Rapport](https://ugentbe.sharepoint.com/:w:/r/teams/Group.course1292884/Gedeelde%20documenten/General/Discovery/Benchmarkanalyse_Report.docx?d=w861e3ad249634863bb8ea477ceb19fc3&csf=1&web=1&e=fQMWXk)
     
 ### Definition
 * User testing wave 1 (N=x)
