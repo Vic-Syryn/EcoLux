@@ -14,7 +14,7 @@ Om beter te begrijpen waar mensen tegenaan lopen en wat ze nodig hebben, werd er
 
 De uiteindelijke oplossing is de Ecolux: een fysiek product dat energieverlies zichtbaar maakt en duidelijk communiceert. Door informatie op een eenvoudige en begrijpelijke manier te tonen, helpt de Ecolux gebruikers om sneller te zien waar energie verloren gaat en welke acties ze kunnen nemen om dit te verminderen. Hierdoor wordt energie besparen makkelijker én effectiever. 
 <p align="center">
-  <img src="img/hero_example.png" width="100%">
+  <img src="img/render3.png" width="100%">
 </p>
 
 ## Introductie
