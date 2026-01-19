@@ -24,7 +24,6 @@ De discoveryfase had als doel inzicht te verwerven in waarom huishoudens, ondank
 
 ### Doelstellingen
 
-Wat wilde je bereiken?
 De hoofddoelstelling was het doorgronden van de kloof tussen de intentie om te besparen en het daadwerkelijke dagelijkse gedrag.
 
 Welke deelvragen moesten hiervoor beantwoord worden?
@@ -48,18 +47,19 @@ De volgende deelvragen stonden centraal:
 
 ### Materiaal & methoden
 
-Hoe onderzocht je dit?
 Om zowel de probleemruimte als de oplossingsruimte te verkennen, werden twee complementaire onderzoeksmethoden toegepast: contextual inquiries en een benchmarkonderzoek.
 
 **Contextual inquiries (gebruikersonderzoek)**
 Er werden drie contextual inquiries uitgevoerd bij uiteenlopende huishoudens: een technologie-enthousiasteling, een gemiddelde gebruiker en een oudere alleenstaande. Deze methode werd gekozen omdat ze toelaat om gebruiksgedrag en context in de natuurlijke thuissituatie te observeren. Naast semigestructureerde interviews werden dagelijkse routines, toestellen en omgevingsfactoren in kaart gebracht. De dataverzameling bestond uit observatienotities, audio-opnames en foto’s. De verzamelde data werd thematisch geanalyseerd op terugkerende patronen in gedrag, motivatie, barrières en attitudes ten opzichte van slimme technologie. (Het volledige protocol en rapport zijn beschikbaar via de repository).
 
+<p align="center">
+  <img src="../img/IMG-20251019-WA0008.jpg" width="23%">
+</p>
+
 **Benchmarkonderzoek (markt & technologie)**
 Aanvullend werd een benchmarkonderzoek uitgevoerd naar bestaande slimme oplossingen voor energiebeheer. Het doel was om te analyseren hoe deze oplossingen feedback geven, welke interactievormen worden gebruikt en in welke mate ze gedrag ondersteunen. De analyse gebeurde aan de hand van een vergelijkende tabel en een thematische synthese.
 
 ### Resultaten
-
-Rapporteer over de resultaten.
 
 **Resultaten uit contextual inquiries**
 Uit de interviews en observaties kwamen de volgende consistente patronen naar voren:
@@ -116,7 +116,11 @@ Op basis van de synthese van beide onderzoeksmethoden werden de volgende kerninz
 | Sluipverbruik en ventilatie blijven vaak onopgemerkt   | Verspilling gebeurt onbewust               | Automatische detectie is noodzakelijk          |
 | Comfort primeert bij alle gebruikers                   | Besparen mag geen extra moeite kosten      | Oplossing moet comfort behouden of verhogen    |
 
-Deze inzichten leidden tot de conclusie dat een effectief energiebesparend product energieverspilling automatisch dient te detecteren en dit op een eenvoudige, visuele en niet-invasieve manier moet communiceren. Daarbij moet het dagelijkse wooncomfort behouden of zelfs verhoogd worden. De discoveryfase vormt zo een onderbouwde basis voor verdere conceptontwikkeling en validatie.
+Deze inzichten leidden tot de conclusie dat een effectief energiebesparend product energieverspilling automatisch dient te detecteren en dit op een eenvoudige, visuele en niet-invasieve manier moet communiceren. Daarbij moet het dagelijkse wooncomfort behouden of zelfs verhoogd worden. Op basis van deze inizichten werd een eerste mockup gemaakt.
+
+<p align="center">
+  <img src="../img/concept_discovery.png" width="23%">
+</p>
 
 ## Bronnen
 
