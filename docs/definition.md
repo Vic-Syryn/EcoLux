@@ -15,7 +15,7 @@ De doelstellingen werden onderzocht aan de hand van gebruikerstests, gevolgd doo
    * smartphone voor video opnamens  
    * notieboekje voor notities  
    * interview protocol en informed consent  
-   * 4 quick and dirty prototypes:
+   * 4 quick and dirty prototypes (in volgorde, van links naar rechts: emotie, vorm/shapeshifter, licht, substations)
 
 <p align="center">
   <img src="../img/prototype1.jpg" width="23%">
@@ -26,7 +26,7 @@ De doelstellingen werden onderzocht aan de hand van gebruikerstests, gevolgd doo
 
 De 4 prototypes werden gebruikt om de gebruikers een fysieke voorstelling te geven voor de verschillende manieren van communiceren. De drie eerste protypes hadden elk een eigen manier voor het melden van een probleem, namelijk: emotie, vorm of licht. Het vierde prototype was voorzien voor het testen van het concept van de substations.
 
-Tijdens de gebruikerstesten konden de gerbuikers in intereactie gaan met de verschillende prototypes. Hierbij werden de prototypes opgesteld in de verschillende modes, namelijk wanneer er zich energie verlies optreed en wanneer niet. Vervolgens konden de gebruikers passeren. Na elke protype werden er een aantal vragen gesteld. Uiteindelijk, na het doorlopen van alle prototypes werd een interview afgenomen over de gehele test.
+Tijdens de gebruikerstesten konden de gebruikers in interactie gaan met de verschillende prototypes. Hierbij werden de prototypes opgesteld in de verschillende modes, namelijk wanneer er zich energieverlies optreed en wanneer niet. Vervolgens konden de gebruikers passeren. Na elk protype werden er een aantal vragen gesteld. Uiteindelijk, na het doorlopen van alle prototypes werd een interview afgenomen over de gehele test.
 
 **Resultaten**  
 Uit het onderzoek blijkt dat de duidelijkheid van signalen een belangrijke rol speelt in het gebruiksgemak. Lichtsiganalen worden consequent als het meest duidelijk ervaren. Emoties worden wel begrepen, maar passen minder goed binnen professionele contexten. De shapeshifter wordt als minder intuïtief gezien, tenzij deze visueel extra wordt ondersteund. Het gebruik van een smiley-prototype en het feit dat de prototypes kunnen praten, activeert bovendien een antropomorfe interpretatie. Gebruikers schrijven het systeem menselijke eigenschappen toe, zoals begrijpen, luisteren en reageren. Dit leidt ertoe dat sommige respondenten de neiging hadden om daadwerkelijk een gesprek aan te gaan met de prototypes.
