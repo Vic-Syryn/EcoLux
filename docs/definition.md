@@ -33,7 +33,7 @@ Uit het onderzoek blijkt dat de duidelijkheid van signalen een belangrijke rol s
 
 De context van gebruik blijkt bepalend voor de voorkeur in vormgeving. Voor gezinnen werkt een speels en visueel systeem, zoals een smiley, goed. In zakelijke omgevingen en volwassen thuissituaties gaat de voorkeur uit naar een strak en minimalistisch ontwerp, zoals een cube.
 
-Daarnaast verhoogt een persoonlijk aanpasbaar design de betrokkenheid van gebruikers. Respondenten geven aan dat personaliseerbaarheid, bijvoorbeeld door eigen kleuren te kiezen, het gevoel versterkt dat het product echt van henzelf is.
+Daarnaast verhoogt een persoonlijk aanpasbaar design de betrokkenheid van gebruikers. Respondenten geven aan dat personaliseerbaarheid, het gevoel versterkt dat het product echt van henzelf is.
 
 Op het gebied van functionaliteit worden negeerknoppen en duidelijke voorinstellingen vaak genoemd als belangrijke toevoegingen. Substations verhogen de bruikbaarheid wanneer er meerdere kamers of ingangen zijn. Handsfree bediening draagt bij aan het gebruiksgemak, vooral in huishoudens waar regelmatig wordt gemultitaskt. In zulke situaties kan spraakbediening een duidelijke meerwaarde hebben, bijvoorbeeld met suggesties als dat het systeem pas begint te luisteren wanneer er daadwerkelijk iets gebeurt.
 
