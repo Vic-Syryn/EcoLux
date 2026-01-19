@@ -29,7 +29,7 @@ De 4 prototypes werden gebruikt om de gebruikers een fysieke voorstelling te gev
 Tijdens de gebruikerstesten konden de gebruikers in interactie gaan met de verschillende prototypes. Hierbij werden de prototypes opgesteld in de verschillende modes, namelijk wanneer er zich energieverlies optreed en wanneer niet. Vervolgens konden de gebruikers passeren. Na elk protype werden er een aantal vragen gesteld. Uiteindelijk, na het doorlopen van alle prototypes werd een interview afgenomen over de gehele test.
 <p align="center">
   <img src="../img/wave1.1.jpg" width="45%">
-  <img src="../img/wave1.2.jpg" width="45%">
+  <img src="../img/wave1.2.jpg" width="44.98%">
 </p>
 
 **Resultaten**  
