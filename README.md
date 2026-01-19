@@ -59,8 +59,8 @@ Voor het herschrijven en taalcorrectie van delen van dit verslag werd gebruikgem
   * [Protocol](https://github.com/Vic-Syryn/EcoLux/blob/94d3a5f92b4216017caaa046f698b3564b813192/reports%20and%20protocols/Ecolux_Protocol_Gebruikerstesten_Wave_1.pdf)
   * [Rapport](https://github.com/Vic-Syryn/EcoLux/blob/94d3a5f92b4216017caaa046f698b3564b813192/reports%20and%20protocols/Ecolux_Report_Gebruikerstesten_Wave_1.pdf)
 * User testing wave 2 (N=3)
-  * [Protocol](https://ugentbe.sharepoint.com/:w:/r/teams/Group.course1292884/_layouts/15/Doc2.aspx?action=edit&sourcedoc=%7B17c42487-40f7-47ed-abb4-8fe42a83e967%7D&wdOrigin=TEAMS-MAGLEV.teamsSdk_ns.rwc&wdExp=TEAMS-TREATMENT&wdhostclicktime=1768572782567&web=1)
-  * [Rapport](https://ugentbe.sharepoint.com/:w:/r/teams/Group.course1292884/_layouts/15/Doc2.aspx?action=edit&sourcedoc=%7B153b8510-c732-41c3-8a62-454cd487ce63%7D&wdOrigin=TEAMS-MAGLEV.teamsSdk_ns.rwc&wdExp=TEAMS-TREATMENT&wdhostclicktime=1768571820525&web=1)
+  * [Protocol](https://github.com/Vic-Syryn/EcoLux/blob/main/reports%20and%20protocols/Ecolux_Protocol_Gebruikerstesten_Wave_2%20(1).pdf)
+  * [Rapport](https://github.com/Vic-Syryn/EcoLux/blob/main/reports%20and%20protocols/Ecolux_Report_Gebruikerstesten_Wave_2%20(2).pdf)
 
 ## Licentie
  
