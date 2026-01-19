@@ -60,7 +60,7 @@ Uit de interviews en observaties kwamen de volgende consistente patronen naar vo
 
 Deze bevindingen wijzen op een duidelijke kloof tussen beschikbare technologie en het dagelijkse gedrag van gebruikers.
 
-##### Afbakening van de doelgroep
+### Afbakening van de doelgroep
 
 Op basis van de interviews, contextual inquiries en het benchmarkonderzoek werd de doelgroep aangescherpt naar huishoudens die een woning renoveren. Deze gebruikers bevinden zich in een fase waarin bestaande routines worden herbekeken en beslissingen rond energie, comfort en technologie actief worden genomen. Zowel uit de interviews als uit externe bronnen blijkt dat energiebesparing tijdens renovaties voornamelijk wordt gemotiveerd door financiële redenen [^6], aangevuld met regelgeving en duurzaamheidsdoelstellingen [^7].
 
