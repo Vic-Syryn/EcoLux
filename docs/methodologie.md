@@ -1,12 +1,9 @@
-## Methodologie
-*Max 400 woorden. Beschrijf je methodologie (enkel SEM1, zie les methodologie). Maak hierbij gebruik van een afbeelding om je tijdlijn weer te geven. Op deze tijdlijn moeten minimaal (1) een tijdsincatie te zien zijn (e.g. maanden of kwartalen), moeten fasen te zien (gekoppeld aan doelstellingen van die fase) zijn en moeten activiteiten te zien zijn (onderzoeksmethoden). Bekijk zeker ook eens [voorbeelden van eerdere jaren](https://github.com/basbaccarne/human-centered-design) (voor SEM1 betreft dit uiteraard slechts de helft van deze visualisaties). We boewen hier in het tweede semester op verder.*   
-
-*Neem hier ook een tijdlijn in op waarin we de evoluties van de prototypes kunnen zien.*
+## Methodologie  
 <p align="center">
-  <img src="../img/methodologie.jpg" width="100%">
+  <img src="../img/methodologie.jpg" width="50%">
 </p>
 
-Voor het onwerp process werd gebruik gemaakt van et tripple diamond ontwerpmodel. Dit model bestaat uit 4 fasen, namelijk: discover, difine, develop en deliver.  
+Voor het onwerp process werd gebruik gemaakt van het triple diamond ontwerpmodel. Dit model bestaat uit 4 fasen, namelijk: discover, difine, develop en deliver.  
 In het eerste semester werden de discover en define doorlopen.
 
 <ins>**Discover fase**</ins>  
