@@ -2,8 +2,6 @@
 || **Status** || ❌ niet voldaan || ⚠️ gedeeltelijk voldaan || ✅ voldaan ||
 |ID|Design Requirement|Source|Status|
 |:---|:---|:---|:---:|
-|**Algemeen**|
-|1.1|Het product ... |[1.1 Expert interview](url)|❌|
-|1.2|De gebruiker kan ... |[2.1 User test](url)|⚠️|
-|**Deelaspect**|
-|2.1|De pods ... |[2.1 User test](url)|✅|
+|1.1|EcoLux detecteert energieverspilling en laat dit weten aan de gebruiker.|Discovery|❌|
+|1.2|Ecolux verhoogt het dagelijks wooncomfort terwijl het energieverbruik wordt verminderd.|Discovery|⚠️|
+|1.3|EcoLux gebruikt licht als primaire feedbackmechaniek.|Discovery|⚠️|
