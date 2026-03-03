@@ -48,11 +48,11 @@ Voor het herschrijven en taalcorrectie van delen van dit verslag werd gebruikgem
 ## Bijlagen
 ### Discovery
 * Interviews (N=3)
-  * [Protocol](https://ugentbe.sharepoint.com/:w:/r/teams/Group.course1292884/Gedeelde%20documenten/General/Discovery/Contextual_Inquiry_Testing_Protocol.docx?d=waee27f6c6408452a8c45d6562736eb49&csf=1&web=1&e=YhPfWN)
-  * [Rapport](https://ugentbe.sharepoint.com/:w:/r/teams/Group.course1292884/Gedeelde%20documenten/General/Discovery/Contextual_Inquiry_Report.docx?d=we93b8b4516374961b0903b6bff5cc7f7&csf=1&web=1&e=7CgqjX)
+  * [Protocol](https://github.com/Vic-Syryn/EcoLux/blob/875a4df8cc1cdf13c941e3fcb967883e65fc3608/reports%20and%20protocols/Contextual_Inquiry_Testing_Protocol.pdf)
+  * [Rapport](https://github.com/Vic-Syryn/EcoLux/blob/875a4df8cc1cdf13c941e3fcb967883e65fc3608/reports%20and%20protocols/Contextual_Inquiry_Report.pdf)
 * Benchmarkonderzoek (N=10)
-  * [Protocol](https://ugentbe.sharepoint.com/:w:/r/teams/Group.course1292884/Gedeelde%20documenten/General/Discovery/Testing_Protocol_Benchmarkanalyse.docx?d=w4c148eb577ce42e8acfb7c2bd59f5b57&csf=1&web=1&e=9Vl2Wc)
-  * [Rapport](https://ugentbe.sharepoint.com/:w:/r/teams/Group.course1292884/Gedeelde%20documenten/General/Discovery/Benchmarkanalyse_Report.docx?d=w861e3ad249634863bb8ea477ceb19fc3&csf=1&web=1&e=fQMWXk)
+  * [Protocol](https://github.com/Vic-Syryn/EcoLux/blob/875a4df8cc1cdf13c941e3fcb967883e65fc3608/reports%20and%20protocols/Benchmarkanalyse_Testing_Protocol.pdf)
+  * [Rapport](https://github.com/Vic-Syryn/EcoLux/blob/875a4df8cc1cdf13c941e3fcb967883e65fc3608/reports%20and%20protocols/Benchmarkanalyse_Report.pdf)
     
 ### Definition
 * User testing wave 1 (N=3)
