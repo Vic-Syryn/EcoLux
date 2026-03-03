@@ -90,4 +90,4 @@ Wave 1 toont dat de duidelijkheid van signalen bepalend is voor gebruiksgemak: l
 |Gebruikers zijn niet altijd in dezelfde kamer.| Er moet een manier zijn waardoor de gebruiker in een andere kamer ook het energieverlies kan detecteren.|EcoLux heeft een modulair ontwerp met één hoofdstation en uitbreidbare substations.|
 |Gebruiker ging het best om met de tekst en grondplan.|De gebruiker heeft voorkeur voor visuele weergave.| EcoLux communiceert energieverliezen via een visuele weergave die de locatie in de woning duidelijk maakt.|
  |Gebruiker heeft weinig geduld.| Gebruiker wilt direct actie uitvoeren.| EcoLux ondersteunt snelle uitvoering van actie zodra een energieverlies wordt gedetecteerd.|
- |mlsqdfkjl| dmlfk| mljsdf|
+ |De gebruiker heeft weinig geduld.|Gebruiker wilt dat er snel actie wordt uitgevoerd|EcoLux automatiseert het oplossen van energieproblemen maximaal, zodat de gebruiker zo weinig mogelijk handelingen hoeft uit te voeren.|
