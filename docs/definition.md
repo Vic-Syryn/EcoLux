@@ -89,3 +89,5 @@ Wave 1 toont dat de duidelijkheid van signalen bepalend is voor gebruiksgemak: l
 | Gebruikers waren bezig of het wel in hun interieur past.| Het product moet aanpasbaar zijn zodat het in elk interieur past|Ecolux is esthetisch personaliseerbaar om aan te sluiten bij verschillende gebruikers en interieurs.|
 |Gebruikers zijn niet altijd in dezelfde kamer| Er moet een manier zijn waardoor de gebruiker in een andere kamer ook het energieverlies kan detecteren|EcoLux heeft een modulair ontwerp met één hoofdstation en uitbreidbare substations.|
 |Gebruiker ging het best om met de tekst en grondplan|De gebruiker heeft voorkeur voor visuele weergave| EcoLux communiceert energieverliezen via een visuele weergave die de locatie in de woning duidelijk maakt.|
+ |mlsqdfkjl| dmlfk| EcoLux ondersteunt snelle uitvoering van actie zodra een energieverlies wordt gedetecteerd.|
+ |mlsqdfkjl| dmlfk| mljsdf|
