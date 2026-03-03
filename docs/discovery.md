@@ -85,7 +85,6 @@ De vergelijking toont aan dat de markt sterk data-gedreven is, met een focus op 
 
 ### Conclusies & implicaties
 
-Definieer de belangrijkste designbeslissingen.
 
 Op basis van de synthese van beide onderzoeksmethoden werden de volgende kerninzichten en bijbehorende designimplicaties geformuleerd:
 
