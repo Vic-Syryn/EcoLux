@@ -26,7 +26,7 @@ De doelstellingen werden onderzocht aan de hand van gebruikerstests, gevolgd doo
 
 De 4 prototypes werden gebruikt om de gebruikers een fysieke voorstelling te geven voor de verschillende manieren van communiceren. De drie eerste protypes hadden elk een eigen manier voor het melden van een probleem, namelijk: emotie, vorm of licht. Het vierde prototype was voorzien voor het testen van het concept van de substations.
 
-Tijdens de gebruikerstesten konden de gebruikers in interactie gaan met de verschillende prototypes. Hierbij werden de prototypes opgesteld in de verschillende modes, namelijk wanneer er zich energieverlies optreed en wanneer niet. Vervolgens konden de gebruikers passeren. Na elk protype werden er een aantal vragen gesteld. Uiteindelijk, na het doorlopen van alle prototypes werd een interview afgenomen over de gehele test.
+Tijdens de gebruikerstesten konden de gebruikers in interactie gaan met de verschillende prototypes. Hierbij werden de prototypes opgesteld in de verschillende modes, namelijk wanneer er zich energieverlies optreed en wanneer niet. Vervolgens konden de gebruikers passeren. Uiteindelijk, na het doorlopen van alle prototypes, werd een interview afgenomen over de gehele test. Er werd voor 3 respondenten gekozen om op een efficiënte manier kwalitatieve inzichten te verzamelen.
 <p align="center">
   <img src="../img/wave1.1.jpg" width="45%">
   <img src="../img/wave1.2.jpg" width="44.98%">
@@ -53,7 +53,7 @@ In Wave 1 lag de focus vooral op awareness, installatie en basisfunctionaliteit,
 
 **Materiaal & methoden**
 
-Voor dit onderzoek werd gekozen voor gebruikerstesten volgend het TAP (thinking aloud protocol) en QAP (question asking protocol), omdat we enerzijds gedrag in context wilden observeren en anderzijds ook inzicht wilden krijgen in motivaties en voorkeuren via interviewvragen. De methode liet toe om gerichte feedback te verzamelen op de prototypes en is praktijkgericht, snel uitvoerbaar en geschikt voor conceptevaluatie. De test werd uitgevoerd bij de respondenten thuis en verliep volgens een vaste structuur: introductie en informed consent, presentatie van het EcoLux-concept, testen van prototypes, observatie van gedrag met interviewvragen en een afsluitende wrap-up. 
+Voor dit onderzoek werd gekozen voor gebruikerstesten volgend het TAP (thinking aloud protocol) en QAP (question asking protocol), omdat we enerzijds gedrag in context wilden observeren en anderzijds ook inzicht wilden krijgen in motivaties en voorkeuren via interviewvragen. De methode liet toe om gerichte feedback te verzamelen op de prototypes en is praktijkgericht, snel uitvoerbaar en geschikt voor conceptevaluatie. De test werd uitgevoerd bij de respondenten. voor deze gebruikerstesten werden 3 mogelijke gebruikers uitgekozen. Er werd voor 3 respondenten gekozen om op een efficiënte manier kwalitatieve inzichten te verzamelen. en verliep volgens een vaste structuur: introductie en informed consent, presentatie van het EcoLux-concept, testen van prototypes, observatie van gedrag met interviewvragen en een afsluitende wrap-up. 
 
 Materialen:
 
