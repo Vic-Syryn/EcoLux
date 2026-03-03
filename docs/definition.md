@@ -68,7 +68,7 @@ Materialen:
   <img src="../img/prototype5.png" width="45%">
   <img src="../img/prototype6.png" width="49.5%">
 </p>
-
+Om de informatie te delen met de gebruiker kan het best gebruik gemaakt worden van auditieve of visuele communicatie. Voor visuele communicatie hebben we 2 verschillende prototypes gemaakt omdat deze meer mogelijkheden heeft. De 2 prototypes voor visuele weergave zijn gebasseerd op tekst en op foto.
 <p align="center">
   <img src="../img/wave2.1.jpeg" width="32%">
   <img src="../img/wave2.2.jpeg" width="32%">
