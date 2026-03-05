@@ -52,6 +52,12 @@ Hierdoor is er nood aan een product dat energieverliezen minimaliseert en dit la
 </p>
 <ins>Result</ins>
 
+De gebruiker zijn/haar energieconsumptie gaat omlaag:
+-> hij/zij bespaart geld en heeft een kleinere ecologische voetafdruk.
+-> heeft een groter comfort omtrent zijn of haar energieverbruik thuis.
+-> heeft een grotere gebruiksgemak bij het verlaten van het huis en het slapen.
+-> heeft een beter besef van zijn of haar energieverbruik.
+
 
 
 
