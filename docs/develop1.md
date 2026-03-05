@@ -40,6 +40,7 @@ de doelstelling van deze fase is om  van concept naar een onderbouwde functionel
 
 
 **Doestellingen** 
+De gebruikerstesten hadden als doel om inzicht te krijgen in de meest efficiënte en aangename manier waarop gebruikers kunnen interageren met het scherm van het EcoLux-product. Tijdens het ontwerp van de user flow bleek er namelijk onzekerheid te bestaan over hoe het scherm het best tevoorschijn kan komen en terug kan verdwijnen uit het object. Door prototypes te testen bij verschillende gebruikers in hun eigen thuisomgeving werd onderzocht welke interacties het meest intuïtief, comfortabel en gebruiksvriendelijk zijn. De verzamelde feedback en observaties moesten helpen om de interactie met het scherm beter te begrijpen en om het concept verder te ontwikkelen naar een onderbouwde functionele architectuur en een gebruiksvriendelijk ontwerp.
 
 **Materiaal & methoden**
 
