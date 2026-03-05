@@ -5,6 +5,10 @@ Vervolgens hebben we op vlak van ontwerp ook aanpassingen gemaakt.zie [Scorematr
 
 de doelstelling van deze fase is om  van concept naar een onderbouwde functionele architectuur te evalueren.
 
+### <ins>**Analyse en prioritering**</ins> 
+### <ins>**deconstructie**</ins>
+### <ins>**Divergentie & ontwerpkeuzes**</ins>
+### <ins>**Build & test **</ins>
 
 
 
