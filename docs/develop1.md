@@ -31,6 +31,30 @@ de doelstelling van deze fase is om  van concept naar een onderbouwde functionel
   <img src="../img/MVP.png" width="100%">
 </p>
 
+**Customer journey**
+<ins>Awareness</ins>
+Gebruiker ondervindt hoge energiefactuur
+--> hij wil hierop besparen
+     --> energieconsumptie/energieverliezen moeten                 beperkt worden
+
+Gebruikers willen dit beperken met zo weinig mogelijk moeite maar willen voldoende controle.
+
+
+Hierdoor is er nood aan een product dat energieverliezen minimaliseert en dit laat weten aan de gebruiker.
+
+<ins>Install</ins>
+<p align="center">
+  <img src="../img/customerjourney_install.jpg" width="100%">
+</p>
+<ins>Use</ins>
+<p align="center">
+  <img src="../img/customerjourney_use.jpg" width="100%">
+</p>
+<ins>Result</ins>
+
+
+
+
 ### <ins>**Divergentie & ontwerpkeuzes**</ins>
 
 
