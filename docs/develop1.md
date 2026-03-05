@@ -20,10 +20,16 @@ de doelstelling van deze fase is om  van concept naar een onderbouwde functionel
 
 **Userflow en informatiearchitectuur**
 <p align="center">
-  <img src="../img/userflow.png" width="120%">
+  <img src="../img/userflow.png" width="100%">
+</p>
+<p align="center">
+  <img src="../img/HTA.png" width="100%">
 </p>
 
 **MVP-defenitie**
+<p align="center">
+  <img src="../img/MVP.png" width="100%">
+</p>
 
 ### <ins>**Divergentie & ontwerpkeuzes**</ins>
 
