@@ -50,10 +50,25 @@ Voor de gebruikerstesten werden verschillende materialen gebruikt:
 * Smartphone voor foto’s en video-opnames
 
 * Informed consent-document voor toestemming van de deelnemers
+<p align="center">
+  <img src="../img/prototypedevelop1.jpeg" width="50%">
+</p>
+<p align="center">
+  <img src="../img/prototypedevelop1.1.jpeg" width="50%">
+</p>
 
 De testen werden uitgevoerd bij de respondenten thuis om het gebruik van het product in een realistische context te observeren. In totaal namen vijf deelnemers deel, met verschillende profielen en niveaus van technologische ervaring. Tijdens de test kregen de deelnemers een aantal taken: het scherm uit het prototype halen zonder hulp, dit herhalen op verschillende hoogtes, de kijkhoek van het scherm aanpassen en het scherm opnieuw terugplaatsen in het object. Tijdens deze interacties werden observaties genoteerd en werden aanvullende vragen gesteld volgens het Think Aloud Protocol (TAP) en Question Asking Protocol (QAP), zodat zowel gedrag als motivaties van de gebruikers konden worden geanalyseerd.
 
 **Resultaten**
+Uit de gebruikerstesten kwamen verschillende inzichten naar voren over de interactie met het scherm van het EcoLux-product.
+
+Ten eerste bleek dat een volledig handmatig uittrekbaar scherm niet intuïtief was voor gebruikers. Verschillende deelnemers wisten niet onmiddellijk hoe ze het scherm moesten activeren of vonden de interactie onduidelijk. Een volledig automatisch systeem bleek echter ook niet ideaal, omdat het scherm soms op ongewenste momenten tevoorschijn kon komen. Gebruikers gaven daarom de voorkeur aan een duidelijke en gecontroleerde interactie, bijvoorbeeld via een knop. 
+
+Daarnaast werd vastgesteld dat de plaatsing van de interactieknop invloed had op de stabiliteit van het object. Wanneer de knop zich aan de voorkant van de bloempot bevond, schoof het object naar achteren wanneer gebruikers erop drukten. Dit wees op een probleem met de stabiliteit en de richting van de interactiekracht. 
+
+Een ander belangrijk resultaat had betrekking op de ergonomie van het scherm. Wanneer het product op een lagere hoogte stond, zoals op een lage kast of tafel, bevond het scherm zich onder een ongunstige kijkhoek. Hierdoor werd het moeilijker om het scherm comfortabel af te lezen en te gebruiken. Gebruikers gaven daarom aan dat de kijkhoek van het scherm idealiter aanpasbaar moet zijn. 
+
+Tot slot bleek dat gebruikers verwachtten dat het scherm op dezelfde manier zou verdwijnen als het verschijnt. De meeste deelnemers probeerden opnieuw op dezelfde knop te drukken om het scherm terug in de behuizing te laten verdwijnen, wat wijst op een voorkeur voor consistente interacties binnen het product.
 
 **Conclusies & implicaties**
 
