@@ -19,6 +19,9 @@ de doelstelling van deze fase is om  van concept naar een onderbouwde functionel
 </p>
 
 **Userflow en informatiearchitectuur**
+<p align="center">
+  <img src="../img/userflow.png" width="120%">
+</p>
 
 **MVP-defenitie**
 
