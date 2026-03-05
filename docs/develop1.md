@@ -15,7 +15,7 @@ de doelstelling van deze fase is om  van concept naar een onderbouwde functionel
 
 **Productarchitectuur**
 <p align="center">
-  <img src="../img/productarchitectuur.png" width="80%">
+  <img src="../img/productarchitectuur.png" width="100%">
 </p>
 
 **Userflow en informatiearchitectuur**
