@@ -3,8 +3,10 @@
   <img src="../img/methodologie.jpg" width="50%">
 </p>
 
-Voor het onwerp process werd gebruik gemaakt van het triple diamond ontwerpmodel. Dit model bestaat uit 4 fasen, namelijk: discover, difine, develop en deliver.  
+Voor het onwerp process werd gebruik gemaakt van het triple diamond ontwerpmodel. Dit model bestaat uit 4 fasen, namelijk: discover, define, develop en deliver.  
 In het eerste semester werden de discover en define doorlopen.
+
+De eerste wave van de develop fase werd in de eerste maand van het tweede semester doorlopen.
 
 <ins>**Discover fase**</ins>  
 De discoveryfase richtte zich op het begrijpen van waarom huishoudens, ondanks een duidelijke bereidheid om energie te besparen, moeite hebben om dit gedrag structureel vol te houden. De focus lag op dagelijkse routines, perceptie en gebruikservaringen in plaats van op technische optimalisatie. Het doel was de kloof bloot te leggen tussen intentie en daadwerkelijk gedrag, en deze inzichten te vertalen naar onderbouwde designbeslissingen.
@@ -19,3 +21,9 @@ De define fase werd opgesplitst in twee waves:
 **Wave 1** onderzocht hoe het energieprobleem kan worden gecommuniceerd en welke installatie- en functionaliteitsopties aansluiten bij gebruikersverwachtingen. Vier prototypes (emotie, vorm, licht en substations) werden getest via gebruikerstesten en interviews (N=3). Lichtsignalen bleken het duidelijkst en meest intuïtief. Emotionele en antropomorfe communicatie, zoals smileys en spraak, werd begrepen maar contextafhankelijk gewaardeerd: speels voor gezinnen, minder geschikt voor volwassen of zakelijke omgevingen. Personaliseerbaarheid verhoogde betrokkenheid, en negeerknoppen, handsfree bediening en substations verbeterden het gebruiksgemak. Installatie door een technieker werd geprefereerd, met een optie tot zelf installeren.
 
 **Wave 2** richtte zich op de communicatie van energieverlies, automatisatie en de negeerfunctie. Via thinking-aloud- en question-asking-protocollen werden drie interfaces getest (N=3): spraak, tekst en grondplan. Spraak was duidelijk maar traag bij veel informatie, tekst snel scanbaar maar soms contextloos. De grondplanweergave gaf onmiddellijk inzicht in locatie van energieverlies en faciliteerde snelle actie. Gebruikers verwachtten dat EcoLux zoveel mogelijk automatisch ingrijpt, zonder uitgebreide instellingen. Visuele communicatie, snelheid en automatisatie bleken cruciale ontwerpprincipes voor verdere ontwikkeling.
+
+<ins>**Develop fase**</ins>
+
+De develop fase wordt opgesplitst in drie waves:
+
+**Wave 1** 
