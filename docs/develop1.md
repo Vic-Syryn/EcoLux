@@ -61,7 +61,7 @@ Deze HTA toont de hiërarchie van taken die nodig zijn om aanwezige energieverli
 </p>
 
 
-Uit de userflow en de HTA bleek dat de manier waarop we de initiatie van het soort energie verlies gaan communiceren nog moeten bepalen.
+Uit de userflow en de HTA bleek dat de manier waarop we de initiatie van het soort energie verlies gaan communiceren nog moest bepaalt worden.
 
 **MVP-defenitie**
 <p align="center">
