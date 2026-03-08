@@ -45,6 +45,7 @@ De gebruiker zijn/haar energieconsumptie gaat omlaag, hij/zij:
 <p align="center">
   <img src="../img/StoryBoard.jpg" width="100%">
 </p>
+
 **Productarchitectuur**
 <p align="center">
   <img src="../img/productarchitectuur.png" width="100%">
