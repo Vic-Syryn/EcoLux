@@ -12,9 +12,10 @@ Vervolgens hebben we op vlak van ontwerp ook een concrete richting gekozen op ba
 
 **Customer journey**
 
-In deze Customer Journey wordt vooral ingezoomed op 2 fasen: namelijk de installatie en het gebruik van de EcoLux. De bedoeling hiermee is om de interacties van de gebruiker in kaart te brengen en deze te optimaliseren waar mogelijk.
+In deze Customer Journey wordt vooral ingezoomed op 2 fasen: namelijk de installatie en het gebruik van de EcoLux. Hiermee is de bedoeling om de interacties van de gebruiker in kaart te brengen en deze te optimaliseren waar mogelijk.
 
 <ins>Awareness</ins>
+
 Gebruiker ondervindt hoge energiefactuur
 --> hij wil hierop besparen
      --> energieconsumptie/energieverliezen moeten beperkt worden
@@ -39,18 +40,27 @@ De gebruiker zijn/haar energieconsumptie gaat omlaag, hij/zij:
 -> heeft een grotere gebruiksgemak bij het verlaten van het huis en het slapen.
 -> heeft een beter besef van zijn of haar energieverbruik.
 
+
 **Storyboards**
+
+Op basis van de Use-fase in de Customer Journey werd er een Storyboard gemaakt waarin de verschillende interacties met het product visueel worden weergegeven.
+
 <p align="center">
   <img src="../img/StoryBoard.jpg" width="100%">
 </p>
 
 **Productarchitectuur**
+
+Uit de Storyboard en Customer Journey werden er op basis van de verschillende componenten functies opgesteld.
+
 <p align="center">
   <img src="../img/productarchitectuur.png" width="100%">
 </p>
 
 **Userflow en informatiearchitectuur**
+
 Deze userflow dient om het volledige interactieproces tussen gebruiker en het systeem te visualiseren, van het opmerken van een energieverlies tot het aanpassen en oplossen ervan. Ze helpt dus om te begrijpen hoe een gebruiker door het systeem geleid wordt en waar interactie plaatsvindt.
+
 <p align="center">
   <img src="../img/userflow.png" width="100%">
 </p>
@@ -62,10 +72,11 @@ Deze HTA toont de hiërarchie van taken die nodig zijn om aanwezige energieverli
 </p>
 
 
-Uit de userflow en de HTA bleek dat de manier waarop we de initiatie van het soort energie verlies gaan communiceren nog moest bepaalt worden.
+Uit de userflow en de HTA bleek dat de manier waarop we de initiatie van het soort energieverlies gaan communiceren nog moest bepaald worden.
 
 **MVP-defenitie**
-Deze MVP’s tonen de minimale kernfunctionaliteiten van het systeem
+
+Deze MVP’s tonen de minimale kernfunctionaliteiten van het systeem.
 <p align="center">
   <img src="../img/MVP.png" width="100%">
 </p>
@@ -75,6 +86,7 @@ Deze MVP’s tonen de minimale kernfunctionaliteiten van het systeem
 
 
 **Morfologische matrix**
+
 
 
 ### <ins>**Build & test**</ins>
@@ -92,10 +104,8 @@ Voor de gebruikerstesten werden verschillende materialen gebruikt:
 
 * Informed consent-document voor toestemming van de deelnemers
 <p align="center">
-  <img src="../img/prototypedevelop1.jpeg" width="50%">
-</p>
-<p align="center">
-  <img src="../img/prototypedevelop1.1.jpeg" width="50%">
+  <img src="../img/prototypedevelop1.jpeg" width="40.9%">
+  <img src="../img/prototypedevelop1.1.jpeg" width="48%">
 </p>
 
 De testen werden uitgevoerd bij de respondenten thuis om het gebruik van het product in een realistische context te observeren. In totaal namen vijf deelnemers deel, met verschillende profielen en niveaus van technologische ervaring. Tijdens de test kregen de deelnemers een aantal taken: het scherm uit het prototype halen zonder hulp, dit herhalen op verschillende hoogtes, de kijkhoek van het scherm aanpassen en het scherm opnieuw terugplaatsen in het object. Tijdens deze interacties werden observaties genoteerd en werden aanvullende vragen gesteld volgens het Think Aloud Protocol (TAP) en Question Asking Protocol (QAP), zodat zowel gedrag als motivaties van de gebruikers konden worden geanalyseerd.
@@ -104,7 +114,7 @@ De testen werden uitgevoerd bij de respondenten thuis om het gebruik van het pro
 Uit de gebruikerstesten kwamen verschillende inzichten naar voren over de interactie met het scherm van het EcoLux-product.
 
 <p align="center">
-  <img src="../img/develop1_gebruikerstesten.png" width="50%">
+  <img src="../img/develop1_gebruikerstesten.png" width="100%">
 </p>
 
 Ten eerste bleek dat een volledig handmatig uittrekbaar scherm niet intuïtief was voor gebruikers. Verschillende deelnemers wisten niet onmiddellijk hoe ze het scherm moesten activeren of vonden de interactie onduidelijk. Een volledig automatisch systeem bleek echter ook niet ideaal, omdat het scherm soms op ongewenste momenten tevoorschijn kon komen. Gebruikers gaven daarom de voorkeur aan een duidelijke en gecontroleerde interactie, bijvoorbeeld via een knop. 
