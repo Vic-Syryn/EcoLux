@@ -3,9 +3,7 @@ Voor we aan Develop 1 begonnen zijn, hebben we na de tussentijdse evaluatie nog 
 
 Allereerst hebben we onze doelgroep aangepast. Voorheen was onze doelgroep mensen die renoveren, nu is onze doelgroep  bewuste gezinnen die hun energieverbruik en energiekosten willen verlagen en op zoek zijn naar een laagdrempelige manier om alle gezinsleden actief te betrekken. De reden waarom er voor deze doelgroep is gekozen omdat na verder onderzoek merkten we dat deze doelgroep meer representatief en een stuk groter is.
 
-Vervolgens hebben we op vlak van ontwerp ook een concrete richting gekozen op basis van deze scorematrix: [Scorematrix](https://github.com/Vic-Syryn/EcoLux/blob/main/reports%20and%20protocols/Scorematrix.pdf).  Hieruit bleek dat er wordt verder gegaan met de slimme bloempot, dit ontwerp is een goede allrounder, met goede esthetiek en potentieel gebruiksgemak. De pot is trouwens ook een mooi metafoor voor ons product, doordat hij zorgt voor een ecologischer (Eco) levenswijze, door dit te laten weten via licht (Lux).
-
-De doelstelling van deze fase is om van een concept naar een onderbouwde functionele architectuur te evolueren. ??
+Vervolgens hebben we op vlak van ontwerp ook een concrete richting gekozen op basis van deze scorematrix: [Scorematrix](https://github.com/Vic-Syryn/EcoLux/blob/main/reports%20and%20protocols/Scorematrix_Develop_1_Conceptselectie.pdf).  Hieruit bleek dat er wordt verder gegaan met de slimme bloempot, dit ontwerp is een goede allrounder, met goede esthetiek en potentieel gebruiksgemak. De pot is trouwens ook een mooi metafoor voor ons product, doordat hij zorgt voor een ecologischer (Eco) levenswijze, door dit te laten weten via licht (Lux).
 
 ### <ins>**Analyse en prioritering**</ins>
 
