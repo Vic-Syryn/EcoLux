@@ -27,3 +27,10 @@ De define fase werd opgesplitst in twee waves:
 De develop fase wordt opgesplitst in drie waves:
 
 **Wave 1** 
+richtte zich op het verder ontwikkelen van het concept en het testen van de interactie met het product. De doelgroep werd aangepast van renovatoren naar bewuste gezinnen die hun energieverbruik en energiekosten willen verlagen. Via een scorematrix werd gekozen voor het concept van de slimme bloempot, omdat dit ontwerp sterk scoorde op esthetiek en gebruiksgemak.
+
+De interactie met het product werd geanalyseerd via een customer journey, storyboards, productarchitectuur, userflows en een HTA, waaruit bleek dat vooral de communicatie van energieverlies nog verder bepaald moest worden. Op basis hiervan werden de MVP-functionaliteiten gedefinieerd.
+
+Tijdens de build & test-fase werden gebruikerstesten uitgevoerd met een prototype van het hoofdstation (N=5). De resultaten toonden dat een volledig handmatig of automatisch uitschuifbaar scherm niet intuïtief was. Gebruikers gaven de voorkeur aan een duidelijke interactie via een knop, een stabiel object en een aangepaste kijkhoek.
+
+Op basis van deze inzichten werd het uitschuifbare schermconcept verlaten en vervangen door een vast geïntegreerd scherm, wat resulteert in een eenvoudiger en gebruiksvriendelijker ontwerp.
