@@ -126,6 +126,11 @@ Een ander belangrijk resultaat had betrekking op de ergonomie van het scherm. Wa
 Tot slot bleek dat gebruikers verwachtten dat het scherm op dezelfde manier zou verdwijnen als het verschijnt. De meeste deelnemers probeerden opnieuw op dezelfde knop te drukken om het scherm terug in de behuizing te laten verdwijnen, wat wijst op een voorkeur voor consistente interacties binnen het product.
 
 **Conclusies & implicaties**
+Uit de gebruikerstesten bleek dat het oorspronkelijke concept met een uitschuifbaar en kantelbaar scherm verschillende problemen veroorzaakte op vlak van gebruiksvriendelijkheid, stabiliteit en mechanische complexiteit. Gebruikers verwachtten een duidelijke en gecontroleerde interactie om het scherm te activeren, bij voorkeur via een eenvoudige knop. Daarnaast bleek stabiliteit tijdens interactie essentieel en moest de kijkhoek van het scherm afgestemd zijn op verschillende plaatsingshoogtes.
+
+Het mechanische systeem dat nodig was om het scherm te laten uitschuiven en kantelen maakte het ontwerp complex, minder stabiel en potentieel minder betrouwbaar bij frequente interactie. Bovendien beperkte het mechanisme de ontwerpvrijheid van de bloempot.
+
+Op basis van deze inzichten werd beslist om het verborgen schermconcept te verlaten. In plaats daarvan wordt het scherm geïntegreerd als zichtbaar onderdeel van het productdesign. Deze beslissing verschuift het ontwerp van mechanische complexiteit naar een eenvoudiger, robuuster en ergonomischer ontwerp, waarbij gebruiksgemak en betrouwbaarheid centraal staan.
 
 
 
