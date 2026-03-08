@@ -65,8 +65,8 @@ Voor het herschrijven en taalcorrectie van delen van dit verslag werd gebruikgem
 
 ### Develop
 * User testing fase 1 (N=5)
-  * [Protocol]()
-  * [Rapport]()
+  * [Protocol](https://github.com/Vic-Syryn/EcoLux/blob/main/reports%20and%20protocols/EcoLux_Protocol_Gebruikerstesten_Develop_1_EcoLux.pdf)
+  * [Rapport](https://github.com/Vic-Syryn/EcoLux/blob/main/reports%20and%20protocols/EcoLux_Report_Gebruikerstesten_Develop_1_EcoLux.pdf)
 
 
 
