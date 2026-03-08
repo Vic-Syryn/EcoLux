@@ -114,7 +114,7 @@ De testen werden uitgevoerd bij de respondenten thuis om het gebruik van het pro
 Uit de gebruikerstesten kwamen verschillende inzichten naar voren over de interactie met het scherm van het EcoLux-product.
 
 <p align="center">
-  <img src="../img/develop1_gebruikerstesten.png" width="100%">
+  <img src="../img/develop1_gebruikerstesten.png" width="75%">
 </p>
 
 Ten eerste bleek dat een volledig handmatig uittrekbaar scherm niet intuïtief was voor gebruikers. Verschillende deelnemers wisten niet onmiddellijk hoe ze het scherm moesten activeren of vonden de interactie onduidelijk. Een volledig automatisch systeem bleek echter ook niet ideaal, omdat het scherm soms op ongewenste momenten tevoorschijn kon komen. Gebruikers gaven daarom de voorkeur aan een duidelijke en gecontroleerde interactie, bijvoorbeeld via een knop. 
