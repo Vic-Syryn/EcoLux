@@ -63,6 +63,15 @@ Voor het herschrijven en taalcorrectie van delen van dit verslag werd gebruikgem
   * [Protocol](https://github.com/Vic-Syryn/EcoLux/blob/main/reports%20and%20protocols/Ecolux_Protocol_Gebruikerstesten_Wave_2%20(1).pdf)
   * [Rapport](https://github.com/Vic-Syryn/EcoLux/blob/main/reports%20and%20protocols/Ecolux_Report_Gebruikerstesten_Wave_2%20(2).pdf)
 
+### Develop
+* User testing fase 1 (N=5)
+  * [Protocol](https://github.com/Vic-Syryn/EcoLux/blob/main/reports%20and%20protocols/EcoLux_Protocol_Gebruikerstesten_Develop_1_EcoLux.pdf)
+  * [Rapport](https://github.com/Vic-Syryn/EcoLux/blob/main/reports%20and%20protocols/EcoLux_Report_Gebruikerstesten_Develop_1_EcoLux.pdf)
+
+
+
+
+
 ## Licentie
  
 
