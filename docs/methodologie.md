@@ -1,6 +1,6 @@
 ## Methodologie  
 <p align="center">
-  <img src="../img/methodologie.jpg" width="50%">
+  <img src="../img/methodologie.jpg" width="100%">
 </p>
 
 Voor het onwerp process werd gebruik gemaakt van het triple diamond ontwerpmodel. Dit model bestaat uit 4 fasen, namelijk: discover, define, develop en deliver.  
