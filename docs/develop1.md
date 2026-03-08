@@ -53,6 +53,9 @@ Deze userflow dient om het volledige interactieproces tussen gebruiker en het sy
 <p align="center">
   <img src="../img/userflow.png" width="100%">
 </p>
+Uit deze userflow bleek dat de manier waarop we de initiatie van het soort energie verlies gaan communiceren nog moeten bepalen.
+
+Deze HTA toont de hiërarchie van taken die nodig zijn om aanwezige energieverliezen te beperken. De hoofddoelstelling wordt opgesplitst in drie hoofdtaken: de gebruiker op de hoogte brengen van het energieverlies, keuzes maken op het hoofdstation en het systeem terugbrengen naar de basisinstellingen. Elke hoofdtaak wordt verder onderverdeeld in subtaken die beschrijven hoe het systeem energieverliezen detecteert, hoe de gebruiker ermee interageert en hoe het systeem nadien opnieuw wordt gereset
 <p align="center">
   <img src="../img/HTA.png" width="100%">
 </p>
