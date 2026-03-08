@@ -7,6 +7,13 @@ Vervolgens hebben we op vlak van ontwerp ook een concrete richting gekozen op ba
 
 ### <ins>**Analyse en prioritering**</ins>
 
+Momenteel zitten we nog met een aantal onzekerheden, deze werden vertaald naar onderstaande onderzoeksvragen:
+1.	Hoe moet het hoofdstation en substations eruit zien?
+2.	Hoe wordt het scherm geïnterageerd in het product?
+3.	Welke concepten hebben de meeste potentie om tot een sterk product te kunnen vertaald worden?
+
+Daarom is het onze doelstelling om in deze fase hierop een antwoord proberen te krijgen op deze 3 onderzoeksvragen die allemaal van evenveel belang zijn. 
+
 
 ### <ins>**Deconstructie**</ins>
 
