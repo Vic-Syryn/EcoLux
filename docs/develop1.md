@@ -1,15 +1,45 @@
 ## Develop 1
-Voor we aan Develop 1 begonnen zijn we hebben we na de tussentijdse evaluatie nog een paar kleine pivots gemaakt. 
-Eerst hebben we onze doelgroep aangepast. Eerst was onze doelgroep mensen die renoveren. Nu zijn onze doelgroep bewuste gezinnen die hun energieverbruik en energiekosten willen verlagen en op zoek zijn naar een laagdrempelige manier om alle gezinsleden actief te betrekken. De reden waarom er voor deze doelgroep is gekozen omdat na verder onderzoek we merkten dat deze doelgroep meer representatief is.
-Vervolgens hebben we op vlak van ontwerp ook aanpassingen gemaakt.zie [Scorematrix](https://github.com/Vic-Syryn/EcoLux/blob/main/reports%20and%20protocols/Scorematrix.pdf). Dit deden we omdat we ons product origineler wouden maken. Uiteindelijk zijn we dus verder gegaan met de slimme bloempot.
+Voor we aan Develop 1 begonnen zijn, hebben we na de tussentijdse evaluatie nog een paar kleine pivots gemaakt. 
 
-de doelstelling van deze fase is om  van concept naar een onderbouwde functionele architectuur te evalueren.
+Allereerst hebben we onze doelgroep aangepast. Voorheen was onze doelgroep mensen die renoveren, nu is zijn dit bewuste gezinnen die hun energieverbruik en energiekosten willen verlagen en op zoek zijn naar een laagdrempelige manier om alle gezinsleden actief te betrekken. De reden waarom er voor deze doelgroep is gekozen omdat na verder onderzoek merkten we dat deze doelgroep meer representatief en een stuk groter is.
+
+Vervolgens hebben we op vlak van ontwerp ook een concrete richting gekozen op basis van deze scorematrix: [Scorematrix](https://github.com/Vic-Syryn/EcoLux/blob/main/reports%20and%20protocols/Scorematrix.pdf).  Hieruit bleek dat er wordt verder gegaan met de slimme bloempot, dit ontwerp is een goede allrounder, met goede esthetiek en potentieel gebruiksgemak. De pot is trouwens ook een mooi metafoor voor ons product, doordat hij zorgt voor een ecologischer (Eco) levenswijze, door dit te laten weten via licht (Lux).
+
+De doelstelling van deze fase is om van een concept naar een onderbouwde functionele architectuur te evolueren. ??
 
 ### <ins>**Analyse en prioritering**</ins>
 
 
 ### <ins>**Deconstructie**</ins>
 
+**Customer journey**
+
+In deze Customer Journey wordt vooral ingezoomed op 2 fasen: namelijk de installatie en het gebruik van de EcoLux. De bedoeling hiermee is om de interacties van de gebruiker in kaart te brengen en deze te optimaliseren waar mogelijk.
+
+<ins>Awareness</ins>
+Gebruiker ondervindt hoge energiefactuur
+--> hij wil hierop besparen
+     --> energieconsumptie/energieverliezen moeten beperkt worden
+
+Gebruikers willen dit beperken met zo weinig mogelijk moeite maar willen voldoende controle.
+
+Hierdoor is er nood aan een product dat energieverliezen minimaliseert en dit laat weten aan de gebruiker.
+
+<ins>Install</ins>
+<p align="center">
+  <img src="../img/customerjourney_install.jpg" width="100%">
+</p>
+<ins>Use</ins>
+<p align="center">
+  <img src="../img/customerjourney_use.jpg" width="100%">
+</p>
+<ins>Result</ins>
+
+De gebruiker zijn/haar energieconsumptie gaat omlaag, hij/zij:
+-> bespaart geld en heeft een kleinere ecologische voetafdruk.
+-> heeft een groter comfort omtrent zijn of haar energieverbruik thuis.
+-> heeft een grotere gebruiksgemak bij het verlaten van het huis en het slapen.
+-> heeft een beter besef van zijn of haar energieverbruik.
 
 **Storyboards**
 
@@ -31,46 +61,18 @@ de doelstelling van deze fase is om  van concept naar een onderbouwde functionel
   <img src="../img/MVP.png" width="100%">
 </p>
 
-**Customer journey**
-<ins>Awareness</ins>
-Gebruiker ondervindt hoge energiefactuur
---> hij wil hierop besparen
-     --> energieconsumptie/energieverliezen moeten                 beperkt worden
-
-Gebruikers willen dit beperken met zo weinig mogelijk moeite maar willen voldoende controle.
-
-
-Hierdoor is er nood aan een product dat energieverliezen minimaliseert en dit laat weten aan de gebruiker.
-
-<ins>Install</ins>
-<p align="center">
-  <img src="../img/customerjourney_install.jpg" width="100%">
-</p>
-<ins>Use</ins>
-<p align="center">
-  <img src="../img/customerjourney_use.jpg" width="100%">
-</p>
-<ins>Result</ins>
-
-De gebruiker zijn/haar energieconsumptie gaat omlaag:
--> hij/zij bespaart geld en heeft een kleinere ecologische voetafdruk.
--> heeft een groter comfort omtrent zijn of haar energieverbruik thuis.
--> heeft een grotere gebruiksgemak bij het verlaten van het huis en het slapen.
--> heeft een beter besef van zijn of haar energieverbruik.
-
-
-
 
 ### <ins>**Divergentie & ontwerpkeuzes**</ins>
 
 
 **Morfologische matrix**
 
+
 ### <ins>**Build & test**</ins>
 
 
 **Doestellingen** 
-De gebruikerstesten hadden als doel om inzicht te krijgen in de meest efficiënte en aangename manier waarop gebruikers kunnen interageren met het scherm van het EcoLux-product. Tijdens het ontwerp van de user flow bleek er namelijk onzekerheid te bestaan over hoe het scherm het best tevoorschijn kan komen en terug kan verdwijnen uit het object. Door prototypes te testen bij verschillende gebruikers in hun eigen thuisomgeving werd onderzocht welke interacties het meest intuïtief, comfortabel en gebruiksvriendelijk zijn. De verzamelde feedback en observaties moesten helpen om de interactie met het scherm beter te begrijpen en om het concept verder te ontwikkelen naar een onderbouwde functionele architectuur en een gebruiksvriendelijk ontwerp.
+De gebruikerstesten hadden als doel om inzicht te krijgen in de meest efficiënte en aangename manier waarop gebruikers kunnen interageren met het scherm van het EcoLux-product. Tijdens het ontwerp van de user flow bleek er namelijk onzekerheid te bestaan over hoe het scherm het best tevoorschijn kan komen en terug kan verdwijnen in de pot. Door prototypes te testen bij verschillende gebruikers in hun eigen thuisomgeving, werd onderzocht welke interacties het meest intuïtief, comfortabel en gebruiksvriendelijk zijn. De verzamelde feedback en observaties moesten helpen om de interactie met het scherm beter te begrijpen en om het concept verder te ontwikkelen naar een onderbouwde functionele architectuur en een gebruiksvriendelijk ontwerp.
 
 **Materiaal & methoden**
 Voor de gebruikerstesten werden verschillende materialen gebruikt:
@@ -91,6 +93,10 @@ De testen werden uitgevoerd bij de respondenten thuis om het gebruik van het pro
 
 **Resultaten**
 Uit de gebruikerstesten kwamen verschillende inzichten naar voren over de interactie met het scherm van het EcoLux-product.
+
+<p align="center">
+  <img src="../img/develop1_gebruikerstesten.png" width="50%">
+</p>
 
 Ten eerste bleek dat een volledig handmatig uittrekbaar scherm niet intuïtief was voor gebruikers. Verschillende deelnemers wisten niet onmiddellijk hoe ze het scherm moesten activeren of vonden de interactie onduidelijk. Een volledig automatisch systeem bleek echter ook niet ideaal, omdat het scherm soms op ongewenste momenten tevoorschijn kon komen. Gebruikers gaven daarom de voorkeur aan een duidelijke en gecontroleerde interactie, bijvoorbeeld via een knop. 
 
