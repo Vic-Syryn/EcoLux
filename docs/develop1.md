@@ -49,6 +49,7 @@ De gebruiker zijn/haar energieconsumptie gaat omlaag, hij/zij:
 </p>
 
 **Userflow en informatiearchitectuur**
+Deze userflow dient om het volledige interactieproces tussen gebruiker en het systeem te visualiseren, van het opmerken van een energieverlies tot het aanpassen en oplossen ervan. Ze helpt dus om te begrijpen hoe een gebruiker door het systeem geleid wordt en waar interactie plaatsvindt.
 <p align="center">
   <img src="../img/userflow.png" width="100%">
 </p>
