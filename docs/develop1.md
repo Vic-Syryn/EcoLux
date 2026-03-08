@@ -93,6 +93,7 @@ Deze MVP’s tonen de minimale kernfunctionaliteiten van het systeem.
 
 
 **Morfologische matrix**
+
 Op basis van de deconstructie is er een morfologische matrix gemaakt om een visueel beeld te hebben van de deeloplossingen.
 
 <p align="center">
