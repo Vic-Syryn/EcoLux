@@ -127,11 +127,17 @@ Tot slot bleek dat gebruikers verwachtten dat het scherm op dezelfde manier zou 
 
 ### <ins>**Conclusies & implicaties**</ins>
 
-Uit de gebruikerstesten bleek dat het oorspronkelijke concept met een uitschuifbaar en kantelbaar scherm verschillende problemen veroorzaakte op vlak van gebruiksvriendelijkheid, stabiliteit en mechanische complexiteit. Gebruikers verwachtten een duidelijke en gecontroleerde interactie om het scherm te activeren, bij voorkeur via een eenvoudige knop. Daarnaast bleek stabiliteit tijdens interactie essentieel en moest de kijkhoek van het scherm afgestemd zijn op verschillende plaatsingshoogtes.
+De gebruikerstesten leverden belangrijke inzichten op die bijdragen aan het beantwoorden van de drie centrale onderzoeksvragen van deze fase.
 
-Het mechanische systeem dat nodig was om het scherm te laten uitschuiven en kantelen maakte het ontwerp complex, minder stabiel en potentieel minder betrouwbaar bij frequente interactie. Bovendien beperkte het mechanisme de ontwerpvrijheid van de bloempot.
+Ten eerste werd duidelijk hoe de interactie met het scherm binnen het product moet verlopen (onderzoeksvraag 2). Gebruikers verwachten een duidelijke en gecontroleerde manier om het scherm te activeren, bij voorkeur via een eenvoudige knop. Zowel een volledig handmatig uittrekbaar scherm als een volledig automatisch systeem bleek minder intuïtief of minder wenselijk. Consistente interacties zijn daarbij belangrijk: gebruikers verwachten dat dezelfde handeling zowel het verschijnen als het verdwijnen van het scherm controleert.
 
-Op basis van deze inzichten werd beslist om het verborgen schermconcept te verlaten. In plaats daarvan wordt het scherm geïntegreerd als zichtbaar onderdeel van het productdesign. Deze beslissing verschuift het ontwerp van mechanische complexiteit naar een eenvoudiger, robuuster en ergonomischer ontwerp, waarbij gebruiksgemak en betrouwbaarheid centraal staan.
+Daarnaast hadden de resultaten implicaties voor het ontwerp van het hoofdstation (onderzoeksvraag 1). De testen toonden aan dat stabiliteit tijdens interactie essentieel is. Wanneer gebruikers druk uitoefenen op een knop aan de voorkant van de pot, kan het object naar achteren verschuiven. Dit betekent dat het ontwerp van het hoofdstation voldoende stabiel moet zijn en dat de plaatsing van interactie-elementen zorgvuldig moet worden overwogen. Bovendien moet de positie van het scherm ergonomisch afgestemd zijn op verschillende plaatsingshoogtes, zodat het scherm comfortabel leesbaar blijft.
+
+Tot slot gaf de testfase ook inzicht in welke concepten het meeste potentieel hebben om verder ontwikkeld te worden (onderzoeksvraag 3). Het oorspronkelijke concept met een uitschuifbaar en kantelbaar scherm bleek verschillende problemen te veroorzaken op vlak van gebruiksvriendelijkheid, stabiliteit en mechanische complexiteit. Het mechanische systeem dat nodig was om het scherm te laten uitschuiven en kantelen maakte het ontwerp complex, minder stabiel en potentieel minder betrouwbaar bij frequente interactie. Bovendien beperkte het mechanisme de ontwerpvrijheid van de bloempot.
+
+Op basis van deze inzichten werd beslist om het verborgen schermconcept te verlaten. In plaats daarvan wordt het scherm geïntegreerd als een zichtbaar en vast onderdeel van het productdesign. Hierdoor verschuift het ontwerp van mechanische complexiteit naar een eenvoudiger, robuuster en ergonomischer product, waarbij gebruiksgemak, stabiliteit en betrouwbaarheid centraal staan.
+
+Deze ontwerpkeuze vormt een belangrijke stap richting een duidelijkere productarchitectuur voor zowel het hoofdstation als de verdere ontwikkeling van het EcoLux-systeem.
 
 
 
