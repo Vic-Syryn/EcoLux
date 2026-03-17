@@ -94,15 +94,24 @@ Deze MVP’s tonen de minimale kernfunctionaliteiten van het systeem.
 
 **Morfologische matrix**
 
+Op basis van de deconstructie is er een morfologische matrix gemaakt om een visueel beeld te hebben van de deeloplossingen.
+
+<p align="center">
+  <img src="../img/morfologischematrix_develop_1.jpg" width="90%">
+</p>
+
+
 
 
 ### <ins>**Build & test**</ins>
 
 
 **Doestellingen** 
+
 De gebruikerstesten hadden als doel om inzicht te krijgen in de meest efficiënte en aangename manier waarop gebruikers kunnen interageren met het scherm van het EcoLux-product. Tijdens het ontwerp van de user flow bleek er namelijk onzekerheid te bestaan over hoe het scherm het best tevoorschijn kan komen en terug kan verdwijnen in de pot. Door prototypes te testen bij verschillende gebruikers in hun eigen thuisomgeving, werd onderzocht welke interacties het meest intuïtief, comfortabel en gebruiksvriendelijk zijn. De verzamelde feedback en observaties moesten helpen om de interactie met het scherm beter te begrijpen en om het concept verder te ontwikkelen naar een onderbouwde functionele architectuur en een gebruiksvriendelijk ontwerp.
 
 **Materiaal & methoden**
+
 Voor de gebruikerstesten werden verschillende materialen gebruikt:
 
 * Prototype van het EcoLux-hoofdstation
@@ -118,6 +127,7 @@ Voor de gebruikerstesten werden verschillende materialen gebruikt:
 De testen werden uitgevoerd bij de respondenten thuis om het gebruik van het product in een realistische context te observeren. In totaal namen vijf deelnemers deel, met verschillende profielen en niveaus van technologische ervaring. Tijdens de test kregen de deelnemers een aantal taken: het scherm uit het prototype halen zonder hulp, dit herhalen op verschillende hoogtes, de kijkhoek van het scherm aanpassen en het scherm opnieuw terugplaatsen in het object. Tijdens deze interacties werden observaties genoteerd en werden aanvullende vragen gesteld volgens het Think Aloud Protocol (TAP) en Question Asking Protocol (QAP), zodat zowel gedrag als motivaties van de gebruikers konden worden geanalyseerd.
 
 **Resultaten**
+
 Uit de gebruikerstesten kwamen verschillende inzichten naar voren over de interactie met het scherm van het EcoLux-product.
 
 <p align="center">
