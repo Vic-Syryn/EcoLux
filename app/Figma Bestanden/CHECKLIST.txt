@@ -1,0 +1,221 @@
+╔═══════════════════════════════════════════════════════════════════════════╗
+║                  EcoLux APK Build - GETTING STARTED                        ║
+╚═══════════════════════════════════════════════════════════════════════════╝
+
+SYSTEM STATUS:
+  ✅ Node.js v24.13.1
+  ✅ npm 11.8.0
+  ✅ Java 21 LTS
+  ❌ Android SDK (needs download)
+  ─────────────────────────────────────────────────────────────────────────
+
+PHASE 1: ONE-TIME SETUP
+═════════════════════════════════════════════════════════════════════════
+
+  STEP 1: Download & Install Android Studio
+  ──────────────────────────────────────────────
+  □ Go to: https://developer.android.com/studio
+  □ Download installer (Windows 64-bit)
+  □ Run installer
+  □ Follow setup wizard (accept defaults)
+  □ Let it download Android SDK components
+  □ Close when done
+
+  Estimated time: 10-15 minutes
+
+
+  STEP 2: Configure Android SDK in Android Studio
+  ────────────────────────────────────────────────
+  □ Open Android Studio
+  □ Go to: File → Settings → System Settings → Android SDK
+  □ Under "SDK Platforms" tab, check:
+    ☐ Android 14 (API 34) ← REQUIRED
+    ☐ Android 13 (API 33)
+    ☐ Android 12 (API 31)
+  □ Under "SDK Tools" tab, ensure:
+    ☐ Android SDK Build-Tools ✓
+    ☐ Android Emulator ✓
+    ☐ Platform-Tools ✓
+  □ Click "Apply" and wait
+  □ Close Android Studio
+
+  Estimated time: 5-10 minutes
+
+
+  STEP 3: Set ANDROID_HOME Environment Variable
+  ───────────────────────────────────────────────
+  □ Press: Windows Key + Pause
+  □ Click: "Advanced system settings"
+  □ Click: "Environment Variables"
+  □ Under "User variables", click: "New"
+  □ Variable name:  ANDROID_HOME
+  □ Variable value: C:\Users\{YourUsername}\AppData\Local\Android\Sdk
+    (replace {YourUsername} with your Windows username)
+  □ Click: OK on all dialogs
+
+  Estimated time: 2 minutes
+
+
+  STEP 4: Restart Terminal
+  ────────────────────────
+  □ Close PowerShell / Terminal / VS Code
+  □ Reopen PowerShell
+  □ Verify: Type: echo $env:ANDROID_HOME
+    (should show: C:\Users\...\AppData\Local\Android\Sdk)
+
+  Estimated time: 1 minute
+
+  ═══════════════════════════════════════════════════════════════════════
+  ✓ PHASE 1 COMPLETE - Proceed to Phase 2
+  ═════════════════════════════════════════════════════════════════════
+
+PHASE 2: BUILD THE APK
+═════════════════════════════════════════════════════════════════════════
+
+  OPTION A: Automated Build (Recommended)
+  ─────────────────────────────────────────
+  
+  □ Open PowerShell
+  □ Copy & paste this command:
+    
+    Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process; `
+    cd "d:\school\project_gebruiksgericht\ECOLUX\EcoLux\app\Figma Bestanden"; `
+    powershell -ExecutionPolicy Bypass -File setup-apk-build.ps1
+
+  □ Wait for build to complete
+  □ Look for: "BUILD SUCCESSFUL! ✓"
+
+  Estimated time: First build 10-20 min, subsequent builds 5-10 min
+
+  ─────────────────────────────────────────────────────────────────────
+
+  OPTION B: Manual Steps
+  ──────────────────────
+
+  □ Open PowerShell
+  □ Navigate to app folder:
+    cd "d:\school\project_gebruiksgericht\ECOLUX\EcoLux\app\Figma Bestanden"
+
+  □ Install dependencies:
+    npm install
+
+  □ Build web app:
+    npm run build
+
+  □ Initialize Capacitor (first time only):
+    npx cap init
+
+  □ Add Android platform (first time only):
+    npx cap add android
+
+  □ Build APK:
+    npm run android:build
+
+  Estimated time: First build 10-20 min, subsequent builds 5-10 min
+
+  ═══════════════════════════════════════════════════════════════════════
+  ✓ BUILD COMPLETE - APK is ready!
+  ═════════════════════════════════════════════════════════════════════
+
+YOUR APK LOCATION
+═════════════════════════════════════════════════════════════════════════
+
+  File: d:\school\project_gebruiksgericht\ECOLUX\EcoLux\app\Figma Bestanden\
+        android\app\build\outputs\apk\debug\app-debug.apk
+
+  Size: ~50-100 MB
+
+
+NEXT: TEST THE APK
+═════════════════════════════════════════════════════════════════════════
+
+  OPTION A: Android Emulator (Virtual Device)
+  ────────────────────────────────────────────
+  □ Open Android Studio
+  □ Click: Device Manager (left sidebar)
+  □ Create or start an emulator device
+  □ In PowerShell, run:
+    adb install app-debug.apk
+  □ Emulator will install and run the app
+
+  ────────────────────────────────────────────────────────────────────
+
+  OPTION B: Physical Android Phone
+  ─────────────────────────────────
+  □ Enable USB Debugging on your phone:
+    - Settings → About phone
+    - Find "Build number"
+    - Tap "Build number" 7 times
+    - Back → Developer options
+    - Enable "USB Debugging"
+  
+  □ Connect phone to computer via USB
+  □ Allow USB debugging permission on phone
+  □ In PowerShell, run:
+    adb install app-debug.apk
+  □ App will install and appear on phone
+
+  ────────────────────────────────────────────
+
+  Estimated time: 2-5 minutes
+
+
+FUTURE BUILDS
+═════════════════════════════════════════════════════════════════════════
+
+  After initial setup, building is quick:
+
+  □ Make code changes in React files
+  □ Run: npm run android:build
+  □ Transfer APK to device or emulator
+  □ Install and test
+
+  Time: 5-10 minutes per rebuild
+
+
+TROUBLESHOOTING
+═════════════════════════════════════════════════════════════════════════
+
+  Problem: "ANDROID_HOME not set"
+  ─────────────────────────────────
+  → Verify environment variable is set
+  → Restart PowerShell/Terminal
+  → Check: echo $env:ANDROID_HOME
+
+  Problem: "SDK Platform not found"
+  ──────────────────────────────────
+  → Go back to Android Studio
+  → Install more SDK levels (31-34)
+
+  Problem: Build takes forever
+  ─────────────────────────────
+  → Normal on first build (downloading Gradle ~2GB)
+  → Let it finish (10-20 minutes)
+  → Next builds will be faster
+
+  Problem: Build fails
+  ────────────────────
+  □ Try: cd android && ./gradlew clean
+  □ Then: ./gradlew assembleDebug
+
+
+REFERENCE DOCUMENTS
+═════════════════════════════════════════════════════════════════════════
+
+  Quick Reference (same folder):
+  └─ BUILD_APK_QUICKSTART.md
+
+  Detailed Guide (root level):
+  └─ APK_BUILD_GUIDE.md
+
+  Full Setup Summary (root level):
+  └─ SETUP_APK_BUILD_COMPLETE.md
+
+
+╔═══════════════════════════════════════════════════════════════════════════╗
+║  Ready to build? Start with PHASE 1 above!                                ║
+║                                                                             ║
+║  Questions? Check the reference documents or:                             ║
+║  • Capacitor Docs: https://capacitorjs.com/                               ║
+║  • Android Dev: https://developer.android.com/                            ║
+╚═══════════════════════════════════════════════════════════════════════════╝
