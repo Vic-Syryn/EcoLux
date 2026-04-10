@@ -46,7 +46,7 @@ Hoewel beide waves waardevolle inzichten opleverden over communicatie, functiona
 
 In Wave 2 werd vooral gefocust op drie interfaces, maar de vergelijking tussen spraak, tekst en grondplan blijft afhankelijk van hoe goed elke interface uitgewerkt was. Verder was de steekproef beperkt en mogelijk niet representatief voor alle doelgroepen (bv. professioneel vs gezin). Toekomstig onderzoek kan dit opvangen met meer diverse deelnemers en langere veldtesten.
 
-De Develop 1-fase hielp om het concept verder te concretiseren via een aangepaste doelgroep en een conceptkeuze met behulp van een scorematrix. Hoewel dit structuur gaf aan het ontwerpproces, bleven sommige keuzes deels gebaseerd op aannames, zoals de interpretatie van de bloempot als ecologische metafoor.De analyse-tools maakten de interacties binnen het systeem duidelijker, maar toonden ook dat bepaalde aspecten, zoals de communicatie van energieverliezen, nog onvoldoende uitgewerkt waren. De gebruikerstesten brachten belangrijke problemen rond interactie, stabiliteit en ergonomie aan het licht, wat uiteindelijk leidde tot het loslaten van het mechanisch complexe uitschuifbare scherm ten gunste van een eenvoudiger ontwerp.
+De Develop 1-fase hielp om het concept verder te concretiseren via een aangepaste doelgroep en een conceptkeuze met behulp van een scorematrix. Hoewel dit structuur gaf aan het ontwerpproces, bleven sommige keuzes deels gebaseerd op aannames, zoals de interpretatie van de bloempot als ecologische metafoor. De analyse-tools maakten de interacties binnen het systeem duidelijker, maar toonden ook dat bepaalde aspecten, zoals de communicatie van energieverliezen, nog onvoldoende uitgewerkt waren. De gebruikerstesten brachten belangrijke problemen rond interactie, stabiliteit en ergonomie aan het licht, wat uiteindelijk leidde tot het loslaten van het mechanisch complexe uitschuifbare scherm ten gunste van een eenvoudiger ontwerp.
 ## Noot inzake het gebruik van AI
 Voor het herschrijven en taalcorrectie van delen van dit verslag werd gebruikgemaakt van AI.
 ## Bijlagen
@@ -70,6 +70,9 @@ Voor het herschrijven en taalcorrectie van delen van dit verslag werd gebruikgem
 * User testing fase 1 (N=5)
   * [Protocol](https://github.com/Vic-Syryn/EcoLux/blob/main/reports%20and%20protocols/EcoLux_Protocol_Gebruikerstesten_Develop_1_EcoLux.pdf)
   * [Rapport](https://github.com/Vic-Syryn/EcoLux/blob/main/reports%20and%20protocols/EcoLux_Report_Gebruikerstesten_Develop_1_EcoLux.pdf)
+* User testing fase 2 (N=?)
+  * [Protocol]()
+  * [Rapport]()
 
 
 
