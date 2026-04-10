@@ -8,7 +8,7 @@ Op deze 4 vormen zullen de volgende usability goals bepaald worden.
 
 ### <ins>**Usability goals**</ins>
 
-Antropometrische analyse: de gemiddelde man/vrouw moet het product kunnen gebruiken met minimale ergonomische belasting. (Siemens Jack)
+Ergonomie: de gemiddelde man/vrouw moet het product kunnen gebruiken met minimale ergonomische belasting. (Siemens Jack)
 
 Cognitieve & sensoriele ergonomie: Gebruikers (18–65 jaar) kunnen kerntaken in de app (bv. navigeren, informatie lezen en acties uitvoeren) binnen 30 seconden voltooien, met maximaal 1 fout per taak en een subjectieve leesbaarheidsscore van ≥ 4/5.
 
