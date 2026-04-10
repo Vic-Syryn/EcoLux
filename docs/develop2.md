@@ -29,9 +29,10 @@ Als referentiehoogte voor de plaatsing van de Ecolux werd eerst de eettafelhoogt
 Uit de analyse bleek een schermhoek van 23° optimaal: bij deze hoek is de belasting op nek en rug minimaal, terwijl het scherm goed leesbaar blijft.
 
 ### <ins>**Cognitieve & sensoriele ergonomie**</ins>
-
-...
-
+Om met de Ecolux in interectie te gaan moet er een digitale interface gemaakt worden. Op basis van de interface van de 2de wave van de defenition fase werd er een verbeterde interface gamaakt met figma make. Om te voldoen aan de tweede usability goal werd de interface ontworpen met de GESTALT wetten in het achterhoofd. De interface is ook zo simpel mogelijk om de cognitieve belasting te minimaliseren. Verdere optimalisatie zijn het gebruik van liftknoppen als metafoor om de juiste verdieping te kiezen en icoontjes voor de energieverliezende apparaten als signifiers.
+<p align="center">
+  <img src="../img/Interface_Gif.gif" width="90%">
+</p>
 
 ### <ins>**Build & test**</ins>
 
