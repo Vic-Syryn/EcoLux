@@ -1,5 +1,5 @@
 ## Develop 2
-Voor dat we aan Develop 2 begonnen hebben we eerst nog een selectie gemaakt van de verschillende ontwerpen op basis van estetisch vlak. Dit werd gedaan op basis van een [Scorematrix](https://github.com/Vic-Syryn/EcoLux/blob/main/reports%20and%20protocols/Scorematrix_Develop_2.docx). Dit werd gedaan zodat we hier later verder aan konden werken en fysieke prototypes maken
+Voor dat we aan Develop 2 begonnen hebben we eerst nog een selectie gemaakt van de verschillende ontwerpen op basis van estetisch vlak. Dit werd gedaan op basis van een [Scorematrix](https://github.com/Vic-Syryn/EcoLux/blob/main/reports%20and%20protocols/Scorematrix_Develop_2.pdf). Dit werd gedaan zodat we hier later verder aan konden werken en fysieke prototypes maken
 ### <ins>**usability goals**</ins>
 Ergonomie: de gemiddelde man/vrouw moet het product kunnen gebruiken met minimale ergonomische belasting. (Siemens Jack)
 
