@@ -11,10 +11,11 @@ Als referentiehoogte voor de plaatsing van de Ecolux werd eerst de eettafelhoogt
 </p>
 
 <p align="center">
-  <img src="../img/SiemensJackBelasting.png" width="110%">
+  <img src="../img/SiemensJackBelasting.png" width="90%">
 </p>
 <p align="center">
-  <img src="../img/SiemensJackGezichtsveld.png" width="100%">
+  <img src="../img/SiemensJackGezichtsveld.png" width="90%">
 </p>
 Uit de analyse bleek een schermhoek van 23° optimaal: bij deze hoek is de belasting op nek en rug minimaal, terwijl het scherm goed leesbaar blijft.
+
 ### <ins>**Build & test**</ins>
