@@ -36,3 +36,13 @@ Om met de Ecolux in interectie te gaan moet er een digitale interface gemaakt wo
 
 ### <ins>**Build & test**</ins>
 
+
+**Doelstellingen**
+
+De gebruikerstesten hadden als doel te peilen naar welke vorm er wordt ervaren als het meest esthetisch en praktisch. Naast de vormen werden er meerdere schermgroottes getest die modulair op de verschillende vormen passen. Op het scherm zal een demoversie van de interface te zien zijn. Ook wordt er gekeken of de hoek die bepaald werd in het document ‘Ergonomie scherm – Siemens Jack’ in de realiteit als aangenaam wordt ervaren. 
+
+**Materiaal & methoden**
+
+Met de 4 hoofdvormen, de ideale hoek van het scherm en een interactief digitaal interface, kon er overgegaan worden naar het maken van prototypes voor de gebruikerstesten. Omdat enkel schetsen de mensen geen goed beeld geeft van de omvang en de interactie met het product, werd er gekozen om via subdivision-modeling de 4 schetsen na te maken in Blender. Op basis van deze voorlopige 3D-modellen konden er telkens 3 aanzichten gegenereerd worden die dan werden afgedrukt op ware grootte. Deze werden aangebracht op polystyreen schuimblokken, waaruit de vorm dan gesneden kon worden door de aanzichten te volgen. Deze schuimmodellen geven de respondenten een goed beeld van de mogelijke omvang en geeft hun iets om vast te nemen. Daarnaast is het dus ook cruciaal om de grootte van het scherm te bepalen, hierdoor werden 4 verschillende groottes van een screenshot van de interface afgedrukt. Deze kunnen dus modulair per vorm verwisseld worden waardoor er 16 mogelijke combinaties zijn.
+
+Een bijkomend voordeel van de 3D-modellen was dat deze gerenderd konden worden op 7 verschillende manieren. Dit geeft de respondenten een goed beeld van hoe het product er in de toekomst zou kunnen uitzien.
