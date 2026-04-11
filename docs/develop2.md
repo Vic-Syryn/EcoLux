@@ -13,7 +13,7 @@ Ergonomie: de gemiddelde man/vrouw moet het product kunnen gebruiken met minimal
 Cognitieve & sensoriele ergonomie: Gebruikers (18–65 jaar) kunnen kerntaken in de app (bv. navigeren, informatie lezen en acties uitvoeren) binnen 30 seconden voltooien, met maximaal 1 fout per taak en een subjectieve leesbaarheidsscore van ≥ 4/5.
 
 ### <ins>theoretische antropometrie</ins>
-Om de ideale kijkhoek voor het scherm te bepalen vóór de start van de fysieke prototypefase, werd een ergonomische simulatie uitgevoerd in Siemens Jack [(analyse)](), waarbij gebruik werd gemaakt van een digitaal mensmodel op basis van antropometrische data. De 'design for the mean'-methode werd toegepast door gebruik te maken van het 50e percentiel.
+Om de ideale kijkhoek voor het scherm te bepalen vóór de start van de fysieke prototypefase, werd een ergonomische simulatie uitgevoerd in Siemens Jack [(analyse)](https://github.com/Vic-Syryn/EcoLux/blob/main/onderzoek/Ergonomie%20scherm%20Siemens%20Jack.pdf), waarbij gebruik werd gemaakt van een digitaal mensmodel op basis van antropometrische data. De 'design for the mean'-methode werd toegepast door gebruik te maken van het 50e percentiel.
 Als referentiehoogte voor de plaatsing van de Ecolux werd eerst de eettafelhoogte onderzocht. De gemiddelde eettafelhoogte 74 cm. Uit de simulatie bleek echter dat deze hoogte onvoldoende is voor comfortabel gebruik, ongeacht de ingestelde kijkhoek. Daarom werd overgestapt naar een plaatsing op dressoir­hoogte, circa 90 cm, wat een ergonomisch betere uitgangspositie biedt.
 <p align="center">
   <img src="../img/SiemensJackMan.png" width="45%">
