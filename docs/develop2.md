@@ -41,13 +41,14 @@ Om met de Ecolux in interectie te gaan moet er een digitale interface gemaakt wo
 
 De gebruikerstesten hadden als doel te peilen naar welke vorm er wordt ervaren als het meest esthetisch en praktisch. Naast de vormen werden er meerdere schermgroottes getest die modulair op de verschillende vormen passen. Op het scherm zal een demoversie van de interface te zien zijn. Ook wordt er gekeken of de hoek die bepaald werd in het document ‘Ergonomie scherm – Siemens Jack’ in de realiteit als aangenaam wordt ervaren. 
 
-**Materiaal & methoden**
+**Materiaal**
 
 Met de 4 hoofdvormen, de ideale hoek van het scherm en een interactief digitaal interface, kon er overgegaan worden naar het maken van prototypes voor de gebruikerstesten. Omdat enkel schetsen de mensen geen goed beeld geeft van de omvang en de interactie met het product, werd er gekozen om via subdivision-modeling de 4 schetsen na te maken in Blender. Op basis van deze voorlopige 3D-modellen konden er telkens 3 aanzichten gegenereerd worden die dan werden afgedrukt op ware grootte. Deze werden aangebracht op polystyreen schuimblokken, waaruit de vorm dan gesneden kon worden door de aanzichten te volgen. Deze schuimmodellen geven de respondenten een goed beeld van de mogelijke omvang en geeft hun iets om vast te nemen. Daarnaast is het dus ook cruciaal om de grootte van het scherm te bepalen, hierdoor werden 4 verschillende groottes van een screenshot van de interface afgedrukt. Deze kunnen dus modulair per vorm verwisseld worden waardoor er 16 mogelijke combinaties zijn.
 
 Een bijkomend voordeel van de 3D-modellen was dat deze gerenderd konden worden op 7 verschillende manieren. Dit geeft de respondenten een goed beeld van hoe het product er in de toekomst zou kunnen uitzien.
 
 
+**Methoden**
 
 De gebruikerstesten werden uitgevoerd bij de respondenten thuis om het product in een realistische gebruikscontext te evalueren. In totaal namen vijf deelnemers deel met uiteenlopende profielen en niveaus van technologische ervaring, wat zorgde voor een brede kijk op het gebruik van het product.
 
@@ -73,10 +74,8 @@ De gebruikerstesten leverden belangrijke inzichten op die helpen om de centrale 
 
 Ten eerste werd duidelijk welke vorm het meest geschikt is voor het hoofdstation (onderzoeksvraag 1). Gebruikers gaven duidelijk de voorkeur aan een compacte en elegante vorm die goed past in het interieur. Vorm 2 kwam hierbij het sterkst naar voren. Grotere en zwaardere vormen werden als te opvallend en minder aantrekkelijk ervaren. Dit toont aan dat het product visueel aanwezig mag zijn, maar niet mag domineren in de ruimte.
 
-Daarnaast werd meer inzicht verkregen in de ideale schermgrootte en ergonomie (onderzoeksvraag 2). Gebruikers verkiezen een middelgroot scherm dat goed leesbaar is zonder te groot te zijn. Kleine schermen zorgen voor fouten en frustratie, terwijl grote schermen als overdreven worden gezien. Ook is het belangrijk dat het scherm onder een goede hoek staat, zodat het comfortabel gebruikt kan worden op verschillende hoogtes.
+Daarnaast werd meer inzicht verkregen in de ideale schermgrootte en ergonomie (onderzoeksvraag 2). Gebruikers verkiezen een middelgroot scherm dat goed leesbaar is zonder te groot te zijn. Kleine schermen zorgen voor fouten en frustratie, terwijl grote schermen als overdreven worden gezien. Ook is het belangrijk dat het scherm onder 23 graden staat, zoals blijkt uit Siemens jack simulatie, dit zorgt namelijk voor de minste strain. Deze hoek werd ook geverifieerd tijdens de gebruikerstesten.
 
 Tot slot werd duidelijk hoe de interface verder verbeterd kan worden (onderzoeksvraag 3). De basis wordt als duidelijk ervaren, maar er zijn nog verbeterpunten. Icoontjes moeten duidelijker zijn en extra uitleg kan helpen, bijvoorbeeld via labels of een legende. Ook kan de interface visueel aantrekkelijker gemaakt worden met kleurgebruik en een zachtere vormgeving. Gebruikers verwachten daarnaast snelle en eenvoudige interacties, zoals het selecteren van meerdere apparaten tegelijk.
 
 Op basis van deze inzichten wordt het ontwerp verder ontwikkeld naar een product dat eenvoudig in gebruik is, er goed uitziet en logisch werkt. Zowel de vorm als de interface moeten bijdragen aan een duidelijke en aangename gebruikerservaring.
-
-Deze keuzes vormen een belangrijke stap richting een sterk en goed onderbouwd eindconcept voor het EcoLux-systeem.
