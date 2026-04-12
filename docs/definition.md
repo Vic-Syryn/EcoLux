@@ -23,6 +23,8 @@ De doelstellingen werden onderzocht aan de hand van gebruikerstests, gevolgd doo
   <img src="../img/prototype3.jpg" width="23%">
   <img src="../img/prototype4.jpg" width="23%">
 </p>
+<p align="center">
+fysieke prototypes</p>
 
 De 4 prototypes werden gebruikt om de gebruikers een fysieke voorstelling te geven voor de verschillende manieren van communiceren. De drie eerste protypes hadden elk een eigen manier voor het melden van een probleem, namelijk: emotie, vorm of licht. Het vierde prototype was voorzien voor het testen van het concept van de substations.
 
@@ -31,6 +33,8 @@ Tijdens de gebruikerstesten konden de gebruikers in interactie gaan met de versc
   <img src="../img/wave1.1.jpg" width="45%">
   <img src="../img/wave1.2.jpg" width="44.98%">
 </p>
+<p align="center">
+prototype gebruikerstest</p>
 
 **Resultaten**  
 Uit het onderzoek blijkt dat de duidelijkheid van signalen een belangrijke rol speelt in het gebruiksgemak. Lichtsiganalen worden consequent als het meest duidelijk ervaren. Emoties worden wel begrepen, maar passen minder goed binnen professionele contexten. De shapeshifter wordt als minder intuïtief gezien, tenzij deze visueel extra wordt ondersteund. Het gebruik van een smiley-prototype en het feit dat de prototypes kunnen praten, activeert bovendien een antropomorfe interpretatie. Gebruikers schrijven het systeem menselijke eigenschappen toe, zoals begrijpen, luisteren en reageren. Dit leidt ertoe dat sommige respondenten de neiging hadden om daadwerkelijk een gesprek aan te gaan met de prototypes.
@@ -68,6 +72,8 @@ Materialen:
   <img src="../img/prototype5.png" width="45%">
   <img src="../img/prototype6.png" width="49.5%">
 </p>
+<p align="center">
+app interface</p>
 Om de informatie te delen met de gebruiker kan het best gebruik gemaakt worden van auditieve of visuele communicatie. Voor visuele communicatie hebben we 2 verschillende prototypes gemaakt omdat deze meer mogelijkheden heeft. De 2 prototypes voor visuele weergave zijn gebasseerd op tekst en op foto.
 <p align="center">
   <img src="../img/wave2.1.jpeg" width="32%">
@@ -75,6 +81,8 @@ Om de informatie te delen met de gebruiker kan het best gebruik gemaakt worden v
   <img src="../img/wave2.3.jpeg" width="32%">
 
 </p>
+<p align="center">
+prototypes gebruikerstest</p>
 
 **Resultaten**
 

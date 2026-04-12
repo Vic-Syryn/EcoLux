@@ -35,6 +35,8 @@ Er werden drie contextual inquiries uitgevoerd bij uiteenlopende huishoudens: ee
 <p align="left">
   <img src="../img/IMG-20251019-WA0008.jpg" width="50%">
 </p>
+<p align="center">
+gebruikersonderzoek</p>
 
 **Benchmarkonderzoek (markt & technologie)**
 Aanvullend werd een benchmarkonderzoek uitgevoerd naar bestaande slimme oplossingen voor energiebeheer. Het doel was om te analyseren hoe deze oplossingen feedback geven, welke interactievormen worden gebruikt en in welke mate ze gedrag ondersteunen. De analyse gebeurde aan de hand van een vergelijkende tabel en een thematische synthese.
@@ -101,6 +103,8 @@ Deze inzichten leidden tot de conclusie dat een effectief energiebesparend produ
 <p align="center">
   <img src="../img/concept_discovery.png" width="35%">
 </p>
+<p align="center">
+1ste iteratie prototype</p>
 
 ## Bronnen
 
