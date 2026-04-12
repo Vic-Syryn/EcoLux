@@ -2,6 +2,9 @@
 <p align="center">
   <img src="../img/methodologie.jpg" width="100%">
 </p>
+<p align="center">
+  triple diamond ontwerpmodel
+</p>
 
 Voor het onwerp process werd gebruik gemaakt van het triple diamond ontwerpmodel. Dit model bestaat uit 4 fasen, namelijk: discover, define, develop en deliver.  
 In het eerste semester werden de discover en define doorlopen.
