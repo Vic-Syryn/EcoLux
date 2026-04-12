@@ -46,3 +46,37 @@ De gebruikerstesten hadden als doel te peilen naar welke vorm er wordt ervaren a
 Met de 4 hoofdvormen, de ideale hoek van het scherm en een interactief digitaal interface, kon er overgegaan worden naar het maken van prototypes voor de gebruikerstesten. Omdat enkel schetsen de mensen geen goed beeld geeft van de omvang en de interactie met het product, werd er gekozen om via subdivision-modeling de 4 schetsen na te maken in Blender. Op basis van deze voorlopige 3D-modellen konden er telkens 3 aanzichten gegenereerd worden die dan werden afgedrukt op ware grootte. Deze werden aangebracht op polystyreen schuimblokken, waaruit de vorm dan gesneden kon worden door de aanzichten te volgen. Deze schuimmodellen geven de respondenten een goed beeld van de mogelijke omvang en geeft hun iets om vast te nemen. Daarnaast is het dus ook cruciaal om de grootte van het scherm te bepalen, hierdoor werden 4 verschillende groottes van een screenshot van de interface afgedrukt. Deze kunnen dus modulair per vorm verwisseld worden waardoor er 16 mogelijke combinaties zijn.
 
 Een bijkomend voordeel van de 3D-modellen was dat deze gerenderd konden worden op 7 verschillende manieren. Dit geeft de respondenten een goed beeld van hoe het product er in de toekomst zou kunnen uitzien.
+
+
+
+De gebruikerstesten werden uitgevoerd bij de respondenten thuis om het product in een realistische gebruikscontext te evalueren. In totaal namen vijf deelnemers deel met uiteenlopende profielen en niveaus van technologische ervaring, wat zorgde voor een brede kijk op het gebruik van het product.
+
+Tijdens de testen gingen de deelnemers in interactie met verschillende prototypes van het hoofdstation, waarbij vorm, schermgrootte en interface werden beoordeeld. De prototypes werden in de leefomgeving geplaatst, zodat het gebruik op een natuurlijke manier kon worden geobserveerd.
+
+Om zowel gedrag als motivaties te begrijpen, werd gebruik gemaakt van het Think Aloud Protocol (TAP) en het Question Asking Protocol (QAP). Hierdoor konden niet alleen handelingen, maar ook onderliggende voorkeuren en problemen in kaart worden gebracht, wat de basis vormde voor verdere analyse en ontwerpbeslissingen.
+
+**Resultaten**
+
+Uit de gebruikerstesten kwamen verschillende inzichten naar voren over de vormgeving, schermgrootte en interface van het EcoLux-product.
+
+Ten eerste bleek dat vormgeving een belangrijke rol speelt in hoe het product wordt ervaren binnen een interieur. Gebruikers gaven duidelijk de voorkeur aan een compacte en elegante vorm, waarbij vooral vorm 2 als het meest aantrekkelijk werd beschouwd. Deze vorm werd als esthetisch en passend in de leefomgeving ervaren, mede door de zachte en minder opvallende uitstraling. Grotere en massievere vormen werden minder positief onthaald, omdat ze als lomp of te dominant werden gezien. Dit toont aan dat het product visueel aanwezig mag zijn, maar zich tegelijk subtiel moet integreren in de omgeving.
+
+Daarnaast werd vastgesteld dat de schermgrootte een cruciale invloed heeft op het gebruiksgemak. Te kleine schermen zorgden ervoor dat icoontjes moeilijk zichtbaar waren en dat gebruikers sneller fouten maakten bij interactie, wat leidde tot frustratie en tijdverlies. Anderzijds werden te grote schermen als overdreven ervaren voor de functie van het product en zelfs als storend binnen het interieur. Gebruikers gaven daarom de voorkeur aan een gebalanceerde schermgrootte die voldoende leesbaarheid biedt, zonder dat het product zijn compacte karakter verliest.
+
+Ook de interface werd over het algemeen als duidelijk en overzichtelijk ervaren, zeker eens gebruikers vertrouwd waren met de werking. Elementen zoals de plattegrond en de lijst met apparaten werden als nuttig beschouwd. Toch kwamen er enkele belangrijke verbeterpunten naar voren. Zo waren icoontjes niet altijd meteen begrijpelijk, waardoor extra ondersteuning zoals labels of een legende gewenst is. Daarnaast werd aangegeven dat de interface visueel aantrekkelijker kan, bijvoorbeeld door gebruik te maken van kleurcodering per ruimte en een zachtere, minder “droge” vormgeving.
+
+Tot slot bleek dat efficiëntie en gebruiksgemak centraal staan in de interactie met het product. Gebruikers verwachten snelle en logische handelingen, zoals het in één keer selecteren van alle apparaten binnen een ruimte. Ook werd een duidelijke voorkeur uitgesproken voor een systeem waarbij gebruikers kiezen wat uitgeschakeld moet worden, in plaats van wat genegeerd moet worden. Verder werd de nood aan extra informatie en feedback, zoals inzicht in energieverbruik en periodieke overzichten, meerdere keren aangehaald. Dit soort informatie verhoogt niet alleen het gebruiksgemak, maar ook de betrokkenheid en motivatie van de gebruiker.
+
+**Conclusies en implicaties**
+
+De gebruikerstesten leverden belangrijke inzichten op die helpen om de centrale onderzoeksvragen van deze fase te beantwoorden.
+
+Ten eerste werd duidelijk welke vorm het meest geschikt is voor het hoofdstation (onderzoeksvraag 1). Gebruikers gaven duidelijk de voorkeur aan een compacte en elegante vorm die goed past in het interieur. Vorm 2 kwam hierbij het sterkst naar voren. Grotere en zwaardere vormen werden als te opvallend en minder aantrekkelijk ervaren. Dit toont aan dat het product visueel aanwezig mag zijn, maar niet mag domineren in de ruimte.
+
+Daarnaast werd meer inzicht verkregen in de ideale schermgrootte en ergonomie (onderzoeksvraag 2). Gebruikers verkiezen een middelgroot scherm dat goed leesbaar is zonder te groot te zijn. Kleine schermen zorgen voor fouten en frustratie, terwijl grote schermen als overdreven worden gezien. Ook is het belangrijk dat het scherm onder een goede hoek staat, zodat het comfortabel gebruikt kan worden op verschillende hoogtes.
+
+Tot slot werd duidelijk hoe de interface verder verbeterd kan worden (onderzoeksvraag 3). De basis wordt als duidelijk ervaren, maar er zijn nog verbeterpunten. Icoontjes moeten duidelijker zijn en extra uitleg kan helpen, bijvoorbeeld via labels of een legende. Ook kan de interface visueel aantrekkelijker gemaakt worden met kleurgebruik en een zachtere vormgeving. Gebruikers verwachten daarnaast snelle en eenvoudige interacties, zoals het selecteren van meerdere apparaten tegelijk.
+
+Op basis van deze inzichten wordt het ontwerp verder ontwikkeld naar een product dat eenvoudig in gebruik is, er goed uitziet en logisch werkt. Zowel de vorm als de interface moeten bijdragen aan een duidelijke en aangename gebruikerservaring.
+
+Deze keuzes vormen een belangrijke stap richting een sterk en goed onderbouwd eindconcept voor het EcoLux-systeem.
