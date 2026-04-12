@@ -6,7 +6,7 @@
 Voor het onwerp process werd gebruik gemaakt van het triple diamond ontwerpmodel. Dit model bestaat uit 4 fasen, namelijk: discover, define, develop en deliver.  
 In het eerste semester werden de discover en define doorlopen.
 
-De eerste wave van de develop fase werd in de eerste maand van het tweede semester doorlopen.
+De eerste wave van de develop fase werd in de eerste maand van het tweede semester doorlopen. De tweede wave verliep doorheen het einde van maart en de hele maand april.
 
 <ins>**Discover fase**</ins>  
 De discoveryfase richtte zich op het begrijpen van waarom huishoudens, ondanks een duidelijke bereidheid om energie te besparen, moeite hebben om dit gedrag structureel vol te houden. De focus lag op dagelijkse routines, perceptie en gebruikservaringen in plaats van op technische optimalisatie. Het doel was de kloof bloot te leggen tussen intentie en daadwerkelijk gedrag, en deze inzichten te vertalen naar onderbouwde designbeslissingen.
