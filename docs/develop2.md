@@ -16,6 +16,8 @@ Als referentiehoogte voor de plaatsing van de Ecolux werd eerst de eettafelhoogt
   <img src="../img/SiemensJackMan.png" width="30%">
   <img src="../img/SiemensJackVrouw.png" width="31.52%">
 </p>
+<p align="center">
+simulatie gebruik gem man en vrouw </p>
 
 <p align="center">
   <img src="../img/SiemensJackBelasting.png" width="70%">
