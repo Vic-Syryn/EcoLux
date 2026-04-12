@@ -22,10 +22,14 @@ simulatie gebruik gem man en vrouw </p>
 <p align="center">
   <img src="../img/SiemensJackBelasting.png" width="70%">
 </p>
+<p align="center">
+Simulatie belasting</p>
 
 <p align="center">
   <img src="../img/SiemensJackGezichtsveld.png" width="70%">
 </p>
+<p align="center">
+POV gebruiker</p>
 
 Uit de analyse bleek een schermhoek van 23° optimaal: bij deze hoek is de belasting op nek en rug minimaal, terwijl het scherm goed leesbaar blijft.
 
@@ -35,6 +39,8 @@ Om met de Ecolux in interectie te gaan moet er een digitale interface gemaakt wo
 <p align="center">
   <img src="../img/Interface_Gif.gif" width="100%">
 </p>
+<p align="center">
+app interface</p>
 
 ### <ins>**Build & test**</ins>
 
@@ -50,11 +56,16 @@ Met de 4 hoofdvormen, de ideale hoek van het scherm en een interactief digitaal 
 <p align="center">
   <img src="../img/prototypes op een rij, in context.jpg" width="80%">
 </p>
+<p align="center">
+fysieke prototypes</p>
 
 Een bijkomend voordeel van de 3D-modellen was dat deze gerenderd konden worden op 7 verschillende manieren. Dit geeft de respondenten een goed beeld van hoe het product er in de toekomst zou kunnen uitzien.
 
 <p align="center">
   <img src="../img/Bloempot_renders.jpg" width="70%">
+</p>
+<p align="center">
+render prototypes
 </p>
 
 **Materialen**
@@ -86,6 +97,8 @@ Om zowel gedrag als motivaties te begrijpen, werd gebruik gemaakt van het Think 
 <p align="center">
   <img src="../img/scherm interactie.jpg" width="70%">
 </p>
+<p align="center">
+interactie gebruikerstest</p>
 
 **Resultaten**
 
