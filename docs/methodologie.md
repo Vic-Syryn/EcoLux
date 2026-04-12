@@ -34,3 +34,11 @@ De interactie met het product werd geanalyseerd via een customer journey, storyb
 Tijdens de build & test-fase werden gebruikerstesten uitgevoerd met een prototype van het hoofdstation (N=5). De resultaten toonden dat een volledig handmatig of automatisch uitschuifbaar scherm niet intuïtief was. Gebruikers gaven de voorkeur aan een duidelijke interactie via een knop, een stabiel object en een aangepaste kijkhoek.
 
 Op basis van deze inzichten werd het uitschuifbare schermconcept verlaten en vervangen door een vast geïntegreerd scherm, wat resulteert in een eenvoudiger en gebruiksvriendelijker ontwerp.
+
+**Wave 2** bouwde verder op deze eerste iteratie en focuste op het verfijnen van de vormgeving, schermgrootte en interface. Hiervoor werden meerdere fysieke prototypes ontwikkeld, waaronder verschillende vormvarianten en schermgroottes die modulair gecombineerd konden worden.
+
+De evaluatie gebeurde opnieuw via gebruikerstesten in de thuiscontext van de deelnemers (N=5), zodat het gebruik in een realistische situatie kon worden geobserveerd. Tijdens deze testen werden de prototypes één voor één gepresenteerd en gingen gebruikers actief in interactie met zowel de fysieke vorm als een digitale interface via een demoversie.
+
+Net zoals in wave 1 werd gebruik gemaakt van het Think Aloud Protocol (TAP) en het Question Asking Protocol (QAP). Hierdoor konden observaties van gedrag gecombineerd worden met directe feedback van gebruikers over hun voorkeuren, verwachtingen en interpretaties. Er werd specifiek gelet op hoe gebruikers de verschillende vormen ervaarden in hun interieur, hoe ze omgingen met verschillende schermgroottes en hoe intuïtief de interface werd begrepen.
+
+Daarnaast werden systematisch notities genomen tijdens de testen en werd de gebruikscontext gedocumenteerd. Deze kwalitatieve data vormde de basis voor verdere analyse, waarbij terugkerende patronen en verschillen tussen gebruikers werden geïdentificeerd.
