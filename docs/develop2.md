@@ -48,7 +48,7 @@ Met de 4 hoofdvormen, de ideale hoek van het scherm en een interactief digitaal 
 Een bijkomend voordeel van de 3D-modellen was dat deze gerenderd konden worden op 7 verschillende manieren. Dit geeft de respondenten een goed beeld van hoe het product er in de toekomst zou kunnen uitzien.
 
 <p align="center">
-  <img src="../img/bloempot_renders.jpg" width="70%">
+  <img src="../img/Bloempot_renders.jpg" width="70%">
 </p>
 
 **Materialen**
