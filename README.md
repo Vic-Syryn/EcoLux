@@ -16,6 +16,8 @@ De uiteindelijke oplossing is de Ecolux: een fysiek product dat energieverlies z
 <p align="center">
   <img src="img/render12042026.png" width="100%">
 </p>
+<p align="center">
+render EcoLux</p>
 
 ## Introductie
 

@@ -35,10 +35,14 @@ Hierdoor is er nood aan een product dat energieverliezen minimaliseert en dit la
 <p align="center">
   <img src="../img/customerjourney_install.jpg" width="100%">
 </p>
+<p align="center">
+customer journey install</p>
 <ins>Use</ins>
 <p align="center">
   <img src="../img/customerjourney_use.jpg" width="100%">
 </p>
+<p align="center">
+customer journey use</p>
 <ins>Result</ins>
 
 De gebruiker zijn/haar energieconsumptie gaat omlaag, hij/zij:
@@ -55,6 +59,9 @@ Op basis van de Use-fase in de Customer Journey werd er een Storyboard gemaakt w
 <p align="center">
   <img src="../img/StoryBoard.jpg" width="100%">
 </p>
+<p align="center">
+  storyboard
+</p>
 
 **Productarchitectuur**
 
@@ -63,6 +70,8 @@ Uit de Storyboard en Customer Journey werden er op basis van de verschillende co
 <p align="center">
   <img src="../img/productarchitectuur.png" width="100%">
 </p>
+<p align="center">
+productarchitectuur</p>
 
 **Userflow en informatiearchitectuur**
 
@@ -71,12 +80,17 @@ Deze userflow dient om het volledige interactieproces tussen gebruiker en het sy
 <p align="center">
   <img src="../img/userflow.png" width="100%">
 </p>
+<p align="center">
+userflow
+</p>
 
 
 Deze HTA toont de hiërarchie van taken die nodig zijn om aanwezige energieverliezen te beperken. De hoofddoelstelling wordt opgesplitst in drie hoofdtaken: de gebruiker op de hoogte brengen van het energieverlies, keuzes maken op het hoofdstation en het systeem terugbrengen naar de basisinstellingen. Elke hoofdtaak wordt verder onderverdeeld in subtaken.
 <p align="center">
   <img src="../img/HTA.png" width="100%">
 </p>
+<p align="center">
+HTA</p>
 
 
 Uit de userflow en de HTA bleek dat de manier waarop we de initiatie van het soort energieverlies gaan communiceren nog moest bepaald worden.
@@ -87,6 +101,8 @@ Deze MVP’s tonen de minimale kernfunctionaliteiten van het systeem.
 <p align="center">
   <img src="../img/MVP.png" width="100%">
 </p>
+<p align="center">
+MVP</p>
 
 
 ### <ins>**Divergentie & ontwerpkeuzes**</ins>
@@ -99,6 +115,8 @@ Op basis van de deconstructie is er een morfologische matrix gemaakt om een visu
 <p align="center">
   <img src="../img/morfologischematrix_develop_1.jpg" width="90%">
 </p>
+<p align="center">
+morfologische matrix</p>
 
 
 
@@ -123,6 +141,9 @@ Voor de gebruikerstesten werden verschillende materialen gebruikt:
   <img src="../img/prototypedevelop1.jpeg" width="40.9%">
   <img src="../img/prototypedevelop1.1.jpeg" width="48%">
 </p>
+<p align="center">
+fysiek prototype</p>
+
 
 De testen werden uitgevoerd bij de respondenten thuis om het gebruik van het product in een realistische context te observeren. In totaal namen vijf deelnemers deel, met verschillende profielen en niveaus van technologische ervaring. Tijdens de test kregen de deelnemers een aantal taken: het scherm uit het prototype halen zonder hulp, dit herhalen op verschillende hoogtes, de kijkhoek van het scherm aanpassen en het scherm opnieuw terugplaatsen in het object. Tijdens deze interacties werden observaties genoteerd en werden aanvullende vragen gesteld volgens het Think Aloud Protocol (TAP) en Question Asking Protocol (QAP), zodat zowel gedrag als motivaties van de gebruikers konden worden geanalyseerd.
 
@@ -133,6 +154,8 @@ Uit de gebruikerstesten kwamen verschillende inzichten naar voren over de intera
 <p align="center">
   <img src="../img/develop1_gebruikerstesten.png" width="75%">
 </p>
+<p align="center">
+prototype bij gebruikerstest</p>
 
 Ten eerste bleek dat een volledig handmatig uittrekbaar scherm niet intuïtief was voor gebruikers. Verschillende deelnemers wisten niet onmiddellijk hoe ze het scherm moesten activeren of vonden de interactie onduidelijk. Een volledig automatisch systeem bleek echter ook niet ideaal, omdat het scherm soms op ongewenste momenten tevoorschijn kon komen. Gebruikers gaven daarom de voorkeur aan een duidelijke en gecontroleerde interactie, bijvoorbeeld via een knop. 
 
