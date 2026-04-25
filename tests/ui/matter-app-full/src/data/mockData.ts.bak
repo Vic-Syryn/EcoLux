@@ -1,0 +1,395 @@
+export interface EnergyWaster {
+  id: string;
+  name: string;
+  type: string;
+  consumption: string;
+  impact: 'high' | 'medium' | 'low';
+  x: number; // Position within the room (percentage)
+  y: number; // Position within the room (percentage)
+}
+
+export interface Room {
+  id: string;
+  name: string;
+  x: number;
+  y: number;
+  width: number;
+  height: number;
+  energyWasters: EnergyWaster[];
+}
+
+export interface Floor {
+  id: string;
+  name: string;
+  level: number;
+  rooms: Room[];
+}
+
+export const mockHouseData: Floor[] = [
+  {
+    id: 'floor-2',
+    name: 'Eerste Verdieping',
+    level: 2,
+    rooms: [
+      {
+        id: 'master-bedroom',
+        name: 'Hoofdslaapkamer',
+        x: 20,
+        y: 20,
+        width: 260,
+        height: 155,
+        energyWasters: [
+          {
+            id: 'mb-1',
+            name: 'Elektrische kachel',
+            type: 'Klimaatbeheersing',
+            consumption: '1500W wanneer aan',
+            impact: 'high',
+            x: 20,
+            y: 20
+          },
+          {
+            id: 'mb-2',
+            name: 'Telefoonopladers',
+            type: 'Elektronica',
+            consumption: '15W continu',
+            impact: 'low',
+            x: 50,
+            y: 50
+          },
+          {
+            id: 'mb-3',
+            name: 'Plafondventilator',
+            type: 'Klimaatbeheersing',
+            consumption: '75W wanneer aan',
+            impact: 'medium',
+            x: 80,
+            y: 80
+          }
+        ]
+      },
+      {
+        id: 'bedroom-2',
+        name: 'Slaapkamer 2',
+        x: 300,
+        y: 20,
+        width: 170,
+        height: 130,
+        energyWasters: [
+          {
+            id: 'b2-1',
+            name: 'Gaming PC',
+            type: 'Elektronica',
+            consumption: '45W continu',
+            impact: 'medium',
+            x: 20,
+            y: 20
+          },
+          {
+            id: 'b2-2',
+            name: 'Airco',
+            type: 'Klimaatbeheersing',
+            consumption: '950W wanneer aan',
+            impact: 'high',
+            x: 50,
+            y: 50
+          }
+        ]
+      },
+      {
+        id: 'office',
+        name: 'Thuiskantoor',
+        x: 20,
+        y: 195,
+        width: 160,
+        height: 130,
+        energyWasters: [
+          {
+            id: 'o-1',
+            name: 'Laserprinter',
+            type: 'Elektronica',
+            consumption: '35W continu',
+            impact: 'low',
+            x: 20,
+            y: 20
+          },
+          {
+            id: 'o-2',
+            name: 'Monitors',
+            type: 'Elektronica',
+            consumption: '120W wanneer aan',
+            impact: 'medium',
+            x: 50,
+            y: 50
+          },
+          {
+            id: 'o-3',
+            name: 'Desktop computer',
+            type: 'Elektronica',
+            consumption: '200W wanneer aan',
+            impact: 'medium',
+            x: 80,
+            y: 80
+          }
+        ]
+      },
+      {
+        id: 'upstairs-bathroom',
+        name: 'Badkamer',
+        x: 300,
+        y: 170,
+        width: 110,
+        height: 155,
+        energyWasters: [
+          {
+            id: 'ub-1',
+            name: 'Warmtelamp',
+            type: 'Verwarming',
+            consumption: '250W wanneer aan',
+            impact: 'medium',
+            x: 50,
+            y: 50
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: 'floor-1',
+    name: 'Begane Grond',
+    level: 1,
+    rooms: [
+      {
+        id: 'living-room',
+        name: 'Woonkamer',
+        x: 20,
+        y: 20,
+        width: 240,
+        height: 180,
+        energyWasters: [
+          {
+            id: 'lr-1',
+            name: 'HVAC-systeem',
+            type: 'Klimaatbeheersing',
+            consumption: '450W continu',
+            impact: 'high',
+            x: 20,
+            y: 20
+          },
+          {
+            id: 'lr-2',
+            name: 'Gloeilampen (6x)',
+            type: 'Verlichting',
+            consumption: '360W wanneer aan',
+            impact: 'medium',
+            x: 50,
+            y: 15
+          },
+          {
+            id: 'lr-3',
+            name: 'TV',
+            type: 'Elektronica',
+            consumption: '25W continu',
+            impact: 'low',
+            x: 75,
+            y: 50
+          },
+          {
+            id: 'lr-4',
+            name: 'Raam staat open',
+            type: 'Isolatie',
+            consumption: '~200W warmteverlies',
+            impact: 'high',
+            x: 85,
+            y: 80
+          }
+        ]
+      },
+      {
+        id: 'kitchen',
+        name: 'Keuken',
+        x: 280,
+        y: 20,
+        width: 190,
+        height: 130,
+        energyWasters: [
+          {
+            id: 'k-1',
+            name: 'Koelkast',
+            type: 'Apparatuur',
+            consumption: '180W continu',
+            impact: 'high',
+            x: 15,
+            y: 25
+          },
+          {
+            id: 'k-2',
+            name: 'Halogeen kookplaat verlichting',
+            type: 'Verlichting',
+            consumption: '120W wanneer aan',
+            impact: 'medium',
+            x: 50,
+            y: 60
+          },
+          {
+            id: 'k-3',
+            name: 'Vaatwasser',
+            type: 'Apparatuur',
+            consumption: '1800W per cyclus',
+            impact: 'medium',
+            x: 75,
+            y: 30
+          }
+        ]
+      },
+      {
+        id: 'bathroom',
+        name: 'Badkamer',
+        x: 280,
+        y: 170,
+        width: 110,
+        height: 110,
+        energyWasters: [
+          {
+            id: 'b-1',
+            name: 'Elektrische boiler',
+            type: 'Waterverwarming',
+            consumption: '380W continu',
+            impact: 'high',
+            x: 30,
+            y: 40
+          },
+          {
+            id: 'b-2',
+            name: 'Afzuigventilator',
+            type: 'Ventilatie',
+            consumption: '30W continu',
+            impact: 'low',
+            x: 70,
+            y: 25
+          }
+        ]
+      },
+      {
+        id: 'hallway',
+        name: 'Gang',
+        x: 20,
+        y: 220,
+        width: 240,
+        height: 60,
+        energyWasters: [
+          {
+            id: 'h-1',
+            name: 'Verlichting',
+            type: 'Verlichting',
+            consumption: '90W wanneer aan',
+            impact: 'medium',
+            x: 50,
+            y: 50
+          }
+        ]
+      }
+    ]
+  },
+  
+  {
+    id: 'floor-3',
+    name: 'Kelder',
+    level: 0,
+    rooms: [
+      {
+        id: 'laundry',
+        name: 'Wasruimte',
+        x: 20,
+        y: 20,
+        width: 200,
+        height: 130,
+        energyWasters: [
+          {
+            id: 'l-1',
+            name: 'Wasmachine',
+            type: 'Apparatuur',
+            consumption: '500W per cyclus',
+            impact: 'high',
+            x: 20,
+            y: 20
+          },
+          {
+            id: 'l-2',
+            name: 'Elektrische droger',
+            type: 'Apparatuur',
+            consumption: '3000W per cyclus',
+            impact: 'high',
+            x: 50,
+            y: 50
+          },
+          {
+            id: 'l-3',
+            name: 'Luchtontvochtigingsapparaat',
+            type: 'Klimaatbeheersing',
+            consumption: '280W continu',
+            impact: 'medium',
+            x: 80,
+            y: 80
+          }
+        ]
+      },
+      {
+        id: 'storage',
+        name: 'Opslagruimte',
+        x: 240,
+        y: 20,
+        width: 230,
+        height: 180,
+        energyWasters: [
+          {
+            id: 's-1',
+            name: 'Vriezer deur staat open',
+            type: 'Apparatuur',
+            consumption: '150W continu',
+            impact: 'medium',
+            x: 20,
+            y: 20
+          },
+          {
+            id: 's-2',
+            name: 'Fluorescentie lampen',
+            type: 'Verlichting',
+            consumption: '160W wanneer aan',
+            impact: 'medium',
+            x: 50,
+            y: 50
+          }
+        ]
+      },
+      {
+        id: 'utility',
+        name: 'Technische ruimte',
+        x: 20,
+        y: 170,
+        width: 200,
+        height: 110,
+        energyWasters: [
+          {
+            id: 'u-1',
+            name: 'Boiler (met tank)',
+            type: 'Waterverwarming',
+            consumption: '4500W verwarming',
+            impact: 'high',
+            x: 20,
+            y: 20
+          },
+          {
+            id: 'u-2',
+            name: 'Dompelpomp',
+            type: 'Utiliteit',
+            consumption: '800W wanneer aan',
+            impact: 'medium',
+            x: 50,
+            y: 50
+          }
+        ]
+      }
+    ]
+  }
+];
