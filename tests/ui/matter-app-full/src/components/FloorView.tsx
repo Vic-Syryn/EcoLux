@@ -2,13 +2,8 @@ import { useNavigate, useOutletContext } from 'react-router';
 import { motion } from 'motion/react';
 import { Floor } from '../data/mockData';
 import { Zap, Check, RotateCcw } from 'lucide-react';
-import { mockHouseData } from '../data/mockData';
 import { useState, useEffect, useRef } from 'react';
-import { Device } from '../api/devices';
-
-interface FloorViewProps {
-  floor: Floor;
-}
+import { Device, turnOff } from '../api/devices';
 
 interface ContextType {
   currentFloor: Floor | undefined;
@@ -18,32 +13,36 @@ interface ContextType {
   setSelectedWasters: (wasters: Set<string>) => void;
   handleAccept: () => void;
   houseData: Floor[];
-  handleResetDemo: () => void;
+  /*handleResetDemo: () => void;*/ 
   allDevices: Device[];
   fetchDevices: () => void;
   assigningDevice: Device | null;
   onRoomAssign: (floorId: string, roomId: string) => void;
+  problemRoomIds: Set<string>;
+  isDeviceProblem: (device: Device) => boolean;
+}
+
+interface FloorViewProps {
+  floor: Floor;
 }
 
 export function FloorView({ floor }: FloorViewProps) {
   const navigate = useNavigate();
   const {
     currentFloorId, handleFloorChange, selectedWasters, handleAccept,
-    houseData, handleResetDemo, allDevices, assigningDevice, onRoomAssign,
+    houseData/*,handleResetDemo*/, allDevices, assigningDevice, onRoomAssign,
+    problemRoomIds, fetchDevices,
   } = useOutletContext<ContextType>();
 
   const [showConfirmation, setShowConfirmation] = useState(false);
+  const [isTurningOff, setIsTurningOff] = useState(false);
   const scrollTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const containerRef = useRef<HTMLDivElement>(null);
   const touchStartY = useRef<number>(0);
   const touchEndY = useRef<number>(0);
 
   if (!houseData || houseData.length === 0) {
-    return (
-      <div className="flex items-center justify-center h-full text-white">
-        Laden...
-      </div>
-    );
+    return <div className="flex items-center justify-center h-full text-white">Laden...</div>;
   }
 
   const handleRoomClick = (roomId: string) => {
@@ -59,12 +58,10 @@ export function FloorView({ floor }: FloorViewProps) {
   const handleUp = () => {
     if (currentIndex > 0) handleFloorChange(houseData[currentIndex - 1].id);
   };
-
   const handleDown = () => {
     if (currentIndex < houseData.length - 1) handleFloorChange(houseData[currentIndex + 1].id);
   };
 
-  // Scroll handler for changing floors
   useEffect(() => {
     const handleWheel = (e: WheelEvent) => {
       e.preventDefault();
@@ -82,7 +79,6 @@ export function FloorView({ floor }: FloorViewProps) {
     };
   }, [currentIndex, houseData]);
 
-  // Touch handler for changing floors
   useEffect(() => {
     const handleTouchStart = (e: TouchEvent) => { touchStartY.current = e.touches[0].clientY; };
     const handleTouchEnd = (e: TouchEvent) => {
@@ -104,13 +100,9 @@ export function FloorView({ floor }: FloorViewProps) {
     };
   }, [currentIndex, houseData]);
 
-  const totalEnergyWasters = houseData.reduce((total, floor) => {
-    return total + floor.rooms.reduce((roomTotal, room) => {
-      return roomTotal + room.energyWasters.length;
-    }, 0);
-  }, 0);
+  const totalEnergyWasters = houseData.reduce((total, f) =>
+    total + f.rooms.reduce((t, r) => t + r.energyWasters.length, 0), 0);
 
-  // Devices placed on this floor
   const placedDevices = allDevices.filter(d => d.placement?.floor_id === floor.id);
 
   const doorLines: Record<string, Array<{x1: number, y1: number, x2: number, y2: number}>> = {
@@ -123,9 +115,8 @@ export function FloorView({ floor }: FloorViewProps) {
   return (
     <div
       ref={containerRef}
-      className="w-full h-full flex items-center justify-center p-1 md:p-8 bg-[#6B7280] overflow-hidden relative"
+      className="w-full h-full flex items-center justify-center p-1 md:p-8 bg-[#212226] overflow-hidden relative"
     >
-      {/* Assigning mode hint */}
       {assigningDevice && (
         <div className="absolute top-3 left-1/2 -translate-x-1/2 z-20 bg-gray-900/90 text-white text-sm px-4 py-2 rounded-full border border-gray-600 backdrop-blur-sm shadow-lg">
           📍 Tik op een ruimte om "{assigningDevice.name}" te plaatsen
@@ -135,22 +126,23 @@ export function FloorView({ floor }: FloorViewProps) {
       <div className="flex flex-col md:flex-row items-center gap-1 md:gap-8 w-full h-full max-w-md md:max-w-none">
         <div className="flex flex-col items-center gap-1 md:gap-6 w-full h-full justify-between">
 
-          {/* Floor Navigation - Mobile Top - 3D Stack */}
+          {/* Floor Navigation — Mobile */}
           <div className="flex md:hidden justify-center flex-shrink-0">
             <svg width="70" height="85" viewBox="0 0 100 120" className="overflow-visible">
               {[...houseData].reverse().map((floorItem, index) => {
                 const isSelected = floorItem.id === currentFloorId;
                 const reverseIndex = houseData.length - 1 - index;
                 const yOffset = reverseIndex * 25;
-                const hasProblemDevices = floorItem.rooms.some(room =>
-                  room.energyWasters.some((w: any) => w.isProblem)
+                const hasProblem = floorItem.rooms.some(r =>
+                  r.energyWasters.some((w: any) => w.isProblem) ||
+                  allDevices.some(d => d.placement?.floor_id === floorItem.id && problemRoomIds.has(d.placement?.room_id ?? ''))
                 );
                 return (
                   <g key={floorItem.id} onClick={() => handleFloorChange(floorItem.id)} style={{ cursor: 'pointer' }}>
                     <path
                       d={`M 50,${10 + yOffset} L 80,${25 + yOffset} L 50,${40 + yOffset} L 20,${25 + yOffset} Z`}
                       fill={isSelected ? '#4B5563' : '#374151'}
-                      stroke={hasProblemDevices && !isSelected ? '#ef4444' : '#D1D5DB'}
+                      stroke={hasProblem && !isSelected ? '#ef4444' : '#D1D5DB'}
                       strokeWidth="2"
                     />
                   </g>
@@ -166,57 +158,50 @@ export function FloorView({ floor }: FloorViewProps) {
             className="relative w-full flex-1 flex flex-col items-center justify-center max-w-sm md:max-w-none"
           >
             <svg
-              width="500"
-              height="380"
-              viewBox="0 0 500 380"
+              width="500" height="380" viewBox="0 0 500 380"
               className="relative max-h-[280px] md:max-h-[600px]"
               style={{ zIndex: 1 }}
               preserveAspectRatio="xMidYMid meet"
             >
               <defs>
                 <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
-                  <path d="M 20 0 L 0 0 0 20" fill="none" stroke="rgba(255,255,255,0.1)" strokeWidth="0.5"/>
+                  <path d="M 20 0 L 0 0 0 20" fill="none" stroke="rgba(255,255,255,0.1)" strokeWidth="0.5" />
                 </pattern>
               </defs>
               <rect x="0" y="0" width="500" height="380" fill="url(#grid)" />
 
-              <rect x="0" y="0" width="480" height="360" fill="none" stroke="white" strokeWidth="3" rx="20" />
-
               {floor.rooms.map((room) => {
-                const hasProblemDevices = room.energyWasters.some((w: any) => w.isProblem);
-                const unclickableRooms = ['trap', 'keuken'];
-
-                // Devices placed in this room
-                const roomDeviceCount = placedDevices.filter(
-                  d => d.placement?.room_id === room.id
-                ).length;
+                const hasStaticProblem = room.energyWasters.some((w: any) => w.issProblem);
+                const hasMatterProblem = problemRoomIds.has(room.id);
+                const hasProblem = hasStaticProblem || hasMatterProblem;
+                const unclickable = ['trap'];
+                const roomDeviceCount = placedDevices.filter(d => d.placement?.room_id === room.id).length;
 
                 return (
                   <g key={room.id}>
                     <motion.rect
-                      x={room.x}
-                      y={room.y}
-                      width={room.width}
-                      height={room.height}
-                      fill={assigningDevice ? '#4B5563' : '#6B7280'}
-                      stroke={assigningDevice ? 'rgb(99,102,241)' : 'white'}
-                      strokeWidth={assigningDevice ? 2 : 3}
+                      x={room.x} y={room.y}
+                      width={room.width} height={room.height}
+                      fill={hasProblem ? 'rgba(239,68,68,0.15)' : assigningDevice ? '#4B5563' : '#708491'}
+                      stroke={hasProblem ? '#ef4444' : assigningDevice ? 'rgb(99,102,241)' : 'white'}
+                      strokeWidth={hasProblem ? 2.5 : assigningDevice ? 2 : 3}
                       strokeDasharray={assigningDevice ? '6,3' : undefined}
                       className="cursor-pointer"
-                      whileHover={{ fill: '#4B5563' }}
+                      whileHover={{ fill: hasProblem ? 'rgba(239,68,68,0.25)' : '#4B5563' }}
                       whileTap={{ scale: 0.98 }}
-                      onClick={unclickableRooms.includes(room.id) ? undefined : () => handleRoomClick(room.id)}
+                      onClick={unclickable.includes(room.id) ? undefined : () => handleRoomClick(room.id)}
                     />
 
                     <rect
-                      x={room.x} y={room.y}
-                      width={room.width} height={room.height}
-                      fill="none" stroke="white" strokeWidth="3"
+                      x={room.x} y={room.y} width={room.width} height={room.height}
+                      fill="none"
+                      stroke={hasProblem ? '#ef4444' : 'white'}
+                      strokeWidth={hasProblem ? 2.5 : 3}
                       className="pointer-events-none"
                     />
 
                     {/* Stairs */}
-                    {(room.id === 'trap' || room.id === '') && (
+                    {(room.id === 'trap') && (
                       <g className="pointer-events-none" opacity="0.7">
                         {[...Array(Math.floor(room.height / 8))].map((_, i) => (
                           <line key={i}
@@ -242,10 +227,10 @@ export function FloorView({ floor }: FloorViewProps) {
                       x={room.x + room.width / 2}
                       y={room.y + room.height / 2 - (roomDeviceCount > 0 ? 10 : 0)}
                       textAnchor="middle"
-                      className={hasProblemDevices
-                        ? 'fill-red-500 text-sm font-medium pointer-events-none select-none'
-                        : 'fill-white text-sm font-medium pointer-events-none select-none'}
-                      style={{ fontSize: '18px' }}
+                      fill={hasProblem ? '#fca5a5' : 'white'}
+                      fontSize="18"
+                      fontWeight={hasProblem ? '600' : '400'}
+                      className="pointer-events-none select-none"
                     >
                       {room.name}
                     </text>
@@ -256,13 +241,14 @@ export function FloorView({ floor }: FloorViewProps) {
                         <circle
                           cx={room.x + room.width / 2}
                           cy={room.y + room.height / 2 + 12}
-                          r="12" fill="rgb(245,158,11)"
+                          r="12"
+                          fill={hasMatterProblem ? '#ef4444' : '#575757'}
                         />
                         <Zap
                           x={room.x + room.width / 2 - 6}
                           y={room.y + room.height / 2 + 6}
                           width={12} height={12}
-                          className="text-white"
+                          color="white"
                         />
                       </g>
                     )}
@@ -273,22 +259,23 @@ export function FloorView({ floor }: FloorViewProps) {
           </motion.div>
         </div>
 
-        {/* Floor Navigation - 3D Stack desktop */}
+        {/* Floor Navigation — Desktop */}
         <div className="hidden md:flex flex-col items-center">
           <svg width="100" height="120" viewBox="0 0 100 120" className="overflow-visible">
             {[...houseData].reverse().map((floorItem, index) => {
               const isSelected = floorItem.id === currentFloorId;
               const reverseIndex = houseData.length - 1 - index;
               const yOffset = reverseIndex * 25;
-              const hasProblemDevices = floorItem.rooms.some(room =>
-                room.energyWasters.some((w: any) => w.isProblem)
+              const hasProblem = floorItem.rooms.some(r =>
+                r.energyWasters.some((w: any) => w.isProblem) ||
+                allDevices.some(d => d.placement?.floor_id === floorItem.id && problemRoomIds.has(d.placement?.room_id ?? ''))
               );
               return (
                 <g key={floorItem.id} onClick={() => handleFloorChange(floorItem.id)} style={{ cursor: 'pointer' }}>
                   <path
                     d={`M 50,${10 + yOffset} L 80,${25 + yOffset} L 50,${40 + yOffset} L 20,${25 + yOffset} Z`}
                     fill={isSelected ? '#4B5563' : '#374151'}
-                    stroke={hasProblemDevices && !isSelected ? '#ef4444' : '#D1D5DB'}
+                    stroke={hasProblem && !isSelected ? '#ef4444' : '#D1D5DB'}
                     strokeWidth="2"
                   />
                 </g>
@@ -298,7 +285,7 @@ export function FloorView({ floor }: FloorViewProps) {
         </div>
       </div>
 
-      {/* Accept button */}
+      {/* Accept button — only on FloorView */}
       {selectedWasters.size > 0 && (
         <motion.button
           initial={{ opacity: 0, y: 10 }}
@@ -312,7 +299,7 @@ export function FloorView({ floor }: FloorViewProps) {
       )}
 
       {/* Reset button */}
-      {totalEnergyWasters === 0 && (
+      {/* {totalEnergyWasters === 0 && selectedWasters.size === 0 && (
         <motion.button
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
@@ -322,7 +309,7 @@ export function FloorView({ floor }: FloorViewProps) {
           <RotateCcw className="w-5 h-5 md:w-6 md:h-6" />
           <span>Demo opnieuw starten</span>
         </motion.button>
-      )}
+      )} */}
 
       {/* Confirmation dialog */}
       {showConfirmation && (
@@ -344,10 +331,26 @@ export function FloorView({ floor }: FloorViewProps) {
                 Annuleren
               </button>
               <button
-                onClick={() => { handleAccept(); setShowConfirmation(false); }}
-                className="px-6 py-3 md:px-8 md:py-3.5 bg-gradient-to-br from-slate-800 to-slate-900 hover:from-slate-700 hover:to-slate-800 text-white rounded-xl transition-all font-semibold border border-slate-600 shadow-lg"
+                disabled={isTurningOff}
+                onClick={async () => {
+                  setIsTurningOff(true);
+                  try {
+                    const matterIds = Array.from(selectedWasters)
+                      .filter(id => id.startsWith('matter-'))
+                      .map(id => parseInt(id.replace('matter-', '')));
+                    await Promise.all(matterIds.map(id => turnOff(id)));
+                    await fetchDevices();
+                  } catch (e) {
+                    console.error('Uitzetten mislukt:', e);
+                  } finally {
+                    setIsTurningOff(false);
+                  }
+                  handleAccept();
+                  setShowConfirmation(false);
+                }}
+                className="px-6 py-3 md:px-8 md:py-3.5 bg-gradient-to-br from-slate-800 to-slate-900 hover:from-slate-700 hover:to-slate-800 text-white rounded-xl transition-all font-semibold border border-slate-600 shadow-lg disabled:opacity-60"
               >
-                Bevestigen
+                {isTurningOff ? 'Uitzetten...' : 'Bevestigen'}
               </button>
             </div>
           </motion.div>

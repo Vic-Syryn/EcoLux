@@ -1,17 +1,34 @@
-import { Outlet } from 'react-router';
+import { Outlet, useNavigate } from 'react-router';
 import { mockHouseData, Floor } from '../data/mockData';
 import { useState, useEffect } from 'react';
 import { Device, getDevices, setPlacement } from '../api/devices';
 import { SettingsOverlay } from './SettingsOverlay';
 import { Settings } from 'lucide-react';
 
+function isDeviceProblem(device: Device): boolean {
+  if (!device.state) return false;
+  if (device.problem_minutes == null) return false;
+  if (!device.on_since) return false;
+  const elapsedMinutes = (Date.now() - new Date(device.on_since).getTime()) / 60000;
+  return elapsedMinutes >= device.problem_minutes;
+}
+
+export interface PlacingState {
+  device: Device;
+  floorId: string;
+  roomId: string;
+}
+
 export function Layout() {
+  const navigate = useNavigate();
   const [currentFloorId, setCurrentFloorId] = useState(mockHouseData[0].id);
   const [selectedWasters, setSelectedWasters] = useState<Set<string>>(new Set());
   const [houseData, setHouseData] = useState<Floor[]>(mockHouseData);
   const [allDevices, setAllDevices] = useState<Device[]>([]);
   const [showSettings, setShowSettings] = useState(false);
   const [assigningDevice, setAssigningDevice] = useState<Device | null>(null);
+  // placingDevice: device being positioned in RoomDetail
+  const [placingState, setPlacingState] = useState<PlacingState | null>(null);
 
   const currentFloor = houseData.find(f => f.id === currentFloorId);
 
@@ -19,9 +36,7 @@ export function Layout() {
     try {
       const data = await getDevices();
       setAllDevices(data);
-    } catch {
-      // silently fail
-    }
+    } catch { /* silently fail */ }
   };
 
   useEffect(() => {
@@ -33,11 +48,10 @@ export function Layout() {
   const handleFloorChange = (floorId: string) => setCurrentFloorId(floorId);
 
   const handleAccept = () => {
-    const updatedHouseData = houseData.map(floor => ({
+    setHouseData(houseData.map(floor => ({
       ...floor,
       rooms: floor.rooms.map(room => ({ ...room, energyWasters: [] })),
-    }));
-    setHouseData(updatedHouseData);
+    })));
     setSelectedWasters(new Set());
   };
 
@@ -47,18 +61,38 @@ export function Layout() {
     setCurrentFloorId(mockHouseData[0].id);
   };
 
-  const handleRoomAssign = async (floorId: string, roomId: string) => {
+  // Called from SettingsOverlay when user picks a room for a device
+  // → close settings, navigate to that room, enter placing mode
+  const handleRoomSelectedForPlacement = (floorId: string, roomId: string) => {
     if (!assigningDevice) return;
-    await setPlacement(assigningDevice.id, floorId, roomId, 50, 50);
-    await fetchDevices();
-    setAssigningDevice(null);
+    setPlacingState({ device: assigningDevice, floorId, roomId });
+    setCurrentFloorId(floorId);
     setShowSettings(false);
+    setAssigningDevice(null);
+    navigate(`/room/${floorId}/${roomId}`);
   };
 
-  return (
-    <div className="h-screen w-screen flex overflow-hidden bg-[#6B7280] select-none relative">
+  // Called from RoomDetail when user confirms position
+  const handleSavePlacement = async (x: number, y: number) => {
+    if (!placingState) return;
+    await setPlacement(placingState.device.id, placingState.floorId, placingState.roomId, x, y);
+    await fetchDevices();
+    setPlacingState(null);
+  };
 
-      {/* ── Gear button fixed top-right ── */}
+  const handleCancelPlacement = () => setPlacingState(null);
+
+  const problemRoomIds = new Set<string>(
+    allDevices
+      .filter(isDeviceProblem)
+      .map(d => d.placement?.room_id)
+      .filter(Boolean) as string[]
+  );
+
+  return (
+    <div className="h-screen w-screen flex overflow-hidden bg-[#708491] select-none relative">
+
+      {/* Gear button */}
       <button
         onClick={() => { setAssigningDevice(null); setShowSettings(true); }}
         className="fixed top-3 right-3 z-30 w-11 h-11 flex items-center justify-center rounded-xl bg-gray-700/80 hover:bg-gray-600 active:bg-gray-800 border border-gray-500/50 backdrop-blur-sm transition-all shadow-lg"
@@ -67,7 +101,6 @@ export function Layout() {
         <Settings className="w-5 h-5 text-white" />
       </button>
 
-      {/* ── Main content ── */}
       <div className="flex-1 overflow-hidden">
         <Outlet
           context={{
@@ -82,12 +115,16 @@ export function Layout() {
             allDevices,
             fetchDevices,
             assigningDevice,
-            onRoomAssign: handleRoomAssign,
+            onRoomAssign: handleRoomSelectedForPlacement,
+            problemRoomIds,
+            isDeviceProblem,
+            placingState,
+            onSavePlacement: handleSavePlacement,
+            onCancelPlacement: handleCancelPlacement,
           }}
         />
       </div>
 
-      {/* ── Settings overlay ── */}
       {showSettings && (
         <SettingsOverlay
           devices={allDevices}
@@ -99,7 +136,7 @@ export function Layout() {
           onDevicesChanged={fetchDevices}
           currentFloorId={currentFloorId}
           onFloorChange={setCurrentFloorId}
-          onRoomAssign={handleRoomAssign}
+          onRoomAssign={handleRoomSelectedForPlacement}
         />
       )}
     </div>

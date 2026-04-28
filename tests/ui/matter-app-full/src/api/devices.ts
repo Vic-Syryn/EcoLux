@@ -14,6 +14,8 @@ export interface Device {
   online: boolean;
   state: boolean | null;
   placement: DevicePlacement | null;
+  problem_minutes: number | null; // null = never a problem
+  on_since: string | null;        // ISO timestamp when device was turned on
 }
 
 export async function getDevices(): Promise<Device[]> {
@@ -52,17 +54,20 @@ export async function removePlacement(nodeId: number): Promise<void> {
   await fetch(`${API_BASE}/devices/${nodeId}/placement`, { method: 'DELETE' });
 }
 
-// TODO: Replace with your actual pairing endpoint path and request body shape.
-// Current assumption: POST /commission  with body { "code": "XXXXXXXXXXX" }
-// If your endpoint is different (e.g. POST /pair, body { setup_code: "..." }),
-// update the fetch call below accordingly.
+export async function setProblemMinutes(nodeId: number, minutes: number | null): Promise<void> {
+  await fetch(`${API_BASE}/devices/${nodeId}/settings`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ problem_minutes: minutes }),
+  });
+}
+
 export async function pairDevice(code: string): Promise<void> {
   const response = await fetch(`${API_BASE}/commission`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ code }),
   });
-
   if (!response.ok) {
     const text = await response.text().catch(() => '');
     throw new Error(text || `Pairing failed (${response.status})`);

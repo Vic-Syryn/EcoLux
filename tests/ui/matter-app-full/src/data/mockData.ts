@@ -35,15 +35,77 @@ export const mockHouseData: Floor[] = [
     level: 2,
     rooms: [
       {
-        id: 'master-bedroom',
-        name: 'Hoofdslaapkamer',
-        x: 20,
-        y: 20,
-        width: 260,
-        height: 155,
+        id: 'slaapkamer 1',
+        name: 'Slaapkamer 1',
+        x: 10,
+        y: 47.2,
+        width: 150.6,
+        height: 148.2,
         energyWasters: [
         ]
       },
+
+      {
+        id: 'slaapkamer 2',
+        name: 'Slaapkamer 2',
+        x: 10,
+        y: 195.4,
+        width: 150.6,
+        height: 160.2,
+        energyWasters: [
+        ]
+      },
+      {
+        id: 'Badkamer',
+        name: 'Badkamer',
+        x: 160,
+        y: 5,
+        width: 155.9,
+        height: 79.4,
+        energyWasters: [
+        ]
+      },
+      {
+        id: 'slaapkamer 3',
+        name: 'Slaapkamer 3',
+        x: 160,
+        y: 236.6,
+        width: 155.9,
+        height: 119.5,
+        energyWasters: [
+        ]
+      },
+      {
+        id: 'slaapkamer 4',
+        name: 'Slaapkamer 4',
+        x: 316,
+        y: 5,
+        width: 153.6,
+        height: 289,
+        energyWasters: [
+        ]
+      },
+      {
+        id: 'Hal',
+        name: 'Hal',
+        x: 160,
+        y: 79.4,
+        width: 155.9,
+        height: 157.2,
+        energyWasters: [
+        ]
+      },
+      {
+        id: 'trap',
+        name: '',
+        x: 257,
+        y: 130,
+        width: 59,
+        height: 106.1,
+        energyWasters: [
+        ]
+      },
+
     ]
   },
 
@@ -60,7 +122,7 @@ export const mockHouseData: Floor[] = [
         width: 288.7,
         height: 243.3,
         energyWasters: [
-          {
+          /*{
             id: 'lr-1',
             name: 'HVAC-systeem',
             type: 'Klimaatbeheersing',
@@ -69,7 +131,7 @@ export const mockHouseData: Floor[] = [
             x: 20,
             y: 20,
             isProblem: HVAC_living
-          },
+          },*/
         ]
       },
       {
@@ -84,7 +146,7 @@ export const mockHouseData: Floor[] = [
       },
       {
         id: 'keuken',
-        name: 'keuken',
+        name: 'Keuken',
         x: 202.6,
         y: 9.1,
         width: 122.1,
@@ -94,7 +156,7 @@ export const mockHouseData: Floor[] = [
       },
       {
         id: 'hal',
-        name: 'hal',
+        name: 'Hal',
         x: 235.4,
         y: 199.2,
         width: 40.4,

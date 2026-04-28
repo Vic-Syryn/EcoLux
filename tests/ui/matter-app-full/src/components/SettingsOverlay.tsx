@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
-import { X, Zap, Wifi, WifiOff, MapPin, Trash2, ChevronUp, ChevronDown, Plus, Loader, CheckCircle, AlertCircle } from 'lucide-react';
-import { Device, removePlacement, pairDevice } from '../api/devices';
+import { X, Zap, Wifi, WifiOff, MapPin, Trash2, ChevronUp, ChevronDown, Plus, Loader, CheckCircle, AlertCircle, Clock } from 'lucide-react';
+import { Device, removePlacement, pairDevice, setProblemMinutes } from '../api/devices';
 import { Floor } from '../data/mockData';
 
 interface SettingsOverlayProps {
@@ -19,7 +19,6 @@ interface SettingsOverlayProps {
 
 type PairStatus = 'idle' | 'loading' | 'success' | 'error';
 
-// Formats a raw digit string as a Matter setup code: XXXXX-XXXXXXX or XXX-XX-XXXXXXX
 function formatMatterCode(raw: string): string {
   const digits = raw.replace(/\D/g, '').slice(0, 11);
   if (digits.length <= 4) return digits;
@@ -42,11 +41,12 @@ export function SettingsOverlay({
   const currentIndex = houseData.findIndex(f => f.id === currentFloorId);
   const currentFloor = houseData[currentIndex];
 
-  // Pairing state
   const [showPairForm, setShowPairForm] = useState(false);
   const [pairCode, setPairCode] = useState('');
   const [pairStatus, setPairStatus] = useState<PairStatus>('idle');
   const [pairError, setPairError] = useState('');
+  const [editingMinutes, setEditingMinutes] = useState<Record<number, string>>({});
+  const [savingMinutes, setSavingMinutes] = useState<Record<number, boolean>>({});
 
   const handleRemovePlacement = async (device: Device) => {
     await removePlacement(device.id);
@@ -71,10 +71,7 @@ export function SettingsOverlay({
       setPairStatus('success');
       setPairCode('');
       await onDevicesChanged();
-      setTimeout(() => {
-        setPairStatus('idle');
-        setShowPairForm(false);
-      }, 2500);
+      setTimeout(() => { setPairStatus('idle'); setShowPairForm(false); }, 2500);
     } catch (e: any) {
       setPairStatus('error');
       setPairError(e.message || 'Koppelen mislukt');
@@ -86,6 +83,20 @@ export function SettingsOverlay({
     setPairCode('');
     setPairStatus('idle');
     setPairError('');
+  };
+
+  const handleSaveProblemMinutes = async (device: Device) => {
+    const val = editingMinutes[device.id];
+    const minutes = val === '' ? null : parseInt(val, 10);
+    if (val !== '' && (isNaN(minutes!) || minutes! <= 0)) return;
+    setSavingMinutes(prev => ({ ...prev, [device.id]: true }));
+    try {
+      await setProblemMinutes(device.id, minutes);
+      await onDevicesChanged();
+      setEditingMinutes(prev => { const n = { ...prev }; delete n[device.id]; return n; });
+    } finally {
+      setSavingMinutes(prev => ({ ...prev, [device.id]: false }));
+    }
   };
 
   return (
@@ -107,10 +118,8 @@ export function SettingsOverlay({
         {/* Header */}
         <div className="flex items-center justify-between px-4 py-3 border-b border-gray-600/50 flex-shrink-0">
           <h2 className="text-base font-semibold text-white">Instellingen</h2>
-          <button
-            onClick={onClose}
-            className="w-10 h-10 flex items-center justify-center rounded-xl bg-gray-600/50 hover:bg-gray-500/50 active:bg-gray-700 transition-colors"
-          >
+          <button onClick={onClose}
+            className="w-10 h-10 flex items-center justify-center rounded-xl bg-gray-600/50 hover:bg-gray-500/50 active:bg-gray-700 transition-colors">
             <X className="w-5 h-5 text-white" />
           </button>
         </div>
@@ -139,7 +148,7 @@ export function SettingsOverlay({
 
         <div className="flex-1 overflow-y-auto">
 
-          {/* ── Pair new device section ── */}
+          {/* ── Pair new device ── */}
           <div className="p-4 border-b border-gray-600/40">
             <div className="flex items-center justify-between mb-3">
               <p className="text-xs font-semibold text-gray-400 uppercase tracking-wider">
@@ -166,88 +175,54 @@ export function SettingsOverlay({
                   className="overflow-hidden"
                 >
                   <div className="bg-gray-800/60 rounded-xl border border-gray-600/40 p-3 space-y-3">
-
-                    {/* Instruction */}
                     <p className="text-xs text-gray-400 leading-relaxed">
-                      Voer de 11-cijferige Matter setupcode in. Deze staat op het apparaat of in de verpakking.
+                      Voer de 11-cijferige Matter setupcode in.
                     </p>
-
-                    {/* Code input */}
                     <div className="space-y-1.5">
                       <label className="text-xs text-gray-400 font-medium">Setupcode</label>
                       <input
-                        type="text"
-                        inputMode="numeric"
-                        value={pairCode}
-                        onChange={handleCodeChange}
-                        placeholder="XXXX-XXX-XXXX"
-                        maxLength={14} /* 11 digits + 2 dashes + 1 buffer */
+                        type="text" inputMode="numeric"
+                        value={pairCode} onChange={handleCodeChange}
+                        placeholder="XXXX-XXX-XXXX" maxLength={14}
                         disabled={pairStatus === 'loading' || pairStatus === 'success'}
-                        className="w-full h-11 px-3 rounded-xl bg-gray-700/80 border border-gray-500/50 text-white text-base font-mono tracking-widest placeholder-gray-600 focus:outline-none focus:border-indigo-400/70 focus:bg-gray-700 transition-all disabled:opacity-50"
+                        className="w-full h-11 px-3 rounded-xl bg-gray-700/80 border border-gray-500/50 text-white text-base font-mono tracking-widest placeholder-gray-600 focus:outline-none focus:border-indigo-400/70 transition-all disabled:opacity-50"
                       />
-                      {/* Progress dots */}
                       <div className="flex gap-1 justify-center pt-0.5">
                         {Array.from({ length: 11 }).map((_, i) => (
-                          <div
-                            key={i}
-                            className={`w-1.5 h-1.5 rounded-full transition-all duration-150 ${
-                              i < rawDigits.length
-                                ? 'bg-indigo-400'
-                                : 'bg-gray-600'
-                            }`}
-                          />
+                          <div key={i} className={`w-1.5 h-1.5 rounded-full transition-all duration-150 ${
+                            i < rawDigits.length ? 'bg-indigo-400' : 'bg-gray-600'
+                          }`} />
                         ))}
                       </div>
                     </div>
 
-                    {/* Status feedback */}
                     <AnimatePresence>
                       {pairStatus === 'error' && (
-                        <motion.div
-                          initial={{ opacity: 0, y: -4 }}
-                          animate={{ opacity: 1, y: 0 }}
-                          exit={{ opacity: 0 }}
-                          className="flex items-center gap-2 px-3 py-2 rounded-lg bg-red-900/40 border border-red-500/30"
-                        >
+                        <motion.div initial={{ opacity: 0, y: -4 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0 }}
+                          className="flex items-center gap-2 px-3 py-2 rounded-lg bg-red-900/40 border border-red-500/30">
                           <AlertCircle className="w-4 h-4 text-red-400 flex-shrink-0" />
                           <p className="text-xs text-red-300">{pairError}</p>
                         </motion.div>
                       )}
                       {pairStatus === 'success' && (
-                        <motion.div
-                          initial={{ opacity: 0, y: -4 }}
-                          animate={{ opacity: 1, y: 0 }}
-                          exit={{ opacity: 0 }}
-                          className="flex items-center gap-2 px-3 py-2 rounded-lg bg-green-900/40 border border-green-500/30"
-                        >
+                        <motion.div initial={{ opacity: 0, y: -4 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0 }}
+                          className="flex items-center gap-2 px-3 py-2 rounded-lg bg-green-900/40 border border-green-500/30">
                           <CheckCircle className="w-4 h-4 text-green-400 flex-shrink-0" />
                           <p className="text-xs text-green-300">Apparaat gekoppeld!</p>
                         </motion.div>
                       )}
                     </AnimatePresence>
 
-                    {/* Action buttons */}
                     <div className="flex gap-2">
-                      <button
-                        onClick={handleCancelPair}
-                        disabled={pairStatus === 'loading'}
-                        className="flex-1 h-10 rounded-xl bg-gray-700/60 border border-gray-500/40 text-gray-300 text-xs font-medium hover:bg-gray-600/60 transition-all active:scale-95 disabled:opacity-40"
-                      >
+                      <button onClick={handleCancelPair} disabled={pairStatus === 'loading'}
+                        className="flex-1 h-10 rounded-xl bg-gray-700/60 border border-gray-500/40 text-gray-300 text-xs font-medium hover:bg-gray-600/60 transition-all active:scale-95 disabled:opacity-40">
                         Annuleren
                       </button>
-                      <button
-                        onClick={handlePair}
-                        disabled={!isCodeComplete || pairStatus === 'loading' || pairStatus === 'success'}
-                        className="flex-1 h-10 rounded-xl bg-indigo-600/80 border border-indigo-400/40 text-white text-xs font-semibold hover:bg-indigo-500/80 transition-all active:scale-95 disabled:opacity-40 disabled:cursor-not-allowed flex items-center justify-center gap-1.5"
-                      >
+                      <button onClick={handlePair} disabled={!isCodeComplete || pairStatus === 'loading' || pairStatus === 'success'}
+                        className="flex-1 h-10 rounded-xl bg-indigo-600/80 border border-indigo-400/40 text-white text-xs font-semibold hover:bg-indigo-500/80 transition-all active:scale-95 disabled:opacity-40 disabled:cursor-not-allowed flex items-center justify-center gap-1.5">
                         {pairStatus === 'loading' ? (
-                          <>
-                            <Loader className="w-3.5 h-3.5 animate-spin" />
-                            Koppelen...
-                          </>
-                        ) : (
-                          'Koppelen'
-                        )}
+                          <><Loader className="w-3.5 h-3.5 animate-spin" />Koppelen...</>
+                        ) : 'Koppelen'}
                       </button>
                     </div>
                   </div>
@@ -275,23 +250,19 @@ export function SettingsOverlay({
                 {devices.map(device => {
                   const isAssigning = assigningDevice?.id === device.id;
                   const hasPlacement = !!device.placement;
-
-                  let roomName = '';
-                  if (hasPlacement) {
-                    const floor = houseData.find(f => f.id === device.placement!.floor_id);
-                    const room = floor?.rooms.find(r => r.id === device.placement!.room_id);
-                    roomName = room ? `${floor?.name} · ${room.name}` : '';
-                  }
+                  const floor = houseData.find(f => f.id === device.placement?.floor_id);
+                  const roomName = floor?.rooms.find(r => r.id === device.placement?.room_id)?.name ?? '';
+                  const placementLabel = roomName ? `${floor?.name} · ${roomName}` : '';
+                  const currentMinutes = device.problem_minutes ?? '';
+                  const editVal = editingMinutes[device.id] !== undefined
+                    ? editingMinutes[device.id]
+                    : String(currentMinutes);
+                  const isSaving = savingMinutes[device.id] ?? false;
 
                   return (
-                    <div
-                      key={device.id}
-                      className={`rounded-xl border p-3 transition-all ${
-                        isAssigning
-                          ? 'border-indigo-400/60 bg-indigo-600/20'
-                          : 'border-gray-600/40 bg-gray-700/30'
-                      }`}
-                    >
+                    <div key={device.id} className={`rounded-xl border p-3 transition-all ${
+                      isAssigning ? 'border-indigo-400/60 bg-indigo-600/20' : 'border-gray-600/40 bg-gray-700/30'
+                    }`}>
                       <div className="flex items-center gap-3">
                         <div className={`w-9 h-9 rounded-lg flex items-center justify-center flex-shrink-0 ${
                           device.state ? 'bg-amber-500/30' : 'bg-gray-600/50'
@@ -300,11 +271,10 @@ export function SettingsOverlay({
                         </div>
                         <div className="flex-1 min-w-0">
                           <p className="text-sm font-medium text-white truncate">{device.name}</p>
-                          {hasPlacement ? (
-                            <p className="text-xs text-gray-400 truncate mt-0.5">📍 {roomName}</p>
-                          ) : (
-                            <p className="text-xs text-gray-500 mt-0.5">Nog niet geplaatst</p>
-                          )}
+                          {hasPlacement
+                            ? <p className="text-xs text-gray-400 truncate mt-0.5">📍 {placementLabel}</p>
+                            : <p className="text-xs text-gray-500 mt-0.5">Nog niet geplaatst</p>
+                          }
                         </div>
                         <div className="flex-shrink-0">
                           {device.online
@@ -312,6 +282,24 @@ export function SettingsOverlay({
                             : <WifiOff className="w-4 h-4 text-red-400" />
                           }
                         </div>
+                      </div>
+
+                      {/* Problem minutes input */}
+                      <div className="mt-2.5 flex items-center gap-2">
+                        <Clock className="w-3.5 h-3.5 text-gray-400 flex-shrink-0" />
+                        <span className="text-xs text-gray-400 flex-shrink-0">Probleemtijd:</span>
+                        <input
+                          type="number"
+                          min="1"
+                          value={editVal}
+                          placeholder="min"
+                          onChange={e => setEditingMinutes(prev => ({ ...prev, [device.id]: e.target.value }))}
+                          onBlur={() => handleSaveProblemMinutes(device)}
+                          onKeyDown={e => { if (e.key === 'Enter') handleSaveProblemMinutes(device); }}
+                          className="w-16 h-7 px-2 rounded-lg bg-gray-600/60 border border-gray-500/40 text-white text-xs text-center focus:outline-none focus:border-amber-400/60 transition-all"
+                        />
+                        <span className="text-xs text-gray-500">min</span>
+                        {isSaving && <Loader className="w-3 h-3 text-gray-400 animate-spin" />}
                       </div>
 
                       <div className="flex gap-2 mt-2.5">
@@ -354,8 +342,6 @@ export function SettingsOverlay({
                 <p className="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-3">
                   Tik op een ruimte
                 </p>
-
-                {/* Floor navigation */}
                 <div className="flex items-center gap-2 mb-3">
                   <button
                     onClick={() => currentIndex > 0 && onFloorChange(houseData[currentIndex - 1].id)}
@@ -364,9 +350,7 @@ export function SettingsOverlay({
                   >
                     <ChevronUp className="w-4 h-4 text-white" />
                   </button>
-                  <span className="flex-1 text-center text-sm font-medium text-white">
-                    {currentFloor?.name}
-                  </span>
+                  <span className="flex-1 text-center text-sm font-medium text-white">{currentFloor?.name}</span>
                   <button
                     onClick={() => currentIndex < houseData.length - 1 && onFloorChange(houseData[currentIndex + 1].id)}
                     disabled={currentIndex === houseData.length - 1}
@@ -375,38 +359,21 @@ export function SettingsOverlay({
                     <ChevronDown className="w-4 h-4 text-white" />
                   </button>
                 </div>
-
-                {/* Mini SVG floor plan */}
-                <svg
-                  viewBox="0 0 500 360"
-                  className="w-full rounded-xl border border-gray-600/40 bg-[#6B7280]/40"
-                  preserveAspectRatio="xMidYMid meet"
-                >
+                <svg viewBox="0 0 500 360" className="w-full rounded-xl border border-gray-600/40 bg-[#6B7280]/40"
+                  preserveAspectRatio="xMidYMid meet">
                   <rect x="0" y="0" width="480" height="360" fill="none" stroke="white" strokeWidth="3" rx="10" />
-
                   {currentFloor?.rooms.map(room => (
-                    <g
-                      key={room.id}
-                      onClick={() => onRoomAssign(currentFloor.id, room.id)}
-                      style={{ cursor: 'pointer' }}
-                    >
+                    <g key={room.id} onClick={() => onRoomAssign(currentFloor.id, room.id)} style={{ cursor: 'pointer' }}>
                       <motion.rect
-                        x={room.x} y={room.y}
-                        width={room.width} height={room.height}
-                        fill="rgba(99,102,241,0.2)"
-                        stroke="rgb(129,140,248)"
-                        strokeWidth="2"
-                        strokeDasharray="5,3"
-                        rx="4"
+                        x={room.x} y={room.y} width={room.width} height={room.height}
+                        fill="rgba(99,102,241,0.2)" stroke="rgb(129,140,248)"
+                        strokeWidth="2" strokeDasharray="5,3" rx="4"
                         whileTap={{ fill: 'rgba(99,102,241,0.5)' }}
                       />
-                      <text
-                        x={room.x + room.width / 2}
-                        y={room.y + room.height / 2}
+                      <text x={room.x + room.width / 2} y={room.y + room.height / 2}
                         textAnchor="middle" dominantBaseline="middle"
                         fill="white" fontSize="13" fontWeight="500"
-                        style={{ pointerEvents: 'none', userSelect: 'none' }}
-                      >
+                        style={{ pointerEvents: 'none', userSelect: 'none' }}>
                         {room.name}
                       </text>
                     </g>
