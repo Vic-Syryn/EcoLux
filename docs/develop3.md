@@ -47,7 +47,6 @@ Binnen deze markt is er een duidelijke standaardtaal zichtbaar. Die bestaat uit 
 
 <ins>**oppurtiniteit voor differentiatie**</ins>
 Op vlak van kleurgebruik ligt er een duidelijke kans om het huidige neutrale palet subtiel uit te breiden. In plaats van uitsluitend wit, beige en licht hout kunnen gedempte accentkleuren zoals saliegroen, terracotta of vergrijsd blauw worden ingezet. Deze kleuren blijven rustig en harmonieus, maar geven producten meer identiteit en onderscheiden ze van het standaardaanbod. 
-<ins>**doelgroep in kernwoorden**</ins>
 <p align="center">
   <img src="../img/kleurenpallet.png" width="70%">
 <p align="center">
