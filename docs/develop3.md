@@ -23,6 +23,7 @@ meubels omgeving</p>
 
 <ins>**CMF analyse omgeving**</ins>
 
+
 <ins>**komt CMF analyse overeen met doelgroep**</ins>
 
 <ins>**standaard in de markt**</ins>
