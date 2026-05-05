@@ -15,7 +15,7 @@ mindmap CMF</p>
 
 <ins>**product in omgeving**</ins>
 <p align="center">
-  <img src="../img/meubel1.png" width="35%">
+  <img src="../img/meubel1.png" width="30%">
   <img src="../img/meubel2.png" width="40%">
     <img src="../img/meubel3.png" width="45%">
 <p align="center">
