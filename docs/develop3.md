@@ -60,12 +60,18 @@ kleurenpallet</p>
 
 Ook op het niveau van materiaalgebruik is er ruimte voor meer authenticiteit. Waar vandaag vaak gewerkt wordt met industriële materialen met een natuurlijke uitstraling, kan men sterker inzetten op het zichtbaar maken van echte materialen. Het gebruik van massief hout in plaats van fineer, grover geweven stoffen met een duidelijke textuur, of combinaties met materialen zoals keramiek of natuursteen zorgen voor een rijkere en meer geloofwaardige uitstraling. Hierdoor stijgt niet alleen de visuele kwaliteit, maar ook de tactiele beleving van het product. 
 
-Wat betreft afwerking kan differentiatie ontstaan door subtiele contrasten en verfijnde details toe te voegen. In plaats van volledig uniforme, matte oppervlakken kan gewerkt worden met combinaties van matte en licht satijnen afwerkingen of met variaties in textuur. Daarnaast kunnen zichtbare verbindingen, zorgvuldig afgewerkte randen of kleine constructieve details bijdragen aan een meer gelaagde en verfijnde uitstraling. Deze ingrepen blijven discreet, maar maken het product visueel interessanter. 
+Wat betreft afwerking kan differentiatie ontstaan door subtiele contrasten en verfijnde details toe te voegen. In plaats van volledig uniforme, matte oppervlakken kan gewerkt worden met combinaties van matte en licht satijnen afwerkingen of met variaties in textuur. Daarnaast kunnen zichtbare verbindingen, zorgvuldig afgewerkte randen of kleine constructieve details bijdragen aan een meer gelaagde en verfijnde uitstraling. Deze ingrepen blijven discreet, maar maken het product visueel interessanter.
+
+**morfologische matrix**
+<p align="center">
+  <img src="../img/CMF morfologische matrix.png" width="110%">
+<p align="center">
+CMF morfologische matrix</p>
 
 **CMF varianten**
 
 
-Op basis van deze kennis werden de volgende varianten gemaakt die we later konden testen bij de gebruikers.
+Op basis van de morfologische matrix werden de volgende varianten gemaakt die we later konden testen bij de gebruikers.
 <p align="center">
   <img src="../img/rendersCMF.png" width="70%">
 <p align="center">
