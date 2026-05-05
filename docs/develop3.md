@@ -22,6 +22,7 @@ mindmap CMF</p>
 meubels omgeving</p>
 
 <ins>**CMF analyse omgeving**</ins>
+
  Overlappende CMF analyse producten: warm minimal natural 
 
  
