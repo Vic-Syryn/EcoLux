@@ -90,4 +90,5 @@ De testen werden afgenomen bij vijf respondenten met uiteenlopende leeftijden en
 Tijdens de test kregen de deelnemers verschillende renders en een touch-and-feel bord te zien. Aan de hand daarvan werden voorkeuren rond kleur, textuur, materiaal en afwerking onderzocht. De respondenten vergeleken onder andere matte en glanzende afwerkingen, gladde en getextureerde oppervlakken, en hout tegenover kunststof. Daarnaast werd gevraagd waar ze het product in hun woning zouden plaatsen, of het mocht opvallen of net moest opgaan in het interieur, en welke emoties EcoLux idealiter zou moeten oproepen.
 
 De data werd verzameld via een semigestructureerd interview, waarbij ruimte was voor gerichte vragen én spontane feedback. Nadien werden de resultaten geanalyseerd om terugkerende patronen in voorkeuren, attitudes en motivaties te herkennen. Deze inzichten vormden de basis voor de verdere verfijning van de CMF-keuzes en werden vertaald naar ontwerpimplicaties en finale design requirements.
+
 **Resultaten**
