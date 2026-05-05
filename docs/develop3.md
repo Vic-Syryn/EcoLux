@@ -12,9 +12,15 @@ In de CMF analyse worden bepaalde CMF opties gekozen en onderbouwd om later bij 
 <p align="center">
 mindmap CMF</p>
 
+
 <ins>**product in omgeving**</ins>
+
 <ins>**CMF analyse omgeving**</ins>
+
 <ins>**komt CMF analyse overeen met doelgroep**</ins>
+
 <ins>**standaard in de markt**</ins>
+
 <ins>**oppurtiniteit voor differentiatie**</ins>
+
 <ins>**CMF varianten**</ins>
