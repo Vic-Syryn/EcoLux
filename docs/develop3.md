@@ -82,6 +82,7 @@ CMF varianten</p>
 **Doelstellingen**
 
 Het doel van deze test is om verschillende prototypevarianten met elkaar te vergelijken en zo de finale ontwerpkeuzes te onderbouwen. Daarbij wordt onderzocht welke variant het best aansluit bij de noden en verwachtingen van de doelgroep op vlak van uitstraling, kleur, materiaal, afwerking en emotionele impact.
+
 **Materialen**
 
 * Touch and feel bord 
