@@ -41,12 +41,15 @@ Afwerking
 De afwerking is consequent mat, zacht en tactiel, zonder reflecterende oppervlakken. Hoogglans en uitgesproken texturen worden vermeden. Dit leidt tot een lage visuele prikkel en een verhoogde perceptie van comfort.  
 
 <ins>**overeenkomst CMF en doelgroep**</ins>
+
 De drie CMF’s sluiten sterk aan bij de beschreven doelgroep van energiebewuste gezinnen. De nadruk op zachte, warme kleuren en natuurlijke materialen ondersteunt waarden zoals comfort, rust en zachtheid. De eenvoudige, tijdloze vormgeving en het gebruik van neutrale tinten dragen bij aan een gevoel van duurzaamheid en lange levensduur, wat aansluit bij het idee van kwaliteit en tijdloosheid. Daarnaast zijn de producten visueel discreet, wat goed past bij “discreet in rustmodus”. 
 
 <ins>**standaard in de markt**</ins>
+
 Binnen deze markt is er een duidelijke standaardtaal zichtbaar. Die bestaat uit lichte houttinten in combinatie met wit of beige, matte afwerkingen en een algemene voorkeur voor neutrale, warme kleuren. Materialen ogen natuurlijk, maar zijn vaak industrieel geproduceerd. De vormgeving is eenvoudig, functioneel en zonder uitgesproken details. Deze aanpak zorgt voor brede toepasbaarheid en toegankelijkheid, maar leidt ook tot een zekere uniformiteit tussen producten en merken. Het resultaat is een herkenbare Scandinavisch geïnspireerde stijl die inmiddels sterk genormaliseerd is. 
 
 <ins>**oppurtiniteit voor differentiatie**</ins>
+
 Op vlak van kleurgebruik ligt er een duidelijke kans om het huidige neutrale palet subtiel uit te breiden. In plaats van uitsluitend wit, beige en licht hout kunnen gedempte accentkleuren zoals saliegroen, terracotta of vergrijsd blauw worden ingezet. Deze kleuren blijven rustig en harmonieus, maar geven producten meer identiteit en onderscheiden ze van het standaardaanbod. 
 <p align="center">
   <img src="../img/kleurenpallet.png" width="70%">
@@ -59,6 +62,7 @@ Ook op het niveau van materiaalgebruik is er ruimte voor meer authenticiteit. Wa
 Wat betreft afwerking kan differentiatie ontstaan door subtiele contrasten en verfijnde details toe te voegen. In plaats van volledig uniforme, matte oppervlakken kan gewerkt worden met combinaties van matte en licht satijnen afwerkingen of met variaties in textuur. Daarnaast kunnen zichtbare verbindingen, zorgvuldig afgewerkte randen of kleine constructieve details bijdragen aan een meer gelaagde en verfijnde uitstraling. Deze ingrepen blijven discreet, maar maken het product visueel interessanter. 
 
 <ins>**CMF varianten**</ins>
+
 
 Op basis van deze kennis werden de volgende varianten gemaakt die we later konden testen bij de gebruikers.
 <p align="center">
