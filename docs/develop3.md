@@ -5,6 +5,7 @@ Daarom wordt in dit verslag aandacht besteed aan UX, Service Design en CMF. De k
 
 ### <ins>**CMF analyse**</ins>
 In de CMF analyse worden bepaalde CMF opties gekozen en onderbouwd om later bij gebruikerstesten de definitieve CMF te valideren. De werkwijze is gebasseerd op de workshop CMF van de les. 
+
 <ins>**doelgroep in kernwoorden**</ins>
 <p align="center">
   <img src="../img/mindmap CMF.jpg" width="70%">
