@@ -74,14 +74,17 @@ CMF varianten</p>
 
 ### <ins>**Build & test**</ins>
 **Doelstellingen**
+
 Het doel van deze test is om verschillende prototypevarianten met elkaar te vergelijken en zo de finale ontwerpkeuzes te onderbouwen. Daarbij wordt onderzocht welke variant het best aansluit bij de noden en verwachtingen van de doelgroep op vlak van uitstraling, kleur, materiaal, afwerking en emotionele impact.
 **Materialen**
+
 * Touch and feel bord 
 * Smartphone voor opnames/foto’s 
 * Informed consent
 * Renders 
 
 **Methoden**
+
 De testen werden afgenomen bij vijf respondenten met uiteenlopende leeftijden en verschillende niveaus van technologische ervaring. Deze brede selectie werd gekozen omdat EcoLux bedoeld is voor een diverse doelgroep. De interviews vonden plaats in de thuisomgeving van de respondenten, zodat het product en de varianten konden worden beoordeeld binnen een realistische gebruikscontext.
 
 Tijdens de test kregen de deelnemers verschillende renders en een touch-and-feel bord te zien. Aan de hand daarvan werden voorkeuren rond kleur, textuur, materiaal en afwerking onderzocht. De respondenten vergeleken onder andere matte en glanzende afwerkingen, gladde en getextureerde oppervlakken, en hout tegenover kunststof. Daarnaast werd gevraagd waar ze het product in hun woning zouden plaatsen, of het mocht opvallen of net moest opgaan in het interieur, en welke emoties EcoLux idealiter zou moeten oproepen.
