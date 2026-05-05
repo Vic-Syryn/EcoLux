@@ -59,6 +59,7 @@ Ook op het niveau van materiaalgebruik is er ruimte voor meer authenticiteit. Wa
 Wat betreft afwerking kan differentiatie ontstaan door subtiele contrasten en verfijnde details toe te voegen. In plaats van volledig uniforme, matte oppervlakken kan gewerkt worden met combinaties van matte en licht satijnen afwerkingen of met variaties in textuur. Daarnaast kunnen zichtbare verbindingen, zorgvuldig afgewerkte randen of kleine constructieve details bijdragen aan een meer gelaagde en verfijnde uitstraling. Deze ingrepen blijven discreet, maar maken het product visueel interessanter. 
 
 <ins>**CMF varianten**</ins>
+
 Op basis van deze kennis werden de volgende varianten gemaakt die we later konden testen bij de gebruikers.
 <p align="center">
   <img src="../img/rendersCMF.png" width="70%">
