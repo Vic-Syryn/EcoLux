@@ -1,1 +1,3 @@
 virtuele matter smart plug aan/uit: curl -X POST http://localhost:8000/devices/9/toggle  (via pi terminal apparaat)(3 en 9)
+hostename vinden pi: hostname -I
+ip van pi: 192.168.137.161
