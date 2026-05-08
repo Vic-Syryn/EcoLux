@@ -7,12 +7,15 @@ begin define fase:
 * papiertape
 
 eind define fase:
-* led 
+* led(strip)
 * touch screen scherm
 * hout
 * PLA
 * Rasberry Pi
-* maagneettape
+* Arduino Uno
+* LDR lichtsensor
+* Rotary encoder
 * smartplug
 * smartswitch
+
 
