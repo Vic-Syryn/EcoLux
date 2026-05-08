@@ -17,7 +17,6 @@ De vier onderdelen communiceren continu met elkaar:
 | Apparaatverbinding | Praat met slimme apparaten (lampen, stekkers...) | Via het Matter-protocol over het thuisnetwerk |
 | Arduino + LED | Fysieke indicator bij energieproblemen | Verbonden via USB-kabel met de Raspberry Pi |
 
----
 
 ## Verbinding met slimme apparaten (Matter)
 
@@ -32,7 +31,6 @@ Wanneer je een nieuw slim apparaat wil toevoegen, doorloopt het systeem vier sta
 3. Na verificatie krijgt het apparaat toestemming om deel uit te maken van jouw netwerk
 4. Vanaf dan verloopt alle communicatie via een beveiligd certificaat
 
----
 
 ## Achterliggende software
 
@@ -59,7 +57,6 @@ Elke keer dat het scherm de apparatenlijst opvraagt, vergelijkt de software of e
 | Tijdsdrempel instellen | Instelling voor hoe lang een apparaat aan mag staan wordt opgeslagen |
 | Nieuw apparaat koppelen | Apparaat wordt toegevoegd via een koppelcode |
 
----
 
 ## Aanraakscherm
 
@@ -84,7 +81,6 @@ Als je aangeeft waar een apparaat staat in de kamer, werkt dat als volgt:
 4. Je klikt op de gewenste plek in de kamer
 5. Na bevestiging wordt de positie opgeslagen
 
----
 
 ## Fysiek waarschuwingslampje (Arduino)
 
@@ -115,7 +111,6 @@ De Arduino stuurt elke tiende van een seconde een klein berichtje naar de Pi met
 - **LED_TEST** — het lampje testen
 - **RESET** — alles opnieuw instellen
 
----
 
 ## Energiebewaking op de achtergrond
 
@@ -125,7 +120,6 @@ Naast de achterliggende software draait er nog een tweede programma op de Pi. Di
 
 **Apparaten in de gaten houden** — Elke 10 seconden bekijkt dit programma alle apparaten die aanstaan. Als een apparaat de ingestelde tijdslimiet overschrijdt, stuurt het een waarschuwing naar de Arduino zodat het lampje gaat branden. Zodra het probleem opgelost is, wordt de waarschuwing automatisch uitgeschakeld.
 
----
 
 ## Wat gebeurt er stap voor stap bij een energieprobleem?
 
