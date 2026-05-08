@@ -136,3 +136,8 @@ Naast de achterliggende software draait er nog een tweede programma op de Pi. Di
 | 9 | De software wist het tijdstip en stuurt een sein dat alles in orde is |
 | 10 | Het LED-lampje gaat uit |
 
+## Finale code en BOM
+De finale code staat in de [Source](https://github.com/Vic-Syryn/EcoLux/tree/main/src).
+
+De finale benodigheden staat in de [BOM](./bom.md)
+
