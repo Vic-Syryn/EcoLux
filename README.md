@@ -37,8 +37,9 @@ Het doel van dit project is het verkennen en definiëren van ontwerpprincipes vo
 4. [Develop 1](./docs/develop1.md)
 5. [Develop 2](./docs/develop2.md)
 6. [Develop 3](./docs/develop3.md)
-7. [Design Requirements](./docs/design_requirements.md)
-8. [Bill of materials](./docs/bom.md)
+7. [Develop 4](./docs/develop4.md)
+8. [Design Requirements](./docs/design_requirements.md)
+9. [Bill of materials](./docs/bom.md)
 
 ## Kritische reflectie
 De discoveryfase gaf een goed beeld van waarom mensen wel willen besparen, maar dit in de praktijk vaak niet lukt. Door bij mensen thuis te observeren en te praten over hun gewoontes, werd duidelijk waar energieverlies ontstaat en waarom dit vaak niet opvalt. Toch waren er maar drie huishoudens onderzocht, waardoor niet alle soorten gebruikers meegenomen zijn (bv. grotere gezinnen, huurders of mensen met andere levensstijlen). Ook kan het zijn dat deelnemers zich anders gedroegen omdat er iemand aanwezig was tijdens het onderzoek, waardoor ze bewuster met energie omgingen dan normaal.
