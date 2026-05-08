@@ -138,5 +138,6 @@ Naast de achterliggende software draait er nog een tweede programma op de Pi. Di
 
 ## Finale code en BOM
 De finale code staat in de [Source](./src/).
-De finale benodigheden staat in de [BOM](./docs/bom.md)
+
+De finale benodigheden staat in de [BOM](./bom.md)
 
