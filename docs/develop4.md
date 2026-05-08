@@ -94,7 +94,6 @@ Het lampje past zijn helderheid automatisch aan op basis van het omgevingslicht,
 |---|---|---|
 | Lichtsensor (LDR) | Analoge ingang | Meet hoe licht of donker het is in de ruimte |
 | Draaiknop (encoder) | Digitale ingang | Handmatige fijnregeling van de helderheid |
-| Knop op de draaiknop | Digitale ingang | Scherm aan of uit zetten |
 | LED-lampje | PWM-uitgang | Knippert of brandt bij een energieprobleem |
 
 ### Hoe wordt de helderheid bepaald?
@@ -105,20 +104,12 @@ De lichtsensor is gekalibreerd op de werkelijke meetwaarden van de gebruikte har
 
 ### Communicatie tussen Arduino en Raspberry Pi
 
-De Arduino stuurt elke tiende van een seconde een klein berichtje naar de Pi met de huidige sensorwaarden en of het lampje aan of uit is. De Pi kan ook commando's terugsturen, zoals:
-
-- **ALERT:1 / ALERT:0** — energieprobleem melden of opheffen
-- **LED_TEST** — het lampje testen
-- **RESET** — alles opnieuw instellen
+De Arduino stuurt elke tiende van een seconde een klein berichtje naar de Pi met de huidige sensorwaarden en of het lampje aan of uit is. De Pi kan ook commando's terugsturen.
 
 
 ## Energiebewaking op de achtergrond
 
-Naast de achterliggende software draait er nog een tweede programma op de Pi. Dit programma doet twee dingen tegelijk:
-
-**Scherm bedienen** — Als je op de knop van de draaiknop drukt, gaat het scherm aan of uit. Dit wordt gedetecteerd via de Arduino en doorgegeven aan de Pi.
-
-**Apparaten in de gaten houden** — Elke 10 seconden bekijkt dit programma alle apparaten die aanstaan. Als een apparaat de ingestelde tijdslimiet overschrijdt, stuurt het een waarschuwing naar de Arduino zodat het lampje gaat branden. Zodra het probleem opgelost is, wordt de waarschuwing automatisch uitgeschakeld.
+Naast de achterliggende software draait er nog een tweede programma op de Pi. Elke 10 seconden bekijkt dit programma alle apparaten die aanstaan. Als een apparaat de ingestelde tijdslimiet overschrijdt, stuurt het een waarschuwing naar de Arduino zodat het lampje gaat branden. Zodra het probleem opgelost is, wordt de waarschuwing automatisch uitgeschakeld.
 
 
 ## Wat gebeurt er stap voor stap bij een energieprobleem?
