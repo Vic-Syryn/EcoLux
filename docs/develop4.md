@@ -97,6 +97,11 @@ Het lampje past zijn helderheid automatisch aan op basis van het omgevingslicht,
 | Knop op de draaiknop | Digitale ingang | Scherm aan of uit zetten |
 | LED-lampje | PWM-uitgang | Knippert of brandt bij een energieprobleem |
 
+<p align="center">
+  <img src="../img/Ecolux_Circuit.png" width="100%">
+<p align="center">
+
+
 ### Hoe wordt de helderheid bepaald?
 
 De helderheid van het lampje wordt berekend op basis van twee factoren: hoe licht het is in de ruimte (lichtsensor), en de handmatige bijstelling via de draaiknop. Beide worden gecombineerd tot één helderheidswaarde tussen 0 (uit) en 255 (maximaal fel).
