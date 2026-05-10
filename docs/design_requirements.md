@@ -33,3 +33,9 @@
 | 5.14| Nieuwe gebruikers begrijpen de basiswerking van het systeem binnen een korte introductieperiode (<5 minuten).                          | Develop 2           |
 | 5.15| De gebruikerservaring verloopt zonder frequente fouten of onzekerheden tijdens gebruik.                                                | Develop 2           |
 | 5.16| Het product combineert esthetische integratie in de leefomgeving met functionele meerwaarde.                                           | Develop 2           |
+| 6.1 | EcoLux past visueel binnen verschillende interieurs zonder te dominant aanwezig te zijn.                                                | Develop 3 |
+| 6.2 | De kleurkeuze is gebaseerd op lichte, natuurlijke en zachte tinten, eventueel gecombineerd met een subtiel kleuraccent.                 | Develop 3 |
+| 6.3 | Het materiaal of de materiaaluitstraling communiceert duurzaamheid en warmte.                                                          | Develop 3 |
+| 6.4 | Het oppervlak is aangenaam en praktisch in dagelijks gebruik, bij voorkeur glad of mat en eenvoudig schoon te maken.                   | Develop 3 |
+| 6.5 | De tactiele textuur voelt niet storend of ruw aan.                                                                                     | Develop 3 |
+| 6.6 | De finale CMF-keuze ondersteunt de waarden van EcoLux: toegankelijkheid, duurzaamheid, eenvoud en financieel voordeel.                 | Develop 3 |
