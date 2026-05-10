@@ -27,8 +27,8 @@ Grip krijgen op energieverbruik en energieverlies verminderen.
 - Demo’s
 
 ### Emoties
-😟 Frustratie  
-💡 Hoop
+Frustratie  
+Hoop
 
 ### Pain Points
 - Geen inzicht in energieverlies.
@@ -65,8 +65,8 @@ Begrijpen of EcoLux relevant is voor de woning.
 - Prototype presentatie
 
 ### Emoties
-🤨 Nieuwsgierigheid  
-😬 Onzekerheid
+Nieuwsgierigheid  
+Onzekerheid
 
 ### Pain Points
 - Moeilijk inschatten welke componenten nodig zijn.
@@ -104,9 +104,9 @@ EcoLux correct installeren en verbinden.
 - Handleiding
 
 ### Emoties
-😐 Onzekerheid  
-🙂 Opluchting  
-😍 Wow-moment
+Onzekerheid  
+Opluchting  
+Wow-moment
 
 ### Pain Points
 - Onduidelijke plaatsing.
@@ -141,8 +141,8 @@ Inzicht krijgen in energieverlies.
 - Sensor feedback
 
 ### Emoties
-😮 Verrassing  
-💡 Inzicht
+Verrassing  
+Inzicht
 
 ### Pain Points
 - Te veel meldingen.
@@ -181,8 +181,8 @@ Beslissen hoe te reageren.
 - Actuatoren
 
 ### Emoties
-🧠 Controle  
-😌 Opluchting
+Controle  
+Opluchting
 
 ### Pain Points
 - Te veel keuzes.
@@ -213,8 +213,8 @@ Automatisch energiebeheer.
 - Statusfeedback
 
 ### Emoties
-😌 Vertrouwen  
-😐 Mogelijke irritatie
+Vertrouwen  
+Mogelijke irritatie
 
 ### Pain Points
 - Angst voor verlies van controle.
@@ -247,8 +247,8 @@ EcoLux integreren in dagelijkse routines.
 - Interface
 
 ### Emoties
-🧘 Rust  
-🔒 Veiligheid
+Rust  
+Veiligheid
 
 ### Pain Points
 - Vergeten functies te gebruiken.
@@ -281,8 +281,8 @@ Resultaten begrijpen en opvolgen.
 - Statistieken
 
 ### Emoties
-😄 Trots  
-🎯 Motivatie
+Trots  
+Motivatie
 
 ### Pain Points
 - Data te technisch.
@@ -317,8 +317,8 @@ Langdurig gebruik en uitbreiding.
 - Updates
 
 ### Emoties
-😊 Loyaliteit  
-🤝 Vertrouwen
+Loyaliteit  
+Vertrouwen
 
 ### Pain Points
 - Minder engagement op lange termijn.
