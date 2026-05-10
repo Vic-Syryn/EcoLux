@@ -138,7 +138,6 @@ Inzicht krijgen in energieverlies.
 ### Touchpoints
 - LEDs
 - Display
-- App notificaties
 - Sensor feedback
 
 ### Emoties
@@ -169,12 +168,12 @@ Beslissen hoe te reageren.
 
 ### Actions
 - Negeert melding.
-- Lost probleem zelf op.
+- Gebruiker kiest ervoor om het probleem op te laten lossen.
 - Laat EcoLux automatisch handelen.
 
 ### Touchpoints
 - Display
-- App interface
+- Interface
 - Actuatoren
 
 ### Emoties
@@ -183,7 +182,6 @@ Beslissen hoe te reageren.
 
 ### Pain Points
 - Te veel keuzes.
-- Onduidelijke instellingen.
 
 ### Opportuniteiten
 - Snelle acties.
@@ -204,12 +202,9 @@ Beslissen hoe te reageren.
 Automatisch energiebeheer.
 
 ### Actions
-- Laat EcoLux zelfstandig handelen.
 - EcoLux schakelt verlichting of toestellen uit.
-- Activeert energiemodi.
 
 ### Touchpoints
-- Automatische scenario’s
 - Actuatoren
 - Statusfeedback
 
@@ -242,12 +237,10 @@ EcoLux integreren in dagelijkse routines.
 ### Actions
 - Gebruikt slaapmodus.
 - Activeert “huis verlaten”-modus.
-- Laat routines automatisch verlopen.
 
 ### Touchpoints
 - Fysieke schakelaar
-- App
-- Automatisaties
+- Interface
 
 ### Emoties
 🧘 Rust  
