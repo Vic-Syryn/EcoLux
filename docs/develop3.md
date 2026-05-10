@@ -427,7 +427,7 @@ Het doel van deze test is om verschillende prototypevarianten met elkaar te verg
 * Informed consent
 * Renders 
 <p align="center">
-  <img src="../img/touch and feel bord.jpg" width="100%">
+  <img src="../img/touch and feel bord.jpeg" width="100%">
 </p>
 <p align="center">
 touch and feel bord</p>
@@ -441,7 +441,7 @@ De data werd verzameld via een semigestructureerd interview, waarbij ruimte was 
 
 **Resultaten**
 <p align="center">
-  <img src="../img/dv3 gebruiker.jpg" width="70%">
+  <img src="../img/dv3 gebruiker.jpeg" width="70%">
 </p>
 <p align="center">
 interactie gebruikerstest</p>
