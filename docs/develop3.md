@@ -2,7 +2,344 @@
 In deze Develop 3-fase ligt de focus op de verdere verfijning van de gebruikerservaring, de emotionele beleving en de esthetische uitwerking van het product. Het concept werd eerder al functioneel gevalideerd, waardoor nu vooral onderzocht wordt hoe het product aanvoelt, welke emoties het oproept en hoe het past binnen een bredere servicecontext.
 
 Daarom wordt in dit verslag aandacht besteed aan UX, Service Design en CMF. De kleuren, materialen en afwerkingen worden geanalyseerd en vertaald naar verschillende prototypevarianten. Deze varianten worden vervolgens getest bij gebruikers om de finale ontwerpkeuzes te onderbouwen en het product zowel functioneel als emotioneel sterker te maken.
-## STAP 1 DEELOPDRACHT 5 NOG MAKEN
+### <ins>**Service Design**</ins>
+
+### EcoLux — Customer Journey
+
+<table>
+<tr>
+<td width="11%" bgcolor="#F2C94C" valign="top">
+
+## 1. Awareness
+
+### Goal
+Grip krijgen op energieverbruik en energieverlies verminderen.
+
+### Actions
+- Hoort over EcoLux via advertenties, sociale media of mond-tot-mondreclame.
+- Realiseert hoeveel energie verloren gaat in huis.
+
+### Touchpoints
+- Website
+- Social media
+- Advertenties
+- Energie-artikels
+- Demo’s
+
+### Emoties
+😟 Frustratie  
+💡 Hoop
+
+### Pain Points
+- Geen inzicht in energieverlies.
+- Smart-home systemen lijken technisch of duur.
+
+### Opportuniteiten
+- Duidelijke communicatie rond besparing.
+- Focus op eenvoud en toegankelijkheid.
+
+### Backstage / Stakeholders
+- Marketingteam
+- Energie-data
+- Online platform
+- Energiepartners
+
+</td>
+
+<td width="11%" bgcolor="#EB5757" valign="top">
+
+## 2. Consideration
+
+### Goal
+Begrijpen of EcoLux relevant is voor de woning.
+
+### Actions
+- Vergelijkt EcoLux met andere oplossingen.
+- Bekijkt demo’s en scenario’s.
+- Probeert automatisatie te begrijpen.
+
+### Touchpoints
+- Website
+- Reviews
+- Demo video’s
+- Prototype presentatie
+
+### Emoties
+🤨 Nieuwsgierigheid  
+😬 Onzekerheid
+
+### Pain Points
+- Moeilijk inschatten welke componenten nodig zijn.
+- Angst voor complexe installatie.
+
+### Opportuniteiten
+- Scenario’s visueel tonen.
+- Concrete situaties demonstreren.
+
+### Backstage / Stakeholders
+- Product positioning
+- Pricing
+- Klantendienst
+- Retailpartners
+
+</td>
+
+<td width="11%" bgcolor="#6FCF97" valign="top">
+
+## 3. Onboarding
+
+### Goal
+EcoLux correct installeren en verbinden.
+
+### Actions
+- Plaatst sensoren en actuatoren.
+- Verbindt hoofdstation met app.
+- Test eerste functies.
+
+### Touchpoints
+- Hoofdstation
+- Substations
+- App
+- Packaging
+- Handleiding
+
+### Emoties
+😐 Onzekerheid  
+🙂 Opluchting  
+😍 Wow-moment
+
+### Pain Points
+- Onduidelijke plaatsing.
+- Connectiviteitsproblemen.
+
+### Opportuniteiten
+- Guided setup.
+- Duidelijke feedback via LEDs.
+
+### Backstage / Stakeholders
+- Connectivity systems
+- Cloud services
+- Installatie support
+
+</td>
+
+<td width="11%" bgcolor="#56CCF2" valign="top">
+
+## 4. Use
+
+### Goal
+Inzicht krijgen in energieverlies.
+
+### Actions
+- Ontvangt meldingen.
+- Ziet energieverlies in realtime.
+- Reageert op feedback.
+
+### Touchpoints
+- LEDs
+- Display
+- App notificaties
+- Sensor feedback
+
+### Emoties
+😮 Verrassing  
+💡 Inzicht
+
+### Pain Points
+- Te veel meldingen.
+- Onduidelijke oorzaak van verlies.
+
+### Opportuniteiten
+- Contextuele meldingen.
+- Prioriteren van notificaties.
+
+### Backstage / Stakeholders
+- Sensor data processing
+- Realtime monitoring
+- Energie-algoritmes
+
+</td>
+
+<td width="11%" bgcolor="#2F80ED" valign="top">
+
+## 5. Decision
+
+### Goal
+Beslissen hoe te reageren.
+
+### Actions
+- Negeert melding.
+- Lost probleem zelf op.
+- Laat EcoLux automatisch handelen.
+
+### Touchpoints
+- Display
+- App interface
+- Actuatoren
+
+### Emoties
+🧠 Controle  
+😌 Opluchting
+
+### Pain Points
+- Te veel keuzes.
+- Onduidelijke instellingen.
+
+### Opportuniteiten
+- Snelle acties.
+- Eenvoudige interacties.
+
+### Backstage / Stakeholders
+- AI aanbevelingen
+- Beslissingslogica
+- Sensor-actuator communicatie
+
+</td>
+
+<td width="11%" bgcolor="#27AE60" valign="top">
+
+## 6. Automation
+
+### Goal
+Automatisch energiebeheer.
+
+### Actions
+- Laat EcoLux zelfstandig handelen.
+- EcoLux schakelt verlichting of toestellen uit.
+- Activeert energiemodi.
+
+### Touchpoints
+- Automatische scenario’s
+- Actuatoren
+- Statusfeedback
+
+### Emoties
+😌 Vertrouwen  
+😐 Mogelijke irritatie
+
+### Pain Points
+- Angst voor verlies van controle.
+- Onverwachte acties.
+
+### Opportuniteiten
+- Transparantie bieden.
+- Override mogelijkheid.
+
+### Backstage / Stakeholders
+- AI learning
+- Automatiseringsregels
+- Software updates
+
+</td>
+
+<td width="11%" bgcolor="#219653" valign="top">
+
+## 7. Integration
+
+### Goal
+EcoLux integreren in dagelijkse routines.
+
+### Actions
+- Gebruikt slaapmodus.
+- Activeert “huis verlaten”-modus.
+- Laat routines automatisch verlopen.
+
+### Touchpoints
+- Fysieke schakelaar
+- App
+- Automatisaties
+
+### Emoties
+🧘 Rust  
+🔒 Veiligheid
+
+### Pain Points
+- Vergeten functies te gebruiken.
+
+### Opportuniteiten
+- Gedragsgebaseerde automatisatie.
+
+### Backstage / Stakeholders
+- Scenario management
+- Smart-home integraties
+- Gedragsanalyse
+
+</td>
+
+<td width="11%" bgcolor="#6C5CE7" valign="top">
+
+## 8. Feedback
+
+### Goal
+Resultaten begrijpen en opvolgen.
+
+### Actions
+- Bekijkt rapporten.
+- Analyseert besparing.
+- Evalueert gebruiksgemak.
+
+### Touchpoints
+- Dashboard
+- Rapporten
+- Statistieken
+
+### Emoties
+😄 Trots  
+🎯 Motivatie
+
+### Pain Points
+- Data te technisch.
+
+### Opportuniteiten
+- Simpele visualisaties.
+- Heldere rapportering.
+
+### Backstage / Stakeholders
+- Data-analyse
+- Rapportgeneratie
+- Cloud opslag
+
+</td>
+
+<td width="11%" bgcolor="#9B51E0" valign="top">
+
+## 9. Loyalty
+
+### Goal
+Langdurig gebruik en uitbreiding.
+
+### Actions
+- Beveelt EcoLux aan.
+- Breidt systeem uit.
+- Verwacht updates en support.
+
+### Touchpoints
+- Community
+- Support
+- Add-ons
+- Updates
+
+### Emoties
+😊 Loyaliteit  
+🤝 Vertrouwen
+
+### Pain Points
+- Minder engagement op lange termijn.
+
+### Opportuniteiten
+- Uitbreidbaar ecosysteem.
+- Communitygevoel versterken.
+
+### Backstage / Stakeholders
+- Customer support
+- Software updates
+- Hardware partners
+
+</td>
+</tr>
+</table>
+
+
 
 ### <ins>**CMF analyse**</ins>
 In de CMF analyse worden bepaalde CMF opties gekozen en onderbouwd om later bij gebruikerstesten de definitieve CMF te valideren. De werkwijze is gebasseerd op de workshop CMF van de les. 
