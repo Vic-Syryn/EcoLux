@@ -426,7 +426,11 @@ Het doel van deze test is om verschillende prototypevarianten met elkaar te verg
 * Smartphone voor opnames/foto’s 
 * Informed consent
 * Renders 
-
+<p align="center">
+  <img src="../img/touch and feel bord.jpg" width="100%">
+</p>
+<p align="center">
+touch and feel bord</p>
 **Methoden**
 
 De testen werden afgenomen bij vijf respondenten met uiteenlopende leeftijden en verschillende niveaus van technologische ervaring. Deze brede selectie werd gekozen omdat EcoLux bedoeld is voor een diverse doelgroep. De interviews vonden plaats in de thuisomgeving van de respondenten, zodat het product en de varianten konden worden beoordeeld binnen een realistische gebruikscontext.
@@ -436,6 +440,12 @@ Tijdens de test kregen de deelnemers verschillende renders en een touch-and-feel
 De data werd verzameld via een semigestructureerd interview, waarbij ruimte was voor gerichte vragen én spontane feedback. Nadien werden de resultaten geanalyseerd om terugkerende patronen in voorkeuren, attitudes en motivaties te herkennen. Deze inzichten vormden de basis voor de verdere verfijning van de CMF-keuzes en werden vertaald naar ontwerpimplicaties en finale design requirements.
 
 **Resultaten**
+<p align="center">
+  <img src="../img/dv3 gebruiker.jpg" width="70%">
+</p>
+<p align="center">
+interactie gebruikerstest</p>
+
 Uit de interviews kwamen verschillende terugkerende inzichten naar voren over hoe gebruikers het product ervaren en welke verwachtingen ze hebben op vlak van uitstraling, materiaal, kleur en gebruikscontext. De respondenten gaven aan dat het product vooral op een subtiele manier aanwezig moet zijn in het interieur. Het mag visueel aantrekkelijk zijn, maar mag niet te sterk opvallen of als een uitgesproken technisch object aanvoelen. Een rustige vormgeving die past binnen verschillende woonstijlen werd daarom als belangrijk ervaren.
 
 Daarnaast bleek dat gebruikers veel belang hechten aan een gevoel van kwaliteit, degelijkheid en betrouwbaarheid. Het product moet vertrouwen opwekken en mag niet goedkoop of te eenvoudig ogen. Vooral natuurlijke materialen of materialen met een natuurlijke uitstraling werden positief beoordeeld, omdat ze warmte, duurzaamheid en huiselijkheid oproepen. Hout of een houtachtige afwerking werd daarbij vaak als passend ervaren, omdat dit goed aansluit bij het duurzame karakter van het concept.
