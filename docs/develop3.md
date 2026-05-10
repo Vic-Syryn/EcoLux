@@ -8,7 +8,7 @@ Daarom wordt in dit verslag aandacht besteed aan UX, Service Design en CMF. De k
 
 <table>
 <tr>
-<td width="11%" bgcolor="#F2C94C" valign="top">
+<td width="11%" valign="top">
 
 ## 1. Awareness
 
@@ -46,7 +46,7 @@ Grip krijgen op energieverbruik en energieverlies verminderen.
 
 </td>
 
-<td width="11%" bgcolor="#EB5757" valign="top">
+<td width="11%" valign="top">
 
 ## 2. Consideration
 
@@ -84,7 +84,7 @@ Begrijpen of EcoLux relevant is voor de woning.
 
 </td>
 
-<td width="11%" bgcolor="#6FCF97" valign="top">
+<td width="11%" valign="top">
 
 ## 3. Onboarding
 
@@ -123,7 +123,7 @@ EcoLux correct installeren en verbinden.
 
 </td>
 
-<td width="11%" bgcolor="#56CCF2" valign="top">
+<td width="11%" valign="top">
 
 ## 4. Use
 
@@ -158,8 +158,12 @@ Inzicht krijgen in energieverlies.
 - Energie-algoritmes
 
 </td>
+</tr>
+</table>
 
-<td width="11%" bgcolor="#2F80ED" valign="top">
+<table>
+<tr>
+<td width="11%" valign="top">
 
 ## 5. Decision
 
@@ -194,7 +198,7 @@ Beslissen hoe te reageren.
 
 </td>
 
-<td width="11%" bgcolor="#27AE60" valign="top">
+<td width="11%" valign="top">
 
 ## 6. Automation
 
@@ -227,7 +231,7 @@ Automatisch energiebeheer.
 
 </td>
 
-<td width="11%" bgcolor="#219653" valign="top">
+<td width="11%" valign="top">
 
 ## 7. Integration
 
@@ -259,7 +263,7 @@ EcoLux integreren in dagelijkse routines.
 
 </td>
 
-<td width="11%" bgcolor="#6C5CE7" valign="top">
+<td width="11%" valign="top">
 
 ## 8. Feedback
 
@@ -294,7 +298,7 @@ Resultaten begrijpen en opvolgen.
 
 </td>
 
-<td width="11%" bgcolor="#9B51E0" valign="top">
+<td width="11%" valign="top">
 
 ## 9. Loyalty
 
