@@ -427,7 +427,7 @@ Het doel van deze test is om verschillende prototypevarianten met elkaar te verg
 * Informed consent
 * Renders 
 <p align="center">
-  <img src="../img/touch and feel bord.jpeg" width="100%">
+  <img src="../img/touch and feel bord.jpeg" width="60%">
 </p>
 <p align="center">
 touch and feel bord</p>
@@ -455,3 +455,13 @@ Ook op vlak van kleur gaven de respondenten een duidelijke voorkeur aan voor zac
 Wat textuur betreft, werd duidelijk dat gebruikers vooral een subtiele visuele textuur waarderen. Een natuurlijke nerf of fijne afwerking kan het product warmer en kwalitatiever doen aanvoelen. Een sterk voelbare of ruwe textuur werd minder positief ervaren, omdat dit mogelijk minder praktisch of minder aangenaam is in dagelijks gebruik. Een gladde of matte afwerking lijkt daarom beter aan te sluiten bij de verwachtingen van de gebruikers.
 
 Algemeen tonen de interviews aan dat de respondenten het product niet alleen beoordelen op functionaliteit, maar ook op de emotionele en esthetische beleving. De vormgeving moet bijdragen aan een gevoel van vertrouwen, rust en duurzaamheid. De resultaten wijzen daarom in de richting van een ontwerp dat natuurlijk, subtiel, kwalitatief en gebruiksvriendelijk oogt. Deze inzichten vormen een waardevolle basis om de verdere ontwerpkeuzes te onderbouwen en het product beter af te stemmen op de verwachtingen van de doelgroep.
+
+### <ins>Conclusies en implicaties</ins>
+De Develop 3-fase toont aan dat EcoLux verder moet evolueren van een functioneel concept naar een product dat ook sterk scoort op gebruikservaring, uitstraling en emotionele beleving. De focus ligt in deze fase op UX, Service Design en CMF, waarbij kleur, materiaal en afwerking getest worden om de finale ontwerpkeuzes beter te onderbouwen.
+
+Uit de customer journey blijkt dat gebruikers vooral nood hebben aan eenvoud, duidelijke feedback en vertrouwen. Smart-homeproducten kunnen snel technisch, duur of complex aanvoelen, waardoor EcoLux zich moet onderscheiden als een toegankelijke oplossing die de gebruiker begeleidt zonder te overweldigen. Vooral tijdens installatie, dagelijks gebruik en automatisatie is het belangrijk dat de gebruiker begrijpt wat het systeem doet en altijd een gevoel van controle behoudt.
+
+De CMF-analyse en gebruikerstesten wijzen in dezelfde richting. Respondenten verkiezen een product dat subtiel aanwezig is in het interieur, maar tegelijk kwalitatief en betrouwbaar oogt. Zachte, lichte en natuurlijke tinten, matte afwerkingen en hout of een houtachtige uitstraling sluiten het best aan bij de gewenste uitstraling van rust, duurzaamheid en huiselijkheid. Het product mag dus niet te opvallend of technisch overkomen, maar ook niet te neutraal of goedkoop ogen.
+
+De belangrijkste implicatie voor het verdere ontwerp is dat EcoLux moet worden uitgewerkt als een warm, discreet en gebruiksvriendelijk interieurproduct. De vormgeving moet eenvoudig en rustig blijven, maar mag subtiele details of accentkleuren bevatten om meer eigenheid te creëren. Daarnaast moeten feedback, meldingen en automatisatie helder en controleerbaar blijven, zodat het product vertrouwen opwekt en op een natuurlijke manier deel kan worden van de dagelijkse routines van de gebruiker.
+Op basis van deze informatie werden de design requirements aangevuld.
