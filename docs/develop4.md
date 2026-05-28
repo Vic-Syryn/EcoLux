@@ -13,9 +13,9 @@ De vier onderdelen communiceren continu met elkaar:
 | Onderdeel | Wat het doet | Hoe het communiceert |
 |---|---|---|
 | Aanraakscherm | Toont de plattegrond en apparaten | Stuurt verzoeken naar de software |
-| Achterliggende software | Verwerkt alle informatie en onthoudt de staat | Stuurt opdrachten naar apparaten en lampje |
-| Apparaatverbinding | Praat met slimme apparaten (lampen, stekkers...) | Via het Matter-protocol over het thuisnetwerk |
-| Arduino + LED | Fysieke indicator bij energieproblemen | Verbonden via USB-kabel met de Raspberry Pi |
+| Achterliggende software die draait op de Raspberry pi| Verwerkt alle informatie en onthoudt de staat | Stuurt opdrachten naar apparaten en lampje |
+| Apparaatverbinding via Raspberry pi | Praat met slimme apparaten (lampen, stekkers...) | Via het Matter-protocol over het thuisnetwerk |
+| Arduino + LED + Rotary Encoder + Lichtsensor | Fysieke indicator bij energieproblemen | Verbonden via USB-kabel met de Raspberry Pi |
 
 
 ## Verbinding met slimme apparaten (Matter)
@@ -35,13 +35,6 @@ Wanneer je een nieuw slim apparaat wil toevoegen, doorloopt het systeem vier sta
 ## Achterliggende software
 
 De achterliggende software is het brein van EcoLux. Het ontvangt vragen van het aanraakscherm, haalt informatie op bij de apparaten, en stuurt opdrachten terug. Het draait onzichtbaar op de achtergrond op de Raspberry Pi.
-
-### Wat wordt er onthouden?
-
-Twee bestanden slaan informatie op, ook als de Pi opnieuw opgestart wordt:
-
-1. **Plaatsing** — in welke kamer staat elk apparaat, en op welke plek in de kamerweergave
-2. **Instellingen** — hoe lang een apparaat maximaal aan mag staan, en vanaf wanneer het aan is
 
 ### Hoe wordt bijgehouden hoe lang iets aanstaat?
 
@@ -84,9 +77,9 @@ Als je aangeeft waar een apparaat staat in de kamer, werkt dat als volgt:
 
 ## Fysiek waarschuwingslampje (Arduino)
 
-Naast het scherm is er een los lampje dat oplicht wanneer er een energieprobleem is. Dit lampje is aangesloten op een kleine microcontroller (Arduino Uno) die via een USB-kabel verbonden is met de Raspberry Pi.
+Naast het scherm is er een los lampje (in de realiteit zou dit een led strip zijn) dat oplicht wanneer er een energieprobleem is. Dit lampje is aangesloten op een kleine microcontroller (Arduino Uno) die via een USB-kabel verbonden is met de Raspberry Pi.
 
-Het lampje past zijn helderheid automatisch aan op basis van het omgevingslicht, zodat het zowel overdag als 's avonds goed zichtbaar is. Met een draaiknop kan je de helderheid ook handmatig bijstellen.
+Het lampje past zijn helderheid automatisch aan op basis van het omgevingslicht, door middel van de lichtsensor, zodat het zowel overdag als 's avonds goed zichtbaar is. Met een draaiknop kan je de helderheid ook handmatig bijstellen. Omdat deze sensoren een analoog signaal leveren, was er nood aan een arduino, omdat deze over een ADC chip beschikt.
 
 ### Onderdelen
 
@@ -95,17 +88,15 @@ Het lampje past zijn helderheid automatisch aan op basis van het omgevingslicht,
 | Lichtsensor (LDR) | Analoge ingang | Meet hoe licht of donker het is in de ruimte |
 | Draaiknop (encoder) | Digitale ingang | Handmatige fijnregeling van de helderheid |
 | LED-lampje | PWM-uitgang | Knippert of brandt bij een energieprobleem |
+| Weerstanden | Tussen componenten en arduino | Stroom beperken om componenten niet te beschadigen|
+| Breadboard | / | Plaats om alle componenten te verbinden |
+| Raspberry pi 3b+ | /| Hierop draaien al de programmas, dit is dus de centrale hub |
+| Arduino UNO | / | Verbindingspunt Raspberry pi en fysieke componenten (ADC) |
 
 <p align="center">
   <img src="../img/Ecolux_Circuit.png" width="100%">
+  Opstelling
 <p align="center">
-
-
-### Hoe wordt de helderheid bepaald?
-
-De helderheid van het lampje wordt berekend op basis van twee factoren: hoe licht het is in de ruimte (lichtsensor), en de handmatige bijstelling via de draaiknop. Beide worden gecombineerd tot één helderheidswaarde tussen 0 (uit) en 255 (maximaal fel).
-
-De lichtsensor is gekalibreerd op de werkelijke meetwaarden van de gebruikte hardware, zodat kleine veranderingen in licht goed worden opgepikt.
 
 ### Communicatie tussen Arduino en Raspberry Pi
 
@@ -114,7 +105,7 @@ De Arduino stuurt elke tiende van een seconde een klein berichtje naar de Pi met
 
 ## Energiebewaking op de achtergrond
 
-Naast de achterliggende software draait er nog een tweede programma op de Pi. Elke 10 seconden bekijkt dit programma alle apparaten die aanstaan. Als een apparaat de ingestelde tijdslimiet overschrijdt, stuurt het een waarschuwing naar de Arduino zodat het lampje gaat branden. Zodra het probleem opgelost is, wordt de waarschuwing automatisch uitgeschakeld.
+Naast de achterliggende software draait er nog een tweede programma op de Pi. Elke 10 seconden (ter illustratie) bekijkt dit programma alle apparaten die aanstaan. Als een apparaat de ingestelde tijdslimiet overschrijdt, stuurt het een waarschuwing naar de Arduino zodat het lampje gaat branden. Zodra het probleem opgelost is, wordt de waarschuwing automatisch uitgeschakeld.
 
 
 ## Wat gebeurt er stap voor stap bij een energieprobleem?
@@ -125,7 +116,7 @@ Naast de achterliggende software draait er nog een tweede programma op de Pi. El
 | 2 | Elke 10 seconden wordt gecontroleerd hoe lang apparaten al aanstaan |
 | 3 | Een apparaat staat langer aan dan de ingestelde limiet |
 | 4 | De software stuurt een waarschuwing naar het Arduino-lampje |
-| 5 | Het LED-lampje gaat branden (helderheid afgestemd op de ruimte) |
+| 5 | Het LED-lampje gaat branden (helderheid afgestemd op de ruimte / rotary encoder) |
 | 6 | Op het scherm kleurt de kamer rood |
 | 7 | De gebruiker klikt op het apparaat en bevestigt dat het uit mag |
 | 8 | Het apparaat wordt uitgeschakeld via het slimme netwerk |
