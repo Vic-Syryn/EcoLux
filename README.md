@@ -38,6 +38,7 @@ Het doel van dit project is het verkennen en definiëren van ontwerpprincipes vo
 5. [Develop 2](./docs/develop2.md)
 6. [Develop 3](./docs/develop3.md)
 7. [Develop 4](./docs/develop4.md)
+8. [Conclusie](./docs/conclusie.md)
 8. [Design Requirements](./docs/design_requirements.md)
 9. [Bill of materials](./docs/bom.md)
 
