@@ -9,7 +9,7 @@
 Voor het onwerp process werd gebruik gemaakt van het triple diamond ontwerpmodel. Dit model bestaat uit 4 fasen, namelijk: discover, define, develop en deliver.  
 In het eerste semester werden de discover en define doorlopen.
 
-De eerste wave van de develop fase werd in de eerste maand van het tweede semester doorlopen. De tweede wave verliep doorheen de maand maart en begin april.
+In het tweede semester werd de devolop fase doorlopen.
 
 <ins>**Discover fase**</ins>  
 De discoveryfase richtte zich op het begrijpen van waarom huishoudens, ondanks een duidelijke bereidheid om energie te besparen, moeite hebben om dit gedrag structureel vol te houden. De focus lag op dagelijkse routines, perceptie en gebruikservaringen in plaats van op technische optimalisatie. Het doel was de kloof bloot te leggen tussen intentie en daadwerkelijk gedrag, en deze inzichten te vertalen naar onderbouwde designbeslissingen.
@@ -27,10 +27,12 @@ De define fase werd opgesplitst in twee waves:
 
 <ins>**Develop fase**</ins>
 
+Voor er aan de develop fase werd begonnen, werd er eerst een pivot gedaan. Uit interviews bleek dat in het gezin meestal 1 iemand bezig is met energie bewust te zijn. Door deze conclusie hebben we de doelgroep aangepast naar energie bewuste gezinnen die energie verspilling willen vermijden in hun huishouden.
+
 De develop fase wordt opgesplitst in drie waves:
 
 **Wave 1** 
-richtte zich op het verder ontwikkelen van het concept en het testen van de interactie met het product. De doelgroep werd aangepast van renovatoren naar bewuste gezinnen die hun energieverbruik en energiekosten willen verlagen. Via een scorematrix werd gekozen voor het concept van de slimme bloempot, omdat dit ontwerp sterk scoorde op esthetiek en gebruiksgemak.
+richtte zich op het verder ontwikkelen van het concept en het testen van de interactie met het product. Via een scorematrix werd gekozen voor het concept van de slimme bloempot, omdat dit ontwerp sterk scoorde op esthetiek en gebruiksgemak.
 
 De interactie met het product werd geanalyseerd via een customer journey, storyboards, productarchitectuur, userflows en een HTA, waaruit bleek dat vooral de communicatie van energieverlies nog verder bepaald moest worden. Op basis hiervan werden de MVP-functionaliteiten gedefinieerd.
 

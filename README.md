@@ -8,11 +8,13 @@ Ecolux, een slim product dat energieverlies beperkt
 13/11/2025  
 
 ## Samenvatting
-Dit project onderzoekt hoe we een slim en toegankelijke product kunnen maken dat mensen kan helpen om thuis energie te besparen. De focus ligt op oplossingen die zowel financiële voordelen biedt voor de gebruiker als een positieve impact hebben op het milieu. Daarbij staat gebruiksgemak centraal: energie besparen moet eenvoudig en haalbaar zijn voor iedereen, zonder ingewikkelde stappen of technische kennis. De mensen die we daarbij willen helpen zijn mensen die renoveren omdat zij hun huis al aan het aanpassen zijn en energiebesparing een belangrijke rol hierin speelt.
+EcoLux is een slim energiefeedbacksysteem dat bewuste gezinnen helpt om verborgen energieverlies in huis sneller op te merken en er eenvoudiger op te reageren. Uit het gebruikersonderzoek blijkt dat het zelfden is dat iedereen in het gezin betrokken is bij energie besparen, dat sluipverbruik vaak onbewust blijft aan staan en dat bestaande slimme oplossingen vaak te technisch, app-gericht of datagedreven aanvoelen. EcoLux wil daarom energieverlies zichtbaar maken op een laagdrempelige, passieve en begrijpelijke manier.
 
-Om beter te begrijpen waar mensen tegenaan lopen en wat ze nodig hebben, werd er gewerkt met interviews. Op basis van deze inzichten werd een oplossing ontwikkeld die inspeelt op herkenbare problemen, zoals onduidelijk energieverbruik en verborgen energieverlies in huis.
+Het project evolueerde van een algemeen concept rond energiezuinig renoveren naar een concreet fysiek product voor energie bewuste gezinnen: een subtiele slimme bloempot die als hoofdstation in het interieur staat. Het systeem combineert een geïntegreerd touchscreen, een visuele plattegrondinterface, lichtfeedback en slimme koppelingen met toestellen in huis. Wanneer een toestel te lang ingeschakeld blijft, toont EcoLux duidelijk in welke ruimte het energieverlies zich bevindt en kan de gebruiker snel ingrijpen of het toestel laten uitschakelen.
 
-De uiteindelijke oplossing is de Ecolux: een fysiek product dat energieverlies zichtbaar maakt en duidelijk communiceert. Door informatie op een eenvoudige en begrijpelijke manier te tonen, helpt de Ecolux gebruikers om sneller te zien waar energie verloren gaat en welke acties ze kunnen nemen om dit te verminderen. Hierdoor wordt energie besparen makkelijker én effectiever. 
+Door iteratieve gebruikerstesten werd het ontwerp stap voor stap verfijnd. 
+
+Met EcoLux willen we gezinnen helpen om energieverspilling te verminderen zonder extra complexiteit toe te voegen aan hun dagelijkse routines. Het product maakt onzichtbaar energieverlies zichtbaar, verlaagt de drempel tot actie en ondersteunt bewuster energiegedrag met behoud van comfort en controle. 
 <p align="center">
   <img src="img/render12042026.png" width="100%">
 </p>
