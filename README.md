@@ -82,7 +82,7 @@ Voor het herschrijven en taalcorrectie van delen van dit verslag werd gebruikgem
 * User testing fase 2 (N=5)
   * [Protocol](https://github.com/Vic-Syryn/EcoLux/blob/main/reports%20and%20protocols/Ecolux_Gebruikerstesten_Develop2_Protocol.pdf)
   * [Rapport](https://github.com/Vic-Syryn/EcoLux/blob/main/reports%20and%20protocols/EcoLux_Gebruikerstesten_Develop2_Report.pdf)
-* User testing fase 2 (N=4)
+* User testing fase 3 (N=4)
   * [Protocol](https://github.com/Vic-Syryn/EcoLux/blob/main/reports%20and%20protocols/Ecolux_Gebruikerstesten_Develop3_Protocol.pdf)
   * [Rapport](https://github.com/Vic-Syryn/EcoLux/blob/main/reports%20and%20protocols/Ecolux_Gebruikerstesten_Develop3_Report.pdf)
 
