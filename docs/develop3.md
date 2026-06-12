@@ -1,7 +1,8 @@
 ## Develop 3
-In deze Develop 3-fase ligt de focus op de verdere verfijning van de gebruikerservaring, de emotionele beleving en de esthetische uitwerking van het product. Het concept werd eerder al functioneel gevalideerd, waardoor nu vooral onderzocht wordt hoe het product aanvoelt, welke emoties het oproept en hoe het past binnen een bredere servicecontext.
+In deze Develop 3-fase ligt de focus op de verdere verfijning van gebruikerservaring, emotionele beleving en esthetische uitwerking. Het concept werd eerder functioneel gevalideerd. Daarom wordt nu onderzocht hoe het product aanvoelt, welke emoties het oproept en hoe het past binnen een bredere servicecontext.
 
-Daarom wordt in dit verslag aandacht besteed aan UX, Service Design en CMF. De kleuren, materialen en afwerkingen worden geanalyseerd en vertaald naar verschillende prototypevarianten. Deze varianten worden vervolgens getest bij gebruikers om de finale ontwerpkeuzes te onderbouwen en het product zowel functioneel als emotioneel sterker te maken.
+In dit verslag wordt aandacht besteed aan UX, Service Design en CMF. Kleuren, materialen en afwerkingen worden geanalyseerd.
+
 ### <ins>**Service Design**</ins>
 
 ### EcoLux — Customer Journey
@@ -335,11 +336,8 @@ Vertrouwen
 </td>
 </tr>
 </table>
-
-
-
 ### <ins>**CMF analyse**</ins>
-In de CMF analyse worden bepaalde CMF opties gekozen en onderbouwd om later bij gebruikerstesten de definitieve CMF te valideren. De werkwijze is gebasseerd op de workshop CMF van de les. 
+In de CMF analyse worden CMF opties gekozen en onderbouwd om later bij gebruikerstesten de definitieve CMF te valideren. De werkwijze is gebasseerd op de workshop CMF van de les. 
 
 **doelgroep in kernwoorden**
 <p align="center">
@@ -358,41 +356,41 @@ meubels omgeving</p>
 
  Overlappende CMF analyse producten: warm minimal natural 
 
- 
+
 
 Over alle drie de producten is een duidelijke samenhang zichtbaar in kleur, materiaal, afwerking en vormgeving. 
 
- 
+
 
 **Kleur**:
-De gebruikte kleuren zijn neutraal, licht en warm. Tinten zoals wit, beige en zand domineren, telkens met een warme ondertoon. Er worden geen uitgesproken kleuren of sterke contrasten toegepast. Dit zorgt voor een rustige, toegankelijke en tijdloze uitstraling. 
+De kleuren zijn neutraal, licht en warm. Wit, beige en zand domineren, telkens met een warme ondertoon. Er zijn geen uitgesproken kleuren of sterke contrasten. Dit zorgt voor een rustige, toegankelijke en tijdloze uitstraling. 
 
 **Materialen**:
-Er is een combinatie van natuurlijke en industriële materialen. Natuurlijke elementen zoals hout en rotan worden gecombineerd met materialen zoals MDF en polyester stoffen. De natuurlijke materialen zijn zichtbaar en tactiel aanwezig, maar blijven beperkt in kost. Dit resulteert in een benadering die kan worden omschreven als betaalbare natuur, eerder dan puur premium of volledig synthetisch. 
+Er is een combinatie van natuurlijke en industriële materialen. Hout en rotan worden gecombineerd met MDF en polyester stoffen. De natuurlijke materialen zijn zichtbaar en tactiel aanwezig, maar blijven betaalbaar. Dit voelt als betaalbare natuur, eerder dan puur premium of volledig synthetisch. 
 
 **Afwerking**:
-De afwerking is consequent mat, zacht en tactiel, zonder reflecterende oppervlakken. Hoogglans en uitgesproken texturen worden vermeden. Dit leidt tot een lage visuele prikkel en een verhoogde perceptie van comfort.  
+De afwerking is mat, zacht en tactiel. Reflecterende oppervlakken en hoogglans worden vermeden. Daardoor ontstaat een lage visuele prikkel en een hoger gevoel van comfort.  
 
 ### **Overeenkomst CMF en doelgroep**
 
-De drie CMF’s sluiten sterk aan bij de beschreven doelgroep van energiebewuste gezinnen. De nadruk op zachte, warme kleuren en natuurlijke materialen ondersteunt waarden zoals comfort, rust en zachtheid. De eenvoudige, tijdloze vormgeving en het gebruik van neutrale tinten dragen bij aan een gevoel van duurzaamheid en lange levensduur, wat aansluit bij het idee van kwaliteit en tijdloosheid. Daarnaast zijn de producten visueel discreet, wat goed past bij “discreet in rustmodus”. 
+De drie CMF’s sluiten sterk aan bij energiebewuste gezinnen. Zachte kleuren en natuurlijke materialen ondersteunen comfort, rust en zachtheid. De eenvoudige vormgeving en neutrale tinten geven een gevoel van duurzaamheid en lange levensduur. De producten zijn ook visueel discreet, wat past bij “discreet in rustmodus”. 
 
 ### **Standaard in de markt**
 
-Binnen deze markt is er een duidelijke standaardtaal zichtbaar. Die bestaat uit lichte houttinten in combinatie met wit of beige, matte afwerkingen en een algemene voorkeur voor neutrale, warme kleuren. Materialen ogen natuurlijk, maar zijn vaak industrieel geproduceerd. De vormgeving is eenvoudig, functioneel en zonder uitgesproken details. Deze aanpak zorgt voor brede toepasbaarheid en toegankelijkheid, maar leidt ook tot een zekere uniformiteit tussen producten en merken. Het resultaat is een herkenbare Scandinavisch geïnspireerde stijl die inmiddels sterk genormaliseerd is. 
+Binnen deze markt is een duidelijke standaardtaal zichtbaar: lichte houttinten met wit of beige, matte afwerkingen en warme neutrale kleuren. Materialen ogen natuurlijk, maar zijn vaak industrieel geproduceerd. De vormgeving is eenvoudig en functioneel. Dit zorgt voor brede toepasbaarheid, maar ook voor uniformiteit. 
 
 ### **Opportiniteit voor differentiatie**
 
-Op vlak van kleurgebruik ligt er een duidelijke kans om het huidige neutrale palet subtiel uit te breiden. In plaats van uitsluitend wit, beige en licht hout kunnen gedempte accentkleuren zoals saliegroen, terracotta of vergrijsd blauw worden ingezet. Deze kleuren blijven rustig en harmonieus, maar geven producten meer identiteit en onderscheiden ze van het standaardaanbod. 
+Er ligt een kans om het neutrale palet subtiel uit te breiden. Gedempte accentkleuren zoals saliegroen, terracotta of vergrijsd blauw blijven rustig, maar geven het product meer identiteit. 
 <p align="center">
   <img src="../img/kleurenpallet.png" width="70%">
 <p align="center">
 kleurenpallet</p>
- 
 
-Ook op het niveau van materiaalgebruik is er ruimte voor meer authenticiteit. Waar vandaag vaak gewerkt wordt met industriële materialen met een natuurlijke uitstraling, kan men sterker inzetten op het zichtbaar maken van echte materialen. Het gebruik van massief hout in plaats van fineer, grover geweven stoffen met een duidelijke textuur, of combinaties met materialen zoals keramiek of natuursteen zorgen voor een rijkere en meer geloofwaardige uitstraling. Hierdoor stijgt niet alleen de visuele kwaliteit, maar ook de tactiele beleving van het product. 
 
-Wat betreft afwerking kan differentiatie ontstaan door subtiele contrasten en verfijnde details toe te voegen. In plaats van volledig uniforme, matte oppervlakken kan gewerkt worden met combinaties van matte en licht satijnen afwerkingen of met variaties in textuur. Daarnaast kunnen zichtbare verbindingen, zorgvuldig afgewerkte randen of kleine constructieve details bijdragen aan een meer gelaagde en verfijnde uitstraling. Deze ingrepen blijven discreet, maar maken het product visueel interessanter.
+Ook materiaalgebruik kan authentieker. In plaats van industriële materialen met een natuurlijke uitstraling kan sterker worden ingezet op echte materialen. Massief hout, grover geweven stoffen, keramiek of natuursteen zorgen voor meer visuele kwaliteit en tactiele beleving. 
+
+Bij afwerking kan differentiatie ontstaan door subtiele contrasten en details, zoals mat met licht satijn, textuurvariaties of afgewerkte randen. Deze ingrepen blijven discreet, maar maken het product interessanter.
 
 **morfologische matrix**
 <p align="center">
@@ -403,7 +401,7 @@ CMF morfologische matrix</p>
 **CMF varianten**
 
 
-Op basis van de morfologische matrix werden de volgende varianten gemaakt die we later konden testen bij de gebruikers.
+Op basis van de morfologische matrix werden de volgende varianten gemaakt die we later konden voorstellen aan de gebruikers.
 <p align="center">
   <img src="../img/rendersCMF.png" width="70%">
 <p align="center">
@@ -413,7 +411,7 @@ CMF varianten</p>
 ### <ins>**Build & test**</ins>
 **Doelstellingen**
 
-Het doel van deze test is om verschillende prototypevarianten met elkaar te vergelijken en zo de finale ontwerpkeuzes te onderbouwen. Daarbij wordt onderzocht welke variant het best aansluit bij de noden en verwachtingen van de doelgroep op vlak van uitstraling, kleur, materiaal, afwerking en emotionele impact.
+Het doel van deze test was om verschillende prototypevarianten te vergelijken en finale ontwerpkeuzes te onderbouwen. Er werd onderzocht welke variant het best aansluit bij de doelgroep op vlak van uitstraling, kleur, materiaal, afwerking en emotionele impact.
 
 **Materialen**
 
@@ -429,11 +427,11 @@ touch and feel bord</p>
 
 **Methoden**
 
-De testen werden afgenomen bij vijf respondenten met uiteenlopende leeftijden en verschillende niveaus van technologische ervaring. Deze brede selectie werd gekozen omdat EcoLux bedoeld is voor een diverse doelgroep. De interviews vonden plaats in de thuisomgeving van de respondenten, zodat het product en de varianten konden worden beoordeeld binnen een realistische gebruikscontext.
+De testen werden afgenomen bij vier respondenten met verschillende leeftijden en niveaus van technologische ervaring. De interviews vonden plaats in de thuisomgeving, zodat het product realistisch beoordeeld kon worden.
 
-Tijdens de test kregen de deelnemers verschillende renders en een touch-and-feel bord te zien. Aan de hand daarvan werden voorkeuren rond kleur, textuur, materiaal en afwerking onderzocht. De respondenten vergeleken onder andere matte en glanzende afwerkingen, gladde en getextureerde oppervlakken, en hout tegenover kunststof. Daarnaast werd gevraagd waar ze het product in hun woning zouden plaatsen, of het mocht opvallen of net moest opgaan in het interieur, en welke emoties EcoLux idealiter zou moeten oproepen.
+Tijdens de test kregen deelnemers renders en een touch-and-feel bord te zien. Hiermee werden voorkeuren rond kleur, textuur, materiaal en afwerking onderzocht. Respondenten vergeleken matte en glanzende afwerkingen, gladde en getextureerde oppervlakken, en hout tegenover kunststof. Ook werd gevraagd waar ze het product zouden plaatsen en welke emoties EcoLux moest oproepen.
 
-De data werd verzameld via een semigestructureerd interview, waarbij ruimte was voor gerichte vragen én spontane feedback. Nadien werden de resultaten geanalyseerd om terugkerende patronen in voorkeuren, attitudes en motivaties te herkennen. Deze inzichten vormden de basis voor de verdere verfijning van de CMF-keuzes en werden vertaald naar ontwerpimplicaties en finale design requirements.
+De data werd verzameld via een semigestructureerd interview met ruimte voor gerichte vragen en spontane feedback. Nadien werden terugkerende patronen in voorkeuren, attitudes en motivaties geanalyseerd. Deze inzichten vormden de basis voor verdere CMF-keuzes en design requirements.
 
 **Resultaten**
 <p align="center">
@@ -442,22 +440,22 @@ De data werd verzameld via een semigestructureerd interview, waarbij ruimte was 
 <p align="center">
 interactie gebruikerstest</p>
 
-Uit de interviews kwamen verschillende terugkerende inzichten naar voren over hoe gebruikers het product ervaren en welke verwachtingen ze hebben op vlak van uitstraling, materiaal, kleur en gebruikscontext. De respondenten gaven aan dat het product vooral op een subtiele manier aanwezig moet zijn in het interieur. Het mag visueel aantrekkelijk zijn, maar mag niet te sterk opvallen of als een uitgesproken technisch object aanvoelen. Een rustige vormgeving die past binnen verschillende woonstijlen werd daarom als belangrijk ervaren.
+Uit de interviews kwamen inzichten naar voren over uitstraling, materiaal, kleur en gebruikscontext. Respondenten willen dat het product subtiel aanwezig is in het interieur. Het mag aantrekkelijk zijn, maar niet te sterk opvallen of technisch aanvoelen. Een rustige vormgeving die past binnen verschillende woonstijlen is daarom belangrijk.
 
-Daarnaast bleek dat gebruikers veel belang hechten aan een gevoel van kwaliteit, degelijkheid en betrouwbaarheid. Het product moet vertrouwen opwekken en mag niet goedkoop of te eenvoudig ogen. Vooral natuurlijke materialen of materialen met een natuurlijke uitstraling werden positief beoordeeld, omdat ze warmte, duurzaamheid en huiselijkheid oproepen. Hout of een houtachtige afwerking werd daarbij vaak als passend ervaren, omdat dit goed aansluit bij het duurzame karakter van het concept.
+Gebruikers hechten veel belang aan kwaliteit, degelijkheid en betrouwbaarheid. Het product moet vertrouwen opwekken en mag niet goedkoop ogen. Natuurlijke materialen of materialen met een natuurlijke uitstraling werden positief beoordeeld. Hout of een houtachtige afwerking past goed bij het duurzame karakter van EcoLux.
 
-Ook op vlak van kleur gaven de respondenten een duidelijke voorkeur aan voor zachte, lichte en natuurlijke tinten. Deze kleuren worden als toegankelijker en minder storend ervaren in een woonomgeving. Tegelijk mag het ontwerp niet te neutraal of karakterloos worden. De respondenten zoeken dus naar een evenwicht tussen eenvoud en eigenheid: het product moet rustig ogen, maar toch voldoende uitstraling hebben.
+Op vlak van kleur verkiezen respondenten zachte, lichte en natuurlijke tinten. Deze zijn toegankelijker en minder storend in een woning. Het product moet rustig ogen, maar wel eigenheid hebben.
 
-Wat textuur betreft, werd duidelijk dat gebruikers vooral een subtiele visuele textuur waarderen. Een natuurlijke nerf of fijne afwerking kan het product warmer en kwalitatiever doen aanvoelen. Een sterk voelbare of ruwe textuur werd minder positief ervaren, omdat dit mogelijk minder praktisch of minder aangenaam is in dagelijks gebruik. Een gladde of matte afwerking lijkt daarom beter aan te sluiten bij de verwachtingen van de gebruikers.
+Qua textuur waarderen gebruikers vooral subtiele visuele textuur. Een natuurlijke nerf of fijne afwerking maakt het product warmer en kwalitatiever. Sterk voelbare of ruwe textuur werd minder positief ervaren. Een gladde of matte afwerking sluit beter aan bij dagelijks gebruik.
 
-Algemeen tonen de interviews aan dat de respondenten het product niet alleen beoordelen op functionaliteit, maar ook op de emotionele en esthetische beleving. De vormgeving moet bijdragen aan een gevoel van vertrouwen, rust en duurzaamheid. De resultaten wijzen daarom in de richting van een ontwerp dat natuurlijk, subtiel, kwalitatief en gebruiksvriendelijk oogt. Deze inzichten vormen een waardevolle basis om de verdere ontwerpkeuzes te onderbouwen en het product beter af te stemmen op de verwachtingen van de doelgroep.
+Algemeen beoordelen respondenten het product niet alleen op functionaliteit, maar ook op emotionele en esthetische beleving. De vormgeving moet vertrouwen en rust uitstralen.
 
 ### <ins>Conclusies en implicaties</ins>
-De Develop 3-fase toont aan dat EcoLux verder moet evolueren van een functioneel concept naar een product dat ook sterk scoort op gebruikservaring, uitstraling en emotionele beleving.
+De Develop 3-fase toont dat EcoLux verder moet evolueren van functioneel concept naar een product dat ook sterk scoort op gebruikservaring, uitstraling en emotionele beleving.
 
-Uit de customer journey blijkt dat gebruikers vooral nood hebben aan eenvoud, duidelijke feedback en vertrouwen. Smart-homeproducten kunnen snel technisch of complex aanvoelen, waardoor EcoLux zich moet onderscheiden als een toegankelijke oplossing die de gebruiker begeleidt zonder te overweldigen. Vooral tijdens installatie, dagelijks gebruik en automatisatie is het belangrijk dat de gebruiker begrijpt wat het systeem doet en altijd een gevoel van controle behoudt.
+Uit de customer journey blijkt dat gebruikers nood hebben aan eenvoud, duidelijke feedback en vertrouwen. Smart-homeproducten kunnen snel technisch of complex aanvoelen. EcoLux moet zich daarom onderscheiden als toegankelijke oplossing. Tijdens installatie, dagelijks gebruik en automatisatie moet de gebruiker begrijpen wat het systeem doet en controle behouden.
 
-De CMF-analyse en gebruikerstesten wijzen in dezelfde richting. Respondenten verkiezen een product dat subtiel aanwezig is in het interieur, maar tegelijk kwalitatief en betrouwbaar oogt. Zachte, lichte en natuurlijke tinten, matte afwerkingen en hout of een houtachtige uitstraling sluiten het best aan bij de gewenste uitstraling van rust, duurzaamheid en huiselijkheid. Het product mag dus niet te opvallend of technisch overkomen, maar ook niet te neutraal of goedkoop ogen.
+De CMF-analyse en gebruikerstesten wijzen in dezelfde richting. Respondenten verkiezen een product dat subtiel aanwezig is en betrouwbaar oogt. Zachte, lichte en natuurlijke tinten, matte afwerkingen en hout of een houtachtige uitstraling sluiten het best aan bij rust, duurzaamheid en huiselijkheid.
 
-De belangrijkste implicatie voor het verdere ontwerp is dat EcoLux moet worden uitgewerkt als een warm, discreet en gebruiksvriendelijk interieurproduct. De vormgeving moet eenvoudig en rustig blijven, maar mag subtiele details of accentkleuren bevatten om meer eigenheid te creëren. Daarnaast moeten feedback, meldingen en automatisatie helder en controleerbaar blijven, zodat het product vertrouwen opwekt en op een natuurlijke manier deel kan worden van de dagelijkse routines van de gebruiker.
-Op basis van deze informatie werden de design requirements aangevuld.
+De belangrijkste implicatie is dat EcoLux moet worden uitgewerkt als warm, discreet en gebruiksvriendelijk interieurproduct. De vormgeving moet eenvoudig blijven, maar mag subtiele details of accentkleuren bevatten. Feedback, meldingen en automatisatie moeten helder en controleerbaar blijven, zodat het product vertrouwen opwekt en deel wordt van dagelijkse routines.
+Op basis hiervan werden de design requirements aangevuld.
