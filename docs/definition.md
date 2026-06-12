@@ -1,7 +1,10 @@
 ## Definition
+
 ### <ins>**Wave 1: Communicatie vorm exploratie**</ins>  
+
 **Doestellingen**  
-In de eerste Wave werd onderzocht hoe het probleem initieel kan worden gecommuniceerd, met een focus op de functionaliteit. Daarnaast werd bepaald hoe het energieverlies gecommuniceerd moest worden. Dit gebeurde aan de hand van gebruikerstesten en interviews. Hierbij werden de volgende deelvragen beantwoord:  
+
+In de eerste wave werd onderzocht hoe het probleem initieel gecommuniceerd kan worden. De focus lag op functionaliteit en op de manier waarop energieverlies zichtbaar wordt gemaakt. Dit gebeurde via gebruikerstesten en interviews. Daarbij werden de volgende deelvragen beantwoord:  
 
    * Hoe communiceren we het best het energieverlies bij de gebruiker(awareness)?   
    * Hoe zou de gebruiker willen dat het product wordt geinstalleerd?  
@@ -10,7 +13,7 @@ In de eerste Wave werd onderzocht hoe het probleem initieel kan worden gecommuni
 
 **Materiaal & methoden**  
 
-De doelstellingen werden onderzocht aan de hand van gebruikerstests, gevolgd door een interview. Hiervoor werden de volgende materialen gebruikt:  
+De doelstellingen werden onderzocht via gebruikerstests, gevolgd door een interview. Hiervoor werden de volgende materialen gebruikt:  
 
    * smartphone voor video opnamens  
    * notieboekje voor notities  
@@ -26,9 +29,10 @@ De doelstellingen werden onderzocht aan de hand van gebruikerstests, gevolgd doo
 <p align="center">
 fysieke prototypes</p>
 
-De 4 prototypes werden gebruikt om de gebruikers een fysieke voorstelling te geven voor de verschillende manieren van communiceren. De drie eerste protypes hadden elk een eigen manier voor het melden van een probleem, namelijk: emotie, vorm of licht. Het vierde prototype was voorzien voor het testen van het concept van de substations.
+De vier prototypes gaven gebruikers een fysieke voorstelling van verschillende communicatiemogelijkheden. De eerste drie prototypes meldden een probleem telkens op een andere manier: via emotie, vorm of licht. Het vierde prototype testte het concept van substations.
 
-Tijdens de gebruikerstesten konden de gebruikers in interactie gaan met de verschillende prototypes. Hierbij werden de prototypes opgesteld in de verschillende modes, namelijk wanneer er zich energieverlies optreed en wanneer niet. Vervolgens konden de gebruikers passeren. Uiteindelijk, na het doorlopen van alle prototypes, werd een interview afgenomen over de gehele test. Er werd voor 3 respondenten gekozen om op een efficiënte manier kwalitatieve inzichten te verzamelen.
+Tijdens de gebruikerstesten gingen gebruikers in interactie met de prototypes. Elk prototype werd getoond in twee modes: met en zonder energieverlies. Gebruikers konden de opstelling bekijken en passeren zoals in een normale situatie. Na alle prototypes volgde een interview over de volledige test. Er werd gekozen voor drie respondenten om efficiënt kwalitatieve inzichten te verzamelen.
+
 <p align="center">
   <img src="../img/wave1.1.jpg" width="45%">
   <img src="../img/wave1.2.jpg" width="44.98%">
@@ -37,27 +41,34 @@ Tijdens de gebruikerstesten konden de gebruikers in interactie gaan met de versc
 prototype gebruikerstest</p>
 
 **Resultaten**  
-Uit het onderzoek blijkt dat de duidelijkheid van signalen een belangrijke rol speelt in het gebruiksgemak. Lichtsiganalen worden consequent als het meest duidelijk ervaren. Emoties worden wel begrepen, maar passen minder goed binnen professionele contexten. De shapeshifter wordt als minder intuïtief gezien, tenzij deze visueel extra wordt ondersteund. Het gebruik van een smiley-prototype en het feit dat de prototypes kunnen praten, activeert bovendien een antropomorfe interpretatie. Gebruikers schrijven het systeem menselijke eigenschappen toe, zoals begrijpen, luisteren en reageren. Dit leidt ertoe dat sommige respondenten de neiging hadden om daadwerkelijk een gesprek aan te gaan met de prototypes.
 
-De context van gebruik blijkt bepalend voor de voorkeur in vormgeving. Voor gezinnen werkt een speels en visueel systeem, zoals een smiley, goed. In zakelijke omgevingen en volwassen thuissituaties gaat de voorkeur uit naar een strak en minimalistisch ontwerp, zoals een cube.
+Uit het onderzoek blijkt dat duidelijke signalen belangrijk zijn voor het gebruiksgemak. Lichtsignalen worden het meest duidelijk en intuïtief ervaren. Emoties worden begrepen, maar passen minder goed in professionele contexten. De shapeshifter wordt als minder intuïtief gezien, tenzij deze extra visueel ondersteund wordt.
 
-Daarnaast verhoogt een persoonlijk aanpasbaar design de betrokkenheid van gebruikers. Respondenten geven aan dat personaliseerbaarheid, het gevoel versterkt dat het product echt van henzelf is.
+Het smiley-prototype en de spraakfunctie zorgen voor een antropomorfe interpretatie. Gebruikers schrijven het systeem menselijke eigenschappen toe, zoals begrijpen, luisteren en reageren. Daardoor wilden sommige respondenten echt in gesprek gaan met de prototypes.
 
-Op het gebied van functionaliteit worden negeerknoppen en duidelijke voorinstellingen vaak genoemd als belangrijke toevoegingen. Substations verhogen de bruikbaarheid wanneer er meerdere kamers of ingangen zijn. Handsfree bediening draagt bij aan het gebruiksgemak, vooral in huishoudens waar regelmatig wordt gemultitaskt. In zulke situaties kan spraakbediening een duidelijke meerwaarde hebben, bijvoorbeeld met suggesties als dat het systeem pas begint te luisteren wanneer er daadwerkelijk iets gebeurt.
+De gebruikscontext bepaalt de voorkeur in vormgeving. Voor gezinnen werkt een speels en visueel systeem, zoals een smiley, goed. In zakelijke omgevingen en volwassen thuissituaties gaat de voorkeur naar een strak en minimalistisch ontwerp, zoals een cube.
 
-Wat betreft installatie geven alle respondenten aan dat plaatsing idealiter door een technieker of installateur gebeurt. Tegelijkertijd vindt één respondent het belangrijk dat er ook een optie blijft bestaan om het systeem zelfstandig te installeren.
+Een persoonlijk aanpasbaar design verhoogt de betrokkenheid. Respondenten geven aan dat personaliseerbaarheid het gevoel versterkt dat het product echt van henzelf is.
 
+Functioneel worden negeerknoppen en duidelijke voorinstellingen vaak genoemd. Substations verhogen de bruikbaarheid bij meerdere kamers of ingangen. Handsfree bediening helpt vooral in huishoudens waar veel wordt gemultitaskt. Spraakbediening kan daarbij een meerwaarde hebben, bijvoorbeeld wanneer het systeem pas luistert zodra er effectief iets gebeurt.
+
+Voor installatie geven alle respondenten aan dat plaatsing liefst door een technieker of installateur gebeurt. Eén respondent vindt het wel belangrijk dat zelfinstallatie mogelijk blijft.
 
 ### <ins>**Wave 2: Communicatie energieprobleem**</ins>  
+
 **Doestellingen**  
-In Wave 1 lag de focus vooral op awareness, installatie en basisfunctionaliteit, maar in Wave 2 werd verder ingezoomd op communicatie, automatisatie en het gebruik van de negeerfunctie. Concreet moesten drie deelvragen beantwoord worden: 
+
+In Wave 1 lag de focus op awareness, installatie en basisfunctionaliteit. In Wave 2 werd verder ingezoomd op communicatie, automatisatie en de negeerfunctie. Concreet moesten drie deelvragen beantwoord worden: 
+
 * Hoe brengen we de informatie van het energieverlies het best over?
 * Wat verwacht de gebruiker dat de Ecolux automatisch doet en wat er manueel moet gebeuren, moet dit instelbaar zijn? 
 * Hoe zou de negeerfunctie het best gebruikt worden?  
 
 **Materiaal & methoden**
 
-Voor dit onderzoek werd gekozen voor gebruikerstesten volgend het TAP (thinking aloud protocol) en QAP (question asking protocol), omdat we enerzijds gedrag in context wilden observeren en anderzijds ook inzicht wilden krijgen in motivaties en voorkeuren via interviewvragen. De methode liet toe om gerichte feedback te verzamelen op de prototypes en is praktijkgericht, snel uitvoerbaar en geschikt voor conceptevaluatie. De test werd uitgevoerd bij de respondenten. voor deze gebruikerstesten werden 3 mogelijke gebruikers uitgekozen. Er werd voor 3 respondenten gekozen om op een efficiënte manier kwalitatieve inzichten te verzamelen. en verliep volgens een vaste structuur: introductie en informed consent, presentatie van het EcoLux-concept, testen van prototypes, observatie van gedrag met interviewvragen en een afsluitende wrap-up. 
+Voor dit onderzoek werd gekozen voor gebruikerstesten volgens het TAP (thinking aloud protocol) en QAP (question asking protocol). Zo konden we gedrag in context observeren en tegelijk motivaties en voorkeuren bevragen. De methode maakte gerichte feedback op de prototypes mogelijk. Ze was praktijkgericht, snel uitvoerbaar en geschikt voor conceptevaluatie.
+
+De test werd uitgevoerd bij de respondenten. Voor deze gebruikerstesten werden drie mogelijke gebruikers gekozen. Dit aantal liet toe om efficiënt kwalitatieve inzichten te verzamelen. De test verliep volgens een vaste structuur: introductie en informed consent, presentatie van het EcoLux-concept, testen van prototypes, observatie met interviewvragen en een afsluitende wrap-up. 
 
 Materialen:
 
@@ -68,13 +79,16 @@ Materialen:
 * smartphone voor opnames
 
 * protocol + informed consent 
+
 <p align="center">
   <img src="../img/prototype5.png" width="45%">
   <img src="../img/prototype6.png" width="49.5%">
 </p>
 <p align="center">
 app interface</p>
-Om de informatie te delen met de gebruiker kan het best gebruik gemaakt worden van auditieve of visuele communicatie. Voor visuele communicatie hebben we 2 verschillende prototypes gemaakt omdat deze meer mogelijkheden heeft. De 2 prototypes voor visuele weergave zijn gebasseerd op tekst en op foto.
+
+Om informatie met de gebruiker te delen, kan auditieve of visuele communicatie gebruikt worden. Voor visuele communicatie werden twee prototypes gemaakt, omdat deze richting meer mogelijkheden bood. De twee visuele prototypes waren gebaseerd op tekst en op foto.
+
 <p align="center">
   <img src="../img/wave2.1.jpeg" width="32%">
   <img src="../img/wave2.2.jpeg" width="32%">
@@ -86,10 +100,23 @@ prototypes gebruikerstest</p>
 
 **Resultaten**
 
-De resultaten tonen dat communicatie via spraak duidelijk kan zijn, maar minder geschikt wordt wanneer er veel informatie tegelijk is: respondenten gaven aan dat het dan moeilijk is om alles te onthouden en achteraf correct te herhalen. Daarnaast vonden sommigen het te traag, zeker wanneer ze liever meteen handelen of verwachten dat EcoLux automatisch ingrijpt. Tekst werd gezien als handig om snel te scannen en meteen actie te ondernemen, maar bleek soms te weinig context te geven: met beperkte tekst was het niet altijd duidelijk waar het probleem zich exact bevond. Bovendien kon de tekstweergave druk ogen wanneer er weinig witruimte was. De grondplanweergave scoorde het best: respondenten konden onmiddellijk zien waar het energieverlies zich bevond, wat snelle acties mogelijk maakte. Alle testers verkozen deze visuele methode boven tekst en spraak. Wat automatisatie betreft was er een duidelijke voorkeur: gebruikers wilden dat EcoLux zoveel mogelijk automatisch oplost, en voor hen hoeft dit zelfs niet uitgebreid instelbaar te zijn. De belangrijkste inzichten zijn dus dat visuele communicatie het sterkst werkt, snelheid essentieel is en maximale automatisatie aansluit bij gebruikersverwachtingen.
+De resultaten tonen dat spraak duidelijk kan zijn, maar minder geschikt is bij veel informatie. Respondenten vonden het dan moeilijk om alles te onthouden en correct te herhalen. Sommigen vonden spraak ook te traag, zeker wanneer ze liever meteen actie ondernemen of verwachten dat EcoLux automatisch ingrijpt.
+
+Tekst werd gezien als handig om snel te scannen en direct te handelen. Toch gaf tekst soms te weinig context. Met beperkte tekst was niet altijd duidelijk waar het probleem zich precies bevond. De tekstweergave kon ook druk ogen wanneer er weinig witruimte was.
+
+De grondplanweergave scoorde het best. Respondenten zagen meteen waar het energieverlies zich bevond. Daardoor werd snelle actie mogelijk. Alle testers verkozen deze visuele methode boven tekst en spraak.
+
+Voor automatisatie was de voorkeur duidelijk. Gebruikers wilden dat EcoLux zoveel mogelijk automatisch oplost. Voor hen hoeft dit niet uitgebreid instelbaar te zijn. De belangrijkste inzichten zijn dus dat visuele communicatie het sterkst werkt, snelheid essentieel is en maximale automatisatie aansluit bij gebruikersverwachtingen.
 
 ### Conclusies & implicaties
-Wave 1 toont dat de duidelijkheid van signalen bepalend is voor gebruiksgemak: lichtsignalen worden het meest intuïtief ervaren, terwijl emotie en vorm minder geschikt zijn in professionele contexten. De voorkeur voor vormgeving hangt sterk af van de omgeving (speels voor gezinnen, strak/minimalistisch voor volwassen of zakelijke settings). Personalisatie verhoogt betrokkenheid. Functioneel zijn negeerknoppen, duidelijke presets, handsfree bediening en substations belangrijk, vooral in grotere woningen. Installatie gebeurt idealiter door een technieker, met een optie voor zelfinstallatie. Wave 2 bevestigt dat visuele communicatie het best werkt: grondplanweergave maakt energieverlies meteen begrijpelijk en actiegericht. Spraak is minder efficiënt bij veel info, tekst moet voldoende context en witruimte bieden. Gebruikers verwachten bovendien maximale automatisatie. Op basis van deze conclusies werden de volgende designimplicaties geformuleerd:
+
+Wave 1 toont dat duidelijke signalen bepalend zijn voor gebruiksgemak. Lichtsignalen worden het meest intuïtief ervaren. Emotie en vorm zijn minder geschikt in professionele contexten. De voorkeur voor vormgeving hangt sterk af van de omgeving: speels voor gezinnen, strak en minimalistisch voor volwassen of zakelijke settings.
+
+Personalisatie verhoogt de betrokkenheid. Functioneel zijn negeerknoppen, duidelijke presets, handsfree bediening en substations belangrijk. Dit geldt vooral in grotere woningen. Installatie gebeurt idealiter door een technieker, met een optie voor zelfinstallatie.
+
+Wave 2 bevestigt dat visuele communicatie het best werkt. De grondplanweergave maakt energieverlies meteen begrijpelijk en actiegericht. Spraak is minder efficiënt bij veel informatie. Tekst moet voldoende context en witruimte bieden. Gebruikers verwachten bovendien maximale automatisatie.
+
+Op basis van deze conclusies werden de volgende designimplicaties geformuleerd:
 
 | Observatie uit onderzoek                               | Inzicht                                    | Designimplicatie                               |
 | ------------------------------------------------------ | ------------------------------------------ | ---------------------------------------------- |
