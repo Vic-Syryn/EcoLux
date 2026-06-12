@@ -23,7 +23,7 @@ eind define fase:
 ## Stap  1: Circuit bouwen
 <ins/>Benodigdheden:
 
-- Raspberry Pi (3B / 4) met Raspberry PI OS
+- Raspberry Pi (3B+) met Raspberry PI OS
 - Arduino Uno
 - LDR (lichtsensor)
 - WS2812 LED strip (27 LEDs, 5V)
@@ -34,6 +34,11 @@ eind define fase:
 - Jumper wires
 
 Bouw het circuit volgens het onderstaande schema.
+
+<p align="center">
+  <img src="../img/Circuit_Ecolux_V2.png" width="100%">
+  Bevestigen ledstrip
+<p align="center">
 
 ## Stap  2: Arduino sketch flashen
 1. Open de Arduino IDE op je computer
@@ -63,8 +68,61 @@ pip3 install pyserial requests --break-system-packages
 ```
  
 ---
- 
 ### 2:
+#### Node.js installeren op de Pi
+ 
+```bash
+curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+sudo apt install -y nodejs
+```
+ 
+#### app bouwen op je computer
+ 
+1. Kopieer de frontend broncode naar je Windows/Mac computer
+2. Open een terminal in de frontend map en voer uit:
+```bash
+npm install
+npm run build
+```
+3. Kopieer de gegenereerde `dist` map via WinSCP naar de Pi:
+```
+Doel: /home/ecolux/frontend/dist
+```
+
+#### App serveren met Nginx
+ 
+```bash
+# Installeer Nginx
+sudo apt install nginx -y
+ 
+# Maak een configuratiebestand aan
+sudo nano /etc/nginx/sites-available/ecolux
+```
+ 
+Plak dit erin:
+```nginx
+server {
+    listen 80;
+    root /home/ecolux/frontend/dist;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    location /api/ { proxy_pass http://localhost:8000/; }
+}
+```
+ 
+```bash
+# Activeer de configuratie
+sudo ln -s /etc/nginx/sites-available/ecolux /etc/nginx/sites-enabled/
+sudo rm /etc/nginx/sites-enabled/default
+sudo nginx -t
+sudo systemctl restart nginx
+sudo systemctl enable nginx
+```
+ 
+Open de app in de browser: `http://<pi-ip>/`
+ 
+---
+### 3:
  
 Kopieer via WinSCP of `scp` de volgende bestanden naar `/home/ecolux/`:
  
@@ -81,7 +139,7 @@ En naar `/home/ecolux/matter-api/`:
  
 ---
  
-### 3: 
+### 4: 
  
 ```bash
 # Ga naar de matter-api map
@@ -100,7 +158,7 @@ Stop de test server met `Ctrl+C`.
  
 ---
  
-### 4:
+### 5:
  
 #### Matter API service
  
