@@ -1,6 +1,6 @@
 ## Develop 2
 
-Door de conclusies uit Develop 1 was er voldoende informatie om het design van het hoofdstation verder te bepalen en te valideren. Uit Develop 1 bleek onder andere dat het scherm niet instelbaar moest zijn. De 11 beste schetsen werden opgenomen in een [Scorematrix (Develop 2)](https://github.com/Vic-Syryn/EcoLux/blob/main/onderzoek/Scorematrix_Develop_2.pdf). Hieruit werden de 4 meest belovende vormen geselecteerd op vlak van esthetiek, schermintegratie, haalbaarheid en potentieel gebruiksgemak. Op deze vormen werden de usability goals verder bepaald.
+Door de conclusies uit Develop 1 was er voldoende informatie om het design van het hoofdstation verder te bepalen en te valideren. Uit Develop 1 bleek onder andere dat het scherm niet instelbaar moest zijn. Voor develop 2 werd er aan het design gewerkt, de 11 beste schetsen werden opgenomen in een [Scorematrix (Develop 2)](https://github.com/Vic-Syryn/EcoLux/blob/main/onderzoek/Scorematrix_Develop_2.pdf). Hieruit werden de 4 meest belovende vormen geselecteerd op vlak van esthetiek, schermintegratie, haalbaarheid en potentieel gebruiksgemak. Op deze vormen werden de usability goals verder bepaald.
 
 ### <ins>**Usability goals**</ins>
 
