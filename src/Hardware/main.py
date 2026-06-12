@@ -26,7 +26,10 @@ SETTINGS_FILE  = "/home/ecolux/matter-data/settings.json"
 def _load(path: str) -> dict:
     if os.path.exists(path):
         with open(path) as f:
-            return json.load(f)
+            try:
+                return json.load(f)
+            except json.JSONDecodeError:
+                return {}
     return {}
 
 def _save(path: str, data: dict):
@@ -71,50 +74,53 @@ class CommissionRequest(BaseModel):
 
 @app.get("/devices")
 async def get_devices():
+    placements = load_placements()
+    settings   = load_settings()
+
     try:
-        response   = await get_nodes()
-        nodes      = response.get("result", [])
-        placements = load_placements()
-        settings   = load_settings()
-        devices    = []
-
-        for node in nodes:
-            node_id   = node.get("node_id")
-            attrs     = node.get("attributes", {})
-            on_off    = attrs.get("1/6/0", None)
-            key       = str(node_id)
-            s         = settings.get(key, {})
-            on_since  = s.get("on_since", None)
-
-            # Track on_since: set when state transitions to True, clear when False
-            # (state transitions are detected here on each poll)
-            prev_state = s.get("last_known_state", None)
-            if on_off is True and prev_state is not True:
-                on_since = datetime.now(timezone.utc).isoformat()
-                s["on_since"] = on_since
-                s["last_known_state"] = True
-                settings[key] = s
-            elif on_off is False and prev_state is not False:
-                on_since = None
-                s["on_since"] = None
-                s["last_known_state"] = False
-                settings[key] = s
-
-            devices.append({
-                "id":              node_id,
-                "name":            f"Plug {node_id}",
-                "type":            "smart_plug",
-                "online":          node.get("available", False),
-                "state":           on_off,
-                "placement":       placements.get(key),
-                "problem_minutes": s.get("problem_minutes", None),
-                "on_since":        on_since,
-            })
-
-        save_settings(settings)
-        return {"devices": devices}
+        response = await asyncio.wait_for(get_nodes(), timeout=5)
+        nodes    = response.get("result", [])
+        if not isinstance(nodes, list):
+            nodes = []
     except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
+        return {"devices": [], "matter_error": str(e)}
+
+    devices = []
+    for node in nodes:
+        node_id    = node.get("node_id")
+        attrs      = node.get("attributes", {})
+        on_off     = attrs.get("1/6/0", None)
+        key        = str(node_id)
+        s          = settings.get(key, {})
+        prev_state = s.get("last_known_state", None)
+        on_since   = s.get("on_since", None)
+
+        if on_off is True and prev_state is not True:
+            # Plug just turned on — always start a fresh timer
+            on_since              = datetime.now(timezone.utc).isoformat()
+            s["on_since"]         = on_since
+            s["last_known_state"] = True
+            settings[key]         = s
+        elif on_off is False and prev_state is not False:
+            # Plug just turned off — clear the timer
+            on_since              = None
+            s["on_since"]         = None
+            s["last_known_state"] = False
+            settings[key]         = s
+
+        devices.append({
+            "id":              node_id,
+            "name":            f"Plug {node_id}",
+            "type":            "smart_plug",
+            "online":          node.get("available", False),
+            "state":           on_off,
+            "placement":       placements.get(key),
+            "problem_minutes": s.get("problem_minutes", None),
+            "on_since":        on_since,
+        })
+
+    save_settings(settings)
+    return {"devices": devices}
 
 
 @app.post("/devices/{node_id}/on")
@@ -125,12 +131,13 @@ async def turn_on(node_id: int):
             "args": {"node_id": node_id, "endpoint_id": 1, "cluster_id": 6,
                      "command_name": "On", "payload": {}}
         })
-        # Record on_since immediately
         s = load_settings()
         key = str(node_id)
         s.setdefault(key, {})
-        s[key]["on_since"] = datetime.now(timezone.utc).isoformat()
-        s[key]["last_known_state"] = True
+        # Set fresh on_since and clear last_known_state so get_devices()
+        # always detects a clean on-transition and never reuses a stale timestamp
+        s[key]["on_since"]         = datetime.now(timezone.utc).isoformat()
+        s[key]["last_known_state"] = None
         save_settings(s)
         return {"status": "ok", "state": True}
     except Exception as e:
@@ -148,8 +155,8 @@ async def turn_off(node_id: int):
         s = load_settings()
         key = str(node_id)
         s.setdefault(key, {})
-        s[key]["on_since"] = None
-        s[key]["last_known_state"] = False
+        s[key]["on_since"]         = None
+        s[key]["last_known_state"] = None
         save_settings(s)
         return {"status": "ok", "state": False}
     except Exception as e:
@@ -164,6 +171,14 @@ async def toggle(node_id: int):
             "args": {"node_id": node_id, "endpoint_id": 1, "cluster_id": 6,
                      "command_name": "Toggle", "payload": {}}
         })
+        # Clear last_known_state so get_devices() detects the transition
+        # and sets a fresh on_since regardless of which way the toggle went
+        s = load_settings()
+        key = str(node_id)
+        s.setdefault(key, {})
+        s[key]["on_since"]         = None
+        s[key]["last_known_state"] = None
+        save_settings(s)
         return {"status": "ok"}
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))

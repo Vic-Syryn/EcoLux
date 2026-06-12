@@ -5,19 +5,13 @@ Runs as a background service alongside main.py (FastAPI).
 
 Responsibilities:
   • Read JSON telemetry from Arduino over USB serial
-  • Detect pot-click events → toggle screen wake/sleep state
   • Poll main.py /devices endpoint to detect energy-loss alerts
     (plug ON longer than problem_minutes)
-  • Send ALERT:1 / ALERT:0 commands back to Arduino → controls LED brightness
+  • Send ALERT:1 / ALERT:0 commands back to Arduino → controls LED strip
 
-Serial port:  /dev/ttyUSB0  or  /dev/ttyACM0  (auto-detected)
-Baud rate:    115200
-
-Usage:
-  python3 gpio_controller.py
-
-Dependencies:
-  pip install pyserial requests
+FIX: on_since is now tracked IN MEMORY here, not read from the API.
+     This prevents stale timestamps in settings.json from causing
+     instant false alerts after a restart.
 """
 
 import serial
@@ -30,10 +24,9 @@ import logging
 from datetime import datetime, timezone
 
 # ── Config ────────────────────────────────────────────────────────────────────
-BAUD_RATE         = 115200
-API_BASE          = "http://localhost:8000"
-POLL_INTERVAL     = 10         # seconds between energy-loss checks
-SCREEN_WAKE_FILE  = "/tmp/ecolux_screen_wake"   # flag file read by Kiosk app
+BAUD_RATE     = 115200
+API_BASE      = "http://localhost:8000"
+POLL_INTERVAL = 2
 
 logging.basicConfig(
     level=logging.INFO,
@@ -41,21 +34,23 @@ logging.basicConfig(
 )
 log = logging.getLogger("gpio_controller")
 
-# ── State (shared between threads) ───────────────────────────────────────────
+# ── State ─────────────────────────────────────────────────────────────────────
 state = {
-    "screen_on":    True,
     "energy_alert": False,
     "ldr":          0,
-    "enc":          0,
     "brightness":   0,
 }
 state_lock = threading.Lock()
+
+# Track when each device turned on — keyed by device id (int)
+# Only set when WE see the transition, so never stale across restarts
+device_on_since: dict[int, datetime] = {}
+device_on_since_lock = threading.Lock()
 
 
 # ── Serial port auto-detection ────────────────────────────────────────────────
 
 def find_arduino_port() -> str | None:
-    """Return the first USB serial port that looks like an Arduino."""
     candidates = ["/dev/ttyUSB0", "/dev/ttyUSB1", "/dev/ttyACM0", "/dev/ttyACM1"]
     for port in candidates:
         try:
@@ -65,74 +60,80 @@ def find_arduino_port() -> str | None:
             return port
         except serial.SerialException:
             continue
-
-    # Fallback: scan all ports for CH340 / ATmega descriptors
     for info in serial.tools.list_ports.comports():
         desc = (info.description or "").lower()
         if any(k in desc for k in ("arduino", "ch340", "atmega", "usb serial")):
             log.info(f"Arduino found via scan: {info.device} ({info.description})")
             return info.device
-
     return None
 
 
-# ── Screen wake/sleep ─────────────────────────────────────────────────────────
+# ── Energy-loss polling ───────────────────────────────────────────────────────
 
-def set_screen(on: bool):
-    """
-    Toggle the simulated screen state.
-    Writes a flag file that the Kiosk app can poll.
-    Also uses xdotool / vcgencmd if available.
-    """
-    with state_lock:
-        if state["screen_on"] == on:
-            return
-        state["screen_on"] = on
-
-    if on:
-        log.info("Screen → ON")
-        with open(SCREEN_WAKE_FILE, "w") as f:
-            f.write("on")
-        # Try hardware blanking (works on Pi with HDMI)
-        import subprocess
-        subprocess.run(["xdotool", "key", "ctrl"], capture_output=True)
-        subprocess.run(["vcgencmd", "display_power", "1"], capture_output=True)
-    else:
-        log.info("Screen → OFF (simulated black)")
-        with open(SCREEN_WAKE_FILE, "w") as f:
-            f.write("off")
-        import subprocess
-        subprocess.run(["vcgencmd", "display_power", "0"], capture_output=True)
-
-
-# ── Energy-loss polling (calls main.py API) ───────────────────────────────────
+# Remember last known state per device so we can detect transitions
+_last_device_state: dict[int, bool] = {}
+_last_on_since: dict[int, str] = {}
 
 def check_energy_alert() -> bool:
-    """
-    Returns True if ANY device has been ON longer than its problem_minutes.
-    """
+    global _last_device_state
     try:
         r = requests.get(f"{API_BASE}/devices", timeout=5)
         r.raise_for_status()
         devices = r.json().get("devices", [])
 
         now = datetime.now(timezone.utc)
+        alert = False
+
         for dev in devices:
-            if not dev.get("state"):          # device is off → no problem
-                continue
+            dev_id  = dev.get("id")
+            state_on = dev.get("state", False)
+            online   = dev.get("online", False)
             problem_min = dev.get("problem_minutes")
-            on_since    = dev.get("on_since")
-            if problem_min is None or on_since is None:
+
+            # Skip offline devices or devices without a problem_minutes limit
+            if not online or not state_on or problem_min is None:
+                # If device turned off, clear our local on_since
+                if not state_on and dev_id in device_on_since:
+                    with device_on_since_lock:
+                        del device_on_since[dev_id]
+                    log.info(f"Device {dev_id} turned off — timer cleared")
+                _last_device_state[dev_id] = state_on
                 continue
-            on_since_dt = datetime.fromisoformat(on_since)
-            minutes_on  = (now - on_since_dt).total_seconds() / 60
+
+            # Detect on-transition: device just turned on
+            # Also reset if prev was already True — handles the case where
+            # the plug was turned off and back on between two polls
+            prev = _last_device_state.get(dev_id, None)
+            if prev is not True:
+                with device_on_since_lock:
+                    device_on_since[dev_id] = now
+                log.info(f"Device {dev_id} turned on — timer started")
+            elif dev.get("on_since") != _last_on_since.get(dev_id):
+                # on_since changed in the API → plug was cycled between polls
+                with device_on_since_lock:
+                    device_on_since[dev_id] = now
+                log.info(f"Device {dev_id} was power-cycled — timer reset")
+
+            _last_device_state[dev_id] = state_on
+            _last_on_since[dev_id] = dev.get('on_since')
+
+            # Check how long it has been on according to OUR timer
+            with device_on_since_lock:
+                on_since = device_on_since.get(dev_id)
+
+            if on_since is None:
+                continue
+
+            minutes_on = (now - on_since).total_seconds() / 60
             if minutes_on >= problem_min:
                 log.warning(
-                    f"Device {dev['id']} has been ON for "
+                    f"Device {dev_id} has been ON for "
                     f"{minutes_on:.1f} min (limit {problem_min} min)"
                 )
-                return True
-        return False
+                alert = True
+
+        return alert
+
     except Exception as e:
         log.error(f"Energy check failed: {e}")
         return False
@@ -158,26 +159,20 @@ def energy_poll_thread(ser: serial.Serial):
         time.sleep(POLL_INTERVAL)
 
 
-# ── Serial connection with boot handshake ────────────────────────────────────
+# ── Serial connection ─────────────────────────────────────────────────────────
 
 def open_serial(port: str) -> serial.Serial:
-    """
-    Open serial port and wait until the Arduino is actually sending data.
-    Fixes: 'device reports readiness to read but returned no data'
-    """
     log.info(f"Opening {port} at {BAUD_RATE} baud …")
     ser = serial.Serial()
     ser.port     = port
     ser.baudrate = BAUD_RATE
-    ser.timeout  = 2      # 2 s read timeout — avoids blocking forever
+    ser.timeout  = 2
     ser.open()
 
-    # Arduino resets on DTR toggle when serial opens — wait for it to boot
     log.info("Waiting for Arduino to boot (3 s) …")
     time.sleep(3)
-    ser.reset_input_buffer()   # discard boot garbage / partial lines
+    ser.reset_input_buffer()
 
-    # Handshake: wait for first valid JSON frame (up to 10 s)
     log.info("Waiting for first valid JSON frame …")
     deadline = time.time() + 10
     while time.time() < deadline:
@@ -187,11 +182,11 @@ def open_serial(port: str) -> serial.Serial:
                 continue
             text = raw.decode("utf-8", errors="replace").strip()
             if text.startswith("{"):
-                json.loads(text)   # confirm it parses cleanly
+                json.loads(text)
                 log.info(f"Arduino ready — first frame: {text}")
                 return ser
         except (json.JSONDecodeError, UnicodeDecodeError):
-            pass   # still booting, keep waiting
+            pass
 
     log.warning("Handshake timed out — continuing anyway")
     return ser
@@ -202,7 +197,6 @@ def open_serial(port: str) -> serial.Serial:
 def run(port: str):
     ser = open_serial(port)
 
-    # Start energy polling in background
     t = threading.Thread(target=energy_poll_thread, args=(ser,), daemon=True)
     t.start()
 
@@ -213,7 +207,6 @@ def run(port: str):
         try:
             raw = ser.readline()
 
-            # Empty bytes = timeout with no data (not an error — just wait)
             if not raw:
                 consecutive_empty += 1
                 if consecutive_empty >= 5:
@@ -230,19 +223,12 @@ def run(port: str):
 
             with state_lock:
                 state["ldr"]        = data.get("ldr", 0)
-                state["enc"]        = data.get("enc", 0)
                 state["brightness"] = data.get("brightness", 0)
 
-            # Handle click → toggle screen
-            if data.get("click") == 1:
-                with state_lock:
-                    current = state["screen_on"]
-                set_screen(not current)
-
             log.debug(
-                f"ldr={data.get('ldr')} enc={data.get('enc')} "
+                f"ldr={data.get('ldr')} "
                 f"brightness={data.get('brightness')} "
-                f"click={data.get('click')} alert={data.get('energy_alert')}"
+                f"alert={data.get('energy_alert')}"
             )
 
         except json.JSONDecodeError:

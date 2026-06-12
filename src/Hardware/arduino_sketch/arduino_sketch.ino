@@ -1,105 +1,94 @@
 
-#include <Encoder.h>
+#include <Adafruit_NeoPixel.h>
+
+#define LED_PIN    9
+#define LED_COUNT  27
+
+Adafruit_NeoPixel strip = Adafruit_NeoPixel(LED_COUNT, LED_PIN, NEO_GRB + NEO_KHZ800);
 
 // Pins
-const int PIN_LDR     = A1;
-const int PIN_ENC_SW  = 4;    // click — D4, clean digital pin
-const int PIN_LED     = 9;    // hardware PWM
+const int PIN_LDR = A1;
 
-Encoder enc(3, 2);            // DT = D3, CLK = D2
-
-// Draaien
+// Tuning
 const int SEND_INTERVAL_MS = 100;
-const int DEBOUNCE_MS      = 50;
-const int ENC_STEP         = 15;   
-const int ENC_MIN          = -255; 
-const int ENC_MAX          =  255; 
 
-const int LDR_DARK         = 822;  
-const int LDR_BRIGHT       = 972;  
-const int BRIGHTNESS_MIN   = 80;   
-const int BRIGHTNESS_MAX   = 255;
+const int LDR_DARK       = 822;
+const int LDR_BRIGHT     = 972;
+const int BRIGHTNESS_MAX     = 255;
+const int ALERT_MIN_BRIGHTNESS = 150;  // strip altijd zichtbaar bij alert
 
-// Status
-bool          energyAlert    = false;
-bool          testMode       = false;
-bool          clickEvent     = false;
-unsigned long lastDebounce   = 0;
-unsigned long lastSend       = 0;
-int           encTrim        = 0;
-String        cmdBuffer      = "";
+// Cap totaal verbruik op ~40% zodat 120 LEDs binnen 5A PSU blijven
+const uint8_t MAX_STRIP_BRIGHTNESS = 200;  // ~78% — ruim binnen 5A PSU
 
-bool swRaw    = HIGH;
-bool swStable = HIGH;
+// State
+bool          energyAlert = false;
+bool          testMode    = false;
+unsigned long lastSend    = 0;
+String        cmdBuffer   = "";
 
-// LED helderheid
+uint32_t currentColor = 0;
+
+// ── Helderheid ────────────────────────────────────────────────────────────────
 int computeBrightness(int ldrRaw) {
-
   int stretched = map(ldrRaw, LDR_DARK, LDR_BRIGHT, 0, BRIGHTNESS_MAX);
-  int base = constrain(stretched, 0, BRIGHTNESS_MAX);
-  int trim = constrain(encTrim * ENC_STEP, ENC_MIN, ENC_MAX);
-  return constrain(base + trim, 0, BRIGHTNESS_MAX);
+  return constrain(stretched, 0, BRIGHTNESS_MAX);
 }
 
-//Setup
+// ── Strip helpers (non-blocking) ──────────────────────────────────────────────
+void setStripColor(uint32_t color) {
+  if (color == currentColor) return;
+  currentColor = color;
+  for (uint16_t i = 0; i < strip.numPixels(); i++) {
+    strip.setPixelColor(i, color);
+  }
+  strip.show();
+}
+
+void clearStrip() {
+  setStripColor(0);
+}
+
+// ── Setup ─────────────────────────────────────────────────────────────────────
 void setup() {
   Serial.begin(115200);
-  pinMode(PIN_ENC_SW, INPUT_PULLUP); 
-  pinMode(PIN_LED,    OUTPUT);
-  analogWrite(PIN_LED, 0);
-  enc.write(0);                        // reset encoder positie naar 0
+  strip.begin();
+  strip.setBrightness(MAX_STRIP_BRIGHTNESS);
+  strip.show();
 }
 
-//Loop
+// ── Loop ──────────────────────────────────────────────────────────────────────
 void loop() {
   unsigned long now = millis();
-  long rawPos = enc.read();
-  int detents = (int)(rawPos / 4);
-  encTrim = constrain(detents, ENC_MIN / ENC_STEP, ENC_MAX / ENC_STEP);  // ±17 detents max
 
-  //Read LDR
+  // LDR
   int ldrRaw    = analogRead(PIN_LDR);
   int brightness = computeBrightness(ldrRaw);
 
-  //LED
+  // Strip
   if (testMode) {
-    analogWrite(PIN_LED, 255);
+    setStripColor(strip.Color(255, 0, 0));
   } else if (energyAlert) {
-    analogWrite(PIN_LED, brightness);
+    int alertBrightness = max(brightness, ALERT_MIN_BRIGHTNESS);
+    setStripColor(strip.Color(alertBrightness, 0, 0));
   } else {
-    analogWrite(PIN_LED, 0);
+    clearStrip();
   }
 
-  swRaw = digitalRead(PIN_ENC_SW);
-  if (swRaw != swStable) {
-    lastDebounce = now;
-  }
-  if ((now - lastDebounce) > DEBOUNCE_MS) {
-    if (swRaw == LOW && swStable == HIGH) {
-      clickEvent = true;
-    }
-    swStable = swRaw;
-  }
-
-  //Read serial commands van Pi
+  // Seriële commando's van Pi
   while (Serial.available()) {
     char c = Serial.read();
     if (c == '\n' || c == '\r') {
       if (cmdBuffer.length() > 0) {
         cmdBuffer.trim();
-        if      (cmdBuffer == "ALERT:1")    { energyAlert = true; enc.write(0); encTrim = 0; }
-        else if (cmdBuffer == "ALERT:0")    { energyAlert = false; analogWrite(PIN_LED, 0); }
+        if      (cmdBuffer == "ALERT:1")    { energyAlert = true; }
+        else if (cmdBuffer == "ALERT:0")    { energyAlert = false; clearStrip(); }
         else if (cmdBuffer == "LED_TEST:1") { testMode = true; }
-        else if (cmdBuffer == "LED_TEST:0") { testMode = false; analogWrite(PIN_LED, 0); }
+        else if (cmdBuffer == "LED_TEST:0") { testMode = false; clearStrip(); }
         else if (cmdBuffer == "RESET") {
           energyAlert = false;
           testMode    = false;
-          enc.write(0);
-          encTrim     = 0;
-          clickEvent  = false;
-          swStable    = HIGH;
-          cmdBuffer   = "";    
-          analogWrite(PIN_LED, 0);
+          cmdBuffer   = "";
+          clearStrip();
         }
         cmdBuffer = "";
       }
@@ -108,21 +97,15 @@ void loop() {
     }
   }
 
+  // JSON telemetrie versturen
   if (now - lastSend >= SEND_INTERVAL_MS) {
     lastSend = now;
-
     Serial.print(F("{\"ldr\":"));
     Serial.print(ldrRaw);
-    Serial.print(F(",\"enc\":"));
-    Serial.print(encTrim);
-    Serial.print(F(",\"click\":"));
-    Serial.print(clickEvent ? 1 : 0);
     Serial.print(F(",\"brightness\":"));
     Serial.print(brightness);
     Serial.print(F(",\"energy_alert\":"));
     Serial.print(energyAlert ? 1 : 0);
     Serial.println(F("}"));
-
-    clickEvent = false;
   }
 }
