@@ -1,35 +1,27 @@
 ## Develop 1
-Voor we aan Develop 1 begonnen zijn, hebben we na de tussentijdse evaluatie nog een paar kleine pivots gemaakt. 
 
-Allereerst hebben we onze doelgroep aangepast. Voorheen was onze doelgroep mensen die renoveren, nu is onze doelgroep  bewuste gezinnen die hun energieverbruik en energiekosten willen verlagen en op zoek zijn naar een laagdrempelige manier om alle gezinsleden actief te betrekken. De reden waarom er voor deze doelgroep is gekozen omdat na verder onderzoek merkten we dat deze doelgroep meer representatief en een stuk groter is.
+Voor Develop 1 werden na de tussentijdse evaluatie enkele pivots gemaakt. Eerst werd de doelgroep aangepast. De focus verschoof van mensen die renoveren naar bewuste gezinnen die hun energieverbruik en energiekosten willen verlagen. Deze gezinnen zoeken een laagdrempelige manier om alle gezinsleden actief te betrekken. Uit verder onderzoek bleek dat deze doelgroep representatiever is en een grotere nood heeft.
 
-Vervolgens hebben we op vlak van ontwerp ook een concrete richting gekozen op basis van deze scorematrix: [Scorematrix](https://github.com/Vic-Syryn/EcoLux/blob/main/reports%20and%20protocols/Scorematrix_Develop_1_Conceptselectie.pdf).  Hieruit bleek dat er wordt verder gegaan met de slimme bloempot, dit ontwerp is een goede allrounder, met goede esthetiek en potentieel gebruiksgemak. De pot is trouwens ook een mooi metafoor voor ons product, doordat hij zorgt voor een ecologischer (Eco) levenswijze, door dit te laten weten via licht (Lux).
+Ook op vlak van ontwerp werd een duidelijke richting gekozen op basis van deze [scorematrix](https://github.com/Vic-Syryn/EcoLux/blob/main/onderzoek/Scorematrix_Develop_1_Conceptselectie.pdf). Hieruit bleek dat de slimme bloempot het meeste potentieel had. Dit ontwerp scoorde goed op esthetiek en gebruiksgemak. De pot vormt ook een passende metafoor voor EcoLux: hij ondersteunt een ecologischer levenswijze (Eco) en communiceert via licht (Lux).
 
 ### <ins>**Analyse en prioritering**</ins>
 
-Momenteel zitten we nog met een aantal onzekerheden, deze werden vertaald naar onderstaande onderzoeksvragen:
-1.	Hoe moet het hoofdstation en substations eruit zien?
-2.	Hoe wordt het scherm geïnterageerd in het product?
-3.	Welke concepten hebben de meeste potentie om tot een sterk product te kunnen vertaald worden?
+Bij de start van Develop 1 waren er nog enkele onzekerheden. Deze werden vertaald naar drie onderzoeksvragen:
+1. Hoe moet het hoofdstation en substations eruit zien?
+2. Hoe wordt het scherm geïnterageerd in het product?
+3. Welke concepten hebben de meeste potentie om tot een sterk product te kunnen vertaald worden?
 
-Daarom is het onze doelstelling om in deze fase hierop een antwoord proberen te krijgen op deze 3 onderzoeksvragen die allemaal van evenveel belang zijn. 
-
+Het doel van deze fase was om op deze vragen een antwoord te krijgen. Alle drie waren even belangrijk voor de verdere ontwikkeling van EcoLux.
 
 ### <ins>**Deconstructie**</ins>
 
 **Customer journey**
 
-In deze Customer Journey wordt vooral ingezoomed op 2 fasen: namelijk de installatie en het gebruik van de EcoLux. Hiermee is de bedoeling om de interacties van de gebruiker in kaart te brengen en deze te optimaliseren waar mogelijk.
+In de Customer Journey werd vooral ingezoomd op twee fasen: installatie en gebruik. Het doel was om de interacties van de gebruiker in kaart te brengen en waar mogelijk te optimaliseren.
 
 <ins>Awareness</ins>
 
-Gebruiker ondervindt hoge energiefactuur
---> hij wil hierop besparen
-     --> energieconsumptie/energieverliezen moeten beperkt worden
-
-Gebruikers willen dit beperken met zo weinig mogelijk moeite maar willen voldoende controle.
-
-Hierdoor is er nood aan een product dat energieverliezen minimaliseert en dit laat weten aan de gebruiker.
+De gebruiker ervaart een hoge energiefactuur en wil besparen. Daarvoor moeten energieconsumptie en energieverliezen beperkt worden. Gebruikers willen dit met zo weinig mogelijk moeite doen, maar willen wel voldoende controle behouden. Er is dus nood aan een product dat energieverliezen minimaliseert en dit duidelijk communiceert.
 
 <ins>Install</ins>
 <p align="center">
@@ -45,16 +37,11 @@ customer journey install</p>
 customer journey use</p>
 <ins>Result</ins>
 
-De gebruiker zijn/haar energieconsumptie gaat omlaag, hij/zij:
--> bespaart geld en heeft een kleinere ecologische voetafdruk.
--> heeft een groter comfort omtrent zijn of haar energieverbruik thuis.
--> heeft een grotere gebruiksgemak bij het verlaten van het huis en het slapen.
--> heeft een beter besef van zijn of haar energieverbruik.
-
+De energieconsumptie van de gebruiker daalt. Hierdoor bespaart hij of zij geld, wordt de ecologische voetafdruk kleiner en ontstaat er meer comfort rond energieverbruik thuis. Ook wordt het verlaten van het huis of gaan slapen makkelijker, omdat alle energieverbruikers uit gezet kunnen worden met 1 knop.
 
 **Storyboards**
 
-Op basis van de Use-fase in de Customer Journey werd er een Storyboard gemaakt waarin de verschillende interacties met het product visueel worden weergegeven.
+Op basis van de Use-fase in de Customer Journey werd een storyboard gemaakt. Hierin worden de verschillende interacties met het product visueel weergegeven.
 
 <p align="center">
   <img src="../img/StoryBoard.jpg" width="100%">
@@ -65,7 +52,7 @@ Op basis van de Use-fase in de Customer Journey werd er een Storyboard gemaakt w
 
 **Productarchitectuur**
 
-Uit de Storyboard en Customer Journey werden er op basis van de verschillende componenten functies opgesteld.
+Op basis van de Storyboard en Customer Journey werden de belangrijkste componenten en functies opgesteld.
 
 <p align="center">
   <img src="../img/productarchitectuur.png" width="100%">
@@ -75,7 +62,7 @@ productarchitectuur</p>
 
 **Userflow en informatiearchitectuur**
 
-Deze userflow dient om het volledige interactieproces tussen gebruiker en het systeem te visualiseren, van het opmerken van een energieverlies tot het aanpassen en oplossen ervan. Ze helpt dus om te begrijpen hoe een gebruiker door het systeem geleid wordt en waar interactie plaatsvindt.
+De userflow visualiseert het volledige interactieproces tussen gebruiker en systeem. Ze toont hoe de gebruiker van het opmerken van energieverlies naar het aanpassen en oplossen ervan gaat. Zo wordt duidelijk waar interactie plaatsvindt.
 
 <p align="center">
   <img src="../img/userflow.png" width="100%">
@@ -84,33 +71,31 @@ Deze userflow dient om het volledige interactieproces tussen gebruiker en het sy
 userflow
 </p>
 
+De HTA toont de taken die nodig zijn om energieverliezen te beperken. De hoofddoelstelling wordt opgesplitst in drie taken: de gebruiker informeren, keuzes maken op het hoofdstation en het systeem terugbrengen naar de basisinstellingen. Elke taak wordt verder opgedeeld in subtaken.
 
-Deze HTA toont de hiërarchie van taken die nodig zijn om aanwezige energieverliezen te beperken. De hoofddoelstelling wordt opgesplitst in drie hoofdtaken: de gebruiker op de hoogte brengen van het energieverlies, keuzes maken op het hoofdstation en het systeem terugbrengen naar de basisinstellingen. Elke hoofdtaak wordt verder onderverdeeld in subtaken.
 <p align="center">
   <img src="../img/HTA.png" width="100%">
 </p>
 <p align="center">
 HTA</p>
 
-
-Uit de userflow en de HTA bleek dat de manier waarop we de initiatie van het soort energieverlies gaan communiceren nog moest bepaald worden.
+Uit de userflow en HTA bleek dat de communicatie van het type energieverlies nog verder bepaald moest worden.
 
 **MVP-defenitie**
 
 Deze MVP’s tonen de minimale kernfunctionaliteiten van het systeem.
+
 <p align="center">
   <img src="../img/MVP.png" width="100%">
 </p>
 <p align="center">
 MVP</p>
 
-
 ### <ins>**Divergentie & ontwerpkeuzes**</ins>
-
 
 **Morfologische matrix**
 
-Op basis van de deconstructie is er een morfologische matrix gemaakt om een visueel beeld te hebben van de deeloplossingen.
+Op basis van de deconstructie werd een morfologische matrix gemaakt. Deze geeft een visueel overzicht van mogelijke deeloplossingen.
 
 <p align="center">
   <img src="../img/morfologischematrix_develop_1.jpg" width="90%">
@@ -118,15 +103,11 @@ Op basis van de deconstructie is er een morfologische matrix gemaakt om een visu
 <p align="center">
 morfologische matrix</p>
 
-
-
-
 ### <ins>**Build & test**</ins>
-
 
 **Doestellingen** 
 
-De gebruikerstesten hadden als doel om inzicht te krijgen in de meest efficiënte en aangename manier waarop gebruikers kunnen interageren met het scherm van het EcoLux-product. Tijdens het ontwerp van de user flow bleek er namelijk onzekerheid te bestaan over hoe het scherm het best tevoorschijn kan komen en terug kan verdwijnen in de pot. Door prototypes te testen bij verschillende gebruikers in hun eigen thuisomgeving, werd onderzocht welke interacties het meest intuïtief, comfortabel en gebruiksvriendelijk zijn. De verzamelde feedback en observaties moesten helpen om de interactie met het scherm beter te begrijpen en om het concept verder te ontwikkelen naar een onderbouwde functionele architectuur en een gebruiksvriendelijk ontwerp.
+De gebruikerstesten hadden als doel om inzicht te krijgen in de meest efficiënte en aangename interactie met het scherm van EcoLux. Tijdens de userflow bleek er onzekerheid over hoe het scherm best tevoorschijn komt en opnieuw verdwijnt in de pot. Door prototypes te testen bij gebruikers thuis, werd onderzocht welke interacties het meest intuïtief, comfortabel en gebruiksvriendelijk zijn.
 
 **Materiaal & methoden**
 
@@ -144,12 +125,11 @@ Voor de gebruikerstesten werden verschillende materialen gebruikt:
 <p align="center">
 fysiek prototype</p>
 
-
-De testen werden uitgevoerd bij de respondenten thuis om het gebruik van het product in een realistische context te observeren. In totaal namen vijf deelnemers deel, met verschillende profielen en niveaus van technologische ervaring. Tijdens de test kregen de deelnemers een aantal taken: het scherm uit het prototype halen zonder hulp, dit herhalen op verschillende hoogtes, de kijkhoek van het scherm aanpassen en het scherm opnieuw terugplaatsen in het object. Tijdens deze interacties werden observaties genoteerd en werden aanvullende vragen gesteld volgens het Think Aloud Protocol (TAP) en Question Asking Protocol (QAP), zodat zowel gedrag als motivaties van de gebruikers konden worden geanalyseerd.
+De testen werden uitgevoerd bij de respondenten thuis om het product in een realistische context te observeren. In totaal namen vijf deelnemers deel, met verschillende profielen en niveaus van technologische ervaring. Ze kregen taken zoals het scherm uit het prototype halen, dit herhalen op verschillende hoogtes, de kijkhoek aanpassen en het scherm terugplaatsen. Observaties werden genoteerd en aangevuld met vragen volgens TAP en QAP.
 
 **Resultaten**
 
-Uit de gebruikerstesten kwamen verschillende inzichten naar voren over de interactie met het scherm van het EcoLux-product.
+Uit de gebruikerstesten kwamen verschillende inzichten naar voren over de interactie met het scherm.
 
 <p align="center">
   <img src="../img/develop1_gebruikerstesten.png" width="75%">
@@ -157,29 +137,20 @@ Uit de gebruikerstesten kwamen verschillende inzichten naar voren over de intera
 <p align="center">
 prototype bij gebruikerstest</p>
 
-Ten eerste bleek dat een volledig handmatig uittrekbaar scherm niet intuïtief was voor gebruikers. Verschillende deelnemers wisten niet onmiddellijk hoe ze het scherm moesten activeren of vonden de interactie onduidelijk. Een volledig automatisch systeem bleek echter ook niet ideaal, omdat het scherm soms op ongewenste momenten tevoorschijn kon komen. Gebruikers gaven daarom de voorkeur aan een duidelijke en gecontroleerde interactie, bijvoorbeeld via een knop. 
+Een volledig handmatig uittrekbaar scherm bleek niet intuïtief. Deelnemers wisten niet altijd hoe ze het scherm moesten activeren. Een volledig automatisch systeem was ook niet ideaal, omdat het scherm op ongewenste momenten kon verschijnen. Gebruikers gaven daarom de voorkeur aan een duidelijke en gecontroleerde interactie, bijvoorbeeld via een knop.
 
-Daarnaast werd vastgesteld dat de plaatsing van de interactieknop invloed had op de stabiliteit van het object. Wanneer de knop zich aan de voorkant van de bloempot bevond, schoof het object naar achteren wanneer gebruikers erop drukten. Dit wees op een probleem met de stabiliteit en de richting van de interactiekracht. 
+Daarnaast beïnvloedde de plaatsing van de knop de stabiliteit. Wanneer de knop vooraan stond, schoof de pot naar achteren wanneer gebruikers erop drukten. Dit toont dat de stabiliteit en richting van de interactiekracht belangrijk zijn.
 
-Een ander belangrijk resultaat had betrekking op de ergonomie van het scherm. Wanneer het product op een lagere hoogte stond, zoals op een lage kast of tafel, bevond het scherm zich onder een ongunstige kijkhoek. Hierdoor werd het moeilijker om het scherm comfortabel af te lezen en te gebruiken. Gebruikers gaven daarom aan dat de kijkhoek van het scherm idealiter aanpasbaar moet zijn. 
+Ook de ergonomie van het scherm bleek belangrijk. Wanneer het product lager stond, bevond het scherm zich onder een ongunstige kijkhoek. Gebruikers gaven daarom aan dat de kijkhoek best aanpasbaar is.
 
-Tot slot bleek dat gebruikers verwachtten dat het scherm op dezelfde manier zou verdwijnen als het verschijnt. De meeste deelnemers probeerden opnieuw op dezelfde knop te drukken om het scherm terug in de behuizing te laten verdwijnen, wat wijst op een voorkeur voor consistente interacties binnen het product.
+Tot slot verwachtten gebruikers dat het scherm op dezelfde manier verdwijnt als het verschijnt. De meeste deelnemers drukten opnieuw op dezelfde knop. Dit wijst op een voorkeur voor consistente interacties.
 
 ### <ins>**Conclusies & implicaties**</ins>
 
-De gebruikerstesten leverden belangrijke inzichten op die bijdragen aan het beantwoorden van de drie centrale onderzoeksvragen van deze fase.
+De gebruikerstesten helpen de drie onderzoeksvragen te beantwoorden. Voor de interactie met het scherm werd duidelijk dat gebruikers een gecontroleerde en eenvoudige activatie verwachten. Zowel een volledig handmatig als volledig automatisch systeem was minder wenselijk. Consistentie is belangrijk: dezelfde handeling moet het scherm kunnen tonen en verbergen.
 
-Ten eerste werd duidelijk hoe de interactie met het scherm binnen het product moet verlopen (onderzoeksvraag 2). Gebruikers verwachten een duidelijke en gecontroleerde manier om het scherm te activeren, bij voorkeur via een eenvoudige knop. Zowel een volledig handmatig uittrekbaar scherm als een volledig automatisch systeem bleek minder intuïtief of minder wenselijk. Consistente interacties zijn daarbij belangrijk: gebruikers verwachten dat dezelfde handeling zowel het verschijnen als het verdwijnen van het scherm controleert.
+Voor het hoofdstation bleek stabiliteit essentieel. Het object mag niet verschuiven wanneer de gebruiker erop drukt. Ook de plaatsing van interactie-elementen moet zorgvuldig gekozen worden. Daarnaast moet het scherm ergonomisch leesbaar blijven op verschillende hoogtes.
 
-Daarnaast hadden de resultaten implicaties voor het ontwerp van het hoofdstation (onderzoeksvraag 1). De testen toonden aan dat stabiliteit tijdens interactie essentieel is. Wanneer gebruikers druk uitoefenen op een knop aan de voorkant van de pot, kan het object naar achteren verschuiven. Dit betekent dat het ontwerp van het hoofdstation voldoende stabiel moet zijn en dat de plaatsing van interactie-elementen zorgvuldig moet worden overwogen. Bovendien moet de positie van het scherm ergonomisch afgestemd zijn op verschillende plaatsingshoogtes, zodat het scherm comfortabel leesbaar blijft.
+De testfase gaf ook inzicht in het concept met het meeste potentieel. Het oorspronkelijke idee met een uitschuifbaar en kantelbaar scherm zorgde voor problemen rond gebruiksvriendelijkheid, stabiliteit en mechanische complexiteit. Het mechanisme maakte het ontwerp minder robuust en beperkte de ontwerpvrijheid van de bloempot.
 
-Tot slot gaf de testfase ook inzicht in welke concepten het meeste potentieel hebben om verder ontwikkeld te worden (onderzoeksvraag 3). Het oorspronkelijke concept met een uitschuifbaar en kantelbaar scherm bleek verschillende problemen te veroorzaken op vlak van gebruiksvriendelijkheid, stabiliteit en mechanische complexiteit. Het mechanische systeem dat nodig was om het scherm te laten uitschuiven en kantelen maakte het ontwerp complex, minder stabiel en potentieel minder betrouwbaar bij frequente interactie. Bovendien beperkte het mechanisme de ontwerpvrijheid van de bloempot.
-
-Op basis van deze inzichten werd beslist om het verborgen schermconcept te verlaten. In plaats daarvan wordt het scherm geïntegreerd als een zichtbaar en vast onderdeel van het productdesign. Hierdoor verschuift het ontwerp van mechanische complexiteit naar een eenvoudiger, robuuster en ergonomischer product, waarbij gebruiksgemak, stabiliteit en betrouwbaarheid centraal staan.
-
-Deze ontwerpkeuze vormt een belangrijke stap richting een duidelijkere productarchitectuur voor zowel het hoofdstation als de verdere ontwikkeling van het EcoLux-systeem.
-
-
-
-
-
+Daarom werd beslist om het verborgen schermconcept te verlaten. Het scherm wordt geïntegreerd als zichtbaar en vast onderdeel van het productdesign. Zo verschuift EcoLux naar een eenvoudiger, robuuster en ergonomischer product, met gebruiksgemak, stabiliteit en betrouwbaarheid als basis.
