@@ -1,4 +1,4 @@
-# Ecolux
+# EcoLux
 Ecolux, een slim product dat energieverlies beperkt 
 
 🛠️ Built by ``Viktor Caluwaert``, ``Yenthe Bode`` & ``Vic Syryn``   
@@ -8,9 +8,9 @@ Ecolux, een slim product dat energieverlies beperkt
 13/11/2025  
 
 ## Samenvatting
-EcoLux is een slim energiefeedbacksysteem dat bewuste gezinnen helpt om verborgen energieverlies in huis sneller op te merken en er eenvoudiger op te reageren. Uit het gebruikersonderzoek blijkt dat het zelfden is dat iedereen in het gezin betrokken is bij energie besparen, dat sluipverbruik vaak onbewust blijft aan staan en dat bestaande slimme oplossingen vaak te technisch, app-gericht of datagedreven aanvoelen. EcoLux wil daarom energieverlies zichtbaar maken op een laagdrempelige, passieve en begrijpelijke manier.
+EcoLux is een slim energiefeedbacksysteem dat bewuste gezinnen helpt om verborgen energieverlies in huis sneller op te merken en er eenvoudiger op te reageren. Uit het gebruikersonderzoek blijkt dat het zelfden voorkomt dat iedereen in het gezin betrokken is bij energiebesparing, dat sluipverbruik vaak onbewust blijft aanstaan en dat bestaande slimme oplossingen vaak te technisch, app-gericht of datagedreven aanvoelen. EcoLux wil daarom energieverlies zichtbaar maken op een laagdrempelige, passieve en begrijpelijke manier.
 
-Het project evolueerde van een algemeen concept rond energiezuinig renoveren naar een concreet fysiek product voor energie bewuste gezinnen: een subtiele slimme bloempot die als hoofdstation in het interieur staat. Het systeem combineert een geïntegreerd touchscreen, een visuele plattegrondinterface, lichtfeedback en slimme koppelingen met toestellen in huis. Wanneer een toestel energie verspilt, toont EcoLux duidelijk in welke ruimte het energieverlies zich bevindt en kan de gebruiker snel ingrijpen of het toestel laten uitschakelen. De instellingen van de gebruiker bepalen wanneer de EcoLux een toestel als energieverspiller beschouwt.
+Het project evolueerde van een algemeen concept rond energiezuinig renoveren naar een concreet fysiek product voor energiebewuste gezinnen: een subtiele slimme bloempot die als hoofdstation in het interieur staat. Het systeem combineert een geïntegreerd touchscreen, een visuele plattegrondinterface, lichtfeedback en slimme koppelingen met toestellen in huis. Wanneer een toestel energie verspilt, toont EcoLux duidelijk in welke ruimte het energieverlies zich bevindt en kan de gebruiker snel ingrijpen of het toestel laten uitschakelen. De instellingen van de gebruiker bepalen wanneer de EcoLux een toestel als energieverspiller beschouwt.
 
 Door iteratieve gebruikerstesten werd het ontwerp stap voor stap verfijnd. 
 
