@@ -45,7 +45,7 @@ Bouw het circuit volgens het onderstaande schema.
 2. Installeer de **Adafruit NeoPixel** library:
    - Sketch → Include Library → Manage Libraries
    - Zoek "Adafruit NeoPixel" → Install
-3. Open `arduino_sketch.ino`
+3. Open `arduino_sketch.ino` Deze file is te vinden in [Hardware](https://github.com/Vic-Syryn/EcoLux/tree/main/src/Hardware)
 4. Pas indien nodig de kalibratie aan:
 ```cpp
    const int LDR_DARK   = 822;  // ADC waarde bij volledig afgedekte LDR
@@ -78,7 +78,7 @@ sudo apt install -y nodejs
  
 #### App bouwen op je computer
  
-1. Kopieer de frontend broncode naar je Windows/Mac computer
+1. Kopieer de frontend broncode naar je Windows/Mac computer. Deze is te vinden in [Matter-App-Full](https://github.com/Vic-Syryn/EcoLux/tree/main/src/ui/matter-app-full)
 2. Open een terminal in de frontend map en voer uit:
 ```bash
 npm install
@@ -124,7 +124,7 @@ Open de app in de browser: `http://<pi-ip>/`
 ---
 ### 3:
  
-Kopieer via WinSCP of `scp` de volgende bestanden naar `/home/ecolux/`:
+Kopieer via WinSCP of `scp` de volgende bestanden (te vinden in  naar [Hardware](https://github.com/Vic-Syryn/EcoLux/tree/main/src/Hardware)) `/home/ecolux/`:
  
 | Bestand | Doel |
 |---|---|
