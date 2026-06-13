@@ -140,3 +140,8 @@ Dit 3D model werd dan 3D geprint. In realiteit was het model te groot voor de 3D
   <img src="../img/3D print onderdeel.png" width="100%">
   3D print onderdeel
 <p align="center">
+
+<p align="center">
+  <img src="../img/EcoLux.jpg" width="100%">
+  Ecolux
+<p align="center">
