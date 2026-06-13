@@ -1,6 +1,6 @@
 ## Methodologie  
 <p align="center">
-  <img src="../img/methodologie.svg" width="100%">
+  <img src="../img/methodologie.jpg" width="100%">
 </p>
 <p align="center">
   triple diamond ontwerpmodel
