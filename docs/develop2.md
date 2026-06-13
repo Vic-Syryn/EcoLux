@@ -6,7 +6,7 @@ Door de conclusies uit Develop 1 was er voldoende informatie om het design van h
 
 Ergonomie: de gemiddelde man/vrouw moet het product kunnen gebruiken met minimale ergonomische belasting. (Siemens Jack)
 
-Cognitieve & sensoriele ergonomie: Gebruikers (18–65 jaar) kunnen kerntaken in de app (bv. navigeren, informatie lezen en acties uitvoeren) binnen 30 seconden voltooien, met maximaal 1 fout per taak en een subjectieve leesbaarheidsscore van ≥ 4/5.
+Cognitieve & sensoriële ergonomie: Gebruikers (18–65 jaar) kunnen kerntaken in de app (bv. navigeren, informatie lezen en acties uitvoeren) binnen 30 seconden voltooien, met maximaal 1 fout per taak en een subjectieve leesbaarheidsscore van ≥ 4/5.
 
 ### <ins>Theoretische antropometrie</ins>
 
@@ -35,7 +35,7 @@ POV gebruiker</p>
 
 Uit de analyse bleek een schermhoek van 23° optimaal. Bij deze hoek is de belasting op nek en rug minimaal, terwijl het scherm goed leesbaar blijft.
 
-### <ins>**Cognitieve & sensoriele ergonomie**</ins>
+### <ins>**Cognitieve & sensoriële ergonomie**</ins>
 
 Om met EcoLux te interageren, moest er een digitale interface gemaakt worden. Op basis van de interface uit de tweede wave van de definitionfase werd een verbeterde interface gemaakt met Figma make. Om te voldoen aan de tweede usability goal werd de interface ontworpen met de Gestaltwetten in het achterhoofd. De interface werd zo simpel mogelijk gehouden om cognitieve belasting te minimaliseren. Extra optimalisaties waren liftknoppen als metafoor om de juiste verdieping te kiezen en icoontjes als signifiers voor energieverliezende apparaten.
 
@@ -114,6 +114,10 @@ De interface werd algemeen als duidelijk en overzichtelijk ervaren. De plattegro
 
 Efficiëntie en gebruiksgemak staan centraal. Gebruikers verwachten snelle en logische handelingen, zoals alle apparaten in een ruimte tegelijk selecteren. Ze verkiezen een systeem waarbij ze kiezen wat uitgeschakeld moet worden, in plaats van wat genegeerd moet worden. Extra informatie, zoals energieverbruik en periodieke overzichten, kan betrokkenheid verhogen.
 
+### <ins>kostenberekeing</ins>
+Er werd een kostenberekening gedaan om de effectiviteit van de energiebesparing te bepalen.
+Op basis van een realistisch referentiescenario wordt ruw geschat dat EcoLux €100 per jaar kan besparen, afhankelijk van het aantal gekoppelde toestellen, de instellingen, energieprijzen en het gedrag van het huishouden. Zie [kostenberekening](https://github.com/Vic-Syryn/EcoLux/blob/main/onderzoek/kostenberekening%20ecolux.pdf)
+
 ### <ins>Conclusies en implicaties</ins>
 
 De gebruikerstesten beantwoorden de centrale onderzoeksvragen. Voor het hoofdstation kwam vorm 2 het sterkst naar voren. Gebruikers willen een compacte en elegante vorm die in het interieur past. Het product mag aanwezig zijn, maar mag de ruimte niet domineren.
@@ -121,5 +125,6 @@ De gebruikerstesten beantwoorden de centrale onderzoeksvragen. Voor het hoofdsta
 Voor schermgrootte en ergonomie verkiezen gebruikers een middelgroot scherm. Dit moet goed leesbaar zijn zonder te groot te worden. Kleine schermen zorgen voor fouten en frustratie, terwijl grote schermen overdreven aanvoelen. De schermhoek van 23° uit de Siemens Jack-simulatie werd tijdens de gebruikerstesten als aangenaam ervaren.
 
 Voor de interface bleek dat de basis duidelijk is, maar verdere verfijning nodig blijft. Icoontjes moeten duidelijker zijn en extra uitleg kan helpen via labels of een legende. Ook kan de interface aantrekkelijker worden met kleurgebruik en een zachtere vormgeving. Gebruikers verwachten snelle interacties.
+De kostenberekening moet niet beschouwd worden als een gegarandeerde besparing omdat dit afhangt van het aantal gekoppelde apparaten, gekozen instellingen, energieprijzen, gedrag van gezinsleden en de mate waarin de Ecolux wordt opgevolgd. Toch toont de berekening aan dat de EcoLux een financieële meerwaarde kan bieden.
 
 Op basis van deze inzichten wordt EcoLux verder ontwikkeld als een product dat eenvoudig in gebruik is, goed past in het interieur en logisch werkt.

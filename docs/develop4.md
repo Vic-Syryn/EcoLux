@@ -90,7 +90,7 @@ Het lampje past zijn helderheid automatisch aan op basis van het omgevingslicht,
 | LED-lampje | PWM-uitgang | Knippert of brandt bij een energieprobleem |
 | Weerstanden | Tussen componenten en arduino | Stroom beperken om componenten niet te beschadigen|
 | Breadboard | / | Plaats om alle componenten te verbinden |
-| Raspberry pi 3b+ | /| Hierop draaien al de programmas, dit is dus de centrale hub |
+| Raspberry pi 3b+ | /| Hierop draaien al de programma's, dit is dus de centrale hub |
 | Arduino UNO | / | Verbindingspunt Raspberry pi en fysieke componenten (ADC) |
 
 <p align="center">
@@ -126,5 +126,22 @@ Naast de achterliggende software draait er nog een tweede programma op de Pi. El
 ## Finale code en BOM
 De finale code staat in de [Source](https://github.com/Vic-Syryn/EcoLux/tree/main/src).
 
-De finale benodigheden staat in de [BOM](./bom.md)
+De finale benodigdheden staan in de [BOM](./bom.md)
 
+## Behuizing
+Rond deze hardware moet er natuurlijk behuizing zijn om de EcoLux te vormen. De vorm is gebaseerd op de gebruikerstesten van develop 2. 
+<p align="center">
+  <img src="../img/screenshot CAD.png" width="100%">
+  CAD bestand
+<p align="center">
+
+Dit 3D model werd dan 3D geprint. In realiteit was het model te groot voor de 3D printer die we ter beschikking hadden en werd het model opgesplitst, zie de BOM
+<p align="center">
+  <img src="../img/3D print onderdeel.png" width="100%">
+  3D print onderdeel
+<p align="center">
+
+<p align="center">
+  <img src="../img/EcoLux.jpg" width="100%">
+  EcoLux
+<p align="center">

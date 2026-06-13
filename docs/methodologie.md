@@ -6,7 +6,7 @@
   triple diamond ontwerpmodel
 </p>
 
-Voor het ontwerpproces werd gebruikgemaakt van het triple diamond ontwerpmodel. Dit model bestaat uit vier fasen: discover, define, develop en deliver. In het eerste semester werden de discover- en definefase doorlopen. In het tweede semester lag de focus op de developfase, waarin het concept iteratief werd uitgewerkt, getest en verfijnd.
+Voor het ontwerpproces werd gebruikgemaakt van het triple diamond ontwerpmodel. Dit model bestaat uit vier fasen: discover, define, develop en deliver. In het eerste semester werden de discover- en definefase doorlopen. In het tweede semester lag de focus op de developfase waarin het concept iteratief werd uitgewerkt, getest en verfijnd.
 
 <ins>**Discover fase**</ins>  
 De discoveryfase richtte zich op het begrijpen waarom huishoudens, ondanks hun bereidheid om energie te besparen, dit gedrag moeilijk structureel volhouden. De focus lag op dagelijkse routines, perceptie en gebruikservaring, eerder dan op technische optimalisatie. Het doel was om de kloof tussen intentie en gedrag bloot te leggen en deze inzichten te vertalen naar onderbouwde ontwerpbeslissingen.

@@ -337,7 +337,7 @@ Vertrouwen
 </tr>
 </table>
 ### <ins>**CMF analyse**</ins>
-In de CMF analyse worden CMF opties gekozen en onderbouwd om later bij gebruikerstesten de definitieve CMF te valideren. De werkwijze is gebasseerd op de workshop CMF van de les. 
+In de CMF analyse worden CMF opties gekozen en onderbouwd om later bij gebruikerstesten de definitieve CMF te valideren. De werkwijze is gebaseerd op de workshop CMF van de les. 
 
 **doelgroep in kernwoorden**
 <p align="center">
@@ -379,13 +379,13 @@ De drie CMF’s sluiten sterk aan bij energiebewuste gezinnen. Zachte kleuren en
 
 Binnen deze markt is een duidelijke standaardtaal zichtbaar: lichte houttinten met wit of beige, matte afwerkingen en warme neutrale kleuren. Materialen ogen natuurlijk, maar zijn vaak industrieel geproduceerd. De vormgeving is eenvoudig en functioneel. Dit zorgt voor brede toepasbaarheid, maar ook voor uniformiteit. 
 
-### **Opportiniteit voor differentiatie**
+### **Opportinuteit voor differentiatie**
 
 Er ligt een kans om het neutrale palet subtiel uit te breiden. Gedempte accentkleuren zoals saliegroen, terracotta of vergrijsd blauw blijven rustig, maar geven het product meer identiteit. 
 <p align="center">
   <img src="../img/kleurenpallet.png" width="70%">
 <p align="center">
-kleurenpallet</p>
+kleurenpalet</p>
 
 
 Ook materiaalgebruik kan authentieker. In plaats van industriële materialen met een natuurlijke uitstraling kan sterker worden ingezet op echte materialen. Massief hout, grover geweven stoffen, keramiek of natuursteen zorgen voor meer visuele kwaliteit en tactiele beleving. 
