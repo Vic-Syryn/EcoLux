@@ -41,7 +41,7 @@ Bouw het circuit volgens het onderstaande schema.
 <p align="center">
 
 <p align="center">
-  <img src="Component_Overview.jpg" width="100%">
+  <img src="../img/component_overview.jpg" width="100%">
   Component overview
 <p align="center">
 
