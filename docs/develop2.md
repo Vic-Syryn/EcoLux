@@ -125,5 +125,6 @@ De gebruikerstesten beantwoorden de centrale onderzoeksvragen. Voor het hoofdsta
 Voor schermgrootte en ergonomie verkiezen gebruikers een middelgroot scherm. Dit moet goed leesbaar zijn zonder te groot te worden. Kleine schermen zorgen voor fouten en frustratie, terwijl grote schermen overdreven aanvoelen. De schermhoek van 23° uit de Siemens Jack-simulatie werd tijdens de gebruikerstesten als aangenaam ervaren.
 
 Voor de interface bleek dat de basis duidelijk is, maar verdere verfijning nodig blijft. Icoontjes moeten duidelijker zijn en extra uitleg kan helpen via labels of een legende. Ook kan de interface aantrekkelijker worden met kleurgebruik en een zachtere vormgeving. Gebruikers verwachten snelle interacties.
+De kostenberekening moet niet beschouwd worden als een gegarandeerde besparing omdat dit afhangt van het aantal gekoppelde apparaten, gekozen instellingen, energieprijzen, gedrag van gezinsleden en de mate waarin de Ecolux wordt opgevolgd. Toch toont de berekening aan dat de EcoLux een financieële meerwaarde kan bieden.
 
 Op basis van deze inzichten wordt EcoLux verder ontwikkeld als een product dat eenvoudig in gebruik is, goed past in het interieur en logisch werkt.
