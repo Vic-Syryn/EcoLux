@@ -128,3 +128,15 @@ De finale code staat in de [Source](https://github.com/Vic-Syryn/EcoLux/tree/mai
 
 De finale benodigheden staat in de [BOM](./bom.md)
 
+## Behuizing
+Rond deze hardware moet er natuurlijk behuizing zijn om de EcoLux te vormen. De vorm is gebasseerd op de gebruikerstesten van develop 2. 
+<p align="center">
+  <img src="../img/screenshot CAD.png" width="100%">
+  CAD bestand
+<p align="center">
+
+Dit 3D model werd dan 3D geprint. In realiteit was het model te groot voor de 3D printer die we ter beschikking hadden en werd het model op gesplitst, zie BOM
+<p align="center">
+  <img src="../img/3D print onderdeel.png" width="100%">
+  3D print onderdeel
+<p align="center">
