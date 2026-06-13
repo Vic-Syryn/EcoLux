@@ -336,7 +336,9 @@ Vertrouwen
 </td>
 </tr>
 </table>
+
 ### <ins>**CMF analyse**</ins>
+
 In de CMF analyse worden CMF opties gekozen en onderbouwd om later bij gebruikerstesten de definitieve CMF te valideren. De werkwijze is gebaseerd op de workshop CMF van de les. 
 
 **doelgroep in kernwoorden**
