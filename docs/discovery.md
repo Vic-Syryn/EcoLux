@@ -32,7 +32,7 @@ Om zowel de probleemruimte als de oplossingsruimte te verkennen, werden twee com
 **Contextual inquiries (gebruikersonderzoek)**
 Er werden drie contextual inquiries uitgevoerd bij uiteenlopende huishoudens: een technologie-enthousiasteling, een gemiddelde gebruiker en een oudere alleenstaande. Deze methode werd gekozen omdat ze toelaat om gebruiksgedrag en context in de natuurlijke thuissituatie te observeren. Naast semigestructureerde interviews werden dagelijkse routines, toestellen en omgevingsfactoren in kaart gebracht. De dataverzameling bestond uit observatienotities, audio-opnames en foto’s. De verzamelde data werd thematisch geanalyseerd op terugkerende patronen in gedrag, motivatie, barrières en attitudes ten opzichte van slimme technologie. (Het volledige protocol en rapport zijn beschikbaar via de repository).
 
-<p align="left">
+<p align="center">
   <img src="../img/IMG-20251019-WA0008.jpg" width="50%">
 </p>
 <p align="center">
