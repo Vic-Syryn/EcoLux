@@ -227,7 +227,7 @@ sudo systemctl start ecolux-gpio
 ---
 ## <ins/> Deel 2: behuizing
 ## Stap  1: Onderdelen printen
-Print de onderdelen van de plantenpot. Wegens de omvang en vorm van het hoofdframe, wordt het aangeraden om dit op te splitsen in 4 delen. Naast het hoofdframe moeten er ook 3 poojes en 1 onderkant geprint worden.
+Print de onderdelen van de plantenpot. Wegens de omvang en vorm van het hoofdframe, wordt het aangeraden om dit op te splitsen in 4 delen. Naast het hoofdframe moeten er ook 3 pootjes en 1 onderkant geprint worden.
 
 <p align="center">
   <img src="../img/Ecolux print overview.png" width="100%">
