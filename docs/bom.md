@@ -19,18 +19,18 @@ eind define fase:
 
 # Assembly
 
-## <ins/> Deel 1: Electronica
+## <ins/> Deel 1: Elektronica
 ## Stap  1: Circuit bouwen
 <ins/>Benodigdheden:
 
 - Raspberry Pi (3B+) met Raspberry PI OS
 - Arduino Uno
 - LDR (lichtsensor)
-- WS2812 LED strip (27 LEDs, 5V)
+- WS2812 LED strip (27 LED's, 5V)
 - 10kΩ weerstand (voor LDR voltage divider)
 - 470Ω weerstand (op data-lijn LED strip)
 - USB-A naar USB-B kabel (Pi naar Arduino)
-- 5V voeding (minimaal 2A voor Pi + Arduino, strip apart of via Pi bij 27 LEDs)
+- 5V voeding (minimaal 2A voor Pi + Arduino, strip apart of via Pi bij 27 LED's)
 - Jumper wires
 
 Bouw het circuit volgens het onderstaande schema.
@@ -76,7 +76,7 @@ curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
 sudo apt install -y nodejs
 ```
  
-#### app bouwen op je computer
+#### App bouwen op je computer
  
 1. Kopieer de frontend broncode naar je Windows/Mac computer
 2. Open een terminal in de frontend map en voer uit:
@@ -235,7 +235,7 @@ Print de onderdelen van de plantenpot. Wegens de omvang en vorm van het hoofdfra
 <p align="center">
 
 ## Stap 2: Delen hoofdframe aan elkaar lijmen
-Lijm de 4 delen van het frame aan elkaar. Secondelijm wordt hier voor aangeraden.
+Lijm de 4 delen van het frame aan elkaar. Secondenlijm wordt hiervoor aangeraden.
 <p align="center">
   <img src="../img/Lijmen.png" width="100%">
   Lijmen
@@ -249,7 +249,7 @@ Bevestig de led strip in de voorziene groef en steek de LDR in in het voorziene 
 <p align="center">
 
 ### Stap 4: Pootjes en elektronica
-Bevestig de pootjes op het hoofdframe, leg de elektronica op de onderkant, met de stroomkabels door het gat. Zorg er vervolgens voor dat de onderkant op de goede plaats zit en verdraai de pootjes zodat de onderkant vast zit aan het hoofdframe.
+Bevestig de pootjes op het hoofdframe, leg de elektronica op de onderkant, met de stroomkabels door het gat. Zorg er vervolgens voor dat de onderkant op de goede plaats zit en verdraai de pootjes zodat de onderkant vastzit aan het hoofdframe.
 ### Eindresultaat
 <p align="center">
   <img src="../img/EcoLux.jpg" width="100%">
