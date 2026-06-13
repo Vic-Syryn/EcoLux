@@ -9,3 +9,7 @@ EcoLux werd ontworpen als antwoord op het centrale probleem dat uit het onderzoe
 De keuze voor een fysiek interieurproduct is daarbij essentieel. Door EcoLux niet als losse app of technische energiemeter te ontwerpen, maar als een object dat vanzelfsprekend al aanwezig is in de leefomgeving, wordt de drempel tot gebruik lager. De slimme bloempot past binnen het interieur, voelt minder technisch aan en blijft subtiel aanwezig wanneer er geen probleem is. Tegelijk zorgt het geïntegreerde scherm ervoor dat de gebruiker controle behoudt wanneer dat nodig is. Deze combinatie van rust in normale toestand en duidelijke feedback bij energieverlies sluit aan bij de behoefte aan comfort, eenvoud en vertrouwen binnen smart-homegebruik.
 
 Daarom geloven we dat EcoLux binnen de scope van dit project de meest geschikte oplossing is voor het eerder geschetste probleem. Het concept combineert gedragsinzichten, gebruiksgemak, esthetische integratie en technische haalbaarheid in één samenhangend product. EcoLux maakt energieverspilling zichtbaar voor het hele gezin zonder extra complexiteit toe te voegen, ondersteunt snelle en automatische actie zonder de gebruiker de controle te ontnemen, en past als rustig interieurproduct binnen de dagelijkse woonomgeving. Hierdoor vormt het een geloofwaardig alternatief voor bestaande energieoplossingen die vaak te technisch, te appgericht of te belastend zijn voor langdurig gebruik.
+<p align="center">
+  <img src="../img/EcoLux.jpg" width="100%">
+  Ecolux
+<p align="center">

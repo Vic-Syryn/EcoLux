@@ -1,12 +1,12 @@
 # Bill of materials
-begin define fase:
+Begin define fase:
 * karton
 * magneettape
 * ductape
 * lijm
 * papiertape
 
-eind define fase:
+Eind define fase:
 * ledstrip
 * touch screen scherm
 * hout
@@ -37,7 +37,7 @@ Bouw het circuit volgens het onderstaande schema.
 
 <p align="center">
   <img src="../img/Circuit_Ecolux_V2.png" width="100%">
-  Bevestigen ledstrip
+  Circuit hoofdstation
 <p align="center">
 
 <p align="center">
