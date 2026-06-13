@@ -16,7 +16,7 @@ Door iteratieve gebruikerstesten werd het ontwerp stap voor stap verfijnd.
 
 Met EcoLux willen we gezinnen helpen om energieverspilling te verminderen zonder extra complexiteit toe te voegen aan hun dagelijkse routines. Het product maakt onzichtbaar energieverlies zichtbaar, verlaagt de drempel tot actie en ondersteunt bewuster energiegedrag met behoud van comfort en controle. 
 <p align="center">
-  <img src="img/render12042026.png" width="100%">
+  <img src="img/Render_finaal.jpg" width="100%">
 </p>
 <p align="center">
 render EcoLux</p>
