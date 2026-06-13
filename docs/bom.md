@@ -40,6 +40,11 @@ Bouw het circuit volgens het onderstaande schema.
   Bevestigen ledstrip
 <p align="center">
 
+<p align="center">
+  <img src="Component_Overview.jpg" width="100%">
+  Component overview
+<p align="center">
+
 ## Stap  2: Arduino sketch flashen
 1. Open de Arduino IDE op je computer
 2. Installeer de **Adafruit NeoPixel** library:
