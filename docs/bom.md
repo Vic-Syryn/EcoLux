@@ -250,3 +250,12 @@ Bevestig de led strip in de voorziene groef en steek de LDR in in het voorziene 
 
 ### Stap 4: Pootjes en elektronica
 Bevestig de pootjes op het hoofdframe, leg de elektronica op de onderkant, met de stroomkabels door het gat. Zorg er vervolgens voor dat de onderkant op de goede plaats zit en verdraai de pootjes zodat de onderkant vast zit aan het hoofdframe.
+<p align="center">
+  <img src="../img/Pootjes_open.jpg" width="100%">
+  Bevestiging pootjes
+<p align="center">
+
+<p align="center">
+  <img src="../img/Pootjes_toe.jpg" width="100%">
+  Onderkant afgesloten
+<p align="center">
