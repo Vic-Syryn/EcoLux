@@ -115,7 +115,7 @@ De interface werd algemeen als duidelijk en overzichtelijk ervaren. De plattegro
 Efficiëntie en gebruiksgemak staan centraal. Gebruikers verwachten snelle en logische handelingen, zoals alle apparaten in een ruimte tegelijk selecteren. Ze verkiezen een systeem waarbij ze kiezen wat uitgeschakeld moet worden, in plaats van wat genegeerd moet worden. Extra informatie, zoals energieverbruik en periodieke overzichten, kan betrokkenheid verhogen.
 
 ### <ins>kostenberekeing</ins>
-Er werd een kostenberekening gedaan om de 
+Er werd een kostenberekening gedaan om de effectiviteit van de energiebesparing te bepalen.
 Op basis van een realistisch referentiescenario wordt ruw geschat dat EcoLux €100 per jaar kan besparen, afhankelijk van het aantal gekoppelde toestellen, de instellingen, energieprijzen en het gedrag van het huishouden. Zie [kostenberekening](https://github.com/Vic-Syryn/EcoLux/blob/main/onderzoek/kostenberekening%20ecolux.pdf)
 
 ### <ins>Conclusies en implicaties</ins>
