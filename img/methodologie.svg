@@ -1,0 +1,271 @@
+<svg width="680" height="1880" viewBox="0 0 680 1880" xmlns="http://www.w3.org/2000/svg" role="img">
+<title>EcoLux methodology, October to June</title>
+<desc>A schematic timeline showing the double-diamond Discover and Define phases followed by four iterative Develop cycles, with activities, design artefacts and knowledge templates per stage, running October through June.</desc>
+
+<style>
+  .bg { fill: #0d1117; }
+  .t  { font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 14px; fill: #e6edf3; }
+  .ts { font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 12px; fill: #9da7b3; }
+  .th { font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 600; fill: #ffffff; }
+  .spine { stroke: #30363d; stroke-width: 1; stroke-dasharray: 2 6; }
+  .conn  { stroke: #484f58; stroke-width: 1; fill: none; }
+  .divider { stroke: #ffffff; stroke-opacity: 0.12; stroke-width: 1; }
+
+  .purple { fill: #2a2456; stroke: #7f77dd; }
+  .purpleTitle { fill: #cecbf6; }
+
+  .coral { fill: #3a2017; stroke: #d85a30; }
+  .coralTitle { fill: #f5c4b3; }
+
+  .amber { fill: #3a2c10; stroke: #ef9f27; }
+  .amberTitle { fill: #fac775; }
+
+  .teal { fill: #103027; stroke: #1d9e75; }
+  .tealTitle { fill: #9fe1cb; }
+
+  .loop { stroke: #484f58; stroke-width: 1; stroke-dasharray: 3 5; fill: none; }
+</style>
+
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+  <path d="M2 1L8 5L2 9" fill="none" stroke="#484f58" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</marker>
+</defs>
+
+<rect class="bg" x="0" y="0" width="680" height="1880" rx="0"/>
+
+<!-- Title band -->
+<g>
+<rect class="teal" x="40" y="20" width="600" height="54" rx="12" stroke-width="1"/>
+<text class="th tealTitle" x="340" y="44" text-anchor="middle" dominant-baseline="central">EcoLux design methodology</text>
+<text class="ts" x="340" y="62" text-anchor="middle" dominant-baseline="central">October - June  ·  double diamond into iterative develop cycles</text>
+</g>
+
+<!-- Spine -->
+<line class="spine" x1="340" y1="84" x2="340" y2="1800"/>
+
+<!-- ================= DISCOVER ================= -->
+<g>
+<rect class="purple" x="220" y="100" width="240" height="60" rx="12" stroke-width="1"/>
+<text class="ts" x="340" y="118" text-anchor="middle" dominant-baseline="central">October</text>
+<text class="th purpleTitle" x="340" y="140" text-anchor="middle" dominant-baseline="central">Discover</text>
+</g>
+<line class="conn" x1="340" y1="160" x2="340" y2="194" marker-end="url(#arrow)"/>
+
+<g>
+<rect class="coral" x="40" y="200" width="190" height="90" rx="12" stroke-width="1"/>
+<text class="th coralTitle" x="135" y="224" text-anchor="middle" dominant-baseline="central">Activities</text>
+<line class="divider" x1="65" y1="236" x2="205" y2="236"/>
+<text class="ts" x="135" y="252" text-anchor="middle" dominant-baseline="central">Contextual inquiries</text>
+<text class="ts" x="135" y="268" text-anchor="middle" dominant-baseline="central">User interviews</text>
+<text class="ts" x="135" y="284" text-anchor="middle" dominant-baseline="central">Benchmarking, literature</text>
+</g>
+
+<g>
+<rect class="amber" x="450" y="200" width="190" height="90" rx="12" stroke-width="1"/>
+<text class="th amberTitle" x="545" y="224" text-anchor="middle" dominant-baseline="central">Artefacts and templates</text>
+<line class="divider" x1="475" y1="236" x2="615" y2="236"/>
+<text class="ts" x="545" y="252" text-anchor="middle" dominant-baseline="central">Root-cause analysis</text>
+<text class="ts" x="545" y="268" text-anchor="middle" dominant-baseline="central">Competitor map</text>
+<text class="ts" x="545" y="284" text-anchor="middle" dominant-baseline="central">User models, personas</text>
+</g>
+
+<path class="conn" d="M340 160 L340 178 L135 178 L135 198"/>
+<path class="conn" d="M340 160 L340 178 L545 178 L545 198"/>
+
+<!-- HMW milestone -->
+<g>
+<circle class="teal" cx="340" cy="335" r="26" stroke-width="1"/>
+<text class="ts tealTitle" x="340" y="335" text-anchor="middle" dominant-baseline="central">HMW</text>
+</g>
+<path class="conn" d="M135 290 L135 335 L314 335"/>
+<path class="conn" d="M545 290 L545 335 L366 335"/>
+<text class="ts" x="390" y="340">November</text>
+<line class="conn" x1="340" y1="361" x2="340" y2="396" marker-end="url(#arrow)"/>
+
+<!-- ================= DEFINE ================= -->
+<g>
+<rect class="purple" x="220" y="400" width="240" height="60" rx="12" stroke-width="1"/>
+<text class="ts" x="340" y="418" text-anchor="middle" dominant-baseline="central">November - December</text>
+<text class="th purpleTitle" x="340" y="440" text-anchor="middle" dominant-baseline="central">Define</text>
+</g>
+<line class="conn" x1="340" y1="460" x2="340" y2="494" marker-end="url(#arrow)"/>
+
+<g>
+<rect class="coral" x="40" y="500" width="190" height="90" rx="12" stroke-width="1"/>
+<text class="th coralTitle" x="135" y="524" text-anchor="middle" dominant-baseline="central">Activities</text>
+<line class="divider" x1="65" y1="536" x2="205" y2="536"/>
+<text class="ts" x="135" y="552" text-anchor="middle" dominant-baseline="central">Brainstorming</text>
+<text class="ts" x="135" y="568" text-anchor="middle" dominant-baseline="central">Decision frameworks</text>
+<text class="ts" x="135" y="584" text-anchor="middle" dominant-baseline="central">Mockup review, testing</text>
+</g>
+
+<g>
+<rect class="amber" x="450" y="500" width="190" height="90" rx="12" stroke-width="1"/>
+<text class="th amberTitle" x="545" y="524" text-anchor="middle" dominant-baseline="central">Artefacts</text>
+<line class="divider" x1="475" y1="536" x2="615" y2="536"/>
+<text class="ts" x="545" y="556" text-anchor="middle" dominant-baseline="central">Low-fi prototypes</text>
+<text class="ts" x="545" y="572" text-anchor="middle" dominant-baseline="central">Wireframes and flows</text>
+</g>
+
+<path class="conn" d="M340 460 L340 478 L135 478 L135 498"/>
+<path class="conn" d="M340 460 L340 478 L545 478 L545 498"/>
+
+<!-- Pivot milestone -->
+<g>
+<circle class="teal" cx="340" cy="635" r="26" stroke-width="1"/>
+<text class="ts tealTitle" x="340" y="635" text-anchor="middle" dominant-baseline="central">Pivot</text>
+</g>
+<path class="conn" d="M135 590 L135 635 L314 635"/>
+<path class="conn" d="M545 590 L545 635 L366 635"/>
+<text class="ts" x="390" y="640">January</text>
+<line class="conn" x1="340" y1="661" x2="340" y2="704" marker-end="url(#arrow)"/>
+
+<!-- ================= DEVELOP HEADER ================= -->
+<g>
+<rect class="teal" x="120" y="710" width="440" height="56" rx="12" stroke-width="1"/>
+<text class="th tealTitle" x="340" y="732" text-anchor="middle" dominant-baseline="central">Develop</text>
+<text class="ts" x="340" y="752" text-anchor="middle" dominant-baseline="central">Four iterative build and test cycles, WoZ prototypes</text>
+</g>
+<line class="conn" x1="340" y1="766" x2="340" y2="804" marker-end="url(#arrow)"/>
+
+<!-- ================= DEVELOP 1 ================= -->
+<g>
+<rect class="purple" x="220" y="810" width="240" height="60" rx="12" stroke-width="1"/>
+<text class="ts" x="340" y="828" text-anchor="middle" dominant-baseline="central">February - March</text>
+<text class="th purpleTitle" x="340" y="850" text-anchor="middle" dominant-baseline="central">Develop 1 - concept choice</text>
+</g>
+<line class="conn" x1="340" y1="870" x2="340" y2="904" marker-end="url(#arrow)"/>
+
+<g>
+<rect class="coral" x="40" y="910" width="190" height="90" rx="12" stroke-width="1"/>
+<text class="th coralTitle" x="135" y="934" text-anchor="middle" dominant-baseline="central">Templates</text>
+<line class="divider" x1="65" y1="946" x2="205" y2="946"/>
+<text class="ts" x="135" y="962" text-anchor="middle" dominant-baseline="central">HTA, decision matrix</text>
+<text class="ts" x="135" y="978" text-anchor="middle" dominant-baseline="central">Morphological map</text>
+<text class="ts" x="135" y="994" text-anchor="middle" dominant-baseline="central">Feature breakdown</text>
+</g>
+
+<g>
+<rect class="amber" x="450" y="910" width="190" height="90" rx="12" stroke-width="1"/>
+<text class="th amberTitle" x="545" y="934" text-anchor="middle" dominant-baseline="central">Activities</text>
+<line class="divider" x1="475" y1="946" x2="615" y2="946"/>
+<text class="ts" x="545" y="962" text-anchor="middle" dominant-baseline="central">Physical prototypes</text>
+<text class="ts" x="545" y="978" text-anchor="middle" dominant-baseline="central">Interactive prototypes</text>
+<text class="ts" x="545" y="994" text-anchor="middle" dominant-baseline="central">Usability testing</text>
+</g>
+
+<path class="conn" d="M340 870 L340 888 L135 888 L135 908"/>
+<path class="conn" d="M340 870 L340 888 L545 888 L545 908"/>
+
+<path class="loop" d="M545 1000 C 600 1000, 600 1040, 340 1040" marker-end="url(#arrow)"/>
+<text class="ts" x="470" y="1034" text-anchor="middle">user testing loop</text>
+
+<line class="conn" x1="340" y1="1040" x2="340" y2="1074" marker-end="url(#arrow)"/>
+
+<!-- ================= DEVELOP 2 ================= -->
+<g>
+<rect class="purple" x="220" y="1080" width="240" height="60" rx="12" stroke-width="1"/>
+<text class="ts" x="340" y="1098" text-anchor="middle" dominant-baseline="central">March - April</text>
+<text class="th purpleTitle" x="340" y="1120" text-anchor="middle" dominant-baseline="central">Develop 2 - ergonomics and form</text>
+</g>
+<line class="conn" x1="340" y1="1140" x2="340" y2="1174" marker-end="url(#arrow)"/>
+
+<g>
+<rect class="coral" x="40" y="1180" width="190" height="90" rx="12" stroke-width="1"/>
+<text class="th coralTitle" x="135" y="1204" text-anchor="middle" dominant-baseline="central">Activities</text>
+<line class="divider" x1="65" y1="1216" x2="205" y2="1216"/>
+<text class="ts" x="135" y="1232" text-anchor="middle" dominant-baseline="central">Biomechanical analysis</text>
+<text class="ts" x="135" y="1248" text-anchor="middle" dominant-baseline="central">Foam models</text>
+<text class="ts" x="135" y="1264" text-anchor="middle" dominant-baseline="central">Field studies</text>
+</g>
+
+<g>
+<rect class="amber" x="450" y="1180" width="190" height="90" rx="12" stroke-width="1"/>
+<text class="th amberTitle" x="545" y="1204" text-anchor="middle" dominant-baseline="central">Validation</text>
+<line class="divider" x1="475" y1="1216" x2="615" y2="1216"/>
+<text class="ts" x="545" y="1232" text-anchor="middle" dominant-baseline="central">Heuristic evaluation</text>
+<text class="ts" x="545" y="1248" text-anchor="middle" dominant-baseline="central">UX testing</text>
+<text class="ts" x="545" y="1264" text-anchor="middle" dominant-baseline="central">5 respondents</text>
+</g>
+
+<path class="conn" d="M340 1140 L340 1158 L135 1158 L135 1178"/>
+<path class="conn" d="M340 1140 L340 1158 L545 1158 L545 1178"/>
+
+<path class="loop" d="M545 1270 C 600 1270, 600 1310, 340 1310" marker-end="url(#arrow)"/>
+<text class="ts" x="470" y="1304" text-anchor="middle">user testing loop</text>
+
+<line class="conn" x1="340" y1="1310" x2="340" y2="1344" marker-end="url(#arrow)"/>
+
+<!-- ================= DEVELOP 3 ================= -->
+<g>
+<rect class="purple" x="220" y="1350" width="240" height="60" rx="12" stroke-width="1"/>
+<text class="ts" x="340" y="1368" text-anchor="middle" dominant-baseline="central">April</text>
+<text class="th purpleTitle" x="340" y="1390" text-anchor="middle" dominant-baseline="central">Develop 3 - CMF and emotion</text>
+</g>
+<line class="conn" x1="340" y1="1410" x2="340" y2="1444" marker-end="url(#arrow)"/>
+
+<g>
+<rect class="coral" x="40" y="1450" width="190" height="90" rx="12" stroke-width="1"/>
+<text class="th coralTitle" x="135" y="1474" text-anchor="middle" dominant-baseline="central">Activities</text>
+<line class="divider" x1="65" y1="1486" x2="205" y2="1486"/>
+<text class="ts" x="135" y="1502" text-anchor="middle" dominant-baseline="central">Touch-and-feel boards</text>
+<text class="ts" x="135" y="1518" text-anchor="middle" dominant-baseline="central">Renders</text>
+<text class="ts" x="135" y="1534" text-anchor="middle" dominant-baseline="central">Service scenarios</text>
+</g>
+
+<g>
+<rect class="amber" x="450" y="1450" width="190" height="90" rx="12" stroke-width="1"/>
+<text class="th amberTitle" x="545" y="1474" text-anchor="middle" dominant-baseline="central">Insight</text>
+<line class="divider" x1="475" y1="1486" x2="615" y2="1486"/>
+<text class="ts" x="545" y="1502" text-anchor="middle" dominant-baseline="central">Trust and calm</text>
+<text class="ts" x="545" y="1518" text-anchor="middle" dominant-baseline="central">Subtle interior fit</text>
+<text class="ts" x="545" y="1534" text-anchor="middle" dominant-baseline="central">4 respondents</text>
+</g>
+
+<path class="conn" d="M340 1410 L340 1428 L135 1428 L135 1448"/>
+<path class="conn" d="M340 1410 L340 1428 L545 1428 L545 1448"/>
+
+<path class="loop" d="M545 1540 C 600 1540, 600 1580, 340 1580" marker-end="url(#arrow)"/>
+<text class="ts" x="470" y="1574" text-anchor="middle">user testing loop</text>
+
+<line class="conn" x1="340" y1="1580" x2="340" y2="1614" marker-end="url(#arrow)"/>
+
+<!-- ================= DEVELOP 4 ================= -->
+<g>
+<rect class="purple" x="220" y="1620" width="240" height="60" rx="12" stroke-width="1"/>
+<text class="ts" x="340" y="1638" text-anchor="middle" dominant-baseline="central">May</text>
+<text class="th purpleTitle" x="340" y="1660" text-anchor="middle" dominant-baseline="central">Develop 4 - technical validation</text>
+</g>
+<line class="conn" x1="340" y1="1680" x2="340" y2="1714" marker-end="url(#arrow)"/>
+
+<g>
+<rect class="coral" x="40" y="1720" width="190" height="90" rx="12" stroke-width="1"/>
+<text class="th coralTitle" x="135" y="1744" text-anchor="middle" dominant-baseline="central">Components</text>
+<line class="divider" x1="65" y1="1756" x2="205" y2="1756"/>
+<text class="ts" x="135" y="1772" text-anchor="middle" dominant-baseline="central">Touchscreen, Pi</text>
+<text class="ts" x="135" y="1788" text-anchor="middle" dominant-baseline="central">Matter coupling</text>
+<text class="ts" x="135" y="1804" text-anchor="middle" dominant-baseline="central">Arduino LED feedback</text>
+</g>
+
+<g>
+<rect class="amber" x="450" y="1720" width="190" height="90" rx="12" stroke-width="1"/>
+<text class="th amberTitle" x="545" y="1744" text-anchor="middle" dominant-baseline="central">Status</text>
+<line class="divider" x1="475" y1="1756" x2="615" y2="1756"/>
+<text class="ts" x="545" y="1772" text-anchor="middle" dominant-baseline="central">Working proof</text>
+<text class="ts" x="545" y="1788" text-anchor="middle" dominant-baseline="central">of concept</text>
+<text class="ts" x="545" y="1804" text-anchor="middle" dominant-baseline="central">Limited field testing</text>
+</g>
+
+<path class="conn" d="M340 1680 L340 1698 L135 1698 L135 1718"/>
+<path class="conn" d="M340 1680 L340 1698 L545 1698 L545 1718"/>
+
+<!-- ================= DELIVERY ================= -->
+<line class="conn" x1="340" y1="1810" x2="340" y2="1820"/>
+<g>
+<rect class="teal" x="200" y="1820" width="280" height="56" rx="12" stroke-width="1"/>
+<text class="ts" x="340" y="1838" text-anchor="middle" dominant-baseline="central">June</text>
+<text class="th tealTitle" x="340" y="1860" text-anchor="middle" dominant-baseline="central">Final delivery - design and research report</text>
+</g>
+
+</svg>
