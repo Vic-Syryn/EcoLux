@@ -6,7 +6,7 @@ Door de conclusies uit Develop 1 was er voldoende informatie om het design van h
 
 Ergonomie: de gemiddelde man/vrouw moet het product kunnen gebruiken met minimale ergonomische belasting. (Siemens Jack)
 
-Cognitieve & sensoriele ergonomie: Gebruikers (18–65 jaar) kunnen kerntaken in de app (bv. navigeren, informatie lezen en acties uitvoeren) binnen 30 seconden voltooien, met maximaal 1 fout per taak en een subjectieve leesbaarheidsscore van ≥ 4/5.
+Cognitieve & sensoriële ergonomie: Gebruikers (18–65 jaar) kunnen kerntaken in de app (bv. navigeren, informatie lezen en acties uitvoeren) binnen 30 seconden voltooien, met maximaal 1 fout per taak en een subjectieve leesbaarheidsscore van ≥ 4/5.
 
 ### <ins>Theoretische antropometrie</ins>
 
@@ -35,7 +35,7 @@ POV gebruiker</p>
 
 Uit de analyse bleek een schermhoek van 23° optimaal. Bij deze hoek is de belasting op nek en rug minimaal, terwijl het scherm goed leesbaar blijft.
 
-### <ins>**Cognitieve & sensoriele ergonomie**</ins>
+### <ins>**Cognitieve & sensoriële ergonomie**</ins>
 
 Om met EcoLux te interageren, moest er een digitale interface gemaakt worden. Op basis van de interface uit de tweede wave van de definitionfase werd een verbeterde interface gemaakt met Figma make. Om te voldoen aan de tweede usability goal werd de interface ontworpen met de Gestaltwetten in het achterhoofd. De interface werd zo simpel mogelijk gehouden om cognitieve belasting te minimaliseren. Extra optimalisaties waren liftknoppen als metafoor om de juiste verdieping te kiezen en icoontjes als signifiers voor energieverliezende apparaten.
 
