@@ -97,7 +97,7 @@ Op basis van de synthese van beide onderzoeksmethoden werden de volgende kerninz
 | Sluipverbruik en ventilatie blijven vaak onopgemerkt   | Verspilling gebeurt onbewust               | Automatische detectie is noodzakelijk          |
 | Comfort primeert bij alle gebruikers                   | Besparen mag geen extra moeite kosten      | Oplossing moet comfort behouden of verhogen    |
 
-Deze inzichten leidden tot de conclusie dat een effectief energiebesparend product energieverspilling automatisch dient te detecteren en dit op een eenvoudige, visuele en niet-invasieve manier moet communiceren. Daarbij moet het dagelijkse wooncomfort behouden of zelfs verhoogd worden. Op basis van deze inizichten werd een eerste mockup gemaakt.
+Deze inzichten leidden tot de conclusie dat een effectief energiebesparend product energieverspilling automatisch dient te detecteren en dit op een eenvoudige, visuele en niet-invasieve manier moet communiceren. Daarbij moet het dagelijkse wooncomfort behouden of zelfs verhoogd worden. Op basis van deze inzichten werd een eerste mockup gemaakt.
 
 
 <p align="center">

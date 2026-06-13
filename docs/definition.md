@@ -7,8 +7,8 @@
 In de eerste wave werd onderzocht hoe het probleem initieel gecommuniceerd kan worden. De focus lag op functionaliteit en op de manier waarop energieverlies zichtbaar wordt gemaakt. Dit gebeurde via gebruikerstesten en interviews. Daarbij werden de volgende deelvragen beantwoord:  
 
    * Hoe communiceren we het best het energieverlies bij de gebruiker(awareness)?   
-   * Hoe zou de gebruiker willen dat het product wordt geinstalleerd?  
-   * Wat is voor de gebruiker de belangrijkste feauture waarom de gebruiker het zou kopen?  
+   * Hoe zou de gebruiker willen dat het product wordt geïnstalleerd?  
+   * Wat is voor de gebruiker de belangrijkste feature waarom de gebruiker het zou kopen?  
    * Is een of meerdere substations noodzakelijk?  
 
 **Materiaal & methoden**  
@@ -16,7 +16,7 @@ In de eerste wave werd onderzocht hoe het probleem initieel gecommuniceerd kan w
 De doelstellingen werden onderzocht via gebruikerstests, gevolgd door een interview. Hiervoor werden de volgende materialen gebruikt:  
 
    * smartphone voor video opnamens  
-   * notieboekje voor notities  
+   * notitieboekje voor notities  
    * interview protocol en informed consent  
    * 4 quick and dirty prototypes (in volgorde, van links naar rechts: emotie, vorm/shapeshifter, licht, substations)
 
@@ -121,8 +121,8 @@ Op basis van deze conclusies werden de volgende designimplicaties geformuleerd:
 | Observatie uit onderzoek                               | Inzicht                                    | Designimplicatie                               |
 | ------------------------------------------------------ | ------------------------------------------ | ---------------------------------------------- |
 | Lichtsignalen worden het meest duidelijk en intuïtief ervaren. | Heldere, directe visuele feedback verlaagt cognitieve belasting. | EcoLux gebruikt licht als primaire feedbackmechaniek. |
-| Gebruikers waren bezig of het wel in hun interieur past.| Het product moet aanpasbaar zijn zodat het in elk interieur past|Ecolux is esthetisch personaliseerbaar om aan te sluiten bij verschillende gebruikers en interieurs.|
+| Gebruikers vroegen zich af of het wel in hun interieur past.| Het product moet aanpasbaar zijn zodat het in elk interieur past|Ecolux is esthetisch personaliseerbaar om aan te sluiten bij verschillende gebruikers en interieurs.|
 |Gebruikers zijn niet altijd in dezelfde kamer.| Er moet een manier zijn waardoor de gebruiker in een andere kamer ook het energieverlies kan detecteren.|EcoLux heeft een modulair ontwerp met één hoofdstation en uitbreidbare substations.|
 |Gebruiker ging het best om met de tekst en grondplan.|De gebruiker heeft voorkeur voor visuele weergave.| EcoLux communiceert energieverliezen via een visuele weergave die de locatie in de woning duidelijk maakt.|
- |Gebruiker heeft weinig geduld.| Gebruiker wilt direct actie uitvoeren.| EcoLux ondersteunt snelle uitvoering van actie zodra een energieverlies wordt gedetecteerd.|
- |De gebruiker heeft weinig geduld.|Gebruiker wilt dat er snel actie wordt uitgevoerd|EcoLux automatiseert het oplossen van energieproblemen maximaal, zodat de gebruiker zo weinig mogelijk handelingen hoeft uit te voeren.|
+ |Gebruiker heeft weinig geduld.| Gebruiker wil direct actie uitvoeren.| EcoLux ondersteunt snelle uitvoering van actie zodra een energieverlies wordt gedetecteerd.|
+ |De gebruiker heeft weinig geduld.|Gebruiker wil dat er snel actie wordt uitgevoerd|EcoLux automatiseert het oplossen van energieproblemen maximaal, zodat de gebruiker zo weinig mogelijk handelingen hoeft uit te voeren.|

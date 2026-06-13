@@ -7,7 +7,7 @@ Ook op vlak van ontwerp werd een duidelijke richting gekozen op basis van deze [
 ### <ins>**Analyse en prioritering**</ins>
 
 Bij de start van Develop 1 waren er nog enkele onzekerheden. Deze werden vertaald naar drie onderzoeksvragen:
-1. Hoe moet het hoofdstation en substations eruit zien?
+1. Hoe moet het hoofdstation en substations eruitzien?
 2. Hoe wordt het scherm geïnterageerd in het product?
 3. Welke concepten hebben de meeste potentie om tot een sterk product te kunnen vertaald worden?
 
@@ -52,7 +52,7 @@ Op basis van de Use-fase in de Customer Journey werd een storyboard gemaakt. Hie
 
 **Productarchitectuur**
 
-Op basis van de Storyboard en Customer Journey werden de belangrijkste componenten en functies opgesteld.
+Op basis van het storyboard en Customer Journey werden de belangrijkste componenten en functies opgesteld.
 
 <p align="center">
   <img src="../img/productarchitectuur.png" width="100%">
@@ -81,7 +81,7 @@ HTA</p>
 
 Uit de userflow en HTA bleek dat de communicatie van het type energieverlies nog verder bepaald moest worden.
 
-**MVP-defenitie**
+**MVP-definitie**
 
 Deze MVP’s tonen de minimale kernfunctionaliteiten van het systeem.
 
@@ -105,7 +105,7 @@ morfologische matrix</p>
 
 ### <ins>**Build & test**</ins>
 
-**Doestellingen** 
+**Doelstellingen** 
 
 De gebruikerstesten hadden als doel om inzicht te krijgen in de meest efficiënte en aangename interactie met het scherm van EcoLux. Tijdens de userflow bleek er onzekerheid over hoe het scherm best tevoorschijn komt en opnieuw verdwijnt in de pot. Door prototypes te testen bij gebruikers thuis, werd onderzocht welke interacties het meest intuïtief, comfortabel en gebruiksvriendelijk zijn.
 
